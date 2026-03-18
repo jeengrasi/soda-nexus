@@ -1,0 +1,6 @@
+{
+  "status": "online",
+  "auditoria": "SANEAMIENTO_TOTAL_COMPLETO",
+  "scripts_activos": ["ORQUESTADOR_V6", "VALIDADOR_OFICIAL"],
+  "alertas": ["Sistema unificado bajo mando unico"]
+}
