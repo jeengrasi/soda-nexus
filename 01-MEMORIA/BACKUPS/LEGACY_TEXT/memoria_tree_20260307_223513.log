@@ -1,0 +1,35 @@
+/data/data/com.termux/files/home/soda/01-MEMORIA
+├── ACTUAL
+│   ├── SNX-AUDITORIA-MONITOR-FRONTEND.md
+│   ├── SNX-MONITOR-REAL-ENCONTRADO.md
+│   ├── SNX-PAQUETE-IA-ACTUAL.md
+│   ├── SNX-RESUMEN-ACTUAL.md
+│   ├── TODO_EL_SISTEMA_snapshot.txt
+│   ├── daemons_02-SISTEMA.txt
+│   ├── docs_index_05-DOCUMENTACION.txt
+│   ├── engranaje_00-GOBIERNO.json
+│   ├── engranaje_01-MEMORIA.json
+│   ├── engranaje_02-SISTEMA.json
+│   ├── engranaje_03-OPERACIONES.json
+│   ├── engranaje_04-REGISTROS.json
+│   ├── engranaje_05-DOCUMENTACION.json
+│   ├── engranaje_06-MONITOR.json
+│   ├── estado_00-GOBIERNO.json
+│   ├── html_03-OPERACIONES.txt
+│   ├── inventario_02-SISTEMA_scripts.txt
+│   ├── logs_index_04-REGISTROS.txt
+│   ├── memoria_tree_20260307_222202.log
+│   ├── memoria_tree_20260307_223513.log
+│   ├── monitor_data_snapshot.json
+│   ├── monitor_logs_04-REGISTROS.txt
+│   ├── monitor_tree_20260307_222204.log
+│   ├── operaciones_tree_20260307_222203.log
+│   └── sync_01-MEMORIA.json
+├── BACKUPS
+│   └── snx_backup_20260224_1545.tar.gz
+├── CANON
+├── SNX-GUIA-IA-V1.md
+├── SNX-RESUMEN-ACTUAL.md
+└── snx_ia_memoria.sh
+
+4 directories, 29 files

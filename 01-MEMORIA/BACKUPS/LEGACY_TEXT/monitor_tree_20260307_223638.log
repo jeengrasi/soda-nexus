@@ -1,0 +1,16 @@
+/data/data/com.termux/files/home/soda/06-MONITOR
+├── V1
+│   ├── index-v1.html
+│   └── monitor-v1.js
+├── V2
+│   ├── index-v2.html
+│   └── monitor-v2.js
+├── V3
+│   ├── index.html
+│   ├── monitor_data.json
+│   ├── monitor_soberano_bootstrap.html
+│   ├── snx_monitor_client_v1.js
+│   └── snx_monitor_interface_v1.html
+└── snx_ia_monitor.sh
+
+4 directories, 10 files

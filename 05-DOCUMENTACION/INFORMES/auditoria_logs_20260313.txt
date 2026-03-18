@@ -1,0 +1,4 @@
+=== REPORTE DE VIGILANCIA SODA-NEXUS ===
+Sumario de LOGS-LEGACY:
+total 3.5K
+drwx------. 2 u0_a287 u0_a287 3.4K Mar  7 15:37 TUNNEL

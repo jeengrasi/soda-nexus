@@ -1,0 +1,78 @@
+/data/data/com.termux/files/home/soda/03-OPERACIONES
+├── BACKEND
+│   ├── snx_backend_v1.py
+│   └── snx_backend_v1_port5051.py
+├── SNX-MONITOR.html
+├── TELEGRAM
+├── WEB
+│   └── monitor
+│       ├── config.js
+│       ├── extensiones_monitor_v1.js
+│       ├── index-2.html
+│       ├── index-3.html
+│       ├── index.html
+│       ├── monitor-2.js
+│       ├── monitor.js
+│       ├── panel_institucional_v1.js
+│       ├── snx-logs-2.js
+│       └── snx-logs.js
+├── WEBAPP
+│   ├── README.md
+│   ├── create-vite
+│   ├── esbuild@0.27.3
+│   ├── index.html
+│   ├── jsconfig.json
+│   ├── node
+│   ├── node_modules
+│   │   ├── @esbuild
+│   │   ├── @jridgewell
+│   │   ├── @rollup
+│   │   ├── @sveltejs
+│   │   ├── @types
+│   │   ├── acorn
+│   │   ├── aria-query
+│   │   ├── axobject-query
+│   │   ├── clsx
+│   │   ├── deepmerge
+│   │   ├── devalue
+│   │   ├── esbuild
+│   │   ├── esm-env
+│   │   ├── esrap
+│   │   ├── fdir
+│   │   ├── is-reference
+│   │   ├── locate-character
+│   │   ├── magic-string
+│   │   ├── nanoid
+│   │   ├── obug
+│   │   ├── picocolors
+│   │   ├── picomatch
+│   │   ├── postcss
+│   │   ├── rollup
+│   │   ├── source-map-js
+│   │   ├── svelte
+│   │   ├── tinyglobby
+│   │   ├── vite
+│   │   ├── vitefu
+│   │   └── zimmerframe
+│   ├── npx
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── public
+│   │   └── vite.svg
+│   ├── src
+│   │   ├── App.svelte
+│   │   ├── Monitor.svelte
+│   │   └── api.js
+│   ├── svelte.config.js
+│   ├── vite
+│   ├── vite.config.js
+│   └── webapp@0.0.0
+├── WEBAPP_BACKUP_20260223222530
+│   └── node_modules
+├── index.html
+├── monitor
+├── monitor.js
+├── snx_ia_operaciones.sh
+└── snx_prepare_pages.sh
+
+42 directories, 34 files
