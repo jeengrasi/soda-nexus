@@ -1,0 +1,9 @@
+[2026-03-09 12:57:34] [INTEGRIDAD] Generando hashes iniciales
+[2026-03-09 12:57:34] [INTEGRIDAD] HASH registrado: 00-GOBIERNO/snx_ia_gobierno.sh
+[2026-03-09 12:57:34] [INTEGRIDAD] HASH registrado: 01-MEMORIA/snx_ia_memoria.sh
+[2026-03-09 12:57:34] [INTEGRIDAD] HASH registrado: 02-SISTEMA/snx_ia_sistema.sh
+[2026-03-09 12:57:34] [INTEGRIDAD] HASH registrado: 03-OPERACIONES/snx_ia_operaciones.sh
+[2026-03-09 12:57:34] [INTEGRIDAD] HASH registrado: 04-REGISTROS/snx_ia_registros.sh
+[2026-03-09 12:57:35] [INTEGRIDAD] HASH registrado: 05-DOCUMENTACION/snx_ia_documentacion.sh
+[2026-03-09 12:57:35] [INTEGRIDAD] HASH registrado: 06-MONITOR/snx_ia_monitor.sh
+[2026-03-09 12:57:35] [INTEGRIDAD] HASH registrado: 02-SISTEMA/GLOBAL/snx_ia_central.sh

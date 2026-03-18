@@ -1,0 +1,25 @@
+/data/data/com.termux/files/home/soda/00-GOBIERNO
+├── ESTADO
+│   └── snx_state.json
+├── HERRAMIENTAS
+│   ├── snx_fix_final.sh
+│   ├── snx_fix_logs.sh
+│   ├── snx_guardian_gobierno.sh
+│   └── snx_remove_legacy.sh
+├── LOGS
+│   ├── central.log
+│   ├── daemon.log
+│   └── push_state.log
+├── META
+│   └── central.meta
+├── SNX-ANTIAMNESIA-V1.md
+├── VAULT
+│   ├── central.backup
+│   ├── cloudflare_tunnel.token
+│   ├── github.env
+│   ├── github_fix.sh
+│   ├── github_save.sh
+│   └── tunnel.env
+└── snx_ia_gobierno.sh
+
+6 directories, 17 files

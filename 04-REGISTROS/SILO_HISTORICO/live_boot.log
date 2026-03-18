@@ -1,0 +1,19 @@
+nohup: ignoring input
+ * Serving Flask app 'ORQUESTADOR_LIVE'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:15051
+ * Running on http://192.168.12.183:15051
+[33mPress CTRL+C to quit[0m
+192.168.12.205 - - [13/Mar/2026 10:47:21] "GET / HTTP/1.1" 200 -
+192.168.12.205 - - [13/Mar/2026 10:47:21] "GET /snx_monitor_v2.js HTTP/1.1" 200 -
+192.168.12.205 - - [13/Mar/2026 10:47:22] "GET / HTTP/1.1" 200 -
+192.168.12.205 - - [13/Mar/2026 10:47:22] "[36mGET /snx_monitor_v2.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [13/Mar/2026 10:50:55] "GET /api/data HTTP/1.1" 200 -
+192.168.12.205 - - [13/Mar/2026 10:51:16] "GET / HTTP/1.1" 200 -
+192.168.12.205 - - [13/Mar/2026 10:51:16] "[36mGET /snx_monitor_v2.js HTTP/1.1[0m" 304 -
+192.168.12.205 - - [13/Mar/2026 10:51:18] "GET / HTTP/1.1" 200 -
+192.168.12.205 - - [13/Mar/2026 10:51:18] "[36mGET /snx_monitor_v2.js HTTP/1.1[0m" 304 -
+192.168.12.205 - - [13/Mar/2026 10:51:22] "GET / HTTP/1.1" 200 -
+192.168.12.205 - - [13/Mar/2026 10:51:22] "[36mGET /snx_monitor_v2.js HTTP/1.1[0m" 304 -

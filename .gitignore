@@ -1,0 +1,6 @@
+00-GOBIERNO/VAULT/*
+*.pem
+*.env
+*.pyc
+__pycache__/
+04-REGISTROS/GUARDIAN/

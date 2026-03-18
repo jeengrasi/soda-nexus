@@ -1,0 +1,12 @@
+{
+  "ministerio": "02-SISTEMA",
+  "timestamp": "2026-03-09T14:53:44",
+  "inventario": "91 archivos",
+  "engranaje": {"relaciones":["03-OPERACIONES","04-REGISTROS"]},
+  "sync": {"sync":"2026-03-09T14:53:44"},
+  "archivos": {
+    "inventario": "ok",
+    "engranaje": "ok",
+    "sync": "ok"
+  }
+}

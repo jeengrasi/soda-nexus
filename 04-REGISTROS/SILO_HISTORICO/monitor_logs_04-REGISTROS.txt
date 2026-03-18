@@ -1,0 +1,4 @@
+total 8
+-rw-------. 1 u0_a287 u0_a287 1895 Mar  6 13:28 monitor_audit.jsonl
+-rw-------. 1 u0_a287 u0_a287    0 Mar  3 13:21 monitor_http_v2.log
+-rw-------. 1 u0_a287 u0_a287   68 Mar  3 13:00 FASE3.log

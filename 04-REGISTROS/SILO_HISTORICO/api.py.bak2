@@ -1,0 +1,81 @@
+from flask import Flask, jsonify
+import os
+import json
+from datetime import datetime
+
+BASE = os.path.expanduser("~/soda")
+MEMORIA = os.path.join(BASE, "01-MEMORIA", "ACTUAL")
+GOBIERNO_META = os.path.join(BASE, "00-GOBIERNO", "META")
+STATE_DIR = os.path.join(BASE, "STATE")
+
+app = Flask(__name__)
+
+def read_text(path):
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            return f.read()
+    except Exception:
+        return ""
+
+def read_json(path, default=None):
+    if default is None:
+        default = {}
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return default
+
+@app.route("/ping")
+def ping():
+    return jsonify({"status": "ok", "message": "SODA-NEXUS backend activo"})
+
+@app.route("/estado")
+def estado():
+    estado_central = read_json(os.path.join(STATE_DIR, "estado_central.json"), {})
+    return jsonify({
+        "status": "ok",
+        "timestamp": datetime.utcnow().isoformat(),
+        "estado_central": estado_central
+    })
+
+@app.route("/proposito")
+def proposito():
+    path = os.path.join(GOBIERNO_META, "PROPOSITO-SOBERANO-V1.md")
+    return jsonify({
+        "status": "ok",
+        "timestamp": datetime.utcnow().isoformat(),
+        "proposito_markdown": read_text(path)
+    })
+
+@app.route("/memoria")
+def memoria():
+    snapshot = read_text(os.path.join(MEMORIA, "TODO_EL_SISTEMA_snapshot.txt"))
+    return jsonify({
+        "status": "ok",
+        "timestamp": datetime.utcnow().isoformat(),
+        "snapshot": snapshot[:50000]
+    })
+
+@app.route("/logs")
+def logs():
+    logs_path = os.path.join(MEMORIA, "logs_04-REGISTROS.txt")
+    monitor_logs_path = os.path.join(MEMORIA, "monitor_logs_04-REGISTROS.txt")
+    return jsonify({
+        "status": "ok",
+        "timestamp": datetime.utcnow().isoformat(),
+        "logs": read_text(logs_path),
+        "monitor_logs": read_text(monitor_logs_path)
+    })
+
+@app.route("/monitor_data")
+def monitor_data():
+    monitor_data_path = os.path.join(BASE, "06-MONITOR", "V3", "monitor_data.json")
+    return jsonify({
+        "status": "ok",
+        "timestamp": datetime.utcnow().isoformat(),
+        "monitor_data": read_json(monitor_data_path, {})
+    })
+
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=5050)

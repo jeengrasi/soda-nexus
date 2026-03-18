@@ -1,0 +1,11 @@
+BACKEND
+SNX-MONITOR.html
+TELEGRAM
+WEB
+WEBAPP
+WEBAPP_BACKUP_20260223222530
+index.html
+monitor
+monitor.js
+snx_ia_operaciones.sh
+snx_prepare_pages.sh

@@ -1,0 +1,28 @@
+name: SNX-MOTOR-INGRESOS-AUTONOMO
+on:
+  schedule:
+    - cron: '0 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  ejecutar_motor:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repositorio
+        uses: actions/checkout@v3
+
+      - name: Ejecutar Motor V1.2
+        run: |
+          chmod +x 03-OPERACIONES/MOTORES/motor_ingresos_v1.sh
+          ./03-OPERACIONES/MOTORES/motor_ingresos_v1.sh
+
+      - name: Sincronizar Resultados a Termux
+        run: |
+          git config --global user.name "SNX-BOT"
+          git config --global user.email "snx-bot@users.noreply.github.com"
+          git add 04-REGISTROS/motor_ingresos_v1.log
+          git commit -m "SNX: Reporte de Mercado Remoto [$(date)]" || echo "Sin cambios"
+          git push

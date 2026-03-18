@@ -1,0 +1,6 @@
+{
+  "allowed": {
+    "snx_tree": "02-SCRIPTS/snx_tree.sh",
+    "snx_status": "02-SCRIPTS/snx_status.sh"
+  }
+}

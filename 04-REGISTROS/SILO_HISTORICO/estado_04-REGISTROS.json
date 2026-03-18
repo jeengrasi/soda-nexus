@@ -1,0 +1,12 @@
+{
+  "ministerio": "04-REGISTROS",
+  "timestamp": "2026-03-13T12:51:18",
+  "logs_index": "14 entradas",
+  "engranaje": {"relaciones":["01-MEMORIA","02-SISTEMA"]},
+  "sync": {"sync":"2026-03-13T12:51:18"},
+  "archivos": {
+    "logs_index": "ok",
+    "engranaje": "ok",
+    "sync": "ok"
+  }
+}

@@ -1,0 +1,96 @@
+<!-- SNX — MONITOR WEB 2026  // OBS: Encabezado institucional del frontend. -->
+<!DOCTYPE html> <!-- OBS: Define documento HTML5. -->
+<html lang="es"> <!-- OBS: Idioma español. -->
+<head> <!-- OBS: Encabezado del documento. -->
+  <meta charset="UTF-8"> <!-- OBS: Codificación UTF-8. -->
+  <title>SNX Monitor</title> <!-- OBS: Título de la pestaña. -->
+  <style> /* OBS: Estilos básicos inline. */
+    body { font-family: sans-serif; background: #050810; color: #f5f5f5; margin: 0; padding: 20px; }
+    h1 { margin-top: 0; }
+    .status-ok { color: #4caf50; }      /* OBS: Verde para OK. */
+    .status-bad { color: #f44336; }     /* OBS: Rojo para error. */
+    .btn { padding: 8px 14px; margin: 4px; border: none; cursor: pointer; border-radius: 4px; }
+    .btn-primary { background: #2196f3; color: white; }
+    .btn-warn { background: #ff9800; color: black; }
+    .card { background: #111827; padding: 12px; margin-bottom: 12px; border-radius: 6px; }
+    pre { background: #020617; padding: 10px; border-radius: 4px; overflow-x: auto; }
+  </style>
+</head>
+<body> <!-- OBS: Cuerpo del documento. -->
+  <h1>SNX — Monitor Institucional</h1> <!-- OBS: Título principal. -->
+
+  <div class="card"> <!-- OBS: Tarjeta de estado general. -->
+    <h2>Estado del sistema</h2>
+    <div id="statusText">Cargando estado...</div> <!-- OBS: Contenedor de estado. -->
+    <button class="btn btn-primary" onclick="actualizar()">Actualizar</button> <!-- OBS: Botón actualizar. -->
+    <button class="btn btn-warn" onclick="reiniciarBackend()">Reiniciar backend</button> <!-- OBS: Botón reinicio backend. -->
+    <button class="btn btn-primary" onclick="activarValidador()">Activar validador</button> <!-- OBS: Botón activar validador. -->
+  </div>
+
+  <div class="card"> <!-- OBS: Tarjeta de carpetas. -->
+    <h2>Carpetas</h2>
+    <pre id="foldersText">Cargando carpetas...</pre> <!-- OBS: Contenedor de JSON de carpetas. -->
+  </div>
+
+  <script> // OBS: Lógica del monitor en JS.
+    async function fetchJSON(url) { // OBS: Función genérica para GET JSON.
+      const res = await fetch(url); // OBS: Llama al endpoint.
+      return await res.json();      // OBS: Devuelve JSON.
+    }
+
+    async function actualizar() {   // OBS: Actualiza estado y carpetas.
+      try {
+        const status = await fetchJSON('/status');   // OBS: Llama a /status.
+        const folders = await fetchJSON('/folders'); // OBS: Llama a /folders.
+
+        const backendOk = status.backend === true;   // OBS: Evalúa backend.
+        const validadorOk = status.validador === true; // OBS: Evalúa validador.
+
+        let html = '';                               // OBS: Construye texto de estado.
+        html += 'Backend: ' + (backendOk ? '<span class="status-ok">ACTIVO</span>' : '<span class="status-bad">INACTIVO</span>') + '<br>';
+        html += 'Validador: ' + (validadorOk ? '<span class="status-ok">PRESENTE</span>' : '<span class="status-bad">NO DETECTADO</span>') + '<br>';
+        html += 'Timestamp: ' + status.timestamp + '<br>';
+
+        document.getElementById('statusText').innerHTML = html; // OBS: Actualiza DOM.
+
+        document.getElementById('foldersText').textContent = JSON.stringify(folders, null, 2); // OBS: Muestra JSON de carpetas.
+      } catch (e) {
+        document.getElementById('statusText').innerHTML = '<span class="status-bad">Error al consultar backend</span>'; // OBS: Error visible.
+      }
+    }
+
+    async function reiniciarBackend() { // OBS: Llama a endpoint de reinicio.
+      await fetch('/restart_backend');  // OBS: Llama a /restart_backend.
+      setTimeout(actualizar, 2000);     // OBS: Reactualiza luego de 2s.
+    }
+
+    async function activarValidador() { // OBS: Llama a endpoint de validador.
+      await fetch('/activar_validador'); // OBS: Llama a /activar_validador.
+      setTimeout(actualizar, 2000);      // OBS: Reactualiza luego de 2s.
+    }
+
+    actualizar(); // OBS: Llama una vez al cargar la página.
+  </script>
+
+<!-- --------------------------------------------------------------
+SNX — PIE DE PÁGINA INSTITUCIONAL (VERSIÓN OFICIAL 2026)
+Este documento pertenece al sistema soberano SODA‑NEXUS.
+
+ESTRUCTURA SOBERANA:
+00-GOBIERNO, 01-MEMORIA, 02-SISTEMA,
+03-OPERACIONES, 04-REGISTROS, 05-DOCUMENTACION, 99-TMP.
+
+REGLAS INSTITUCIONALES:
+1. Antes de modificar, SIEMPRE inspeccionar el filesystem real.
+2. No crear carpetas nuevas sin aprobación institucional.
+3. No eliminar archivos sin clasificación previa.
+4. No sobrescribir scripts sin diagnóstico y evidencia.
+5. Todas las tareas deben ejecutarse en el MISMO chat para evitar amnesia.
+6. Cada línea del script debe incluir observaciones [OBS].
+7. Todo script debe ser auditable, reversible y sin efectos colaterales.
+8. VAULT, ESTADO y REGISTROS son carpetas CRÍTICAS.
+9. Ningún script debe depender de servicios externos sin aprobación.
+10. Todo cambio debe registrarse en snx_state.json (cuando exista IA‑SCRIPT CENTRAL).
+-------------------------------------------------------------- -->
+</body>
+</html>

@@ -1,0 +1,49 @@
+==========================================
+[AUDITORIA TOTAL] SODA-NEXUS 20260311_124431
+BASE: /data/data/com.termux/files/home/soda
+==========================================
+[1] Snapshot tree ~/soda
+[2] Snapshot ls -lR ~/soda
+[3] Verificación de piezas críticas
+[OK] DIR: /data/data/com.termux/files/home/soda/00-GOBIERNO
+[OK] DIR: /data/data/com.termux/files/home/soda/01-MEMORIA
+[OK] DIR: /data/data/com.termux/files/home/soda/02-SISTEMA
+[OK] DIR: /data/data/com.termux/files/home/soda/03-OPERACIONES
+[OK] DIR: /data/data/com.termux/files/home/soda/04-REGISTROS
+[OK] DIR: /data/data/com.termux/files/home/soda/05-DOCUMENTACION
+[OK] DIR: /data/data/com.termux/files/home/soda/06-MONITOR
+[OK] FILE: /data/data/com.termux/files/home/soda/02-SISTEMA/API/api_v4.py
+[OK] FILE: /data/data/com.termux/files/home/soda/02-SISTEMA/API/api_v3.py
+[OK] FILE: /data/data/com.termux/files/home/soda/02-SISTEMA/API/api.py
+[OK] FILE: /data/data/com.termux/files/home/soda/02-SISTEMA/API/iniciar_orquestador_v4.sh
+[OK] DIR: /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR
+[OK] FILE: /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_backend.py
+[OK] FILE: /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_backend_run.sh
+[OK] FILE: /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_endpoint_data_v1.py
+[OK] FILE: /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_publish_v1.sh
+[OK] FILE: /data/data/com.termux/files/home/soda/03-OPERACIONES/monitor.js
+[OK] FILE: /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/monitor_soberano.py
+[FALTA] FILE: /data/data/com.termux/files/home/soda/monitor_estado
+[OK] DIR: /data/data/com.termux/files/home/soda/02-SISTEMA/VAULT
+[FALTA] FILE: /data/data/com.termux/files/home/soda/02-SISTEMA/VAULT/LOCAL_IA_MODEL
+[FALTA] FILE: /data/data/com.termux/files/home/soda/02-SISTEMA/VAULT/REMOTE_IA_URL
+[FALTA] FILE: /data/data/com.termux/files/home/soda/02-SISTEMA/VAULT/REMOTE_IA_MODEL
+[FALTA] FILE: /data/data/com.termux/files/home/soda/02-SISTEMA/VAULT/REMOTE_IA_KEY
+[OK] FILE: /data/data/com.termux/files/home/soda/02-SISTEMA/VAULT/CURRENT_MOTOR.json
+[OK] FILE: /data/data/com.termux/files/home/soda/04-DOCS/PROTOCOLO_HERRAMIENTAS.md
+[4] Permisos de ejecución en BACKEND/MONITOR
+[FIX] chmod +x /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_backend.py
+[OK] ejecutable: /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_backend_run.sh
+[OK] ejecutable: /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_endpoint_data_v1.py
+[OK] ejecutable: /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_publish_v1.sh
+[OK] ejecutable: /data/data/com.termux/files/home/soda/02-SISTEMA/API/iniciar_orquestador_v4.sh
+[OK] ejecutable: /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/run_monitor.sh
+[OK] ejecutable: /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/snx_backend.sh
+[OK] ejecutable: /data/data/com.termux/files/home/soda/02-SISTEMA/DAEMON/snx_daemon.sh
+[5] Estado del puerto 5051 (backend central)
+No se ve nada escuchando en 5051 (puede ser normal si está apagado)
+[6] Ping a /ping_v4 si está arriba
+[WARN] /ping_v4 no responde
+==========================================
+[AUDITORIA TOTAL COMPLETADA] Log: /data/data/com.termux/files/home/soda/04-REGISTROS/SYSTEM/auditoria_total_20260311_124431.log
+==========================================

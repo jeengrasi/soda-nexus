@@ -1,0 +1,6 @@
+nohup: ignoring input
+[2026-03-12 23:43:06 -0400] [19324] [INFO] Starting gunicorn 25.1.0
+[2026-03-12 23:43:06 -0400] [19324] [INFO] Listening at: http://0.0.0.0:15051 (19324)
+[2026-03-12 23:43:06 -0400] [19324] [INFO] Using worker: sync
+[2026-03-12 23:43:06 -0400] [19339] [INFO] Booting worker with pid: 19339
+[2026-03-12 23:43:06 -0400] [19324] [INFO] Control socket listening at /data/data/com.termux/files/home/soda/02-SISTEMA/API/gunicorn.ctl

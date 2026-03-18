@@ -1,0 +1,2929 @@
+/data/data/com.termux/files/home/soda:
+total 43
+drwx------.  9 u0_a287 u0_a287 3452 Mar  9 17:27 00-GOBIERNO
+drwx------.  5 u0_a287 u0_a287 3452 Mar  7 22:49 01-MEMORIA
+drwx------. 22 u0_a287 u0_a287 3452 Mar 10 12:56 02-SISTEMA
+drwx------.  9 u0_a287 u0_a287 3452 Mar  9 17:27 03-OPERACIONES
+drwx------.  2 u0_a287 u0_a287 3452 Mar 11 11:18 04-DOCS
+drwx------. 12 u0_a287 u0_a287 3452 Mar  9 20:49 04-REGISTROS
+drwx------.  8 u0_a287 u0_a287 3452 Mar  9 14:41 05-DOCUMENTACION
+drwx------.  3 u0_a287 u0_a287 3452 Mar  7 16:48 05-REGISTROS
+drwx------.  5 u0_a287 u0_a287 3452 Mar  9 14:30 06-MONITOR
+drwx------.  3 u0_a287 u0_a287 3452 Mar  3 15:05 99-TMP
+drwx------.  2 u0_a287 u0_a287 3452 Mar  9 17:27 STATE
+-rwx------.  1 u0_a287 u0_a287 2107 Mar  9 14:24 snx_ia_registros.sh
+
+/data/data/com.termux/files/home/soda/00-GOBIERNO:
+total 33
+drwx------. 2 u0_a287 u0_a287 3452 Mar  9 17:27 DECISIONES
+drwx------. 2 u0_a287 u0_a287 3452 Mar  9 14:53 ESTADO
+drwx------. 2 u0_a287 u0_a287 3452 Feb 27 15:43 HERRAMIENTAS
+drwx------. 2 u0_a287 u0_a287 3452 Feb 28 14:46 LOGS
+drwx------. 2 u0_a287 u0_a287 3452 Mar  9 20:49 META
+-rw-------. 1 u0_a287 u0_a287 1280 Mar  6 14:00 SNX-ANTIAMNESIA-V1.md
+drwx------. 2 u0_a287 u0_a287 3452 Mar  3 15:05 VAULT
+drwx------. 2 u0_a287 u0_a287 3452 Mar  9 17:27 VERSION
+-rwx------. 1 u0_a287 u0_a287 1230 Mar  7 22:48 snx_ia_gobierno.sh
+
+/data/data/com.termux/files/home/soda/00-GOBIERNO/DECISIONES:
+total 4
+-rw-------. 1 u0_a287 u0_a287 228 Mar  9 17:27 decisiones.log
+
+/data/data/com.termux/files/home/soda/00-GOBIERNO/ESTADO:
+total 52
+-rw-------. 1 u0_a287 u0_a287 2029 Mar  9 14:53 snx_state.json
+-rw-------. 1 u0_a287 u0_a287  144 Mar  9 13:36 snx_state_20260309-133638.json
+-rw-------. 1 u0_a287 u0_a287 2029 Mar  9 14:30 snx_state_20260309-143034.json
+-rw-------. 1 u0_a287 u0_a287 2029 Mar  9 14:31 snx_state_20260309-143136.json
+-rw-------. 1 u0_a287 u0_a287 2029 Mar  9 14:32 snx_state_20260309-143239.json
+-rw-------. 1 u0_a287 u0_a287 2029 Mar  9 14:33 snx_state_20260309-143341.json
+-rw-------. 1 u0_a287 u0_a287 2029 Mar  9 14:34 snx_state_20260309-143444.json
+-rw-------. 1 u0_a287 u0_a287 2029 Mar  9 14:35 snx_state_20260309-143546.json
+-rw-------. 1 u0_a287 u0_a287 2029 Mar  9 14:36 snx_state_20260309-143649.json
+-rw-------. 1 u0_a287 u0_a287 2029 Mar  9 14:38 snx_state_20260309-143851.json
+-rw-------. 1 u0_a287 u0_a287 2029 Mar  9 14:41 snx_state_20260309-144136.json
+-rw-------. 1 u0_a287 u0_a287 2029 Mar  9 14:53 snx_state_20260309-145315.json
+-rw-------. 1 u0_a287 u0_a287 2029 Mar  9 14:53 snx_state_20260309-145349.json
+
+/data/data/com.termux/files/home/soda/00-GOBIERNO/HERRAMIENTAS:
+total 16
+-rwx------. 1 u0_a287 u0_a287  298 Feb 27 13:52 snx_fix_final.sh
+-rw-------. 1 u0_a287 u0_a287  203 Feb 27 13:52 snx_fix_logs.sh
+-rwx------. 1 u0_a287 u0_a287 2665 Feb 27 15:43 snx_guardian_gobierno.sh
+-rw-------. 1 u0_a287 u0_a287  166 Feb 27 13:52 snx_remove_legacy.sh
+
+/data/data/com.termux/files/home/soda/00-GOBIERNO/LOGS:
+total 12
+-rw-------. 1 u0_a287 u0_a287  853 Feb 28 14:46 central.log
+-rw-------. 1 u0_a287 u0_a287  144 Feb 28 14:46 daemon.log
+-rw-------. 1 u0_a287 u0_a287 2245 Feb 28 22:42 push_state.log
+
+/data/data/com.termux/files/home/soda/00-GOBIERNO/META:
+total 32
+-rw-------. 1 u0_a287 u0_a287  438 Mar  9 17:35 ACCESO-MONITOR.md
+-rw-------. 1 u0_a287 u0_a287 2068 Mar  9 20:49 IA-ACTIVACION-Y-OPERACION-V1.md
+-rw-------. 1 u0_a287 u0_a287  770 Mar  9 20:02 IA-OFICIAL-DEEPSEEK-V1.md
+-rw-------. 1 u0_a287 u0_a287 5235 Mar  9 17:05 PROPOSITO-SOBERANO-V1.md
+-rw-------. 1 u0_a287 u0_a287 6354 Mar  9 20:01 RUTA-SOBERANA-PROPOSITO-V1.md
+-rw-------. 1 u0_a287 u0_a287   70 Feb 28 14:42 central.meta
+
+/data/data/com.termux/files/home/soda/00-GOBIERNO/VAULT:
+total 28
+-rwx------. 1 u0_a287 u0_a287 4360 Feb 28 14:42 central.backup
+-rw-------. 1 u0_a287 u0_a287  185 Mar  2 11:09 cloudflare_tunnel.token
+-rw-------. 1 u0_a287 u0_a287  108 Mar  3 15:05 github.env
+-rwx------. 1 u0_a287 u0_a287  218 Mar  3 15:05 github_fix.sh
+-rwx------. 1 u0_a287 u0_a287  382 Feb 28 13:54 github_save.sh
+-rw-------. 1 u0_a287 u0_a287   86 Feb 27 07:45 tunnel.env
+
+/data/data/com.termux/files/home/soda/00-GOBIERNO/VERSION:
+total 4
+-rw-------. 1 u0_a287 u0_a287 237 Mar  9 17:27 estado_version.json
+
+/data/data/com.termux/files/home/soda/01-MEMORIA:
+total 27
+drwx------. 3 u0_a287 u0_a287 8192 Mar 10 12:56 ACTUAL
+drwx------. 2 u0_a287 u0_a287 3452 Feb 27 13:35 BACKUPS
+drwx------. 2 u0_a287 u0_a287 3452 Mar  6 14:48 CANON
+-rw-------. 1 u0_a287 u0_a287 1354 Mar  6 14:04 SNX-GUIA-IA-V1.md
+-rw-------. 1 u0_a287 u0_a287 1392 Mar  6 14:15 SNX-RESUMEN-ACTUAL.md
+-rwx------. 1 u0_a287 u0_a287 2054 Mar  9 13:46 snx_ia_memoria.sh
+
+/data/data/com.termux/files/home/soda/01-MEMORIA/ACTUAL:
+total 1624
+drwx------. 2 u0_a287 u0_a287   3452 Mar  9 12:57 HASHES
+-rw-------. 1 u0_a287 u0_a287  90952 Mar  6 18:04 SNX-AUDITORIA-MONITOR-FRONTEND.md
+-rw-------. 1 u0_a287 u0_a287   2545 Mar  6 18:16 SNX-MONITOR-REAL-ENCONTRADO.md
+-rw-------. 1 u0_a287 u0_a287   1957 Mar  6 14:48 SNX-PAQUETE-IA-ACTUAL.md
+-rw-------. 1 u0_a287 u0_a287   1466 Mar  6 14:50 SNX-RESUMEN-ACTUAL.md
+-rw-------. 1 u0_a287 u0_a287 965123 Mar  7 22:35 TODO_EL_SISTEMA_snapshot.txt
+-rw-------. 1 u0_a287 u0_a287   3848 Mar  9 14:53 antiamnesia_snapshot.txt
+-rw-------. 1 u0_a287 u0_a287    378 Mar  9 22:49 daemon_monitor_watchdog.log
+-rw-------. 1 u0_a287 u0_a287    335 Mar  7 22:35 daemons_02-SISTEMA.txt
+-rw-------. 1 u0_a287 u0_a287   1963 Mar  9 14:24 docs_05-DOCUMENTACION.txt
+-rw-------. 1 u0_a287 u0_a287    480 Mar  9 14:53 docs_index_05-DOCUMENTACION.txt
+-rw-------. 1 u0_a287 u0_a287     43 Mar  9 14:53 engranaje_00-GOBIERNO.json
+-rw-------. 1 u0_a287 u0_a287     44 Mar  9 14:53 engranaje_01-MEMORIA.json
+-rw-------. 1 u0_a287 u0_a287     49 Mar  9 14:53 engranaje_02-SISTEMA.json
+-rw-------. 1 u0_a287 u0_a287     45 Mar  9 14:53 engranaje_03-OPERACIONES.json
+-rw-------. 1 u0_a287 u0_a287     43 Mar  9 14:53 engranaje_04-REGISTROS.json
+-rw-------. 1 u0_a287 u0_a287     43 Mar  9 14:53 engranaje_05-DOCUMENTACION.json
+-rw-------. 1 u0_a287 u0_a287     49 Mar  9 14:53 engranaje_06-MONITOR.json
+-rw-------. 1 u0_a287 u0_a287     63 Mar  9 14:53 estado_00-GOBIERNO.json
+-rw-------. 1 u0_a287 u0_a287    294 Mar  9 14:53 estado_01-MEMORIA.json
+-rw-------. 1 u0_a287 u0_a287    294 Mar  9 14:53 estado_02-SISTEMA.json
+-rw-------. 1 u0_a287 u0_a287    306 Mar  9 14:53 estado_03-OPERACIONES.json
+-rw-------. 1 u0_a287 u0_a287    290 Mar  9 14:53 estado_04-REGISTROS.json
+-rw-------. 1 u0_a287 u0_a287    294 Mar  9 14:53 estado_05-DOCUMENTACION.json
+-rw-------. 1 u0_a287 u0_a287    299 Mar  9 14:53 estado_06-MONITOR.json
+-rw-------. 1 u0_a287 u0_a287    437 Mar  9 14:20 html_03-OPERACIONES.txt
+-rw-------. 1 u0_a287 u0_a287   7794 Mar  9 14:53 inventario_02-SISTEMA.txt
+-rw-------. 1 u0_a287 u0_a287   9539 Mar  7 22:35 inventario_02-SISTEMA_scripts.txt
+-rw-------. 1 u0_a287 u0_a287     15 Mar  9 17:35 ip_lan_actual.txt
+-rw-------. 1 u0_a287 u0_a287   6301 Mar  9 14:24 logs_04-REGISTROS.txt
+-rw-------. 1 u0_a287 u0_a287    150 Mar  9 14:53 logs_index_04-REGISTROS.txt
+-rw-------. 1 u0_a287 u0_a287     79 Mar  9 14:53 memoria_index.txt
+-rw-------. 1 u0_a287 u0_a287    585 Mar  7 22:22 memoria_tree_20260307_222202.log
+-rw-------. 1 u0_a287 u0_a287   1428 Mar  7 22:35 memoria_tree_20260307_223513.log
+-rw-------. 1 u0_a287 u0_a287   1585 Mar  7 22:36 memoria_tree_20260307_223637.log
+-rw-------. 1 u0_a287 u0_a287     27 Mar  9 14:25 monitor_06-MONITOR.txt
+-rw-------. 1 u0_a287 u0_a287 370880 Mar  7 22:36 monitor_data_snapshot.json
+-rw-------. 1 u0_a287 u0_a287     53 Mar  9 14:53 monitor_index_06-MONITOR.txt
+-rw-------. 1 u0_a287 u0_a287    202 Mar  7 22:35 monitor_logs_04-REGISTROS.txt
+-rw-------. 1 u0_a287 u0_a287    475 Mar  7 22:22 monitor_tree_20260307_222204.log
+-rw-------. 1 u0_a287 u0_a287    475 Mar  7 22:35 monitor_tree_20260307_223515.log
+-rw-------. 1 u0_a287 u0_a287    475 Mar  7 22:36 monitor_tree_20260307_223638.log
+-rw-------. 1 u0_a287 u0_a287    147 Mar  9 14:53 operaciones_tree.txt
+-rw-------. 1 u0_a287 u0_a287   2508 Mar  7 22:22 operaciones_tree_20260307_222203.log
+-rw-------. 1 u0_a287 u0_a287   2508 Mar  7 22:35 operaciones_tree_20260307_223514.log
+-rw-------. 1 u0_a287 u0_a287   2508 Mar  7 22:36 operaciones_tree_20260307_223638.log
+-rw-------. 1 u0_a287 u0_a287    534 Mar  9 20:16 paquete_contexto_ia.json
+-rw-------. 1 u0_a287 u0_a287   3294 Mar 10 12:56 sondeo_vaults_sistema.txt
+-rw-------. 1 u0_a287 u0_a287     31 Mar  9 14:53 sync_00-GOBIERNO.json
+-rw-------. 1 u0_a287 u0_a287     31 Mar  9 14:53 sync_01-MEMORIA.json
+-rw-------. 1 u0_a287 u0_a287     31 Mar  9 14:53 sync_02-SISTEMA.json
+-rw-------. 1 u0_a287 u0_a287     31 Mar  9 14:53 sync_03-OPERACIONES.json
+-rw-------. 1 u0_a287 u0_a287     31 Mar  9 14:53 sync_04-REGISTROS.json
+-rw-------. 1 u0_a287 u0_a287     31 Mar  9 14:53 sync_05-DOCUMENTACION.json
+-rw-------. 1 u0_a287 u0_a287     31 Mar  9 14:53 sync_06-MONITOR.json
+
+/data/data/com.termux/files/home/soda/01-MEMORIA/ACTUAL/HASHES:
+total 32
+-rw-------. 1 u0_a287 u0_a287 65 Mar  9 12:57 00_GOBIERNO_snx_ia_gobierno.sh.sha
+-rw-------. 1 u0_a287 u0_a287 65 Mar  9 12:57 01_MEMORIA_snx_ia_memoria.sh.sha
+-rw-------. 1 u0_a287 u0_a287 65 Mar  9 12:57 02_SISTEMA_GLOBAL_snx_ia_central.sh.sha
+-rw-------. 1 u0_a287 u0_a287 65 Mar  9 12:57 02_SISTEMA_snx_ia_sistema.sh.sha
+-rw-------. 1 u0_a287 u0_a287 65 Mar  9 12:57 03_OPERACIONES_snx_ia_operaciones.sh.sha
+-rw-------. 1 u0_a287 u0_a287 65 Mar  9 12:57 04_REGISTROS_snx_ia_registros.sh.sha
+-rw-------. 1 u0_a287 u0_a287 65 Mar  9 12:57 05_DOCUMENTACION_snx_ia_documentacion.sh.sha
+-rw-------. 1 u0_a287 u0_a287 65 Mar  9 12:57 06_MONITOR_snx_ia_monitor.sh.sha
+
+/data/data/com.termux/files/home/soda/01-MEMORIA/BACKUPS:
+total 4
+-rw-------. 1 u0_a287 u0_a287 1884 Feb 24 15:45 snx_backup_20260224_1545.tar.gz
+
+/data/data/com.termux/files/home/soda/01-MEMORIA/CANON:
+total 0
+
+/data/data/com.termux/files/home/soda/02-SISTEMA:
+total 130
+drwx------. 2 u0_a287 u0_a287 3452 Mar  9 13:36 ANTIAMNESIA
+drwx------. 2 u0_a287 u0_a287 3452 Mar 11 12:07 API
+drwx------. 2 u0_a287 u0_a287 3452 Mar 11 12:44 AUDITORIA
+drwx------. 3 u0_a287 u0_a287 3452 Mar  4 23:16 BACKEND
+drwx------. 2 u0_a287 u0_a287 3452 Mar  9 14:41 CERTIFICACION
+drwx------. 2 u0_a287 u0_a287 3452 Mar  3 12:24 CONFIG
+drwx------. 2 u0_a287 u0_a287 3452 Feb 24 15:44 CORE
+drwx------. 2 u0_a287 u0_a287 3452 Feb 26 23:45 DAEMON
+drwx------. 2 u0_a287 u0_a287 3452 Mar  9 20:24 DAEMONS
+drwx------. 2 u0_a287 u0_a287 3452 Feb 28 14:27 DERIVADOS
+drwx------. 2 u0_a287 u0_a287 3452 Mar  9 17:34 GLOBAL
+drwx------. 2 u0_a287 u0_a287 3452 Mar  4 14:34 GUARDIAN
+drwx------. 2 u0_a287 u0_a287 3452 Mar  9 14:37 OPTIMIZACION
+drwx------. 2 u0_a287 u0_a287 3452 Mar  9 14:38 PRUEBAS
+drwx------. 3 u0_a287 u0_a287 3452 Mar  7 15:37 SCRIPTS-LEGACY
+drwx------. 2 u0_a287 u0_a287 3452 Mar  6 22:45 SERVICIOS
+-rw-------. 1 u0_a287 u0_a287 2559 Mar  3 12:23 SNX-FASE0-ESTRUCTURA.sh
+-rw-------. 1 u0_a287 u0_a287 7752 Mar  3 12:35 SNX-FASE1-INFRA.sh
+-rw-------. 1 u0_a287 u0_a287 4355 Mar  3 12:55 SNX-FASE2-TOR.sh
+-rw-------. 1 u0_a287 u0_a287 4490 Mar  3 13:00 SNX-FASE3-MONITOR.sh
+-rw-------. 1 u0_a287 u0_a287 2564 Mar  3 13:19 SNX-FASE3_5-MONITOR-TOR.sh
+drwx------. 2 u0_a287 u0_a287 3452 Mar 10 12:56 SONDEOS
+drwx------. 2 u0_a287 u0_a287 3452 Mar  3 13:48 TOR
+drwx------. 2 u0_a287 u0_a287 3452 Mar  2 21:11 TUNNEL
+drwx------. 2 u0_a287 u0_a287 3452 Mar 11 11:35 VAULT
+-rwx------. 1 u0_a287 u0_a287 3151 Mar  1 23:56 snx_daemon.sh
+-rwx------. 1 u0_a287 u0_a287 2214 Mar  9 14:20 snx_ia_sistema.sh
+-rwx------. 1 u0_a287 u0_a287 5646 Mar  1 23:56 snx_master.py
+-rwx------. 1 u0_a287 u0_a287 3211 Mar  2 08:29 snx_tunnel.sh
+-rwx------. 1 u0_a287 u0_a287 7202 Mar  1 23:49 snx_validador.sh
+
+/data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA:
+total 48
+-rw-------. 1 u0_a287 u0_a287  637 Mar  6 22:43 snx_antiamnesia_integracion_sagrados_v1.sh
+-rwx------. 1 u0_a287 u0_a287 5613 Mar  9 13:36 snx_antiamnesia_soberano_v3.sh
+-rwx------. 1 u0_a287 u0_a287  722 Mar  6 14:50 snx_antiamnesia_watchdog_v1.sh
+-rwx------. 1 u0_a287 u0_a287 2359 Mar  6 17:58 snx_antiamnesia_watchdog_v2.sh
+-rwx------. 1 u0_a287 u0_a287 1811 Mar  9 12:57 snx_integridad.sh
+-rwx------. 1 u0_a287 u0_a287 4792 Mar  6 14:48 snx_memoria_central_v1.sh
+-rwx------. 1 u0_a287 u0_a287 6480 Mar  6 14:50 snx_memoria_central_v2.sh
+-rw-------. 1 u0_a287 u0_a287 2041 Mar  6 22:43 snx_verificar_archivos_sagrados_v1.sh
+-rw-------. 1 u0_a287 u0_a287  635 Mar  6 22:44 snx_watchdog_sagrados_v1.sh
+
+/data/data/com.termux/files/home/soda/02-SISTEMA/API:
+total 56
+-rw-------. 1 u0_a287 u0_a287  4558 Mar  9 20:16 api.py
+-rw-------. 1 u0_a287 u0_a287   233 Mar  9 17:27 api.py.bak
+-rw-------. 1 u0_a287 u0_a287  2294 Mar  9 17:34 api.py.bak2
+-rw-------. 1 u0_a287 u0_a287   647 Mar  9 17:36 api.py.bak3
+-rw-------. 1 u0_a287 u0_a287  1053 Mar  9 20:16 api.py.bak_v2
+-rw-------. 1 u0_a287 u0_a287  5987 Mar 11 09:14 api_v3.py
+-rw-------. 1 u0_a287 u0_a287 14302 Mar 11 11:35 api_v4.py
+-rwx------. 1 u0_a287 u0_a287   348 Mar 11 12:07 iniciar_orquestador_v4.sh
+-rw-------. 1 u0_a287 u0_a287    34 Feb 25 09:33 snx_bridge.py
+
+/data/data/com.termux/files/home/soda/02-SISTEMA/AUDITORIA:
+total 16
+-rwx------. 1 u0_a287 u0_a287 1331 Mar  9 14:37 snx_auditoria_final.sh
+-rwx------. 1 u0_a287 u0_a287 2504 Mar  6 18:03 snx_auditoria_monitor_frontend_v1.sh
+-rwx------. 1 u0_a287 u0_a287 4057 Mar 11 12:44 snx_auditoria_total_v1.sh
+-rwx------. 1 u0_a287 u0_a287 1684 Mar  6 18:16 snx_buscar_monitor_real_v1.sh
+
+/data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND:
+total 52
+drwx------. 3 u0_a287 u0_a287 3452 Mar  6 14:50 MONITOR
+-rw-------. 1 u0_a287 u0_a287 1922 Mar  4 15:21 monitor_soberano.py
+-rwx------. 1 u0_a287 u0_a287  141 Mar  4 15:19 run_monitor.sh
+-rwx------. 1 u0_a287 u0_a287  673 Feb 24 23:44 snx_backend.sh
+-rwx------. 1 u0_a287 u0_a287 1835 Mar  4 23:16 snx_backend_legacy_neutralize.sh
+-rwx------. 1 u0_a287 u0_a287 2168 Mar  4 20:08 snx_backend_monitor.py
+-rwx------. 1 u0_a287 u0_a287  515 Feb 28 14:45 snx_daemon.sh
+-rwx------. 1 u0_a287 u0_a287 4360 Feb 28 14:36 snx_ia_central.sh
+-rwx------. 1 u0_a287 u0_a287  830 Mar  1 11:33 snx_monitor_backend.js
+-rwx------. 1 u0_a287 u0_a287 7107 Mar  1 23:52 snx_monitor_backend.py
+-rwx------. 1 u0_a287 u0_a287 1378 Feb 28 14:45 snx_push_state.sh
+
+/data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR:
+total 152
+-rw-------. 1 u0_a287 u0_a287  1713 Mar  3 16:01 FASE-2-BACKEND.md
+-rw-------. 1 u0_a287 u0_a287    70 Mar  4 09:22 REPO_PATH.txt
+drwx------. 2 u0_a287 u0_a287  3452 Mar  5 10:02 __pycache__
+-rw-------. 1 u0_a287 u0_a287   915 Mar  6 13:28 allowed_scripts.json
+-rw-------. 1 u0_a287 u0_a287   110 Mar  3 16:31 allowed_scripts.json.bak.20260305-090124
+-rw-------. 1 u0_a287 u0_a287   702 Mar  6 13:14 allowed_scripts.json.bak_20260306-131411
+-rw-------. 1 u0_a287 u0_a287   769 Mar  6 13:26 allowed_scripts.json.bak_v2_20260306-132611
+-rw-------. 1 u0_a287 u0_a287   842 Mar  6 13:28 allowed_scripts.json.bak_v3_20260306-132834
+-rw-------. 1 u0_a287 u0_a287   702 Mar  4 23:44 allowed_scripts_v1.json
+-rw-------. 1 u0_a287 u0_a287   378 Mar  3 16:31 audit_logger.py
+-rw-------. 1 u0_a287 u0_a287  1394 Mar  4 10:18 deploy_engine.py
+-rw-------. 1 u0_a287 u0_a287  1693 Mar  4 10:08 ia_engine.py
+-rw-------. 1 u0_a287 u0_a287  1802 Mar  4 09:59 integridad_engine.py
+-rw-------. 1 u0_a287 u0_a287   352 Mar  3 16:31 path_security.py
+-rwx------. 1 u0_a287 u0_a287  1426 Mar  6 13:14 snx_allowlist_add_central_backend.sh
+-rwx------. 1 u0_a287 u0_a287   937 Mar  6 13:26 snx_allowlist_add_central_backend_v2.sh
+-rwx------. 1 u0_a287 u0_a287   937 Mar  6 13:28 snx_allowlist_add_central_backend_v3.sh
+-rwx------. 1 u0_a287 u0_a287  2819 Mar  4 23:44 snx_allowlist_upgrade_v1.sh
+-rwx------. 1 u0_a287 u0_a287  3102 Mar  5 09:01 snx_allowlist_upgrade_v2.sh
+-rwx------. 1 u0_a287 u0_a287   124 Mar  6 14:50 snx_antiamnesia_endpoint_run.sh
+-rwx------. 1 u0_a287 u0_a287  1678 Mar  6 14:50 snx_antiamnesia_endpoint_v1.py
+-rwx------. 1 u0_a287 u0_a287  1371 Mar  6 14:08 snx_memoria_endpoint_resumen_v1.py
+-rw-------. 1 u0_a287 u0_a287  8921 Mar  5 10:02 snx_monitor_backend.py
+-rw-------. 1 u0_a287 u0_a287  3552 Mar  4 10:22 snx_monitor_backend.py.bak.20260304-232705
+-rw-------. 1 u0_a287 u0_a287  7394 Mar  4 23:27 snx_monitor_backend.py.bak.20260305-100225
+-rwx------. 1 u0_a287 u0_a287    95 Mar  4 09:03 snx_monitor_backend_run.sh
+-rwx------. 1 u0_a287 u0_a287  8809 Mar  4 23:26 snx_monitor_backend_upgrade_v2.sh
+-rwx------. 1 u0_a287 u0_a287 10178 Mar  5 10:02 snx_monitor_backend_upgrade_v3.sh
+-rwx------. 1 u0_a287 u0_a287   559 Mar  6 13:38 snx_monitor_endpoint_data_run.sh
+-rwx------. 1 u0_a287 u0_a287  1565 Mar  6 13:38 snx_monitor_endpoint_data_v1.py
+-rwx------. 1 u0_a287 u0_a287   531 Mar  6 13:38 snx_monitor_publish_v1.sh
+
+/data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/__pycache__:
+total 36
+-rw-------. 1 u0_a287 u0_a287  1031 Mar  3 16:31 audit_logger.cpython-312.pyc
+-rw-------. 1 u0_a287 u0_a287  2640 Mar  4 10:22 deploy_engine.cpython-312.pyc
+-rw-------. 1 u0_a287 u0_a287  2943 Mar  4 10:08 ia_engine.cpython-312.pyc
+-rw-------. 1 u0_a287 u0_a287  3345 Mar  4 09:59 integridad_engine.cpython-312.pyc
+-rw-------. 1 u0_a287 u0_a287   818 Mar  3 16:31 path_security.cpython-312.pyc
+-rw-------. 1 u0_a287 u0_a287 13027 Mar  5 10:02 snx_monitor_backend.cpython-312.pyc
+
+/data/data/com.termux/files/home/soda/02-SISTEMA/CERTIFICACION:
+total 8
+-rwx------. 1 u0_a287 u0_a287 4436 Mar  9 14:41 snx_validacion_certificada.sh
+
+/data/data/com.termux/files/home/soda/02-SISTEMA/CONFIG:
+total 0
+
+/data/data/com.termux/files/home/soda/02-SISTEMA/CORE:
+total 4
+-rwx------. 1 u0_a287 u0_a287 2004 Feb 24 15:44 snx_doc_backup.sh
+
+/data/data/com.termux/files/home/soda/02-SISTEMA/DAEMON:
+total 8
+-rwx------. 1 u0_a287 u0_a287  377 Feb 24 23:22 snx_daemon.sh
+-rwxr-xr-x. 1 u0_a287 u0_a287 3334 Feb 27 00:04 snx_tunnel_persistent.sh
+
+/data/data/com.termux/files/home/soda/02-SISTEMA/DAEMONS:
+total 32
+-rwx------. 1 u0_a287 u0_a287  422 Mar  9 17:36 daemon_antiamnesia.sh
+-rwx------. 1 u0_a287 u0_a287  936 Mar  9 17:34 daemon_antiamnesia.sh.bak
+-rwx------. 1 u0_a287 u0_a287  724 Mar  9 17:27 daemon_continuidad.sh
+-rwx------. 1 u0_a287 u0_a287  278 Mar  9 22:41 daemon_monitor_watchdog.sh
+-rwx------. 1 u0_a287 u0_a287 1238 Mar  3 12:35 snx_backend_v1_service.sh
+-rwx------. 1 u0_a287 u0_a287  252 Mar  3 13:21 snx_monitor_http_v2.sh
+-rwx------. 1 u0_a287 u0_a287  611 Mar  3 13:21 snx_tor_monitor_persistent_v2.sh
+-rwx------. 1 u0_a287 u0_a287 2343 Mar  3 12:56 snx_tor_persistent_v1.sh
+
+/data/data/com.termux/files/home/soda/02-SISTEMA/DERIVADOS:
+total 0
+
+/data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL:
+total 84
+-rwx------. 1 u0_a287 u0_a287 1385 Mar  3 14:44 SNX-GITHUB-SCAN.sh
+-rwx------. 1 u0_a287 u0_a287 1254 Mar  3 14:50 SNX-GITHUB-TOKEN-CHECK.sh
+-rwx------. 1 u0_a287 u0_a287 1502 Mar  3 15:00 SNX-PUBLISH-MONITOR.sh
+-rwx------. 1 u0_a287 u0_a287 1801 Feb 27 13:35 snx_correccion_final.sh
+-rwx------. 1 u0_a287 u0_a287  698 Mar  9 17:33 snx_detect_ip_lan.sh
+-rwx------. 1 u0_a287 u0_a287 1198 Mar  5 19:01 snx_fix_bashrc_v1.sh
+-rwx------. 1 u0_a287 u0_a287 5188 Feb 27 15:20 snx_guardian_central.sh
+-rwx------. 1 u0_a287 u0_a287 2895 Mar  9 12:43 snx_ia_central.sh
+-rw-------. 1 u0_a287 u0_a287 1321 Feb 27 12:36 snx_open_all_docs.sh
+-rwx------. 1 u0_a287 u0_a287 1110 Feb 27 07:31 snx_reader.sh
+-rwx------. 1 u0_a287 u0_a287 1553 Mar  9 17:26 snx_rehidratacion_automatica.sh
+-rwx------. 1 u0_a287 u0_a287 1623 Mar  6 12:36 snx_reparar_bashrc_v2.sh
+-rwx------. 1 u0_a287 u0_a287 2958 Feb 27 13:27 snx_saneamiento_total.sh
+-rwx------. 1 u0_a287 u0_a287  348 Feb 27 12:46 snx_show_all.sh
+-rwx------. 1 u0_a287 u0_a287  997 Feb 27 12:41 snx_show_todo.sh
+-rw-------. 1 u0_a287 u0_a287  210 Feb 27 12:40 snx_split_docs.sh
+-rwx------. 1 u0_a287 u0_a287   12 Mar  7 22:34 snx_system_map.sh
+-rwx------. 1 u0_a287 u0_a287  858 Feb 27 12:48 snx_tree.sh
+-rwx------. 1 u0_a287 u0_a287 1181 Mar  9 17:34 snx_update_estado_central_ip.sh
+-rwx------. 1 u0_a287 u0_a287 1068 Mar  9 17:26 snx_verificador_coherencia.sh
+
+/data/data/com.termux/files/home/soda/02-SISTEMA/GUARDIAN:
+total 4
+-rwx------. 1 u0_a287 u0_a287 2934 Mar  4 14:42 snx_guardian_soberano.sh
+
+/data/data/com.termux/files/home/soda/02-SISTEMA/OPTIMIZACION:
+total 4
+-rwx------. 1 u0_a287 u0_a287 580 Mar  9 14:37 snx_optimizacion.sh
+
+/data/data/com.termux/files/home/soda/02-SISTEMA/PRUEBAS:
+total 8
+-rwx------. 1 u0_a287 u0_a287 4536 Mar  9 14:38 snx_validacion_total.sh
+
+/data/data/com.termux/files/home/soda/02-SISTEMA/SCRIPTS-LEGACY:
+total 4
+drwx------. 2 u0_a287 u0_a287 3452 Mar  7 15:37 GLOBAL
+
+/data/data/com.termux/files/home/soda/02-SISTEMA/SCRIPTS-LEGACY/GLOBAL:
+total 56
+-rwx------. 1 u0_a287 u0_a287   78 Mar  4 09:59 snx_auditoria_integridad.sh
+-rwx------. 1 u0_a287 u0_a287 3396 Mar  4 15:39 snx_central.sh
+-rwx------. 1 u0_a287 u0_a287 1867 Mar  6 13:09 snx_central_backend.sh
+-rwx------. 1 u0_a287 u0_a287 3107 Mar  6 13:26 snx_central_backend_v2.sh
+-rwx------. 1 u0_a287 u0_a287 3143 Mar  6 13:28 snx_central_backend_v3.sh
+-rwx------. 1 u0_a287 u0_a287   71 Mar  4 10:18 snx_deploy_estado.sh
+-rwx------. 1 u0_a287 u0_a287  722 Mar  4 09:05 snx_detect_repos.sh
+-rwx------. 1 u0_a287 u0_a287    0 Mar  4 09:56 snx_ia_diagnostico.sh
+-rwx------. 1 u0_a287 u0_a287 1939 Mar  6 14:05 snx_memoria_resumen_v1.sh
+-rwx------. 1 u0_a287 u0_a287  760 Mar  4 09:03 snx_monitor_clone_repo.sh
+-rwx------. 1 u0_a287 u0_a287  639 Mar  4 09:57 snx_monitor_migrar_a_raiz.sh
+-rwx------. 1 u0_a287 u0_a287 5124 Mar  4 09:03 snx_monitor_publish_frontend.sh
+-rwx------. 1 u0_a287 u0_a287  585 Mar  4 09:05 snx_publish_monitor.sh
+-rwx------. 1 u0_a287 u0_a287  643 Mar  4 09:05 snx_select_repo.sh
+
+/data/data/com.termux/files/home/soda/02-SISTEMA/SERVICIOS:
+total 20
+-rwx------. 1 u0_a287 u0_a287 2211 Mar  4 20:02 snx_fase1_5_fix_service.sh
+-rwx------. 1 u0_a287 u0_a287 1624 Mar  6 17:58 snx_fase3_services_boot_v1.sh
+-rwx------. 1 u0_a287 u0_a287 3487 Mar  6 22:45 snx_lanzador_maestro_v1.sh
+-rw-------. 1 u0_a287 u0_a287  588 Mar  6 22:44 snx_monitor_sagrado_run_v1.sh
+-rwx------. 1 u0_a287 u0_a287 1516 Mar  4 19:42 snx_termux_blindaje.sh
+
+/data/data/com.termux/files/home/soda/02-SISTEMA/SONDEOS:
+total 4
+-rwx------. 1 u0_a287 u0_a287 537 Mar 10 12:56 sondeo_vaults_sistema.sh
+
+/data/data/com.termux/files/home/soda/02-SISTEMA/TOR:
+total 12
+-rw-------. 1 u0_a287 u0_a287 190 Mar  3 13:21 torrc_snx_monitor_v2
+-rw-------. 1 u0_a287 u0_a287 407 Mar  3 13:48 torrc_snx_unificado
+-rw-------. 1 u0_a287 u0_a287 523 Mar  3 12:56 torrc_snx_v1
+
+/data/data/com.termux/files/home/soda/02-SISTEMA/TUNNEL:
+total 24
+-rw-------. 1 u0_a287 u0_a287    0 Feb 26 14:22 config.yml
+-rwx------. 1 u0_a287 u0_a287 5099 Feb 26 14:22 snx_tunnel_init.sh
+-rwx------. 1 u0_a287 u0_a287 1293 Mar  2 11:08 snx_tunnel_install.sh
+-rwx------. 1 u0_a287 u0_a287  828 Mar  2 21:11 snx_tunnel_local.sh
+-rwx------. 1 u0_a287 u0_a287 1426 Feb 26 14:25 snx_tunnel_login.sh
+-rwx------. 1 u0_a287 u0_a287  960 Feb 26 21:15 snx_tunnel_manager.sh
+
+/data/data/com.termux/files/home/soda/02-SISTEMA/VAULT:
+total 20
+-rw-r--r--. 1 u0_a287 u0_a287   59 Mar 11 11:35 CURRENT_MOTOR.json
+-rw-------. 1 u0_a287 u0_a287   35 Mar 10 12:50 DEEPSEEK_KEY
+-rwx------. 1 u0_a287 u0_a287  738 Mar 10 12:49 ia_vault_deepseek_registrar.sh
+-rwx------. 1 u0_a287 u0_a287  718 Mar 11 11:35 ia_vault_modelo_local.sh
+-rwx------. 1 u0_a287 u0_a287 1151 Mar 11 11:35 ia_vault_remota.sh
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES:
+total 49
+drwx------. 2 u0_a287 u0_a287 3452 Mar  3 12:40 BACKEND
+drwx------. 2 u0_a287 u0_a287 3452 Mar  9 17:27 MOTORES
+-rw-------. 1 u0_a287 u0_a287 5027 Mar  1 23:56 SNX-MONITOR.html
+drwx------. 2 u0_a287 u0_a287 3452 Mar  7 13:21 TELEGRAM
+drwx------. 4 u0_a287 u0_a287 3452 Mar  9 15:49 WEB
+drwx------. 6 u0_a287 u0_a287 3452 Feb 27 16:03 WEBAPP
+drwx------. 3 u0_a287 u0_a287 3452 Feb 27 13:35 WEBAPP_BACKUP_20260223222530
+-rw-------. 1 u0_a287 u0_a287 1810 Mar  3 22:11 index.html
+drwx------. 2 u0_a287 u0_a287 3452 Mar  7 15:44 monitor
+-rw-------. 1 u0_a287 u0_a287 2546 Mar  3 22:11 monitor.js
+-rwx------. 1 u0_a287 u0_a287 2083 Mar  9 14:23 snx_ia_operaciones.sh
+-rwx------. 1 u0_a287 u0_a287 2466 Mar  2 08:29 snx_prepare_pages.sh
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/BACKEND:
+total 8
+-rwx------. 1 u0_a287 u0_a287 1817 Mar  3 12:35 snx_backend_v1.py
+-rw-------. 1 u0_a287 u0_a287 1175 Mar  3 12:40 snx_backend_v1_port5051.py
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/MOTORES:
+total 4
+-rwx------. 1 u0_a287 u0_a287 616 Mar  9 17:27 motor_ingresos_v1.sh
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/TELEGRAM:
+total 0
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEB:
+total 7
+drwx------. 3 u0_a287 u0_a287 3452 Mar  9 16:33 monitor
+drwx------. 2 u0_a287 u0_a287 3452 Mar  9 15:49 monitor-v4
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEB/monitor:
+total 40
+-rw-------. 1 u0_a287 u0_a287 1497 Mar  9 16:33 config.js
+-rw-------. 1 u0_a287 u0_a287  789 Mar  7 11:57 extensiones_monitor_v1.js
+-rw-------. 1 u0_a287 u0_a287 3403 Mar  3 10:19 index-2.html
+-rw-------. 1 u0_a287 u0_a287 2237 Mar  3 10:20 index-3.html
+-rw-------. 1 u0_a287 u0_a287 3428 Mar  9 15:15 index.html
+-rw-------. 1 u0_a287 u0_a287 1078 Mar  3 10:20 monitor-2.js
+-rw-------. 1 u0_a287 u0_a287 3383 Mar  9 15:15 monitor.js
+-rw-------. 1 u0_a287 u0_a287 1943 Mar  7 11:57 panel_institucional_v1.js
+-rw-------. 1 u0_a287 u0_a287 1021 Mar  3 10:20 snx-logs-2.js
+-rw-------. 1 u0_a287 u0_a287 2148 Mar  3 10:10 snx-logs.js
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEB/monitor-v4:
+total 36
+-rw-------. 1 u0_a287 u0_a287  1499 Mar  9 15:49 config-v4.js
+-rw-------. 1 u0_a287 u0_a287 10198 Mar  9 15:49 index-v4.html
+-rw-------. 1 u0_a287 u0_a287  8720 Mar  9 15:49 monitor-v4.js
+-rw-------. 1 u0_a287 u0_a287  2547 Mar  9 15:49 panel-institucional-v4.js
+-rw-------. 1 u0_a287 u0_a287  2754 Mar  9 15:49 snx-logs-v4.js
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP:
+total 79
+-rw-------.  1 u0_a287 u0_a287  2565 Feb 27 16:01 README.md
+-rw-------.  1 u0_a287 u0_a287     0 Feb 27 16:03 create-vite
+-rw-------.  1 u0_a287 u0_a287     0 Feb 27 16:03 esbuild@0.27.3
+-rw-------.  1 u0_a287 u0_a287   353 Feb 27 16:01 index.html
+-rw-------.  1 u0_a287 u0_a287   968 Feb 27 16:01 jsconfig.json
+-rw-------.  1 u0_a287 u0_a287     0 Feb 27 16:03 node
+drwx------. 35 u0_a287 u0_a287  3452 Feb 27 16:01 node_modules
+-rw-------.  1 u0_a287 u0_a287     0 Feb 27 16:03 npx
+-rw-------.  1 u0_a287 u0_a287 44762 Feb 27 16:01 package-lock.json
+-rw-------.  1 u0_a287 u0_a287   300 Feb 27 16:01 package.json
+drwx------.  2 u0_a287 u0_a287  3452 Feb 27 16:01 public
+drwx------.  2 u0_a287 u0_a287  3452 Feb 27 16:21 src
+-rw-------.  1 u0_a287 u0_a287   295 Feb 27 16:01 svelte.config.js
+-rw-------.  1 u0_a287 u0_a287     0 Feb 27 16:03 vite
+-rw-------.  1 u0_a287 u0_a287   175 Feb 27 16:01 vite.config.js
+-rw-------.  1 u0_a287 u0_a287     0 Feb 27 16:03 webapp@0.0.0
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules:
+total 105
+drwx------. 3 u0_a287 u0_a287 3452 Feb 27 16:01 @esbuild
+drwx------. 7 u0_a287 u0_a287 3452 Feb 27 16:01 @jridgewell
+drwx------. 3 u0_a287 u0_a287 3452 Feb 27 16:01 @rollup
+drwx------. 5 u0_a287 u0_a287 3452 Feb 27 16:01 @sveltejs
+drwx------. 4 u0_a287 u0_a287 3452 Feb 27 16:01 @types
+drwx------. 4 u0_a287 u0_a287 3452 Feb 27 16:01 acorn
+drwx------. 3 u0_a287 u0_a287 3452 Feb 27 16:01 aria-query
+drwx------. 3 u0_a287 u0_a287 3452 Feb 27 16:01 axobject-query
+drwx------. 3 u0_a287 u0_a287 3452 Feb 27 16:01 clsx
+drwx------. 3 u0_a287 u0_a287 3452 Feb 27 16:01 deepmerge
+drwx------. 4 u0_a287 u0_a287 3452 Feb 27 16:01 devalue
+drwx------. 4 u0_a287 u0_a287 3452 Feb 27 16:01 esbuild
+drwx------. 2 u0_a287 u0_a287 3452 Feb 27 16:01 esm-env
+drwx------. 4 u0_a287 u0_a287 3452 Feb 27 16:01 esrap
+drwx------. 3 u0_a287 u0_a287 3452 Feb 27 16:01 fdir
+drwx------. 4 u0_a287 u0_a287 3452 Feb 27 16:01 is-reference
+drwx------. 4 u0_a287 u0_a287 3452 Feb 27 16:01 locate-character
+drwx------. 3 u0_a287 u0_a287 3452 Feb 27 16:01 magic-string
+drwx------. 6 u0_a287 u0_a287 3452 Feb 27 16:01 nanoid
+drwx------. 3 u0_a287 u0_a287 3452 Feb 27 16:01 obug
+drwx------. 2 u0_a287 u0_a287 3452 Feb 27 16:01 picocolors
+drwx------. 3 u0_a287 u0_a287 3452 Feb 27 16:01 picomatch
+drwx------. 3 u0_a287 u0_a287 3452 Feb 27 16:01 postcss
+drwx------. 3 u0_a287 u0_a287 3452 Feb 27 16:01 rollup
+drwx------. 3 u0_a287 u0_a287 3452 Feb 27 16:01 source-map-js
+drwx------. 5 u0_a287 u0_a287 3452 Feb 27 16:01 svelte
+drwx------. 3 u0_a287 u0_a287 3452 Feb 27 16:01 tinyglobby
+drwx------. 6 u0_a287 u0_a287 3452 Feb 27 16:01 vite
+drwx------. 3 u0_a287 u0_a287 3452 Feb 27 16:01 vitefu
+drwx------. 4 u0_a287 u0_a287 3452 Feb 27 16:01 zimmerframe
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/@esbuild:
+total 4
+drwx------. 3 u0_a287 u0_a287 3452 Feb 27 16:01 android-arm64
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/@esbuild/android-arm64:
+total 12
+-rw-------. 1 u0_a287 u0_a287  147 Feb 27 16:01 README.md
+drwx------. 2 u0_a287 u0_a287 3452 Feb 27 16:01 bin
+-rw-------. 1 u0_a287 u0_a287  386 Feb 27 16:01 package.json
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/@esbuild/android-arm64/bin:
+total 11084
+-rwx------. 1 u0_a287 u0_a287 11338081 Feb 27 16:01 esbuild
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/@jridgewell:
+total 18
+drwx------. 5 u0_a287 u0_a287 3452 Feb 27 16:01 gen-mapping
+drwx------. 5 u0_a287 u0_a287 3452 Feb 27 16:01 remapping
+drwx------. 3 u0_a287 u0_a287 3452 Feb 27 16:01 resolve-uri
+drwx------. 5 u0_a287 u0_a287 3452 Feb 27 16:01 sourcemap-codec
+drwx------. 5 u0_a287 u0_a287 3452 Feb 27 16:01 trace-mapping
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/@jridgewell/gen-mapping:
+total 27
+-rw-------. 1 u0_a287 u0_a287 1080 Feb 27 16:01 LICENSE
+-rw-------. 1 u0_a287 u0_a287 7506 Feb 27 16:01 README.md
+drwx------. 3 u0_a287 u0_a287 3452 Feb 27 16:01 dist
+-rw-------. 1 u0_a287 u0_a287 2201 Feb 27 16:01 package.json
+drwx------. 2 u0_a287 u0_a287 3452 Feb 27 16:01 src
+drwx------. 2 u0_a287 u0_a287 3452 Feb 27 16:01 types
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/@jridgewell/gen-mapping/dist:
+total 40
+-rw-------. 1 u0_a287 u0_a287  7969 Feb 27 16:01 gen-mapping.mjs
+-rw-------. 1 u0_a287 u0_a287  5917 Feb 27 16:01 gen-mapping.mjs.map
+-rw-------. 1 u0_a287 u0_a287 11170 Feb 27 16:01 gen-mapping.umd.js
+-rw-------. 1 u0_a287 u0_a287  6222 Feb 27 16:01 gen-mapping.umd.js.map
+drwx------. 2 u0_a287 u0_a287  3452 Feb 27 16:01 types
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/@jridgewell/gen-mapping/dist/types:
+total 16
+-rw-------. 1 u0_a287 u0_a287 3826 Feb 27 16:01 gen-mapping.d.ts
+-rw-------. 1 u0_a287 u0_a287 1217 Feb 27 16:01 set-array.d.ts
+-rw-------. 1 u0_a287 u0_a287  521 Feb 27 16:01 sourcemap-segment.d.ts
+-rw-------. 1 u0_a287 u0_a287  997 Feb 27 16:01 types.d.ts
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/@jridgewell/gen-mapping/src:
+total 32
+-rw-------. 1 u0_a287 u0_a287 17131 Feb 27 16:01 gen-mapping.ts
+-rw-------. 1 u0_a287 u0_a287  2362 Feb 27 16:01 set-array.ts
+-rw-------. 1 u0_a287 u0_a287   480 Feb 27 16:01 sourcemap-segment.ts
+-rw-------. 1 u0_a287 u0_a287  1438 Feb 27 16:01 types.ts
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/@jridgewell/gen-mapping/types:
+total 64
+-rw-------. 1 u0_a287 u0_a287 3871 Feb 27 16:01 gen-mapping.d.cts
+-rw-------. 1 u0_a287 u0_a287 2603 Feb 27 16:01 gen-mapping.d.cts.map
+-rw-------. 1 u0_a287 u0_a287 3871 Feb 27 16:01 gen-mapping.d.mts
+-rw-------. 1 u0_a287 u0_a287 2603 Feb 27 16:01 gen-mapping.d.mts.map
+-rw-------. 1 u0_a287 u0_a287 1256 Feb 27 16:01 set-array.d.cts
+-rw-------. 1 u0_a287 u0_a287  757 Feb 27 16:01 set-array.d.cts.map
+-rw-------. 1 u0_a287 u0_a287 1256 Feb 27 16:01 set-array.d.mts
+-rw-------. 1 u0_a287 u0_a287  757 Feb 27 16:01 set-array.d.mts.map
+-rw-------. 1 u0_a287 u0_a287  568 Feb 27 16:01 sourcemap-segment.d.cts
+-rw-------. 1 u0_a287 u0_a287  597 Feb 27 16:01 sourcemap-segment.d.cts.map
+-rw-------. 1 u0_a287 u0_a287  568 Feb 27 16:01 sourcemap-segment.d.mts
+-rw-------. 1 u0_a287 u0_a287  597 Feb 27 16:01 sourcemap-segment.d.mts.map
+-rw-------. 1 u0_a287 u0_a287 1036 Feb 27 16:01 types.d.cts
+-rw-------. 1 u0_a287 u0_a287 1192 Feb 27 16:01 types.d.cts.map
+-rw-------. 1 u0_a287 u0_a287 1036 Feb 27 16:01 types.d.mts
+-rw-------. 1 u0_a287 u0_a287 1192 Feb 27 16:01 types.d.mts.map
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/@jridgewell/remapping:
+total 27
+-rw-------. 1 u0_a287 u0_a287 1080 Feb 27 16:01 LICENSE
+-rw-------. 1 u0_a287 u0_a287 7304 Feb 27 16:01 README.md
+drwx------. 2 u0_a287 u0_a287 3452 Feb 27 16:01 dist
+-rw-------. 1 u0_a287 u0_a287 2307 Feb 27 16:01 package.json
+drwx------. 2 u0_a287 u0_a287 3452 Feb 27 16:01 src
+drwx------. 2 u0_a287 u0_a287 3452 Feb 27 16:01 types
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/@jridgewell/remapping/dist:
+total 24
+-rw-------. 1 u0_a287 u0_a287 4829 Feb 27 16:01 remapping.mjs
+-rw-------. 1 u0_a287 u0_a287 3558 Feb 27 16:01 remapping.mjs.map
+-rw-------. 1 u0_a287 u0_a287 7880 Feb 27 16:01 remapping.umd.js
+-rw-------. 1 u0_a287 u0_a287 3849 Feb 27 16:01 remapping.umd.js.map
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/@jridgewell/remapping/src:
+total 24
+-rw-------. 1 u0_a287 u0_a287 3393 Feb 27 16:01 build-source-map-tree.ts
+-rw-------. 1 u0_a287 u0_a287 1448 Feb 27 16:01 remapping.ts
+-rw-------. 1 u0_a287 u0_a287 4823 Feb 27 16:01 source-map-tree.ts
+-rw-------. 1 u0_a287 u0_a287 1357 Feb 27 16:01 source-map.ts
+-rw-------. 1 u0_a287 u0_a287  588 Feb 27 16:01 types.ts
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/@jridgewell/remapping/types:
+total 80
+-rw-------. 1 u0_a287 u0_a287  858 Feb 27 16:01 build-source-map-tree.d.cts
+-rw-------. 1 u0_a287 u0_a287  375 Feb 27 16:01 build-source-map-tree.d.cts.map
+-rw-------. 1 u0_a287 u0_a287  858 Feb 27 16:01 build-source-map-tree.d.mts
+-rw-------. 1 u0_a287 u0_a287  375 Feb 27 16:01 build-source-map-tree.d.mts.map
+-rw-------. 1 u0_a287 u0_a287 1145 Feb 27 16:01 remapping.d.cts
+-rw-------. 1 u0_a287 u0_a287  534 Feb 27 16:01 remapping.d.cts.map
+-rw-------. 1 u0_a287 u0_a287 1145 Feb 27 16:01 remapping.d.mts
+-rw-------. 1 u0_a287 u0_a287  534 Feb 27 16:01 remapping.d.mts.map
+-rw-------. 1 u0_a287 u0_a287 1688 Feb 27 16:01 source-map-tree.d.cts
+-rw-------. 1 u0_a287 u0_a287 1222 Feb 27 16:01 source-map-tree.d.cts.map
+-rw-------. 1 u0_a287 u0_a287 1688 Feb 27 16:01 source-map-tree.d.mts
+-rw-------. 1 u0_a287 u0_a287 1222 Feb 27 16:01 source-map-tree.d.mts.map
+-rw-------. 1 u0_a287 u0_a287  667 Feb 27 16:01 source-map.d.cts
+-rw-------. 1 u0_a287 u0_a287  688 Feb 27 16:01 source-map.d.cts.map
+-rw-------. 1 u0_a287 u0_a287  667 Feb 27 16:01 source-map.d.mts
+-rw-------. 1 u0_a287 u0_a287  688 Feb 27 16:01 source-map.d.mts.map
+-rw-------. 1 u0_a287 u0_a287  619 Feb 27 16:01 types.d.cts
+-rw-------. 1 u0_a287 u0_a287  679 Feb 27 16:01 types.d.cts.map
+-rw-------. 1 u0_a287 u0_a287  619 Feb 27 16:01 types.d.mts
+-rw-------. 1 u0_a287 u0_a287  679 Feb 27 16:01 types.d.mts.map
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/@jridgewell/resolve-uri:
+total 16
+-rw-------. 1 u0_a287 u0_a287 1079 Feb 27 16:01 LICENSE
+-rw-------. 1 u0_a287 u0_a287 2826 Feb 27 16:01 README.md
+drwx------. 3 u0_a287 u0_a287 3452 Feb 27 16:01 dist
+-rw-------. 1 u0_a287 u0_a287 2063 Feb 27 16:01 package.json
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/@jridgewell/resolve-uri/dist:
+total 60
+-rw-------. 1 u0_a287 u0_a287  8609 Feb 27 16:01 resolve-uri.mjs
+-rw-------. 1 u0_a287 u0_a287 14262 Feb 27 16:01 resolve-uri.mjs.map
+-rw-------. 1 u0_a287 u0_a287  9866 Feb 27 16:01 resolve-uri.umd.js
+-rw-------. 1 u0_a287 u0_a287 14298 Feb 27 16:01 resolve-uri.umd.js.map
+drwx------. 2 u0_a287 u0_a287  3452 Feb 27 16:01 types
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/@jridgewell/resolve-uri/dist/types:
+total 4
+-rw-------. 1 u0_a287 u0_a287 150 Feb 27 16:01 resolve-uri.d.ts
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/@jridgewell/sourcemap-codec:
+total 31
+-rw-------. 1 u0_a287 u0_a287  1080 Feb 27 16:01 LICENSE
+-rw-------. 1 u0_a287 u0_a287 10051 Feb 27 16:01 README.md
+drwx------. 2 u0_a287 u0_a287  3452 Feb 27 16:01 dist
+-rw-------. 1 u0_a287 u0_a287  2150 Feb 27 16:01 package.json
+drwx------. 2 u0_a287 u0_a287  3452 Feb 27 16:01 src
+drwx------. 2 u0_a287 u0_a287  3452 Feb 27 16:01 types
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/@jridgewell/sourcemap-codec/dist:
+total 56
+-rw-------. 1 u0_a287 u0_a287 12869 Feb 27 16:01 sourcemap-codec.mjs
+-rw-------. 1 u0_a287 u0_a287  9612 Feb 27 16:01 sourcemap-codec.mjs.map
+-rw-------. 1 u0_a287 u0_a287 14590 Feb 27 16:01 sourcemap-codec.umd.js
+-rw-------. 1 u0_a287 u0_a287  9700 Feb 27 16:01 sourcemap-codec.umd.js.map
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/@jridgewell/sourcemap-codec/src:
+total 24
+-rw-------. 1 u0_a287 u0_a287 9713 Feb 27 16:01 scopes.ts
+-rw-------. 1 u0_a287 u0_a287 3203 Feb 27 16:01 sourcemap-codec.ts
+-rw-------. 1 u0_a287 u0_a287 1503 Feb 27 16:01 strings.ts
+-rw-------. 1 u0_a287 u0_a287 1387 Feb 27 16:01 vlq.ts
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/@jridgewell/sourcemap-codec/types:
+total 64
+-rw-------. 1 u0_a287 u0_a287 1151 Feb 27 16:01 scopes.d.cts
+-rw-------. 1 u0_a287 u0_a287 1348 Feb 27 16:01 scopes.d.cts.map
+-rw-------. 1 u0_a287 u0_a287 1151 Feb 27 16:01 scopes.d.mts
+-rw-------. 1 u0_a287 u0_a287 1348 Feb 27 16:01 scopes.d.mts.map
+-rw-------. 1 u0_a287 u0_a287  699 Feb 27 16:01 sourcemap-codec.d.cts
+-rw-------. 1 u0_a287 u0_a287  705 Feb 27 16:01 sourcemap-codec.d.cts.map
+-rw-------. 1 u0_a287 u0_a287  699 Feb 27 16:01 sourcemap-codec.d.mts
+-rw-------. 1 u0_a287 u0_a287  705 Feb 27 16:01 sourcemap-codec.d.mts.map
+-rw-------. 1 u0_a287 u0_a287  361 Feb 27 16:01 strings.d.cts
+-rw-------. 1 u0_a287 u0_a287  422 Feb 27 16:01 strings.d.cts.map
+-rw-------. 1 u0_a287 u0_a287  361 Feb 27 16:01 strings.d.mts
+-rw-------. 1 u0_a287 u0_a287  422 Feb 27 16:01 strings.d.mts.map
+-rw-------. 1 u0_a287 u0_a287  442 Feb 27 16:01 vlq.d.cts
+-rw-------. 1 u0_a287 u0_a287  449 Feb 27 16:01 vlq.d.cts.map
+-rw-------. 1 u0_a287 u0_a287  442 Feb 27 16:01 vlq.d.mts
+-rw-------. 1 u0_a287 u0_a287  449 Feb 27 16:01 vlq.d.mts.map
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/@jridgewell/trace-mapping:
+total 35
+-rw-------. 1 u0_a287 u0_a287  1080 Feb 27 16:01 LICENSE
+-rw-------. 1 u0_a287 u0_a287 14417 Feb 27 16:01 README.md
+drwx------. 2 u0_a287 u0_a287  3452 Feb 27 16:01 dist
+-rw-------. 1 u0_a287 u0_a287  2252 Feb 27 16:01 package.json
+drwx------. 2 u0_a287 u0_a287  3452 Feb 27 16:01 src
+drwx------. 2 u0_a287 u0_a287  3452 Feb 27 16:01 types
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/@jridgewell/trace-mapping/dist:
+total 60
+-rw-------. 1 u0_a287 u0_a287 15335 Feb 27 16:01 trace-mapping.mjs
+-rw-------. 1 u0_a287 u0_a287 11208 Feb 27 16:01 trace-mapping.mjs.map
+-rw-------. 1 u0_a287 u0_a287 18670 Feb 27 16:01 trace-mapping.umd.js
+-rw-------. 1 u0_a287 u0_a287 11570 Feb 27 16:01 trace-mapping.umd.js.map
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/@jridgewell/trace-mapping/src:
+total 52
+-rw-------. 1 u0_a287 u0_a287  2793 Feb 27 16:01 binary-search.ts
+-rw-------. 1 u0_a287 u0_a287  1244 Feb 27 16:01 by-source.ts
+-rw-------. 1 u0_a287 u0_a287  5417 Feb 27 16:01 flatten-map.ts
+-rw-------. 1 u0_a287 u0_a287   699 Feb 27 16:01 resolve.ts
+-rw-------. 1 u0_a287 u0_a287  1445 Feb 27 16:01 sort.ts
+-rw-------. 1 u0_a287 u0_a287   665 Feb 27 16:01 sourcemap-segment.ts
+-rw-------. 1 u0_a287 u0_a287   253 Feb 27 16:01 strip-filename.ts
+-rw-------. 1 u0_a287 u0_a287 15414 Feb 27 16:01 trace-mapping.ts
+-rw-------. 1 u0_a287 u0_a287  3166 Feb 27 16:01 types.ts
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/@jridgewell/trace-mapping/types:
+total 152
+-rw-------. 1 u0_a287 u0_a287 1585 Feb 27 16:01 binary-search.d.cts
+-rw-------. 1 u0_a287 u0_a287  902 Feb 27 16:01 binary-search.d.cts.map
+-rw-------. 1 u0_a287 u0_a287 1585 Feb 27 16:01 binary-search.d.mts
+-rw-------. 1 u0_a287 u0_a287  902 Feb 27 16:01 binary-search.d.mts.map
+-rw-------. 1 u0_a287 u0_a287  269 Feb 27 16:01 by-source.d.cts
+-rw-------. 1 u0_a287 u0_a287  332 Feb 27 16:01 by-source.d.cts.map
+-rw-------. 1 u0_a287 u0_a287  269 Feb 27 16:01 by-source.d.mts
+-rw-------. 1 u0_a287 u0_a287  332 Feb 27 16:01 by-source.d.mts.map
+-rw-------. 1 u0_a287 u0_a287  384 Feb 27 16:01 flatten-map.d.cts
+-rw-------. 1 u0_a287 u0_a287  471 Feb 27 16:01 flatten-map.d.cts.map
+-rw-------. 1 u0_a287 u0_a287  384 Feb 27 16:01 flatten-map.d.mts
+-rw-------. 1 u0_a287 u0_a287  471 Feb 27 16:01 flatten-map.d.mts.map
+-rw-------. 1 u0_a287 u0_a287  208 Feb 27 16:01 resolve.d.cts
+-rw-------. 1 u0_a287 u0_a287  291 Feb 27 16:01 resolve.d.cts.map
+-rw-------. 1 u0_a287 u0_a287  208 Feb 27 16:01 resolve.d.mts
+-rw-------. 1 u0_a287 u0_a287  291 Feb 27 16:01 resolve.d.mts.map
+-rw-------. 1 u0_a287 u0_a287  325 Feb 27 16:01 sort.d.cts
+-rw-------. 1 u0_a287 u0_a287  379 Feb 27 16:01 sort.d.cts.map
+-rw-------. 1 u0_a287 u0_a287  325 Feb 27 16:01 sort.d.mts
+-rw-------. 1 u0_a287 u0_a287  379 Feb 27 16:01 sort.d.mts.map
+-rw-------. 1 u0_a287 u0_a287  766 Feb 27 16:01 sourcemap-segment.d.cts
+-rw-------. 1 u0_a287 u0_a287  760 Feb 27 16:01 sourcemap-segment.d.cts.map
+-rw-------. 1 u0_a287 u0_a287  766 Feb 27 16:01 sourcemap-segment.d.mts
+-rw-------. 1 u0_a287 u0_a287  760 Feb 27 16:01 sourcemap-segment.d.mts.map
+-rw-------. 1 u0_a287 u0_a287  196 Feb 27 16:01 strip-filename.d.cts
+-rw-------. 1 u0_a287 u0_a287  218 Feb 27 16:01 strip-filename.d.cts.map
+-rw-------. 1 u0_a287 u0_a287  196 Feb 27 16:01 strip-filename.d.mts
+-rw-------. 1 u0_a287 u0_a287  218 Feb 27 16:01 strip-filename.d.mts.map
+-rw-------. 1 u0_a287 u0_a287 4193 Feb 27 16:01 trace-mapping.d.cts
+-rw-------. 1 u0_a287 u0_a287 2559 Feb 27 16:01 trace-mapping.d.cts.map
+-rw-------. 1 u0_a287 u0_a287 4193 Feb 27 16:01 trace-mapping.d.mts
+-rw-------. 1 u0_a287 u0_a287 2559 Feb 27 16:01 trace-mapping.d.mts.map
+-rw-------. 1 u0_a287 u0_a287 3144 Feb 27 16:01 types.d.cts
+-rw-------. 1 u0_a287 u0_a287 3566 Feb 27 16:01 types.d.cts.map
+-rw-------. 1 u0_a287 u0_a287 3144 Feb 27 16:01 types.d.mts
+-rw-------. 1 u0_a287 u0_a287 3566 Feb 27 16:01 types.d.mts.map
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/@rollup:
+total 4
+drwx------. 2 u0_a287 u0_a287 3452 Feb 27 16:01 rollup-android-arm64
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/@rollup/rollup-android-arm64:
+total 1796
+-rw-------. 1 u0_a287 u0_a287      92 Feb 27 16:01 README.md
+-rw-------. 1 u0_a287 u0_a287     455 Feb 27 16:01 package.json
+-rw-------. 1 u0_a287 u0_a287 1830376 Feb 27 16:01 rollup.android-arm64.node
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/@sveltejs:
+total 11
+drwx------. 2 u0_a287 u0_a287 3452 Feb 27 16:01 acorn-typescript
+drwx------. 4 u0_a287 u0_a287 3452 Feb 27 16:01 vite-plugin-svelte
+drwx------. 4 u0_a287 u0_a287 3452 Feb 27 16:01 vite-plugin-svelte-inspector
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/@sveltejs/acorn-typescript:
+total 208
+-rw-------. 1 u0_a287 u0_a287   1101 Feb 27 16:01 LICENSE.md
+-rw-------. 1 u0_a287 u0_a287   1954 Feb 27 16:01 README.md
+-rw-------. 1 u0_a287 u0_a287    283 Feb 27 16:01 index.d.ts
+-rw-------. 1 u0_a287 u0_a287 193731 Feb 27 16:01 index.js
+-rw-------. 1 u0_a287 u0_a287   1709 Feb 27 16:01 package.json
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/@sveltejs/vite-plugin-svelte:
+total 19
+-rw-------. 1 u0_a287 u0_a287 1139 Feb 27 16:01 LICENSE
+-rw-------. 1 u0_a287 u0_a287  460 Feb 27 16:01 README.md
+-rw-------. 1 u0_a287 u0_a287 1345 Feb 27 16:01 package.json
+drwx------. 5 u0_a287 u0_a287 3452 Feb 27 16:01 src
+drwx------. 2 u0_a287 u0_a287 3452 Feb 27 16:01 types
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/@sveltejs/vite-plugin-svelte/src:
+total 31
+-rw-------. 1 u0_a287 u0_a287 1543 Feb 27 16:01 index.js
+drwx------. 2 u0_a287 u0_a287 3452 Feb 27 16:01 plugins
+-rw-------. 1 u0_a287 u0_a287 5010 Feb 27 16:01 preprocess.js
+-rw-------. 1 u0_a287 u0_a287 6192 Feb 27 16:01 public.d.ts
+drwx------. 2 u0_a287 u0_a287 3452 Feb 27 16:01 types
+drwx------. 2 u0_a287 u0_a287 3452 Feb 27 16:01 utils
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/@sveltejs/vite-plugin-svelte/src/plugins:
+total 48
+-rw-------. 1 u0_a287 u0_a287  4040 Feb 27 16:01 compile-module.js
+-rw-------. 1 u0_a287 u0_a287  1514 Feb 27 16:01 compile.js
+-rw-------. 1 u0_a287 u0_a287  2944 Feb 27 16:01 configure.js
+-rw-------. 1 u0_a287 u0_a287  5340 Feb 27 16:01 hot-update.js
+-rw-------. 1 u0_a287 u0_a287  1942 Feb 27 16:01 load-compiled-css.js
+-rw-------. 1 u0_a287 u0_a287  1252 Feb 27 16:01 load-custom.js
+-rw-------. 1 u0_a287 u0_a287  6006 Feb 27 16:01 preprocess.js
+-rw-------. 1 u0_a287 u0_a287 10515 Feb 27 16:01 setup-optimizer.js
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/@sveltejs/vite-plugin-svelte/src/types:
+total 24
+-rw-------. 1 u0_a287 u0_a287 900 Feb 27 16:01 compile.d.ts
+-rw-------. 1 u0_a287 u0_a287 893 Feb 27 16:01 id.d.ts
+-rw-------. 1 u0_a287 u0_a287 754 Feb 27 16:01 log.d.ts
+-rw-------. 1 u0_a287 u0_a287 647 Feb 27 16:01 options.d.ts
+-rw-------. 1 u0_a287 u0_a287 393 Feb 27 16:01 plugin-api.d.ts
+-rw-------. 1 u0_a287 u0_a287 604 Feb 27 16:01 vite-plugin-svelte-stats.d.ts
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/@sveltejs/vite-plugin-svelte/src/utils:
+total 96
+-rw-------. 1 u0_a287 u0_a287  4858 Feb 27 16:01 compile.js
+-rw-------. 1 u0_a287 u0_a287  1384 Feb 27 16:01 constants.js
+-rw-------. 1 u0_a287 u0_a287  1470 Feb 27 16:01 dependencies.js
+-rw-------. 1 u0_a287 u0_a287  5222 Feb 27 16:01 error.js
+-rw-------. 1 u0_a287 u0_a287  1091 Feb 27 16:01 hash.js
+-rw-------. 1 u0_a287 u0_a287  7753 Feb 27 16:01 id.js
+-rw-------. 1 u0_a287 u0_a287  2437 Feb 27 16:01 load-svelte-config.js
+-rw-------. 1 u0_a287 u0_a287  6520 Feb 27 16:01 log.js
+-rw-------. 1 u0_a287 u0_a287 20817 Feb 27 16:01 options.js
+-rw-------. 1 u0_a287 u0_a287  2921 Feb 27 16:01 preprocess.js
+-rw-------. 1 u0_a287 u0_a287  2232 Feb 27 16:01 sourcemaps.js
+-rw-------. 1 u0_a287 u0_a287   968 Feb 27 16:01 svelte-version.js
+-rw-------. 1 u0_a287 u0_a287  6597 Feb 27 16:01 vite-plugin-svelte-stats.js
+-rw-------. 1 u0_a287 u0_a287  2714 Feb 27 16:01 watch.js
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/@sveltejs/vite-plugin-svelte/types:
+total 12
+-rw-------. 1 u0_a287 u0_a287 6879 Feb 27 16:01 index.d.ts
+-rw-------. 1 u0_a287 u0_a287  864 Feb 27 16:01 index.d.ts.map
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/@sveltejs/vite-plugin-svelte-inspector:
+total 19
+-rw-------. 1 u0_a287 u0_a287 1139 Feb 27 16:01 LICENSE
+-rw-------. 1 u0_a287 u0_a287  808 Feb 27 16:01 README.md
+-rw-------. 1 u0_a287 u0_a287 1266 Feb 27 16:01 package.json
+drwx------. 3 u0_a287 u0_a287 3452 Feb 27 16:01 src
+drwx------. 2 u0_a287 u0_a287 3452 Feb 27 16:01 types
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/@sveltejs/vite-plugin-svelte-inspector/src:
+total 24
+-rw-------. 1 u0_a287 u0_a287  103 Feb 27 16:01 debug.js
+-rw-------. 1 u0_a287 u0_a287 3632 Feb 27 16:01 index.js
+-rw-------. 1 u0_a287 u0_a287 2007 Feb 27 16:01 options.js
+-rw-------. 1 u0_a287 u0_a287 2287 Feb 27 16:01 public.d.ts
+drwx------. 2 u0_a287 u0_a287 3452 Feb 27 16:01 runtime
+-rw-------. 1 u0_a287 u0_a287  132 Feb 27 16:01 utils.js
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/@sveltejs/vite-plugin-svelte-inspector/src/runtime:
+total 16
+-rw-------. 1 u0_a287 u0_a287 11691 Feb 27 16:01 Inspector.svelte
+-rw-------. 1 u0_a287 u0_a287   521 Feb 27 16:01 load-inspector.js
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/@sveltejs/vite-plugin-svelte-inspector/types:
+total 8
+-rw-------. 1 u0_a287 u0_a287 2460 Feb 27 16:01 index.d.ts
+-rw-------. 1 u0_a287 u0_a287  329 Feb 27 16:01 index.d.ts.map
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/@types:
+total 7
+drwx------. 2 u0_a287 u0_a287 3452 Feb 27 16:01 estree
+drwx------. 3 u0_a287 u0_a287 3452 Feb 27 16:01 trusted-types
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/@types/estree:
+total 40
+-rw-------. 1 u0_a287 u0_a287  1141 Feb 27 16:01 LICENSE
+-rw-------. 1 u0_a287 u0_a287   458 Feb 27 16:01 README.md
+-rw-------. 1 u0_a287 u0_a287  4801 Feb 27 16:01 flow.d.ts
+-rw-------. 1 u0_a287 u0_a287 18944 Feb 27 16:01 index.d.ts
+-rw-------. 1 u0_a287 u0_a287   829 Feb 27 16:01 package.json
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/@types/trusted-types:
+total 20
+-rw-------. 1 u0_a287 u0_a287 1141 Feb 27 16:01 LICENSE
+-rw-------. 1 u0_a287 u0_a287  673 Feb 27 16:01 README.md
+-rw-------. 1 u0_a287 u0_a287 2353 Feb 27 16:01 index.d.ts
+drwx------. 2 u0_a287 u0_a287 3452 Feb 27 16:01 lib
+-rw-------. 1 u0_a287 u0_a287 1405 Feb 27 16:01 package.json
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/@types/trusted-types/lib:
+total 4
+-rw-------. 1 u0_a287 u0_a287 3005 Feb 27 16:01 index.d.ts
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/acorn:
+total 51
+-rw-------. 1 u0_a287 u0_a287 23839 Feb 27 16:01 CHANGELOG.md
+-rw-------. 1 u0_a287 u0_a287  1099 Feb 27 16:01 LICENSE
+-rw-------. 1 u0_a287 u0_a287 11397 Feb 27 16:01 README.md
+drwx------. 2 u0_a287 u0_a287  3452 Feb 27 16:01 bin
+drwx------. 2 u0_a287 u0_a287  3452 Feb 27 16:01 dist
+-rw-------. 1 u0_a287 u0_a287  1061 Feb 27 16:01 package.json
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/acorn/bin:
+total 4
+-rwx------. 1 u0_a287 u0_a287 60 Feb 27 16:01 acorn
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/acorn/dist:
+total 520
+-rw-------. 1 u0_a287 u0_a287  22016 Feb 27 16:01 acorn.d.mts
+-rw-------. 1 u0_a287 u0_a287  22016 Feb 27 16:01 acorn.d.ts
+-rw-------. 1 u0_a287 u0_a287 242818 Feb 27 16:01 acorn.js
+-rw-------. 1 u0_a287 u0_a287 230975 Feb 27 16:01 acorn.mjs
+-rw-------. 1 u0_a287 u0_a287   3329 Feb 27 16:01 bin.js
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/aria-query:
+total 28
+-rw-------. 1 u0_a287 u0_a287 10236 Feb 27 16:01 LICENSE
+-rw-------. 1 u0_a287 u0_a287  7134 Feb 27 16:01 README.md
+drwx------. 4 u0_a287 u0_a287  3452 Feb 27 16:01 lib
+-rw-------. 1 u0_a287 u0_a287  2024 Feb 27 16:01 package.json
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/aria-query/lib:
+total 47
+-rw-------. 1 u0_a287 u0_a287 5774 Feb 27 16:01 ariaPropsMap.js
+-rw-------. 1 u0_a287 u0_a287 7127 Feb 27 16:01 domMap.js
+-rw-------. 1 u0_a287 u0_a287 6032 Feb 27 16:01 elementRoleMap.js
+drwx------. 3 u0_a287 u0_a287 3452 Feb 27 16:01 etc
+-rw-------. 1 u0_a287 u0_a287  878 Feb 27 16:01 index.js
+-rw-------. 1 u0_a287 u0_a287 3643 Feb 27 16:01 roleElementMap.js
+-rw-------. 1 u0_a287 u0_a287 6914 Feb 27 16:01 rolesMap.js
+drwx------. 2 u0_a287 u0_a287 3452 Feb 27 16:01 util
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/aria-query/lib/etc:
+total 4
+drwx------. 6 u0_a287 u0_a287 3452 Feb 27 16:01 roles
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/aria-query/lib/etc/roles:
+total 43
+drwx------. 2 u0_a287 u0_a287 3452 Feb 27 16:01 abstract
+-rw-------. 1 u0_a287 u0_a287 1637 Feb 27 16:01 ariaAbstractRoles.js
+-rw-------. 1 u0_a287 u0_a287 5399 Feb 27 16:01 ariaDpubRoles.js
+-rw-------. 1 u0_a287 u0_a287  703 Feb 27 16:01 ariaGraphicsRoles.js
+-rw-------. 1 u0_a287 u0_a287 9591 Feb 27 16:01 ariaLiteralRoles.js
+drwx------. 2 u0_a287 u0_a287 3452 Feb 27 16:01 dpub
+drwx------. 2 u0_a287 u0_a287 3452 Feb 27 16:01 graphics
+drwx------. 2 u0_a287 u0_a287 4096 Feb 27 16:01 literal
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/aria-query/lib/etc/roles/abstract:
+total 48
+-rw-------. 1 u0_a287 u0_a287  503 Feb 27 16:01 commandRole.js
+-rw-------. 1 u0_a287 u0_a287  571 Feb 27 16:01 compositeRole.js
+-rw-------. 1 u0_a287 u0_a287  596 Feb 27 16:01 inputRole.js
+-rw-------. 1 u0_a287 u0_a287  519 Feb 27 16:01 landmarkRole.js
+-rw-------. 1 u0_a287 u0_a287  585 Feb 27 16:01 rangeRole.js
+-rw-------. 1 u0_a287 u0_a287 1070 Feb 27 16:01 roletypeRole.js
+-rw-------. 1 u0_a287 u0_a287  704 Feb 27 16:01 sectionRole.js
+-rw-------. 1 u0_a287 u0_a287  526 Feb 27 16:01 sectionheadRole.js
+-rw-------. 1 u0_a287 u0_a287  593 Feb 27 16:01 selectRole.js
+-rw-------. 1 u0_a287 u0_a287  489 Feb 27 16:01 structureRole.js
+-rw-------. 1 u0_a287 u0_a287  483 Feb 27 16:01 widgetRole.js
+-rw-------. 1 u0_a287 u0_a287  517 Feb 27 16:01 windowRole.js
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/aria-query/lib/etc/roles/dpub:
+total 164
+-rw-------. 1 u0_a287 u0_a287 746 Feb 27 16:01 docAbstractRole.js
+-rw-------. 1 u0_a287 u0_a287 779 Feb 27 16:01 docAcknowledgmentsRole.js
+-rw-------. 1 u0_a287 u0_a287 761 Feb 27 16:01 docAfterwordRole.js
+-rw-------. 1 u0_a287 u0_a287 758 Feb 27 16:01 docAppendixRole.js
+-rw-------. 1 u0_a287 u0_a287 681 Feb 27 16:01 docBacklinkRole.js
+-rw-------. 1 u0_a287 u0_a287 807 Feb 27 16:01 docBiblioentryRole.js
+-rw-------. 1 u0_a287 u0_a287 789 Feb 27 16:01 docBibliographyRole.js
+-rw-------. 1 u0_a287 u0_a287 684 Feb 27 16:01 docBibliorefRole.js
+-rw-------. 1 u0_a287 u0_a287 755 Feb 27 16:01 docChapterRole.js
+-rw-------. 1 u0_a287 u0_a287 746 Feb 27 16:01 docColophonRole.js
+-rw-------. 1 u0_a287 u0_a287 764 Feb 27 16:01 docConclusionRole.js
+-rw-------. 1 u0_a287 u0_a287 744 Feb 27 16:01 docCoverRole.js
+-rw-------. 1 u0_a287 u0_a287 740 Feb 27 16:01 docCreditRole.js
+-rw-------. 1 u0_a287 u0_a287 755 Feb 27 16:01 docCreditsRole.js
+-rw-------. 1 u0_a287 u0_a287 752 Feb 27 16:01 docDedicationRole.js
+-rw-------. 1 u0_a287 u0_a287 784 Feb 27 16:01 docEndnoteRole.js
+-rw-------. 1 u0_a287 u0_a287 774 Feb 27 16:01 docEndnotesRole.js
+-rw-------. 1 u0_a287 u0_a287 746 Feb 27 16:01 docEpigraphRole.js
+-rw-------. 1 u0_a287 u0_a287 758 Feb 27 16:01 docEpilogueRole.js
+-rw-------. 1 u0_a287 u0_a287 752 Feb 27 16:01 docErrataRole.js
+-rw-------. 1 u0_a287 u0_a287 664 Feb 27 16:01 docExampleRole.js
+-rw-------. 1 u0_a287 u0_a287 746 Feb 27 16:01 docFootnoteRole.js
+-rw-------. 1 u0_a287 u0_a287 758 Feb 27 16:01 docForewordRole.js
+-rw-------. 1 u0_a287 u0_a287 782 Feb 27 16:01 docGlossaryRole.js
+-rw-------. 1 u0_a287 u0_a287 681 Feb 27 16:01 docGlossrefRole.js
+-rw-------. 1 u0_a287 u0_a287 763 Feb 27 16:01 docIndexRole.js
+-rw-------. 1 u0_a287 u0_a287 770 Feb 27 16:01 docIntroductionRole.js
+-rw-------. 1 u0_a287 u0_a287 678 Feb 27 16:01 docNoterefRole.js
+-rw-------. 1 u0_a287 u0_a287 748 Feb 27 16:01 docNoticeRole.js
+-rw-------. 1 u0_a287 u0_a287 722 Feb 27 16:01 docPagebreakRole.js
+-rw-------. 1 u0_a287 u0_a287 749 Feb 27 16:01 docPagefooterRole.js
+-rw-------. 1 u0_a287 u0_a287 749 Feb 27 16:01 docPageheaderRole.js
+-rw-------. 1 u0_a287 u0_a287 773 Feb 27 16:01 docPagelistRole.js
+-rw-------. 1 u0_a287 u0_a287 745 Feb 27 16:01 docPartRole.js
+-rw-------. 1 u0_a287 u0_a287 755 Feb 27 16:01 docPrefaceRole.js
+-rw-------. 1 u0_a287 u0_a287 758 Feb 27 16:01 docPrologueRole.js
+-rw-------. 1 u0_a287 u0_a287 581 Feb 27 16:01 docPullquoteRole.js
+-rw-------. 1 u0_a287 u0_a287 731 Feb 27 16:01 docQnaRole.js
+-rw-------. 1 u0_a287 u0_a287 750 Feb 27 16:01 docSubtitleRole.js
+-rw-------. 1 u0_a287 u0_a287 740 Feb 27 16:01 docTipRole.js
+-rw-------. 1 u0_a287 u0_a287 757 Feb 27 16:01 docTocRole.js
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/aria-query/lib/etc/roles/graphics:
+total 12
+-rw-------. 1 u0_a287 u0_a287 892 Feb 27 16:01 graphicsDocumentRole.js
+-rw-------. 1 u0_a287 u0_a287 964 Feb 27 16:01 graphicsObjectRole.js
+-rw-------. 1 u0_a287 u0_a287 677 Feb 27 16:01 graphicsSymbolRole.js
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/aria-query/lib/etc/roles/literal:
+total 344
+-rw-------. 1 u0_a287 u0_a287  641 Feb 27 16:01 alertRole.js
+-rw-------. 1 u0_a287 u0_a287  636 Feb 27 16:01 alertdialogRole.js
+-rw-------. 1 u0_a287 u0_a287  763 Feb 27 16:01 applicationRole.js
+-rw-------. 1 u0_a287 u0_a287  642 Feb 27 16:01 articleRole.js
+-rw-------. 1 u0_a287 u0_a287  646 Feb 27 16:01 bannerRole.js
+-rw-------. 1 u0_a287 u0_a287  595 Feb 27 16:01 blockquoteRole.js
+-rw-------. 1 u0_a287 u0_a287 1349 Feb 27 16:01 buttonRole.js
+-rw-------. 1 u0_a287 u0_a287  671 Feb 27 16:01 captionRole.js
+-rw-------. 1 u0_a287 u0_a287  767 Feb 27 16:01 cellRole.js
+-rw-------. 1 u0_a287 u0_a287  933 Feb 27 16:01 checkboxRole.js
+-rw-------. 1 u0_a287 u0_a287  612 Feb 27 16:01 codeRole.js
+-rw-------. 1 u0_a287 u0_a287 1066 Feb 27 16:01 columnheaderRole.js
+-rw-------. 1 u0_a287 u0_a287 2460 Feb 27 16:01 comboboxRole.js
+-rw-------. 1 u0_a287 u0_a287 1242 Feb 27 16:01 complementaryRole.js
+-rw-------. 1 u0_a287 u0_a287  656 Feb 27 16:01 contentinfoRole.js
+-rw-------. 1 u0_a287 u0_a287  587 Feb 27 16:01 definitionRole.js
+-rw-------. 1 u0_a287 u0_a287  619 Feb 27 16:01 deletionRole.js
+-rw-------. 1 u0_a287 u0_a287  568 Feb 27 16:01 dialogRole.js
+-rw-------. 1 u0_a287 u0_a287  561 Feb 27 16:01 directoryRole.js
+-rw-------. 1 u0_a287 u0_a287  650 Feb 27 16:01 documentRole.js
+-rw-------. 1 u0_a287 u0_a287  618 Feb 27 16:01 emphasisRole.js
+-rw-------. 1 u0_a287 u0_a287  531 Feb 27 16:01 feedRole.js
+-rw-------. 1 u0_a287 u0_a287  583 Feb 27 16:01 figureRole.js
+-rw-------. 1 u0_a287 u0_a287  986 Feb 27 16:01 formRole.js
+-rw-------. 1 u0_a287 u0_a287 2102 Feb 27 16:01 genericRole.js
+-rw-------. 1 u0_a287 u0_a287  892 Feb 27 16:01 graphicsDocumentRole.js
+-rw-------. 1 u0_a287 u0_a287  964 Feb 27 16:01 graphicsObjectRole.js
+-rw-------. 1 u0_a287 u0_a287  677 Feb 27 16:01 graphicsSymbolRole.js
+-rw-------. 1 u0_a287 u0_a287  648 Feb 27 16:01 gridRole.js
+-rw-------. 1 u0_a287 u0_a287  963 Feb 27 16:01 gridcellRole.js
+-rw-------. 1 u0_a287 u0_a287  858 Feb 27 16:01 groupRole.js
+-rw-------. 1 u0_a287 u0_a287  971 Feb 27 16:01 headingRole.js
+-rw-------. 1 u0_a287 u0_a287  876 Feb 27 16:01 imgRole.js
+-rw-------. 1 u0_a287 u0_a287  621 Feb 27 16:01 insertionRole.js
+-rw-------. 1 u0_a287 u0_a287  896 Feb 27 16:01 linkRole.js
+-rw-------. 1 u0_a287 u0_a287  719 Feb 27 16:01 listRole.js
+-rw-------. 1 u0_a287 u0_a287 1373 Feb 27 16:01 listboxRole.js
+-rw-------. 1 u0_a287 u0_a287  873 Feb 27 16:01 listitemRole.js
+-rw-------. 1 u0_a287 u0_a287  539 Feb 27 16:01 logRole.js
+-rw-------. 1 u0_a287 u0_a287  589 Feb 27 16:01 mainRole.js
+-rw-------. 1 u0_a287 u0_a287  685 Feb 27 16:01 markRole.js
+-rw-------. 1 u0_a287 u0_a287  517 Feb 27 16:01 marqueeRole.js
+-rw-------. 1 u0_a287 u0_a287  577 Feb 27 16:01 mathRole.js
+-rw-------. 1 u0_a287 u0_a287 1023 Feb 27 16:01 menuRole.js
+-rw-------. 1 u0_a287 u0_a287  843 Feb 27 16:01 menubarRole.js
+-rw-------. 1 u0_a287 u0_a287  926 Feb 27 16:01 menuitemRole.js
+-rw-------. 1 u0_a287 u0_a287  749 Feb 27 16:01 menuitemcheckboxRole.js
+-rw-------. 1 u0_a287 u0_a287  825 Feb 27 16:01 menuitemradioRole.js
+-rw-------. 1 u0_a287 u0_a287  689 Feb 27 16:01 meterRole.js
+-rw-------. 1 u0_a287 u0_a287  600 Feb 27 16:01 navigationRole.js
+-rw-------. 1 u0_a287 u0_a287  468 Feb 27 16:01 noneRole.js
+-rw-------. 1 u0_a287 u0_a287  512 Feb 27 16:01 noteRole.js
+-rw-------. 1 u0_a287 u0_a287  871 Feb 27 16:01 optionRole.js
+-rw-------. 1 u0_a287 u0_a287  619 Feb 27 16:01 paragraphRole.js
+-rw-------. 1 u0_a287 u0_a287  686 Feb 27 16:01 presentationRole.js
+-rw-------. 1 u0_a287 u0_a287  714 Feb 27 16:01 progressbarRole.js
+-rw-------. 1 u0_a287 u0_a287  770 Feb 27 16:01 radioRole.js
+-rw-------. 1 u0_a287 u0_a287  776 Feb 27 16:01 radiogroupRole.js
+-rw-------. 1 u0_a287 u0_a287  934 Feb 27 16:01 regionRole.js
+-rw-------. 1 u0_a287 u0_a287  938 Feb 27 16:01 rowRole.js
+-rw-------. 1 u0_a287 u0_a287  784 Feb 27 16:01 rowgroupRole.js
+-rw-------. 1 u0_a287 u0_a287 1019 Feb 27 16:01 rowheaderRole.js
+-rw-------. 1 u0_a287 u0_a287  746 Feb 27 16:01 scrollbarRole.js
+-rw-------. 1 u0_a287 u0_a287  528 Feb 27 16:01 searchRole.js
+-rw-------. 1 u0_a287 u0_a287  792 Feb 27 16:01 searchboxRole.js
+-rw-------. 1 u0_a287 u0_a287  749 Feb 27 16:01 separatorRole.js
+-rw-------. 1 u0_a287 u0_a287  949 Feb 27 16:01 sliderRole.js
+-rw-------. 1 u0_a287 u0_a287  901 Feb 27 16:01 spinbuttonRole.js
+-rw-------. 1 u0_a287 u0_a287  639 Feb 27 16:01 statusRole.js
+-rw-------. 1 u0_a287 u0_a287  618 Feb 27 16:01 strongRole.js
+-rw-------. 1 u0_a287 u0_a287  621 Feb 27 16:01 subscriptRole.js
+-rw-------. 1 u0_a287 u0_a287  625 Feb 27 16:01 superscriptRole.js
+-rw-------. 1 u0_a287 u0_a287  628 Feb 27 16:01 switchRole.js
+-rw-------. 1 u0_a287 u0_a287  733 Feb 27 16:01 tabRole.js
+-rw-------. 1 u0_a287 u0_a287  663 Feb 27 16:01 tableRole.js
+-rw-------. 1 u0_a287 u0_a287  689 Feb 27 16:01 tablistRole.js
+-rw-------. 1 u0_a287 u0_a287  519 Feb 27 16:01 tabpanelRole.js
+-rw-------. 1 u0_a287 u0_a287  641 Feb 27 16:01 termRole.js
+-rw-------. 1 u0_a287 u0_a287 2252 Feb 27 16:01 textboxRole.js
+-rw-------. 1 u0_a287 u0_a287  577 Feb 27 16:01 timeRole.js
+-rw-------. 1 u0_a287 u0_a287  524 Feb 27 16:01 timerRole.js
+-rw-------. 1 u0_a287 u0_a287  635 Feb 27 16:01 toolbarRole.js
+-rw-------. 1 u0_a287 u0_a287  529 Feb 27 16:01 tooltipRole.js
+-rw-------. 1 u0_a287 u0_a287  768 Feb 27 16:01 treeRole.js
+-rw-------. 1 u0_a287 u0_a287  729 Feb 27 16:01 treegridRole.js
+-rw-------. 1 u0_a287 u0_a287  701 Feb 27 16:01 treeitemRole.js
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/aria-query/lib/util:
+total 8
+-rw-------. 1 u0_a287 u0_a287 867 Feb 27 16:01 iterationDecorator.js
+-rw-------. 1 u0_a287 u0_a287 641 Feb 27 16:01 iteratorProxy.js
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/axobject-query:
+total 44
+-rwx------. 1 u0_a287 u0_a287 10236 Feb 27 16:01 LICENSE
+-rw-------. 1 u0_a287 u0_a287 21175 Feb 27 16:01 README.md
+drwx------. 4 u0_a287 u0_a287  3452 Feb 27 16:01 lib
+-rw-------. 1 u0_a287 u0_a287  2048 Feb 27 16:01 package.json
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/axobject-query/lib:
+total 55
+-rw-------. 1 u0_a287 u0_a287  5272 Feb 27 16:01 AXObjectElementMap.js
+-rw-------. 1 u0_a287 u0_a287  5322 Feb 27 16:01 AXObjectRoleMap.js
+-rw-------. 1 u0_a287 u0_a287 18581 Feb 27 16:01 AXObjectsMap.js
+-rw-------. 1 u0_a287 u0_a287  6459 Feb 27 16:01 elementAXObjectMap.js
+drwx------. 3 u0_a287 u0_a287  3452 Feb 27 16:01 etc
+-rw-------. 1 u0_a287 u0_a287   944 Feb 27 16:01 index.js
+drwx------. 2 u0_a287 u0_a287  3452 Feb 27 16:01 util
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/axobject-query/lib/etc:
+total 8
+drwx------. 2 u0_a287 u0_a287 8192 Feb 27 16:01 objects
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/axobject-query/lib/etc/objects:
+total 496
+-rw-------. 1 u0_a287 u0_a287 286 Feb 27 16:01 AbbrRole.js
+-rw-------. 1 u0_a287 u0_a287 304 Feb 27 16:01 AlertDialogRole.js
+-rw-------. 1 u0_a287 u0_a287 289 Feb 27 16:01 AlertRole.js
+-rw-------. 1 u0_a287 u0_a287 233 Feb 27 16:01 AnnotationRole.js
+-rw-------. 1 u0_a287 u0_a287 304 Feb 27 16:01 ApplicationRole.js
+-rw-------. 1 u0_a287 u0_a287 365 Feb 27 16:01 ArticleRole.js
+-rw-------. 1 u0_a287 u0_a287 286 Feb 27 16:01 AudioRole.js
+-rw-------. 1 u0_a287 u0_a287 292 Feb 27 16:01 BannerRole.js
+-rw-------. 1 u0_a287 u0_a287 304 Feb 27 16:01 BlockquoteRole.js
+-rw-------. 1 u0_a287 u0_a287 361 Feb 27 16:01 BusyIndicatorRole.js
+-rw-------. 1 u0_a287 u0_a287 358 Feb 27 16:01 ButtonRole.js
+-rw-------. 1 u0_a287 u0_a287 289 Feb 27 16:01 CanvasRole.js
+-rw-------. 1 u0_a287 u0_a287 295 Feb 27 16:01 CaptionRole.js
+-rw-------. 1 u0_a287 u0_a287 419 Feb 27 16:01 CellRole.js
+-rw-------. 1 u0_a287 u0_a287 442 Feb 27 16:01 CheckBoxRole.js
+-rw-------. 1 u0_a287 u0_a287 370 Feb 27 16:01 ColorWellRole.js
+-rw-------. 1 u0_a287 u0_a287 372 Feb 27 16:01 ColumnHeaderRole.js
+-rw-------. 1 u0_a287 u0_a287 225 Feb 27 16:01 ColumnRole.js
+-rw-------. 1 u0_a287 u0_a287 364 Feb 27 16:01 ComboBoxRole.js
+-rw-------. 1 u0_a287 u0_a287 313 Feb 27 16:01 ComplementaryRole.js
+-rw-------. 1 u0_a287 u0_a287 309 Feb 27 16:01 ContentInfoRole.js
+-rw-------. 1 u0_a287 u0_a287 359 Feb 27 16:01 DateRole.js
+-rw-------. 1 u0_a287 u0_a287 371 Feb 27 16:01 DateTimeRole.js
+-rw-------. 1 u0_a287 u0_a287 297 Feb 27 16:01 DefinitionRole.js
+-rw-------. 1 u0_a287 u0_a287 318 Feb 27 16:01 DescriptionListDetailRole.js
+-rw-------. 1 u0_a287 u0_a287 306 Feb 27 16:01 DescriptionListRole.js
+-rw-------. 1 u0_a287 u0_a287 314 Feb 27 16:01 DescriptionListTermRole.js
+-rw-------. 1 u0_a287 u0_a287 295 Feb 27 16:01 DetailsRole.js
+-rw-------. 1 u0_a287 u0_a287 358 Feb 27 16:01 DialogRole.js
+-rw-------. 1 u0_a287 u0_a287 367 Feb 27 16:01 DirectoryRole.js
+-rw-------. 1 u0_a287 u0_a287 366 Feb 27 16:01 DisclosureTriangleRole.js
+-rw-------. 1 u0_a287 u0_a287 281 Feb 27 16:01 DivRole.js
+-rw-------. 1 u0_a287 u0_a287 298 Feb 27 16:01 DocumentRole.js
+-rw-------. 1 u0_a287 u0_a287 304 Feb 27 16:01 EmbeddedObjectRole.js
+-rw-------. 1 u0_a287 u0_a287 286 Feb 27 16:01 FeedRole.js
+-rw-------. 1 u0_a287 u0_a287 304 Feb 27 16:01 FigcaptionRole.js
+-rw-------. 1 u0_a287 u0_a287 361 Feb 27 16:01 FigureRole.js
+-rw-------. 1 u0_a287 u0_a287 292 Feb 27 16:01 FooterRole.js
+-rw-------. 1 u0_a287 u0_a287 353 Feb 27 16:01 FormRole.js
+-rw-------. 1 u0_a287 u0_a287 283 Feb 27 16:01 GridRole.js
+-rw-------. 1 u0_a287 u0_a287 289 Feb 27 16:01 GroupRole.js
+-rw-------. 1 u0_a287 u0_a287 685 Feb 27 16:01 HeadingRole.js
+-rw-------. 1 u0_a287 u0_a287 250 Feb 27 16:01 IframePresentationalRole.js
+-rw-------. 1 u0_a287 u0_a287 289 Feb 27 16:01 IframeRole.js
+-rw-------. 1 u0_a287 u0_a287 227 Feb 27 16:01 IgnoredRole.js
+-rw-------. 1 u0_a287 u0_a287 234 Feb 27 16:01 ImageMapLinkRole.js
+-rw-------. 1 u0_a287 u0_a287 347 Feb 27 16:01 ImageMapRole.js
+-rw-------. 1 u0_a287 u0_a287 353 Feb 27 16:01 ImageRole.js
+-rw-------. 1 u0_a287 u0_a287 302 Feb 27 16:01 InlineTextBoxRole.js
+-rw-------. 1 u0_a287 u0_a287 369 Feb 27 16:01 InputTimeRole.js
+-rw-------. 1 u0_a287 u0_a287 289 Feb 27 16:01 LabelRole.js
+-rw-------. 1 u0_a287 u0_a287 292 Feb 27 16:01 LegendRole.js
+-rw-------. 1 u0_a287 u0_a287 294 Feb 27 16:01 LineBreakRole.js
+-rw-------. 1 u0_a287 u0_a287 399 Feb 27 16:01 LinkRole.js
+-rw-------. 1 u0_a287 u0_a287 372 Feb 27 16:01 ListBoxOptionRole.js
+-rw-------. 1 u0_a287 u0_a287 432 Feb 27 16:01 ListBoxRole.js
+-rw-------. 1 u0_a287 u0_a287 363 Feb 27 16:01 ListItemRole.js
+-rw-------. 1 u0_a287 u0_a287 233 Feb 27 16:01 ListMarkerRole.js
+-rw-------. 1 u0_a287 u0_a287 416 Feb 27 16:01 ListRole.js
+-rw-------. 1 u0_a287 u0_a287 283 Feb 27 16:01 LogRole.js
+-rw-------. 1 u0_a287 u0_a287 353 Feb 27 16:01 MainRole.js
+-rw-------. 1 u0_a287 u0_a287 286 Feb 27 16:01 MarkRole.js
+-rw-------. 1 u0_a287 u0_a287 365 Feb 27 16:01 MarqueeRole.js
+-rw-------. 1 u0_a287 u0_a287 286 Feb 27 16:01 MathRole.js
+-rw-------. 1 u0_a287 u0_a287 295 Feb 27 16:01 MenuBarRole.js
+-rw-------. 1 u0_a287 u0_a287 230 Feb 27 16:01 MenuButtonRole.js
+-rw-------. 1 u0_a287 u0_a287 319 Feb 27 16:01 MenuItemCheckBoxRole.js
+-rw-------. 1 u0_a287 u0_a287 310 Feb 27 16:01 MenuItemRadioRole.js
+-rw-------. 1 u0_a287 u0_a287 366 Feb 27 16:01 MenuItemRole.js
+-rw-------. 1 u0_a287 u0_a287 238 Feb 27 16:01 MenuListOptionRole.js
+-rw-------. 1 u0_a287 u0_a287 236 Feb 27 16:01 MenuListPopupRole.js
+-rw-------. 1 u0_a287 u0_a287 353 Feb 27 16:01 MenuRole.js
+-rw-------. 1 u0_a287 u0_a287 289 Feb 27 16:01 MeterRole.js
+-rw-------. 1 u0_a287 u0_a287 370 Feb 27 16:01 NavigationRole.js
+-rw-------. 1 u0_a287 u0_a287 286 Feb 27 16:01 NoneRole.js
+-rw-------. 1 u0_a287 u0_a287 286 Feb 27 16:01 NoteRole.js
+-rw-------. 1 u0_a287 u0_a287 227 Feb 27 16:01 OutlineRole.js
+-rw-------. 1 u0_a287 u0_a287 293 Feb 27 16:01 ParagraphRole.js
+-rw-------. 1 u0_a287 u0_a287 232 Feb 27 16:01 PopUpButtonRole.js
+-rw-------. 1 u0_a287 u0_a287 283 Feb 27 16:01 PreRole.js
+-rw-------. 1 u0_a287 u0_a287 314 Feb 27 16:01 PresentationalRole.js
+-rw-------. 1 u0_a287 u0_a287 390 Feb 27 16:01 ProgressIndicatorRole.js
+-rw-------. 1 u0_a287 u0_a287 442 Feb 27 16:01 RadioButtonRole.js
+-rw-------. 1 u0_a287 u0_a287 304 Feb 27 16:01 RadioGroupRole.js
+-rw-------. 1 u0_a287 u0_a287 292 Feb 27 16:01 RegionRole.js
+-rw-------. 1 u0_a287 u0_a287 235 Feb 27 16:01 RootWebAreaRole.js
+-rw-------. 1 u0_a287 u0_a287 438 Feb 27 16:01 RowHeaderRole.js
+-rw-------. 1 u0_a287 u0_a287 348 Feb 27 16:01 RowRole.js
+-rw-------. 1 u0_a287 u0_a287 286 Feb 27 16:01 RubyRole.js
+-rw-------. 1 u0_a287 u0_a287 223 Feb 27 16:01 RulerRole.js
+-rw-------. 1 u0_a287 u0_a287 227 Feb 27 16:01 SVGRootRole.js
+-rw-------. 1 u0_a287 u0_a287 233 Feb 27 16:01 ScrollAreaRole.js
+-rw-------. 1 u0_a287 u0_a287 298 Feb 27 16:01 ScrollBarRole.js
+-rw-------. 1 u0_a287 u0_a287 243 Feb 27 16:01 SeamlessWebAreaRole.js
+-rw-------. 1 u0_a287 u0_a287 443 Feb 27 16:01 SearchBoxRole.js
+-rw-------. 1 u0_a287 u0_a287 292 Feb 27 16:01 SearchRole.js
+-rw-------. 1 u0_a287 u0_a287 433 Feb 27 16:01 SliderRole.js
+-rw-------. 1 u0_a287 u0_a287 235 Feb 27 16:01 SliderThumbRole.js
+-rw-------. 1 u0_a287 u0_a287 241 Feb 27 16:01 SpinButtonPartRole.js
+-rw-------. 1 u0_a287 u0_a287 446 Feb 27 16:01 SpinButtonRole.js
+-rw-------. 1 u0_a287 u0_a287 296 Feb 27 16:01 SplitterRole.js
+-rw-------. 1 u0_a287 u0_a287 233 Feb 27 16:01 StaticTextRole.js
+-rw-------. 1 u0_a287 u0_a287 292 Feb 27 16:01 StatusRole.js
+-rw-------. 1 u0_a287 u0_a287 436 Feb 27 16:01 SwitchRole.js
+-rw-------. 1 u0_a287 u0_a287 297 Feb 27 16:01 TabGroupRole.js
+-rw-------. 1 u0_a287 u0_a287 295 Feb 27 16:01 TabListRole.js
+-rw-------. 1 u0_a287 u0_a287 298 Feb 27 16:01 TabPanelRole.js
+-rw-------. 1 u0_a287 u0_a287 280 Feb 27 16:01 TabRole.js
+-rw-------. 1 u0_a287 u0_a287 253 Feb 27 16:01 TableHeaderContainerRole.js
+-rw-------. 1 u0_a287 u0_a287 357 Feb 27 16:01 TableRole.js
+-rw-------. 1 u0_a287 u0_a287 286 Feb 27 16:01 TermRole.js
+-rw-------. 1 u0_a287 u0_a287 450 Feb 27 16:01 TextAreaRole.js
+-rw-------. 1 u0_a287 u0_a287 507 Feb 27 16:01 TextFieldRole.js
+-rw-------. 1 u0_a287 u0_a287 286 Feb 27 16:01 TimeRole.js
+-rw-------. 1 u0_a287 u0_a287 289 Feb 27 16:01 TimerRole.js
+-rw-------. 1 u0_a287 u0_a287 339 Feb 27 16:01 ToggleButtonRole.js
+-rw-------. 1 u0_a287 u0_a287 295 Feb 27 16:01 ToolbarRole.js
+-rw-------. 1 u0_a287 u0_a287 295 Feb 27 16:01 TreeGridRole.js
+-rw-------. 1 u0_a287 u0_a287 295 Feb 27 16:01 TreeItemRole.js
+-rw-------. 1 u0_a287 u0_a287 283 Feb 27 16:01 TreeRole.js
+-rw-------. 1 u0_a287 u0_a287 321 Feb 27 16:01 UserInterfaceTooltipRole.js
+-rw-------. 1 u0_a287 u0_a287 286 Feb 27 16:01 VideoRole.js
+-rw-------. 1 u0_a287 u0_a287 227 Feb 27 16:01 WebAreaRole.js
+-rw-------. 1 u0_a287 u0_a287 222 Feb 27 16:01 WindowRole.js
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/axobject-query/lib/util:
+total 8
+-rw-------. 1 u0_a287 u0_a287 895 Feb 27 16:01 iterationDecorator.js
+-rw-------. 1 u0_a287 u0_a287 651 Feb 27 16:01 iteratorProxy.js
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/clsx:
+total 24
+-rw-------. 1 u0_a287 u0_a287  278 Feb 27 16:01 clsx.d.mts
+-rw-------. 1 u0_a287 u0_a287  337 Feb 27 16:01 clsx.d.ts
+drwx------. 2 u0_a287 u0_a287 3452 Feb 27 16:01 dist
+-rw-------. 1 u0_a287 u0_a287 1104 Feb 27 16:01 license
+-rw-------. 1 u0_a287 u0_a287 1192 Feb 27 16:01 package.json
+-rw-------. 1 u0_a287 u0_a287 4003 Feb 27 16:01 readme.md
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/clsx/dist:
+total 20
+-rw-------. 1 u0_a287 u0_a287 397 Feb 27 16:01 clsx.js
+-rw-------. 1 u0_a287 u0_a287 543 Feb 27 16:01 clsx.min.js
+-rw-------. 1 u0_a287 u0_a287 388 Feb 27 16:01 clsx.mjs
+-rw-------. 1 u0_a287 u0_a287 161 Feb 27 16:01 lite.js
+-rw-------. 1 u0_a287 u0_a287 152 Feb 27 16:01 lite.mjs
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/deepmerge:
+total 44
+-rw-------. 1 u0_a287 u0_a287 9785 Feb 27 16:01 changelog.md
+drwx------. 2 u0_a287 u0_a287 3452 Feb 27 16:01 dist
+-rw-------. 1 u0_a287 u0_a287  823 Feb 27 16:01 index.d.ts
+-rw-------. 1 u0_a287 u0_a287 3293 Feb 27 16:01 index.js
+-rw-------. 1 u0_a287 u0_a287 1116 Feb 27 16:01 license.txt
+-rw-------. 1 u0_a287 u0_a287 1152 Feb 27 16:01 package.json
+-rw-------. 1 u0_a287 u0_a287 5682 Feb 27 16:01 readme.md
+-rw-------. 1 u0_a287 u0_a287  343 Feb 27 16:01 rollup.config.js
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/deepmerge/dist:
+total 12
+-rw-------. 1 u0_a287 u0_a287 4048 Feb 27 16:01 cjs.js
+-rw-------. 1 u0_a287 u0_a287 4420 Feb 27 16:01 umd.js
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/devalue:
+total 27
+-rw-------. 1 u0_a287 u0_a287 1121 Feb 27 16:01 LICENSE
+-rw-------. 1 u0_a287 u0_a287 6206 Feb 27 16:01 README.md
+-rw-------. 1 u0_a287 u0_a287  188 Feb 27 16:01 index.js
+-rw-------. 1 u0_a287 u0_a287  826 Feb 27 16:01 package.json
+drwx------. 2 u0_a287 u0_a287 3452 Feb 27 16:01 src
+drwx------. 2 u0_a287 u0_a287 3452 Feb 27 16:01 types
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/devalue/src:
+total 56
+-rw-------. 1 u0_a287 u0_a287  2945 Feb 27 16:01 base64.js
+-rw-------. 1 u0_a287 u0_a287   209 Feb 27 16:01 constants.js
+-rw-------. 1 u0_a287 u0_a287  6126 Feb 27 16:01 parse.js
+-rw-------. 1 u0_a287 u0_a287  9166 Feb 27 16:01 stringify.js
+-rw-------. 1 u0_a287 u0_a287   185 Feb 27 16:01 types.d.ts
+-rw-------. 1 u0_a287 u0_a287 12338 Feb 27 16:01 uneval.js
+-rw-------. 1 u0_a287 u0_a287  3376 Feb 27 16:01 utils.js
+-rw-------. 1 u0_a287 u0_a287  1706 Feb 27 16:01 utils.test.js
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/devalue/types:
+total 8
+-rw-------. 1 u0_a287 u0_a287 1094 Feb 27 16:01 index.d.ts
+-rw-------. 1 u0_a287 u0_a287  415 Feb 27 16:01 index.d.ts.map
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/esbuild:
+total 31
+-rw-------. 1 u0_a287 u0_a287  1069 Feb 27 16:01 LICENSE.md
+-rw-------. 1 u0_a287 u0_a287   175 Feb 27 16:01 README.md
+drwx------. 2 u0_a287 u0_a287  3452 Feb 27 16:01 bin
+-rw-------. 1 u0_a287 u0_a287 11160 Feb 27 16:01 install.js
+drwx------. 2 u0_a287 u0_a287  3452 Feb 27 16:01 lib
+-rw-------. 1 u0_a287 u0_a287  1463 Feb 27 16:01 package.json
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/esbuild/bin:
+total 12
+-rwx------. 1 u0_a287 u0_a287 9350 Feb 27 16:01 esbuild
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/esbuild/lib:
+total 112
+-rw-------. 1 u0_a287 u0_a287 23392 Feb 27 16:01 main.d.ts
+-rw-------. 1 u0_a287 u0_a287 88698 Feb 27 16:01 main.js
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/esm-env:
+total 40
+-rw-------. 1 u0_a287 u0_a287  529 Feb 27 16:01 CHANGELOG.md
+-rw-------. 1 u0_a287 u0_a287 1063 Feb 27 16:01 LICENSE
+-rw-------. 1 u0_a287 u0_a287  970 Feb 27 16:01 README.md
+-rw-------. 1 u0_a287 u0_a287   46 Feb 27 16:01 browser-fallback.js
+-rw-------. 1 u0_a287 u0_a287  123 Feb 27 16:01 dev-fallback.js
+-rw-------. 1 u0_a287 u0_a287   22 Feb 27 16:01 false.js
+-rw-------. 1 u0_a287 u0_a287   86 Feb 27 16:01 index.d.ts
+-rw-------. 1 u0_a287 u0_a287  156 Feb 27 16:01 index.js
+-rw-------. 1 u0_a287 u0_a287  768 Feb 27 16:01 package.json
+-rw-------. 1 u0_a287 u0_a287   21 Feb 27 16:01 true.js
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/esrap:
+total 23
+-rw-------. 1 u0_a287 u0_a287 1118 Feb 27 16:01 LICENSE
+-rw-------. 1 u0_a287 u0_a287 5106 Feb 27 16:01 README.md
+-rw-------. 1 u0_a287 u0_a287 1471 Feb 27 16:01 package.json
+drwx------. 3 u0_a287 u0_a287 3452 Feb 27 16:01 src
+drwx------. 2 u0_a287 u0_a287 3452 Feb 27 16:01 types
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/esrap/src:
+total 20
+-rw-------. 1 u0_a287 u0_a287 2800 Feb 27 16:01 context.js
+-rw-------. 1 u0_a287 u0_a287 3943 Feb 27 16:01 index.js
+drwx------. 4 u0_a287 u0_a287 3452 Feb 27 16:01 languages
+-rw-------. 1 u0_a287 u0_a287   75 Feb 27 16:01 public.d.ts
+-rw-------. 1 u0_a287 u0_a287 1536 Feb 27 16:01 types.d.ts
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/esrap/src/languages:
+total 11
+drwx------. 2 u0_a287 u0_a287 3452 Feb 27 16:01 ts
+drwx------. 2 u0_a287 u0_a287 3452 Feb 27 16:01 tsx
+-rw-------. 1 u0_a287 u0_a287  677 Feb 27 16:01 types.d.ts
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/esrap/src/languages/ts:
+total 60
+-rw-------. 1 u0_a287 u0_a287 55004 Feb 27 16:01 index.js
+-rw-------. 1 u0_a287 u0_a287    74 Feb 27 16:01 public.d.ts
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/esrap/src/languages/tsx:
+total 8
+-rw-------. 1 u0_a287 u0_a287 2454 Feb 27 16:01 index.js
+-rw-------. 1 u0_a287 u0_a287   74 Feb 27 16:01 public.d.ts
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/esrap/types:
+total 12
+-rw-------. 1 u0_a287 u0_a287 4554 Feb 27 16:01 index.d.ts
+-rw-------. 1 u0_a287 u0_a287 1126 Feb 27 16:01 index.d.ts.map
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/fdir:
+total 16
+-rw-------. 1 u0_a287 u0_a287 1053 Feb 27 16:01 LICENSE
+-rw-------. 1 u0_a287 u0_a287 3851 Feb 27 16:01 README.md
+drwx------. 2 u0_a287 u0_a287 3452 Feb 27 16:01 dist
+-rw-------. 1 u0_a287 u0_a287 2694 Feb 27 16:01 package.json
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/fdir/dist:
+total 56
+-rw-------. 1 u0_a287 u0_a287 18210 Feb 27 16:01 index.cjs
+-rw-------. 1 u0_a287 u0_a287  5129 Feb 27 16:01 index.d.cts
+-rw-------. 1 u0_a287 u0_a287  5129 Feb 27 16:01 index.d.mts
+-rw-------. 1 u0_a287 u0_a287 17225 Feb 27 16:01 index.mjs
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/is-reference:
+total 15
+-rw-------. 1 u0_a287 u0_a287 1195 Feb 27 16:01 README.md
+-rw-------. 1 u0_a287 u0_a287 1012 Feb 27 16:01 package.json
+drwx------. 2 u0_a287 u0_a287 3452 Feb 27 16:01 src
+drwx------. 2 u0_a287 u0_a287 3452 Feb 27 16:01 types
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/is-reference/src:
+total 4
+-rw-------. 1 u0_a287 u0_a287 1423 Feb 27 16:01 index.js
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/is-reference/types:
+total 8
+-rw-------. 1 u0_a287 u0_a287 194 Feb 27 16:01 index.d.ts
+-rw-------. 1 u0_a287 u0_a287 129 Feb 27 16:01 index.d.ts.map
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/locate-character:
+total 15
+-rw-------. 1 u0_a287 u0_a287 1691 Feb 27 16:01 README.md
+-rw-------. 1 u0_a287 u0_a287 1005 Feb 27 16:01 package.json
+drwx------. 2 u0_a287 u0_a287 3452 Feb 27 16:01 src
+drwx------. 2 u0_a287 u0_a287 3452 Feb 27 16:01 types
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/locate-character/src:
+total 8
+-rw-------. 1 u0_a287 u0_a287 1531 Feb 27 16:01 index.js
+-rw-------. 1 u0_a287 u0_a287  253 Feb 27 16:01 types.d.ts
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/locate-character/types:
+total 8
+-rw-------. 1 u0_a287 u0_a287 563 Feb 27 16:01 index.d.ts
+-rw-------. 1 u0_a287 u0_a287 282 Feb 27 16:01 index.d.ts.map
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/magic-string:
+total 28
+-rw-------. 1 u0_a287 u0_a287  1051 Feb 27 16:01 LICENSE
+-rw-------. 1 u0_a287 u0_a287 12608 Feb 27 16:01 README.md
+drwx------. 2 u0_a287 u0_a287  3452 Feb 27 16:01 dist
+-rw-------. 1 u0_a287 u0_a287  1840 Feb 27 16:01 package.json
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/magic-string/dist:
+total 452
+-rw-------. 1 u0_a287 u0_a287  10017 Feb 27 16:01 magic-string.cjs.d.ts
+-rw-------. 1 u0_a287 u0_a287  38935 Feb 27 16:01 magic-string.cjs.js
+-rw-------. 1 u0_a287 u0_a287  95751 Feb 27 16:01 magic-string.cjs.js.map
+-rw-------. 1 u0_a287 u0_a287  10017 Feb 27 16:01 magic-string.es.d.mts
+-rw-------. 1 u0_a287 u0_a287  38739 Feb 27 16:01 magic-string.es.mjs
+-rw-------. 1 u0_a287 u0_a287  95273 Feb 27 16:01 magic-string.es.mjs.map
+-rw-------. 1 u0_a287 u0_a287  42936 Feb 27 16:01 magic-string.umd.js
+-rw-------. 1 u0_a287 u0_a287 112594 Feb 27 16:01 magic-string.umd.js.map
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/nanoid:
+total 54
+-rw-------. 1 u0_a287 u0_a287 1095 Feb 27 16:01 LICENSE
+-rw-------. 1 u0_a287 u0_a287 1552 Feb 27 16:01 README.md
+drwx------. 2 u0_a287 u0_a287 3452 Feb 27 16:01 async
+drwx------. 2 u0_a287 u0_a287 3452 Feb 27 16:01 bin
+-rw-------. 1 u0_a287 u0_a287 2834 Feb 27 16:01 index.browser.cjs
+-rw-------. 1 u0_a287 u0_a287 1064 Feb 27 16:01 index.browser.js
+-rw-------. 1 u0_a287 u0_a287 3359 Feb 27 16:01 index.cjs
+-rw-------. 1 u0_a287 u0_a287 2252 Feb 27 16:01 index.d.cts
+-rw-------. 1 u0_a287 u0_a287 2252 Feb 27 16:01 index.d.ts
+-rw-------. 1 u0_a287 u0_a287 1326 Feb 27 16:01 index.js
+-rw-------. 1 u0_a287 u0_a287  169 Feb 27 16:01 nanoid.js
+drwx------. 2 u0_a287 u0_a287 3452 Feb 27 16:01 non-secure
+-rw-------. 1 u0_a287 u0_a287 2283 Feb 27 16:01 package.json
+drwx------. 2 u0_a287 u0_a287 3452 Feb 27 16:01 url-alphabet
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/nanoid/async:
+total 28
+-rw-------. 1 u0_a287 u0_a287 2692 Feb 27 16:01 index.browser.cjs
+-rw-------. 1 u0_a287 u0_a287  984 Feb 27 16:01 index.browser.js
+-rw-------. 1 u0_a287 u0_a287 2870 Feb 27 16:01 index.cjs
+-rw-------. 1 u0_a287 u0_a287 1505 Feb 27 16:01 index.d.ts
+-rw-------. 1 u0_a287 u0_a287  982 Feb 27 16:01 index.js
+-rw-------. 1 u0_a287 u0_a287  820 Feb 27 16:01 index.native.js
+-rw-------. 1 u0_a287 u0_a287  233 Feb 27 16:01 package.json
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/nanoid/bin:
+total 4
+-rwx------. 1 u0_a287 u0_a287 1129 Feb 27 16:01 nanoid.cjs
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/nanoid/non-secure:
+total 16
+-rw-------. 1 u0_a287 u0_a287 1114 Feb 27 16:01 index.cjs
+-rw-------. 1 u0_a287 u0_a287  983 Feb 27 16:01 index.d.ts
+-rw-------. 1 u0_a287 u0_a287  497 Feb 27 16:01 index.js
+-rw-------. 1 u0_a287 u0_a287   99 Feb 27 16:01 package.json
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/nanoid/url-alphabet:
+total 12
+-rw-------. 1 u0_a287 u0_a287 280 Feb 27 16:01 index.cjs
+-rw-------. 1 u0_a287 u0_a287 110 Feb 27 16:01 index.js
+-rw-------. 1 u0_a287 u0_a287  99 Feb 27 16:01 package.json
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/obug:
+total 16
+-rw-------. 1 u0_a287 u0_a287 1205 Feb 27 16:01 LICENSE
+-rw-------. 1 u0_a287 u0_a287 3070 Feb 27 16:01 README.md
+drwx------. 2 u0_a287 u0_a287 3452 Feb 27 16:01 dist
+-rw-------. 1 u0_a287 u0_a287 1816 Feb 27 16:01 package.json
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/obug/dist:
+total 28
+-rw-------. 1 u0_a287 u0_a287  539 Feb 27 16:01 browser.d.ts
+-rw-------. 1 u0_a287 u0_a287 2776 Feb 27 16:01 browser.js
+-rw-------. 1 u0_a287 u0_a287 3180 Feb 27 16:01 browser.min.js
+-rw-------. 1 u0_a287 u0_a287 1445 Feb 27 16:01 core.d.ts
+-rw-------. 1 u0_a287 u0_a287 3557 Feb 27 16:01 core.js
+-rw-------. 1 u0_a287 u0_a287  536 Feb 27 16:01 node.d.ts
+-rw-------. 1 u0_a287 u0_a287 3091 Feb 27 16:01 node.js
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/picocolors:
+total 28
+-rw-------. 1 u0_a287 u0_a287  787 Feb 27 16:01 LICENSE
+-rw-------. 1 u0_a287 u0_a287  622 Feb 27 16:01 README.md
+-rw-------. 1 u0_a287 u0_a287  552 Feb 27 16:01 package.json
+-rw-------. 1 u0_a287 u0_a287  598 Feb 27 16:01 picocolors.browser.js
+-rw-------. 1 u0_a287 u0_a287  138 Feb 27 16:01 picocolors.d.ts
+-rw-------. 1 u0_a287 u0_a287 2663 Feb 27 16:01 picocolors.js
+-rw-------. 1 u0_a287 u0_a287 1013 Feb 27 16:01 types.d.ts
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/picomatch:
+total 48
+-rw-------. 1 u0_a287 u0_a287  1091 Feb 27 16:01 LICENSE
+-rw-------. 1 u0_a287 u0_a287 28608 Feb 27 16:01 README.md
+-rw-------. 1 u0_a287 u0_a287   479 Feb 27 16:01 index.js
+drwx------. 2 u0_a287 u0_a287  3452 Feb 27 16:01 lib
+-rw-------. 1 u0_a287 u0_a287  1953 Feb 27 16:01 package.json
+-rw-------. 1 u0_a287 u0_a287    60 Feb 27 16:01 posix.js
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/picomatch/lib:
+total 64
+-rw-------. 1 u0_a287 u0_a287  4458 Feb 27 16:01 constants.js
+-rw-------. 1 u0_a287 u0_a287 27544 Feb 27 16:01 parse.js
+-rw-------. 1 u0_a287 u0_a287  9881 Feb 27 16:01 picomatch.js
+-rw-------. 1 u0_a287 u0_a287  9189 Feb 27 16:01 scan.js
+-rw-------. 1 u0_a287 u0_a287  1994 Feb 27 16:01 utils.js
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/postcss:
+total 16
+-rw-------. 1 u0_a287 u0_a287 1095 Feb 27 16:01 LICENSE
+-rw-------. 1 u0_a287 u0_a287 1200 Feb 27 16:01 README.md
+drwx------. 2 u0_a287 u0_a287 3452 Feb 27 16:01 lib
+-rw-------. 1 u0_a287 u0_a287 2496 Feb 27 16:01 package.json
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/postcss/lib:
+total 320
+-rw-------. 1 u0_a287 u0_a287  3426 Feb 27 16:01 at-rule.d.ts
+-rw-------. 1 u0_a287 u0_a287   471 Feb 27 16:01 at-rule.js
+-rw-------. 1 u0_a287 u0_a287  1750 Feb 27 16:01 comment.d.ts
+-rw-------. 1 u0_a287 u0_a287   203 Feb 27 16:01 comment.js
+-rw-------. 1 u0_a287 u0_a287 14113 Feb 27 16:01 container.d.ts
+-rw-------. 1 u0_a287 u0_a287 10647 Feb 27 16:01 container.js
+-rw-------. 1 u0_a287 u0_a287  6517 Feb 27 16:01 css-syntax-error.d.ts
+-rw-------. 1 u0_a287 u0_a287  3402 Feb 27 16:01 css-syntax-error.js
+-rw-------. 1 u0_a287 u0_a287  3903 Feb 27 16:01 declaration.d.ts
+-rw-------. 1 u0_a287 u0_a287   495 Feb 27 16:01 declaration.js
+-rw-------. 1 u0_a287 u0_a287  1954 Feb 27 16:01 document.d.ts
+-rw-------. 1 u0_a287 u0_a287   654 Feb 27 16:01 document.js
+-rw-------. 1 u0_a287 u0_a287   162 Feb 27 16:01 fromJSON.d.ts
+-rw-------. 1 u0_a287 u0_a287  1506 Feb 27 16:01 fromJSON.js
+-rw-------. 1 u0_a287 u0_a287  5196 Feb 27 16:01 input.d.ts
+-rw-------. 1 u0_a287 u0_a287  6752 Feb 27 16:01 input.js
+-rw-------. 1 u0_a287 u0_a287  5007 Feb 27 16:01 lazy-result.d.ts
+-rw-------. 1 u0_a287 u0_a287 13562 Feb 27 16:01 lazy-result.js
+-rw-------. 1 u0_a287 u0_a287  1426 Feb 27 16:01 list.d.ts
+-rw-------. 1 u0_a287 u0_a287  1227 Feb 27 16:01 list.js
+-rw-------. 1 u0_a287 u0_a287  9721 Feb 27 16:01 map-generator.js
+-rw-------. 1 u0_a287 u0_a287  1573 Feb 27 16:01 no-work-result.d.ts
+-rw-------. 1 u0_a287 u0_a287  2624 Feb 27 16:01 no-work-result.js
+-rw-------. 1 u0_a287 u0_a287 14753 Feb 27 16:01 node.d.ts
+-rw-------. 1 u0_a287 u0_a287 10719 Feb 27 16:01 node.js
+-rw-------. 1 u0_a287 u0_a287   135 Feb 27 16:01 parse.d.ts
+-rw-------. 1 u0_a287 u0_a287  1147 Feb 27 16:01 parse.js
+-rw-------. 1 u0_a287 u0_a287 14852 Feb 27 16:01 parser.js
+-rw-------. 1 u0_a287 u0_a287  1049 Feb 27 16:01 postcss.d.mts
+-rw-------. 1 u0_a287 u0_a287 11461 Feb 27 16:01 postcss.d.ts
+-rw-------. 1 u0_a287 u0_a287  2898 Feb 27 16:01 postcss.js
+-rw-------. 1 u0_a287 u0_a287   980 Feb 27 16:01 postcss.mjs
+-rw-------. 1 u0_a287 u0_a287  1827 Feb 27 16:01 previous-map.d.ts
+-rw-------. 1 u0_a287 u0_a287  3984 Feb 27 16:01 previous-map.js
+-rw-------. 1 u0_a287 u0_a287  3415 Feb 27 16:01 processor.d.ts
+-rw-------. 1 u0_a287 u0_a287  1738 Feb 27 16:01 processor.js
+-rw-------. 1 u0_a287 u0_a287  4416 Feb 27 16:01 result.d.ts
+-rw-------. 1 u0_a287 u0_a287   738 Feb 27 16:01 result.js
+-rw-------. 1 u0_a287 u0_a287  2323 Feb 27 16:01 root.d.ts
+-rw-------. 1 u0_a287 u0_a287  1239 Feb 27 16:01 root.js
+-rw-------. 1 u0_a287 u0_a287  2967 Feb 27 16:01 rule.d.ts
+-rw-------. 1 u0_a287 u0_a287   569 Feb 27 16:01 rule.js
+-rw-------. 1 u0_a287 u0_a287  1430 Feb 27 16:01 stringifier.d.ts
+-rw-------. 1 u0_a287 u0_a287  8220 Feb 27 16:01 stringifier.js
+-rw-------. 1 u0_a287 u0_a287   165 Feb 27 16:01 stringify.d.ts
+-rw-------. 1 u0_a287 u0_a287   213 Feb 27 16:01 stringify.js
+-rw-------. 1 u0_a287 u0_a287    91 Feb 27 16:01 symbols.js
+-rw-------. 1 u0_a287 u0_a287  1399 Feb 27 16:01 terminal-highlight.js
+-rw-------. 1 u0_a287 u0_a287  6538 Feb 27 16:01 tokenize.js
+-rw-------. 1 u0_a287 u0_a287   256 Feb 27 16:01 warn-once.js
+-rw-------. 1 u0_a287 u0_a287  2994 Feb 27 16:01 warning.d.ts
+-rw-------. 1 u0_a287 u0_a287   739 Feb 27 16:01 warning.js
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/rollup:
+total 64
+-rw-------. 1 u0_a287 u0_a287 35231 Feb 27 16:01 LICENSE.md
+-rw-------. 1 u0_a287 u0_a287 10005 Feb 27 16:01 README.md
+drwx------. 5 u0_a287 u0_a287  3452 Feb 27 16:01 dist
+-rw-------. 1 u0_a287 u0_a287 12026 Feb 27 16:01 package.json
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/rollup/dist:
+total 87
+drwx------. 2 u0_a287 u0_a287  3452 Feb 27 16:01 bin
+drwx------. 3 u0_a287 u0_a287  3452 Feb 27 16:01 es
+-rw-------. 1 u0_a287 u0_a287   171 Feb 27 16:01 getLogFilter.d.ts
+-rw-------. 1 u0_a287 u0_a287  2188 Feb 27 16:01 getLogFilter.js
+-rw-------. 1 u0_a287 u0_a287   471 Feb 27 16:01 loadConfigFile.d.ts
+-rw-------. 1 u0_a287 u0_a287   705 Feb 27 16:01 loadConfigFile.js
+-rw-------. 1 u0_a287 u0_a287  4787 Feb 27 16:01 native.js
+-rw-------. 1 u0_a287 u0_a287   134 Feb 27 16:01 parseAst.d.ts
+-rw-------. 1 u0_a287 u0_a287   506 Feb 27 16:01 parseAst.js
+-rw-------. 1 u0_a287 u0_a287 36145 Feb 27 16:01 rollup.d.ts
+-rw-------. 1 u0_a287 u0_a287  4666 Feb 27 16:01 rollup.js
+drwx------. 2 u0_a287 u0_a287  3452 Feb 27 16:01 shared
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/rollup/dist/bin:
+total 84
+-rwx------. 1 u0_a287 u0_a287 82269 Feb 27 16:01 rollup
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/rollup/dist/es:
+total 20
+-rw-------. 1 u0_a287 u0_a287 2046 Feb 27 16:01 getLogFilter.js
+-rw-------. 1 u0_a287 u0_a287   17 Feb 27 16:01 package.json
+-rw-------. 1 u0_a287 u0_a287  293 Feb 27 16:01 parseAst.js
+-rw-------. 1 u0_a287 u0_a287  441 Feb 27 16:01 rollup.js
+drwx------. 2 u0_a287 u0_a287 3452 Feb 27 16:01 shared
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/rollup/dist/es/shared:
+total 1244
+-rw-------. 1 u0_a287 u0_a287 932999 Feb 27 16:01 node-entry.js
+-rw-------. 1 u0_a287 u0_a287  84758 Feb 27 16:01 parseAst.js
+-rw-------. 1 u0_a287 u0_a287 251128 Feb 27 16:01 watch.js
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/rollup/dist/shared:
+total 1300
+-rw-------. 1 u0_a287 u0_a287    884 Feb 27 16:01 fsevents-importer.js
+-rw-------. 1 u0_a287 u0_a287 241272 Feb 27 16:01 index.js
+-rw-------. 1 u0_a287 u0_a287  22927 Feb 27 16:01 loadConfigFile.js
+-rw-------. 1 u0_a287 u0_a287  93780 Feb 27 16:01 parseAst.js
+-rw-------. 1 u0_a287 u0_a287 932163 Feb 27 16:01 rollup.js
+-rw-------. 1 u0_a287 u0_a287  18478 Feb 27 16:01 watch-cli.js
+-rw-------. 1 u0_a287 u0_a287  10556 Feb 27 16:01 watch.js
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/source-map-js:
+total 48
+-rw-------. 1 u0_a287 u0_a287  1526 Feb 27 16:01 LICENSE
+-rw-------. 1 u0_a287 u0_a287 26040 Feb 27 16:01 README.md
+drwx------. 2 u0_a287 u0_a287  3452 Feb 27 16:01 lib
+-rw-------. 1 u0_a287 u0_a287  2548 Feb 27 16:01 package.json
+-rw-------. 1 u0_a287 u0_a287  3408 Feb 27 16:01 source-map.d.ts
+-rw-------. 1 u0_a287 u0_a287   405 Feb 27 16:01 source-map.js
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/source-map-js/lib:
+total 136
+-rw-------. 1 u0_a287 u0_a287  3197 Feb 27 16:01 array-set.js
+-rw-------. 1 u0_a287 u0_a287  4714 Feb 27 16:01 base64-vlq.js
+-rw-------. 1 u0_a287 u0_a287  1540 Feb 27 16:01 base64.js
+-rw-------. 1 u0_a287 u0_a287  4249 Feb 27 16:01 binary-search.js
+-rw-------. 1 u0_a287 u0_a287  2339 Feb 27 16:01 mapping-list.js
+-rw-------. 1 u0_a287 u0_a287  4068 Feb 27 16:01 quick-sort.js
+-rw-------. 1 u0_a287 u0_a287    40 Feb 27 16:01 source-map-consumer.d.ts
+-rw-------. 1 u0_a287 u0_a287 41580 Feb 27 16:01 source-map-consumer.js
+-rw-------. 1 u0_a287 u0_a287    41 Feb 27 16:01 source-map-generator.d.ts
+-rw-------. 1 u0_a287 u0_a287 14933 Feb 27 16:01 source-map-generator.js
+-rw-------. 1 u0_a287 u0_a287    33 Feb 27 16:01 source-node.d.ts
+-rw-------. 1 u0_a287 u0_a287 13808 Feb 27 16:01 source-node.js
+-rw-------. 1 u0_a287 u0_a287 15403 Feb 27 16:01 util.js
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/svelte:
+total 163
+-rw-------.  1 u0_a287 u0_a287  1126 Feb 27 16:01 LICENSE.md
+-rw-------.  1 u0_a287 u0_a287  1799 Feb 27 16:01 README.md
+-rw-------.  1 u0_a287 u0_a287    27 Feb 27 16:01 action.d.ts
+-rw-------.  1 u0_a287 u0_a287    27 Feb 27 16:01 animate.d.ts
+drwx------.  2 u0_a287 u0_a287  3452 Feb 27 16:01 compiler
+-rw-------.  1 u0_a287 u0_a287    27 Feb 27 16:01 compiler.d.ts
+-rw-------.  1 u0_a287 u0_a287    27 Feb 27 16:01 easing.d.ts
+-rw-------.  1 u0_a287 u0_a287 87355 Feb 27 16:01 elements.d.ts
+-rw-------.  1 u0_a287 u0_a287    27 Feb 27 16:01 index.d.ts
+-rw-------.  1 u0_a287 u0_a287    27 Feb 27 16:01 legacy.d.ts
+-rw-------.  1 u0_a287 u0_a287    27 Feb 27 16:01 motion.d.ts
+-rw-------.  1 u0_a287 u0_a287  5429 Feb 27 16:01 package.json
+drwx------. 14 u0_a287 u0_a287  3452 Feb 27 16:01 src
+-rw-------.  1 u0_a287 u0_a287    27 Feb 27 16:01 store.d.ts
+-rw-------.  1 u0_a287 u0_a287 10938 Feb 27 16:01 svelte-html.d.ts
+-rw-------.  1 u0_a287 u0_a287    27 Feb 27 16:01 transition.d.ts
+drwx------.  3 u0_a287 u0_a287  3452 Feb 27 16:01 types
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/svelte/compiler:
+total 824
+-rw-------. 1 u0_a287 u0_a287 836489 Feb 27 16:01 index.js
+-rw-------. 1 u0_a287 u0_a287     25 Feb 27 16:01 package.json
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/svelte/src:
+total 94
+drwx------. 2 u0_a287 u0_a287 3452 Feb 27 16:01 animate
+drwx------. 2 u0_a287 u0_a287 3452 Feb 27 16:01 attachments
+drwx------. 7 u0_a287 u0_a287 3452 Feb 27 16:01 compiler
+-rw-------. 1 u0_a287 u0_a287 2408 Feb 27 16:01 constants.js
+drwx------. 2 u0_a287 u0_a287 3452 Feb 27 16:01 easing
+-rw-------. 1 u0_a287 u0_a287  571 Feb 27 16:01 escaping.js
+drwx------. 2 u0_a287 u0_a287 3452 Feb 27 16:01 events
+-rw-------. 1 u0_a287 u0_a287 8712 Feb 27 16:01 html-tree-validation.js
+-rw-------. 1 u0_a287 u0_a287 8311 Feb 27 16:01 index-client.js
+-rw-------. 1 u0_a287 u0_a287 1318 Feb 27 16:01 index-server.js
+drwx------. 6 u0_a287 u0_a287 3452 Feb 27 16:01 internal
+drwx------. 2 u0_a287 u0_a287 3452 Feb 27 16:01 legacy
+drwx------. 2 u0_a287 u0_a287 3452 Feb 27 16:01 motion
+drwx------. 3 u0_a287 u0_a287 3452 Feb 27 16:01 reactivity
+drwx------. 2 u0_a287 u0_a287 3452 Feb 27 16:01 server
+drwx------. 3 u0_a287 u0_a287 3452 Feb 27 16:01 store
+drwx------. 2 u0_a287 u0_a287 3452 Feb 27 16:01 transition
+-rw-------. 1 u0_a287 u0_a287 9733 Feb 27 16:01 utils.js
+-rw-------. 1 u0_a287 u0_a287  186 Feb 27 16:01 version.js
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/svelte/src/animate:
+total 4
+-rw-------. 1 u0_a287 u0_a287 2381 Feb 27 16:01 index.js
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/svelte/src/attachments:
+total 4
+-rw-------. 1 u0_a287 u0_a287 3870 Feb 27 16:01 index.js
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/svelte/src/compiler:
+total 166
+-rw-------. 1 u0_a287 u0_a287 67357 Feb 27 16:01 errors.js
+-rw-------. 1 u0_a287 u0_a287  6532 Feb 27 16:01 index.js
+-rw-------. 1 u0_a287 u0_a287 17046 Feb 27 16:01 legacy.js
+drwx------. 2 u0_a287 u0_a287  3452 Feb 27 16:01 migrate
+drwx------. 5 u0_a287 u0_a287  3452 Feb 27 16:01 phases
+drwx------. 2 u0_a287 u0_a287  3452 Feb 27 16:01 preprocess
+drwx------. 2 u0_a287 u0_a287  3452 Feb 27 16:01 print
+-rw-------. 1 u0_a287 u0_a287  3601 Feb 27 16:01 state.js
+drwx------. 2 u0_a287 u0_a287  3452 Feb 27 16:01 utils
+-rw-------. 1 u0_a287 u0_a287  8771 Feb 27 16:01 validate-options.js
+-rw-------. 1 u0_a287 u0_a287 35731 Feb 27 16:01 warnings.js
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/svelte/src/compiler/migrate:
+total 64
+-rw-------. 1 u0_a287 u0_a287 64152 Feb 27 16:01 index.js
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/svelte/src/compiler/phases:
+total 71
+drwx------. 5 u0_a287 u0_a287  3452 Feb 27 16:01 1-parse
+drwx------. 5 u0_a287 u0_a287  3452 Feb 27 16:01 2-analyze
+drwx------. 6 u0_a287 u0_a287  3452 Feb 27 16:01 3-transform
+-rw-------. 1 u0_a287 u0_a287  4991 Feb 27 16:01 bindings.js
+-rw-------. 1 u0_a287 u0_a287   433 Feb 27 16:01 css.js
+-rw-------. 1 u0_a287 u0_a287  6467 Feb 27 16:01 nodes.js
+-rw-------. 1 u0_a287 u0_a287  1414 Feb 27 16:01 patterns.js
+-rw-------. 1 u0_a287 u0_a287 36835 Feb 27 16:01 scope.js
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/svelte/src/compiler/phases/1-parse:
+total 35
+-rw-------. 1 u0_a287 u0_a287 5797 Feb 27 16:01 acorn.js
+-rw-------. 1 u0_a287 u0_a287 7692 Feb 27 16:01 index.js
+drwx------. 2 u0_a287 u0_a287 3452 Feb 27 16:01 read
+-rw-------. 1 u0_a287 u0_a287 4602 Feb 27 16:01 remove_typescript_nodes.js
+drwx------. 2 u0_a287 u0_a287 3452 Feb 27 16:01 state
+drwx------. 2 u0_a287 u0_a287 3452 Feb 27 16:01 utils
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/svelte/src/compiler/phases/1-parse/read:
+total 36
+-rw-------. 1 u0_a287 u0_a287  3425 Feb 27 16:01 context.js
+-rw-------. 1 u0_a287 u0_a287  2410 Feb 27 16:01 expression.js
+-rw-------. 1 u0_a287 u0_a287  7629 Feb 27 16:01 options.js
+-rw-------. 1 u0_a287 u0_a287  2829 Feb 27 16:01 script.js
+-rw-------. 1 u0_a287 u0_a287 14281 Feb 27 16:01 style.js
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/svelte/src/compiler/phases/1-parse/state:
+total 56
+-rw-------. 1 u0_a287 u0_a287 25650 Feb 27 16:01 element.js
+-rw-------. 1 u0_a287 u0_a287   321 Feb 27 16:01 fragment.js
+-rw-------. 1 u0_a287 u0_a287 17145 Feb 27 16:01 tag.js
+-rw-------. 1 u0_a287 u0_a287   563 Feb 27 16:01 text.js
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/svelte/src/compiler/phases/1-parse/utils:
+total 68
+-rw-------. 1 u0_a287 u0_a287  5461 Feb 27 16:01 bracket.js
+-rw-------. 1 u0_a287 u0_a287   260 Feb 27 16:01 create.js
+-rw-------. 1 u0_a287 u0_a287 41289 Feb 27 16:01 entities.js
+-rw-------. 1 u0_a287 u0_a287  6785 Feb 27 16:01 fuzzymatch.js
+-rw-------. 1 u0_a287 u0_a287  3606 Feb 27 16:01 html.js
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/svelte/src/compiler/phases/2-analyze:
+total 51
+drwx------. 2 u0_a287 u0_a287  3452 Feb 27 16:01 css
+-rw-------. 1 u0_a287 u0_a287 38969 Feb 27 16:01 index.js
+drwx------. 2 u0_a287 u0_a287  3452 Feb 27 16:01 utils
+drwx------. 3 u0_a287 u0_a287  4096 Feb 27 16:01 visitors
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/svelte/src/compiler/phases/2-analyze/css:
+total 60
+-rw-------. 1 u0_a287 u0_a287 10852 Feb 27 16:01 css-analyze.js
+-rw-------. 1 u0_a287 u0_a287 34630 Feb 27 16:01 css-prune.js
+-rw-------. 1 u0_a287 u0_a287  1269 Feb 27 16:01 css-warn.js
+-rw-------. 1 u0_a287 u0_a287  5930 Feb 27 16:01 utils.js
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/svelte/src/compiler/phases/2-analyze/utils:
+total 4
+-rw-------. 1 u0_a287 u0_a287 843 Feb 27 16:01 check_graph_for_cycles.js
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/svelte/src/compiler/phases/2-analyze/visitors:
+total 276
+-rw-------. 1 u0_a287 u0_a287  410 Feb 27 16:01 AnimateDirective.js
+-rw-------. 1 u0_a287 u0_a287  324 Feb 27 16:01 ArrowFunctionExpression.js
+-rw-------. 1 u0_a287 u0_a287  864 Feb 27 16:01 AssignmentExpression.js
+-rw-------. 1 u0_a287 u0_a287  493 Feb 27 16:01 AttachTag.js
+-rw-------. 1 u0_a287 u0_a287 1883 Feb 27 16:01 Attribute.js
+-rw-------. 1 u0_a287 u0_a287 1509 Feb 27 16:01 AwaitBlock.js
+-rw-------. 1 u0_a287 u0_a287 3482 Feb 27 16:01 AwaitExpression.js
+-rw-------. 1 u0_a287 u0_a287 9013 Feb 27 16:01 BindDirective.js
+-rw-------. 1 u0_a287 u0_a287 9258 Feb 27 16:01 CallExpression.js
+-rw-------. 1 u0_a287 u0_a287 4425 Feb 27 16:01 ClassBody.js
+-rw-------. 1 u0_a287 u0_a287  863 Feb 27 16:01 ClassDeclaration.js
+-rw-------. 1 u0_a287 u0_a287  380 Feb 27 16:01 ClassDirective.js
+-rw-------. 1 u0_a287 u0_a287  814 Feb 27 16:01 Component.js
+-rw-------. 1 u0_a287 u0_a287 1472 Feb 27 16:01 ConstTag.js
+-rw-------. 1 u0_a287 u0_a287  360 Feb 27 16:01 DebugTag.js
+-rw-------. 1 u0_a287 u0_a287 2826 Feb 27 16:01 EachBlock.js
+-rw-------. 1 u0_a287 u0_a287  584 Feb 27 16:01 ExportDefaultDeclaration.js
+-rw-------. 1 u0_a287 u0_a287 2007 Feb 27 16:01 ExportNamedDeclaration.js
+-rw-------. 1 u0_a287 u0_a287  873 Feb 27 16:01 ExportSpecifier.js
+-rw-------. 1 u0_a287 u0_a287 1355 Feb 27 16:01 ExpressionStatement.js
+-rw-------. 1 u0_a287 u0_a287  921 Feb 27 16:01 ExpressionTag.js
+-rw-------. 1 u0_a287 u0_a287  250 Feb 27 16:01 Fragment.js
+-rw-------. 1 u0_a287 u0_a287  502 Feb 27 16:01 FunctionDeclaration.js
+-rw-------. 1 u0_a287 u0_a287  309 Feb 27 16:01 FunctionExpression.js
+-rw-------. 1 u0_a287 u0_a287  580 Feb 27 16:01 HtmlTag.js
+-rw-------. 1 u0_a287 u0_a287 5689 Feb 27 16:01 Identifier.js
+-rw-------. 1 u0_a287 u0_a287 1638 Feb 27 16:01 IfBlock.js
+-rw-------. 1 u0_a287 u0_a287  845 Feb 27 16:01 ImportDeclaration.js
+-rw-------. 1 u0_a287 u0_a287  644 Feb 27 16:01 KeyBlock.js
+-rw-------. 1 u0_a287 u0_a287 2745 Feb 27 16:01 LabeledStatement.js
+-rw-------. 1 u0_a287 u0_a287  623 Feb 27 16:01 LetDirective.js
+-rw-------. 1 u0_a287 u0_a287  384 Feb 27 16:01 Literal.js
+-rw-------. 1 u0_a287 u0_a287  873 Feb 27 16:01 MemberExpression.js
+-rw-------. 1 u0_a287 u0_a287  442 Feb 27 16:01 NewExpression.js
+-rw-------. 1 u0_a287 u0_a287  934 Feb 27 16:01 OnDirective.js
+-rw-------. 1 u0_a287 u0_a287  608 Feb 27 16:01 PropertyDefinition.js
+-rw-------. 1 u0_a287 u0_a287 7404 Feb 27 16:01 RegularElement.js
+-rw-------. 1 u0_a287 u0_a287 2091 Feb 27 16:01 RenderTag.js
+-rw-------. 1 u0_a287 u0_a287 1166 Feb 27 16:01 SlotElement.js
+-rw-------. 1 u0_a287 u0_a287 2725 Feb 27 16:01 SnippetBlock.js
+-rw-------. 1 u0_a287 u0_a287  382 Feb 27 16:01 SpreadAttribute.js
+-rw-------. 1 u0_a287 u0_a287  405 Feb 27 16:01 SpreadElement.js
+-rw-------. 1 u0_a287 u0_a287 1104 Feb 27 16:01 StyleDirective.js
+-rw-------. 1 u0_a287 u0_a287  631 Feb 27 16:01 SvelteBody.js
+-rw-------. 1 u0_a287 u0_a287  817 Feb 27 16:01 SvelteBoundary.js
+-rw-------. 1 u0_a287 u0_a287  515 Feb 27 16:01 SvelteComponent.js
+-rw-------. 1 u0_a287 u0_a287  656 Feb 27 16:01 SvelteDocument.js
+-rw-------. 1 u0_a287 u0_a287 2249 Feb 27 16:01 SvelteElement.js
+-rw-------. 1 u0_a287 u0_a287  815 Feb 27 16:01 SvelteFragment.js
+-rw-------. 1 u0_a287 u0_a287  449 Feb 27 16:01 SvelteHead.js
+-rw-------. 1 u0_a287 u0_a287  983 Feb 27 16:01 SvelteSelf.js
+-rw-------. 1 u0_a287 u0_a287  650 Feb 27 16:01 SvelteWindow.js
+-rw-------. 1 u0_a287 u0_a287  459 Feb 27 16:01 TaggedTemplateExpression.js
+-rw-------. 1 u0_a287 u0_a287  376 Feb 27 16:01 TemplateElement.js
+-rw-------. 1 u0_a287 u0_a287 1651 Feb 27 16:01 Text.js
+-rw-------. 1 u0_a287 u0_a287  500 Feb 27 16:01 TitleElement.js
+-rw-------. 1 u0_a287 u0_a287  515 Feb 27 16:01 TransitionDirective.js
+-rw-------. 1 u0_a287 u0_a287  798 Feb 27 16:01 UpdateExpression.js
+-rw-------. 1 u0_a287 u0_a287  500 Feb 27 16:01 UseDirective.js
+-rw-------. 1 u0_a287 u0_a287 5057 Feb 27 16:01 VariableDeclarator.js
+drwx------. 3 u0_a287 u0_a287 3452 Feb 27 16:01 shared
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/svelte/src/compiler/phases/2-analyze/visitors/shared:
+total 52
+drwx------. 2 u0_a287 u0_a287 3452 Feb 27 16:01 a11y
+-rw-------. 1 u0_a287 u0_a287 3241 Feb 27 16:01 attribute.js
+-rw-------. 1 u0_a287 u0_a287 5384 Feb 27 16:01 component.js
+-rw-------. 1 u0_a287 u0_a287 4793 Feb 27 16:01 element.js
+-rw-------. 1 u0_a287 u0_a287  303 Feb 27 16:01 fragment.js
+-rw-------. 1 u0_a287 u0_a287  722 Feb 27 16:01 function.js
+-rw-------. 1 u0_a287 u0_a287  485 Feb 27 16:01 snippets.js
+-rw-------. 1 u0_a287 u0_a287  445 Feb 27 16:01 special-element.js
+-rw-------. 1 u0_a287 u0_a287 9331 Feb 27 16:01 utils.js
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/svelte/src/compiler/phases/2-analyze/visitors/shared/a11y:
+total 40
+-rw-------. 1 u0_a287 u0_a287  8617 Feb 27 16:01 constants.js
+-rw-------. 1 u0_a287 u0_a287 28176 Feb 27 16:01 index.js
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/svelte/src/compiler/phases/3-transform:
+total 34
+drwx------. 4 u0_a287 u0_a287  3452 Feb 27 16:01 client
+drwx------. 2 u0_a287 u0_a287  3452 Feb 27 16:01 css
+-rw-------. 1 u0_a287 u0_a287  3581 Feb 27 16:01 index.js
+drwx------. 3 u0_a287 u0_a287  3452 Feb 27 16:01 server
+drwx------. 2 u0_a287 u0_a287  3452 Feb 27 16:01 shared
+-rw-------. 1 u0_a287 u0_a287 12893 Feb 27 16:01 utils.js
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/svelte/src/compiler/phases/3-transform/client:
+total 39
+-rw-------. 1 u0_a287 u0_a287 21572 Feb 27 16:01 transform-client.js
+drwx------. 2 u0_a287 u0_a287  3452 Feb 27 16:01 transform-template
+-rw-------. 1 u0_a287 u0_a287  4578 Feb 27 16:01 utils.js
+drwx------. 3 u0_a287 u0_a287  3452 Feb 27 16:01 visitors
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/svelte/src/compiler/phases/3-transform/client/transform-template:
+total 12
+-rw-------. 1 u0_a287 u0_a287 3152 Feb 27 16:01 fix-attribute-casing.js
+-rw-------. 1 u0_a287 u0_a287 1665 Feb 27 16:01 index.js
+-rw-------. 1 u0_a287 u0_a287 3939 Feb 27 16:01 template.js
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/svelte/src/compiler/phases/3-transform/client/visitors:
+total 276
+-rw-------. 1 u0_a287 u0_a287   995 Feb 27 16:01 AnimateDirective.js
+-rw-------. 1 u0_a287 u0_a287   349 Feb 27 16:01 ArrowFunctionExpression.js
+-rw-------. 1 u0_a287 u0_a287  6958 Feb 27 16:01 AssignmentExpression.js
+-rw-------. 1 u0_a287 u0_a287   745 Feb 27 16:01 AttachTag.js
+-rw-------. 1 u0_a287 u0_a287   413 Feb 27 16:01 Attribute.js
+-rw-------. 1 u0_a287 u0_a287  3636 Feb 27 16:01 AwaitBlock.js
+-rw-------. 1 u0_a287 u0_a287   843 Feb 27 16:01 AwaitExpression.js
+-rw-------. 1 u0_a287 u0_a287   894 Feb 27 16:01 BinaryExpression.js
+-rw-------. 1 u0_a287 u0_a287  7629 Feb 27 16:01 BindDirective.js
+-rw-------. 1 u0_a287 u0_a287   964 Feb 27 16:01 BlockStatement.js
+-rw-------. 1 u0_a287 u0_a287   533 Feb 27 16:01 BreakStatement.js
+-rw-------. 1 u0_a287 u0_a287  3777 Feb 27 16:01 CallExpression.js
+-rw-------. 1 u0_a287 u0_a287  3085 Feb 27 16:01 ClassBody.js
+-rw-------. 1 u0_a287 u0_a287   364 Feb 27 16:01 Comment.js
+-rw-------. 1 u0_a287 u0_a287   385 Feb 27 16:01 Component.js
+-rw-------. 1 u0_a287 u0_a287  4271 Feb 27 16:01 ConstTag.js
+-rw-------. 1 u0_a287 u0_a287   765 Feb 27 16:01 DebugTag.js
+-rw-------. 1 u0_a287 u0_a287 10679 Feb 27 16:01 EachBlock.js
+-rw-------. 1 u0_a287 u0_a287   447 Feb 27 16:01 ExportNamedDeclaration.js
+-rw-------. 1 u0_a287 u0_a287   523 Feb 27 16:01 ExpressionStatement.js
+-rw-------. 1 u0_a287 u0_a287   871 Feb 27 16:01 ForOfStatement.js
+-rw-------. 1 u0_a287 u0_a287  6062 Feb 27 16:01 Fragment.js
+-rw-------. 1 u0_a287 u0_a287   345 Feb 27 16:01 FunctionDeclaration.js
+-rw-------. 1 u0_a287 u0_a287   334 Feb 27 16:01 FunctionExpression.js
+-rw-------. 1 u0_a287 u0_a287  1541 Feb 27 16:01 HtmlTag.js
+-rw-------. 1 u0_a287 u0_a287  1307 Feb 27 16:01 Identifier.js
+-rw-------. 1 u0_a287 u0_a287  4028 Feb 27 16:01 IfBlock.js
+-rw-------. 1 u0_a287 u0_a287  1331 Feb 27 16:01 KeyBlock.js
+-rw-------. 1 u0_a287 u0_a287  2005 Feb 27 16:01 LabeledStatement.js
+-rw-------. 1 u0_a287 u0_a287  1925 Feb 27 16:01 LetDirective.js
+-rw-------. 1 u0_a287 u0_a287   643 Feb 27 16:01 MemberExpression.js
+-rw-------. 1 u0_a287 u0_a287  1021 Feb 27 16:01 OnDirective.js
+-rw-------. 1 u0_a287 u0_a287  4460 Feb 27 16:01 Program.js
+-rw-------. 1 u0_a287 u0_a287 23553 Feb 27 16:01 RegularElement.js
+-rw-------. 1 u0_a287 u0_a287  2459 Feb 27 16:01 RenderTag.js
+-rw-------. 1 u0_a287 u0_a287  2763 Feb 27 16:01 SlotElement.js
+-rw-------. 1 u0_a287 u0_a287  3109 Feb 27 16:01 SnippetBlock.js
+-rw-------. 1 u0_a287 u0_a287   266 Feb 27 16:01 SpreadAttribute.js
+-rw-------. 1 u0_a287 u0_a287   343 Feb 27 16:01 SvelteBody.js
+-rw-------. 1 u0_a287 u0_a287  3791 Feb 27 16:01 SvelteBoundary.js
+-rw-------. 1 u0_a287 u0_a287   433 Feb 27 16:01 SvelteComponent.js
+-rw-------. 1 u0_a287 u0_a287   346 Feb 27 16:01 SvelteDocument.js
+-rw-------. 1 u0_a287 u0_a287  4972 Feb 27 16:01 SvelteElement.js
+-rw-------. 1 u0_a287 u0_a287   513 Feb 27 16:01 SvelteFragment.js
+-rw-------. 1 u0_a287 u0_a287   643 Feb 27 16:01 SvelteHead.js
+-rw-------. 1 u0_a287 u0_a287   447 Feb 27 16:01 SvelteSelf.js
+-rw-------. 1 u0_a287 u0_a287   340 Feb 27 16:01 SvelteWindow.js
+-rw-------. 1 u0_a287 u0_a287  1300 Feb 27 16:01 TitleElement.js
+-rw-------. 1 u0_a287 u0_a287  1250 Feb 27 16:01 TransitionDirective.js
+-rw-------. 1 u0_a287 u0_a287  1564 Feb 27 16:01 UpdateExpression.js
+-rw-------. 1 u0_a287 u0_a287  1168 Feb 27 16:01 UseDirective.js
+-rw-------. 1 u0_a287 u0_a287 13523 Feb 27 16:01 VariableDeclaration.js
+drwx------. 2 u0_a287 u0_a287  3452 Feb 27 16:01 shared
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/svelte/src/compiler/phases/3-transform/client/visitors/shared:
+total 68
+-rw-------. 1 u0_a287 u0_a287 16123 Feb 27 16:01 component.js
+-rw-------. 1 u0_a287 u0_a287  1443 Feb 27 16:01 declarations.js
+-rw-------. 1 u0_a287 u0_a287  7617 Feb 27 16:01 element.js
+-rw-------. 1 u0_a287 u0_a287  4826 Feb 27 16:01 events.js
+-rw-------. 1 u0_a287 u0_a287  5206 Feb 27 16:01 fragment.js
+-rw-------. 1 u0_a287 u0_a287   601 Feb 27 16:01 function.js
+-rw-------. 1 u0_a287 u0_a287   675 Feb 27 16:01 special_element.js
+-rw-------. 1 u0_a287 u0_a287 14918 Feb 27 16:01 utils.js
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/svelte/src/compiler/phases/3-transform/css:
+total 16
+-rw-------. 1 u0_a287 u0_a287 13614 Feb 27 16:01 index.js
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/svelte/src/compiler/phases/3-transform/server:
+total 20
+-rw-------. 1 u0_a287 u0_a287 12880 Feb 27 16:01 transform-server.js
+drwx------. 3 u0_a287 u0_a287  3452 Feb 27 16:01 visitors
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/svelte/src/compiler/phases/3-transform/server/visitors:
+total 148
+-rw-------. 1 u0_a287 u0_a287 3565 Feb 27 16:01 AssignmentExpression.js
+-rw-------. 1 u0_a287 u0_a287 1042 Feb 27 16:01 AwaitBlock.js
+-rw-------. 1 u0_a287 u0_a287  967 Feb 27 16:01 AwaitExpression.js
+-rw-------. 1 u0_a287 u0_a287 2017 Feb 27 16:01 CallExpression.js
+-rw-------. 1 u0_a287 u0_a287 2315 Feb 27 16:01 ClassBody.js
+-rw-------. 1 u0_a287 u0_a287  466 Feb 27 16:01 Component.js
+-rw-------. 1 u0_a287 u0_a287 1753 Feb 27 16:01 ConstTag.js
+-rw-------. 1 u0_a287 u0_a287  554 Feb 27 16:01 DebugTag.js
+-rw-------. 1 u0_a287 u0_a287 2113 Feb 27 16:01 EachBlock.js
+-rw-------. 1 u0_a287 u0_a287  537 Feb 27 16:01 ExpressionStatement.js
+-rw-------. 1 u0_a287 u0_a287 1479 Feb 27 16:01 Fragment.js
+-rw-------. 1 u0_a287 u0_a287  753 Feb 27 16:01 HtmlTag.js
+-rw-------. 1 u0_a287 u0_a287  690 Feb 27 16:01 Identifier.js
+-rw-------. 1 u0_a287 u0_a287 1682 Feb 27 16:01 IfBlock.js
+-rw-------. 1 u0_a287 u0_a287  641 Feb 27 16:01 KeyBlock.js
+-rw-------. 1 u0_a287 u0_a287  714 Feb 27 16:01 LabeledStatement.js
+-rw-------. 1 u0_a287 u0_a287  548 Feb 27 16:01 MemberExpression.js
+-rw-------. 1 u0_a287 u0_a287  643 Feb 27 16:01 Program.js
+-rw-------. 1 u0_a287 u0_a287 1032 Feb 27 16:01 PropertyDefinition.js
+-rw-------. 1 u0_a287 u0_a287 6448 Feb 27 16:01 RegularElement.js
+-rw-------. 1 u0_a287 u0_a287 1438 Feb 27 16:01 RenderTag.js
+-rw-------. 1 u0_a287 u0_a287 1725 Feb 27 16:01 SlotElement.js
+-rw-------. 1 u0_a287 u0_a287  929 Feb 27 16:01 SnippetBlock.js
+-rw-------. 1 u0_a287 u0_a287  266 Feb 27 16:01 SpreadAttribute.js
+-rw-------. 1 u0_a287 u0_a287 4116 Feb 27 16:01 SvelteBoundary.js
+-rw-------. 1 u0_a287 u0_a287  437 Feb 27 16:01 SvelteComponent.js
+-rw-------. 1 u0_a287 u0_a287 2444 Feb 27 16:01 SvelteElement.js
+-rw-------. 1 u0_a287 u0_a287  364 Feb 27 16:01 SvelteFragment.js
+-rw-------. 1 u0_a287 u0_a287  657 Feb 27 16:01 SvelteHead.js
+-rw-------. 1 u0_a287 u0_a287  399 Feb 27 16:01 SvelteSelf.js
+-rw-------. 1 u0_a287 u0_a287  720 Feb 27 16:01 TitleElement.js
+-rw-------. 1 u0_a287 u0_a287  906 Feb 27 16:01 UpdateExpression.js
+-rw-------. 1 u0_a287 u0_a287 7889 Feb 27 16:01 VariableDeclaration.js
+drwx------. 2 u0_a287 u0_a287 3452 Feb 27 16:01 shared
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/svelte/src/compiler/phases/3-transform/server/visitors/shared:
+total 44
+-rw-------. 1 u0_a287 u0_a287 10689 Feb 27 16:01 component.js
+-rw-------. 1 u0_a287 u0_a287 17494 Feb 27 16:01 element.js
+-rw-------. 1 u0_a287 u0_a287 10198 Feb 27 16:01 utils.js
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/svelte/src/compiler/phases/3-transform/shared:
+total 8
+-rw-------. 1 u0_a287 u0_a287 2852 Feb 27 16:01 assignments.js
+-rw-------. 1 u0_a287 u0_a287 3657 Feb 27 16:01 transform-async.js
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/svelte/src/compiler/preprocess:
+total 20
+-rw-------. 1 u0_a287 u0_a287  3097 Feb 27 16:01 decode_sourcemap.js
+-rw-------. 1 u0_a287 u0_a287 10921 Feb 27 16:01 index.js
+-rw-------. 1 u0_a287 u0_a287  2055 Feb 27 16:01 replace_in_code.js
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/svelte/src/compiler/print:
+total 20
+-rw-------. 1 u0_a287 u0_a287 19670 Feb 27 16:01 index.js
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/svelte/src/compiler/utils:
+total 84
+-rw-------. 1 u0_a287 u0_a287   210 Feb 27 16:01 assert.js
+-rw-------. 1 u0_a287 u0_a287 18438 Feb 27 16:01 ast.js
+-rw-------. 1 u0_a287 u0_a287 17139 Feb 27 16:01 builders.js
+-rw-------. 1 u0_a287 u0_a287  2381 Feb 27 16:01 compile_diagnostic.js
+-rw-------. 1 u0_a287 u0_a287  2968 Feb 27 16:01 extract_svelte_ignore.js
+-rw-------. 1 u0_a287 u0_a287 14578 Feb 27 16:01 mapped_code.js
+-rw-------. 1 u0_a287 u0_a287   423 Feb 27 16:01 push_array.js
+-rw-------. 1 u0_a287 u0_a287   146 Feb 27 16:01 sanitize_template_string.js
+-rw-------. 1 u0_a287 u0_a287   524 Feb 27 16:01 slot.js
+-rw-------. 1 u0_a287 u0_a287   340 Feb 27 16:01 string.js
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/svelte/src/easing:
+total 8
+-rw-------. 1 u0_a287 u0_a287 5029 Feb 27 16:01 index.js
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/svelte/src/events:
+total 4
+-rw-------. 1 u0_a287 u0_a287 64 Feb 27 16:01 index.js
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/svelte/src/internal:
+total 22
+drwx------. 5 u0_a287 u0_a287 3452 Feb 27 16:01 client
+-rw-------. 1 u0_a287 u0_a287  174 Feb 27 16:01 disclose-version.js
+drwx------. 2 u0_a287 u0_a287 3452 Feb 27 16:01 flags
+-rw-------. 1 u0_a287 u0_a287  653 Feb 27 16:01 index.js
+drwx------. 3 u0_a287 u0_a287 3452 Feb 27 16:01 server
+drwx------. 2 u0_a287 u0_a287 3452 Feb 27 16:01 shared
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/svelte/src/internal/client:
+total 131
+-rw-------. 1 u0_a287 u0_a287  3045 Feb 27 16:01 constants.js
+-rw-------. 1 u0_a287 u0_a287  6515 Feb 27 16:01 context.js
+drwx------. 2 u0_a287 u0_a287  3452 Feb 27 16:01 dev
+drwx------. 5 u0_a287 u0_a287  3452 Feb 27 16:01 dom
+-rw-------. 1 u0_a287 u0_a287  3088 Feb 27 16:01 error-handling.js
+-rw-------. 1 u0_a287 u0_a287 16350 Feb 27 16:01 errors.js
+-rw-------. 1 u0_a287 u0_a287   666 Feb 27 16:01 hydratable.js
+-rw-------. 1 u0_a287 u0_a287  5781 Feb 27 16:01 index.js
+-rw-------. 1 u0_a287 u0_a287  1004 Feb 27 16:01 legacy.js
+-rw-------. 1 u0_a287 u0_a287  1008 Feb 27 16:01 loop.js
+-rw-------. 1 u0_a287 u0_a287 10850 Feb 27 16:01 proxy.js
+drwx------. 2 u0_a287 u0_a287  3452 Feb 27 16:01 reactivity
+-rw-------. 1 u0_a287 u0_a287  9948 Feb 27 16:01 render.js
+-rw-------. 1 u0_a287 u0_a287 22412 Feb 27 16:01 runtime.js
+-rw-------. 1 u0_a287 u0_a287   534 Feb 27 16:01 timing.js
+-rw-------. 1 u0_a287 u0_a287  1572 Feb 27 16:01 validate.js
+-rw-------. 1 u0_a287 u0_a287 11987 Feb 27 16:01 warnings.js
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/svelte/src/internal/client/dev:
+total 60
+-rw-------. 1 u0_a287 u0_a287  1647 Feb 27 16:01 assign.js
+-rw-------. 1 u0_a287 u0_a287   913 Feb 27 16:01 console-log.js
+-rw-------. 1 u0_a287 u0_a287   537 Feb 27 16:01 css.js
+-rw-------. 1 u0_a287 u0_a287 13235 Feb 27 16:01 debug.js
+-rw-------. 1 u0_a287 u0_a287  1770 Feb 27 16:01 elements.js
+-rw-------. 1 u0_a287 u0_a287  2692 Feb 27 16:01 equality.js
+-rw-------. 1 u0_a287 u0_a287  2228 Feb 27 16:01 hmr.js
+-rw-------. 1 u0_a287 u0_a287  1967 Feb 27 16:01 inspect.js
+-rw-------. 1 u0_a287 u0_a287   650 Feb 27 16:01 legacy.js
+-rw-------. 1 u0_a287 u0_a287  2252 Feb 27 16:01 ownership.js
+-rw-------. 1 u0_a287 u0_a287  3979 Feb 27 16:01 tracing.js
+-rw-------. 1 u0_a287 u0_a287   360 Feb 27 16:01 validation.js
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/svelte/src/internal/client/dom:
+total 47
+drwx------. 2 u0_a287 u0_a287  3452 Feb 27 16:01 blocks
+-rw-------. 1 u0_a287 u0_a287  1130 Feb 27 16:01 css.js
+drwx------. 3 u0_a287 u0_a287  3452 Feb 27 16:01 elements
+-rw-------. 1 u0_a287 u0_a287  3098 Feb 27 16:01 hydration.js
+drwx------. 2 u0_a287 u0_a287  3452 Feb 27 16:01 legacy
+-rw-------. 1 u0_a287 u0_a287  7746 Feb 27 16:01 operations.js
+-rw-------. 1 u0_a287 u0_a287   761 Feb 27 16:01 reconciler.js
+-rw-------. 1 u0_a287 u0_a287  1422 Feb 27 16:01 task.js
+-rw-------. 1 u0_a287 u0_a287 10283 Feb 27 16:01 template.js
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/svelte/src/internal/client/dom/blocks:
+total 92
+-rw-------. 1 u0_a287 u0_a287  1849 Feb 27 16:01 async.js
+-rw-------. 1 u0_a287 u0_a287  4087 Feb 27 16:01 await.js
+-rw-------. 1 u0_a287 u0_a287 13345 Feb 27 16:01 boundary.js
+-rw-------. 1 u0_a287 u0_a287  5200 Feb 27 16:01 branches.js
+-rw-------. 1 u0_a287 u0_a287   658 Feb 27 16:01 css-props.js
+-rw-------. 1 u0_a287 u0_a287 17476 Feb 27 16:01 each.js
+-rw-------. 1 u0_a287 u0_a287  4072 Feb 27 16:01 html.js
+-rw-------. 1 u0_a287 u0_a287  2189 Feb 27 16:01 if.js
+-rw-------. 1 u0_a287 u0_a287   970 Feb 27 16:01 key.js
+-rw-------. 1 u0_a287 u0_a287  1082 Feb 27 16:01 slot.js
+-rw-------. 1 u0_a287 u0_a287  3135 Feb 27 16:01 snippet.js
+-rw-------. 1 u0_a287 u0_a287  1690 Feb 27 16:01 svelte-component.js
+-rw-------. 1 u0_a287 u0_a287  4384 Feb 27 16:01 svelte-element.js
+-rw-------. 1 u0_a287 u0_a287  2135 Feb 27 16:01 svelte-head.js
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/svelte/src/internal/client/dom/elements:
+total 92
+-rw-------. 1 u0_a287 u0_a287  1366 Feb 27 16:01 actions.js
+-rw-------. 1 u0_a287 u0_a287   810 Feb 27 16:01 attachments.js
+-rw-------. 1 u0_a287 u0_a287 20563 Feb 27 16:01 attributes.js
+drwx------. 2 u0_a287 u0_a287  3452 Feb 27 16:01 bindings
+-rw-------. 1 u0_a287 u0_a287  1622 Feb 27 16:01 class.js
+-rw-------. 1 u0_a287 u0_a287 10053 Feb 27 16:01 custom-element.js
+-rw-------. 1 u0_a287 u0_a287  2845 Feb 27 16:01 customizable-select.js
+-rw-------. 1 u0_a287 u0_a287 11166 Feb 27 16:01 events.js
+-rw-------. 1 u0_a287 u0_a287  1512 Feb 27 16:01 misc.js
+-rw-------. 1 u0_a287 u0_a287  1540 Feb 27 16:01 style.js
+-rw-------. 1 u0_a287 u0_a287 13721 Feb 27 16:01 transitions.js
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/svelte/src/internal/client/dom/elements/bindings:
+total 56
+-rw-------. 1 u0_a287 u0_a287  531 Feb 27 16:01 document.js
+-rw-------. 1 u0_a287 u0_a287 8187 Feb 27 16:01 input.js
+-rw-------. 1 u0_a287 u0_a287 6241 Feb 27 16:01 media.js
+-rw-------. 1 u0_a287 u0_a287  231 Feb 27 16:01 navigator.js
+-rw-------. 1 u0_a287 u0_a287  573 Feb 27 16:01 props.js
+-rw-------. 1 u0_a287 u0_a287 4507 Feb 27 16:01 select.js
+-rw-------. 1 u0_a287 u0_a287 2023 Feb 27 16:01 shared.js
+-rw-------. 1 u0_a287 u0_a287 2897 Feb 27 16:01 size.js
+-rw-------. 1 u0_a287 u0_a287 1960 Feb 27 16:01 this.js
+-rw-------. 1 u0_a287 u0_a287 1660 Feb 27 16:01 universal.js
+-rw-------. 1 u0_a287 u0_a287 1763 Feb 27 16:01 window.js
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/svelte/src/internal/client/dom/legacy:
+total 12
+-rw-------. 1 u0_a287 u0_a287 3167 Feb 27 16:01 event-modifiers.js
+-rw-------. 1 u0_a287 u0_a287 2046 Feb 27 16:01 lifecycle.js
+-rw-------. 1 u0_a287 u0_a287 1862 Feb 27 16:01 misc.js
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/svelte/src/internal/client/reactivity:
+total 112
+-rw-------. 1 u0_a287 u0_a287  7782 Feb 27 16:01 async.js
+-rw-------. 1 u0_a287 u0_a287 26235 Feb 27 16:01 batch.js
+-rw-------. 1 u0_a287 u0_a287 10422 Feb 27 16:01 deriveds.js
+-rw-------. 1 u0_a287 u0_a287 16921 Feb 27 16:01 effects.js
+-rw-------. 1 u0_a287 u0_a287   577 Feb 27 16:01 equality.js
+-rw-------. 1 u0_a287 u0_a287 12152 Feb 27 16:01 props.js
+-rw-------. 1 u0_a287 u0_a287  8912 Feb 27 16:01 sources.js
+-rw-------. 1 u0_a287 u0_a287   731 Feb 27 16:01 status.js
+-rw-------. 1 u0_a287 u0_a287  5742 Feb 27 16:01 store.js
+-rw-------. 1 u0_a287 u0_a287  1135 Feb 27 16:01 utils.js
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/svelte/src/internal/flags:
+total 16
+-rw-------. 1 u0_a287 u0_a287  80 Feb 27 16:01 async.js
+-rw-------. 1 u0_a287 u0_a287 600 Feb 27 16:01 index.js
+-rw-------. 1 u0_a287 u0_a287  82 Feb 27 16:01 legacy.js
+-rw-------. 1 u0_a287 u0_a287  84 Feb 27 16:01 tracing.js
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/svelte/src/internal/server:
+total 84
+-rw-------. 1 u0_a287 u0_a287   292 Feb 27 16:01 abort-signal.js
+drwx------. 2 u0_a287 u0_a287  3452 Feb 27 16:01 blocks
+-rw-------. 1 u0_a287 u0_a287  2676 Feb 27 16:01 context.js
+-rw-------. 1 u0_a287 u0_a287  1212 Feb 27 16:01 crypto.js
+-rw-------. 1 u0_a287 u0_a287  3133 Feb 27 16:01 dev.js
+-rw-------. 1 u0_a287 u0_a287  3928 Feb 27 16:01 errors.js
+-rw-------. 1 u0_a287 u0_a287  3719 Feb 27 16:01 hydratable.js
+-rw-------. 1 u0_a287 u0_a287   306 Feb 27 16:01 hydration.js
+-rw-------. 1 u0_a287 u0_a287 14489 Feb 27 16:01 index.js
+-rw-------. 1 u0_a287 u0_a287  2276 Feb 27 16:01 render-context.js
+-rw-------. 1 u0_a287 u0_a287 25624 Feb 27 16:01 renderer.js
+-rw-------. 1 u0_a287 u0_a287   830 Feb 27 16:01 warnings.js
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/svelte/src/internal/server/blocks:
+total 8
+-rw-------. 1 u0_a287 u0_a287 259 Feb 27 16:01 html.js
+-rw-------. 1 u0_a287 u0_a287 687 Feb 27 16:01 snippet.js
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/svelte/src/internal/shared:
+total 36
+-rw-------. 1 u0_a287 u0_a287 5400 Feb 27 16:01 attributes.js
+-rw-------. 1 u0_a287 u0_a287 3522 Feb 27 16:01 clone.js
+-rw-------. 1 u0_a287 u0_a287 1277 Feb 27 16:01 dev.js
+-rw-------. 1 u0_a287 u0_a287 4330 Feb 27 16:01 errors.js
+-rw-------. 1 u0_a287 u0_a287 3636 Feb 27 16:01 utils.js
+-rw-------. 1 u0_a287 u0_a287 1024 Feb 27 16:01 validate.js
+-rw-------. 1 u0_a287 u0_a287 1366 Feb 27 16:01 warnings.js
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/svelte/src/legacy:
+total 16
+-rw-------. 1 u0_a287 u0_a287 8445 Feb 27 16:01 legacy-client.js
+-rw-------. 1 u0_a287 u0_a287 3597 Feb 27 16:01 legacy-server.js
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/svelte/src/motion:
+total 28
+-rw-------. 1 u0_a287 u0_a287   895 Feb 27 16:01 index.js
+-rw-------. 1 u0_a287 u0_a287 10310 Feb 27 16:01 spring.js
+-rw-------. 1 u0_a287 u0_a287  6980 Feb 27 16:01 tweened.js
+-rw-------. 1 u0_a287 u0_a287   152 Feb 27 16:01 utils.js
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/svelte/src/reactivity:
+total 56
+-rw-------. 1 u0_a287 u0_a287 3397 Feb 27 16:01 create-subscriber.js
+-rw-------. 1 u0_a287 u0_a287 3177 Feb 27 16:01 date.js
+-rw-------. 1 u0_a287 u0_a287  324 Feb 27 16:01 index-client.js
+-rw-------. 1 u0_a287 u0_a287  490 Feb 27 16:01 index-server.js
+-rw-------. 1 u0_a287 u0_a287 6061 Feb 27 16:01 map.js
+-rw-------. 1 u0_a287 u0_a287 1921 Feb 27 16:01 media-query.js
+-rw-------. 1 u0_a287 u0_a287  392 Feb 27 16:01 reactive-value.js
+-rw-------. 1 u0_a287 u0_a287 4998 Feb 27 16:01 set.js
+-rw-------. 1 u0_a287 u0_a287 3795 Feb 27 16:01 url-search-params.js
+-rw-------. 1 u0_a287 u0_a287 4641 Feb 27 16:01 url.js
+drwx------. 2 u0_a287 u0_a287 3452 Feb 27 16:01 window
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/svelte/src/reactivity/window:
+total 8
+-rw-------. 1 u0_a287 u0_a287 4364 Feb 27 16:01 index.js
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/svelte/src/server:
+total 4
+-rw-------. 1 u0_a287 u0_a287 54 Feb 27 16:01 index.js
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/svelte/src/store:
+total 16
+-rw-------. 1 u0_a287 u0_a287 3402 Feb 27 16:01 index-client.js
+-rw-------. 1 u0_a287 u0_a287 1920 Feb 27 16:01 index-server.js
+drwx------. 2 u0_a287 u0_a287 3452 Feb 27 16:01 shared
+-rw-------. 1 u0_a287 u0_a287  913 Feb 27 16:01 utils.js
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/svelte/src/store/shared:
+total 8
+-rw-------. 1 u0_a287 u0_a287 5227 Feb 27 16:01 index.js
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/svelte/src/transition:
+total 12
+-rw-------. 1 u0_a287 u0_a287 10150 Feb 27 16:01 index.js
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/svelte/types:
+total 140
+drwx------. 2 u0_a287 u0_a287   3452 Feb 27 16:01 compiler
+-rw-------. 1 u0_a287 u0_a287 123266 Feb 27 16:01 index.d.ts
+-rw-------. 1 u0_a287 u0_a287  10564 Feb 27 16:01 index.d.ts.map
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/svelte/types/compiler:
+total 8
+-rw-------. 1 u0_a287 u0_a287 22 Feb 27 16:01 interfaces.d.ts
+-rw-------. 1 u0_a287 u0_a287 22 Feb 27 16:01 preprocess.d.ts
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/tinyglobby:
+total 16
+-rw-------. 1 u0_a287 u0_a287 1076 Feb 27 16:01 LICENSE
+-rw-------. 1 u0_a287 u0_a287  932 Feb 27 16:01 README.md
+drwx------. 2 u0_a287 u0_a287 3452 Feb 27 16:01 dist
+-rw-------. 1 u0_a287 u0_a287 1818 Feb 27 16:01 package.json
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/tinyglobby/dist:
+total 48
+-rw-------. 1 u0_a287 u0_a287 14186 Feb 27 16:01 index.cjs
+-rw-------. 1 u0_a287 u0_a287  4641 Feb 27 16:01 index.d.cts
+-rw-------. 1 u0_a287 u0_a287  4641 Feb 27 16:01 index.d.mts
+-rw-------. 1 u0_a287 u0_a287 12881 Feb 27 16:01 index.mjs
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/vite:
+total 134
+-rw-------. 1 u0_a287 u0_a287 101182 Feb 27 16:01 LICENSE.md
+-rw-------. 1 u0_a287 u0_a287   1152 Feb 27 16:01 README.md
+drwx------. 2 u0_a287 u0_a287   3452 Feb 27 16:01 bin
+-rw-------. 1 u0_a287 u0_a287   5109 Feb 27 16:01 client.d.ts
+drwx------. 4 u0_a287 u0_a287   3452 Feb 27 16:01 dist
+drwx------. 2 u0_a287 u0_a287   3452 Feb 27 16:01 misc
+-rw-------. 1 u0_a287 u0_a287   5147 Feb 27 16:01 package.json
+drwx------. 3 u0_a287 u0_a287   3452 Feb 27 16:01 types
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/vite/bin:
+total 8
+-rw-------. 1 u0_a287 u0_a287 1842 Feb 27 16:01 openChrome.js
+-rwx------. 1 u0_a287 u0_a287 2574 Feb 27 16:01 vite.js
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/vite/dist:
+total 7
+drwx------. 2 u0_a287 u0_a287 3452 Feb 27 16:01 client
+drwx------. 3 u0_a287 u0_a287 3452 Feb 27 16:01 node
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/vite/dist/client:
+total 40
+-rw-------. 1 u0_a287 u0_a287 33862 Feb 27 16:01 client.mjs
+-rw-------. 1 u0_a287 u0_a287   612 Feb 27 16:01 env.mjs
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/vite/dist/node:
+total 248
+drwx------. 2 u0_a287 u0_a287   3452 Feb 27 16:01 chunks
+-rw-------. 1 u0_a287 u0_a287  26755 Feb 27 16:01 cli.js
+-rw-------. 1 u0_a287 u0_a287 149541 Feb 27 16:01 index.d.ts
+-rw-------. 1 u0_a287 u0_a287   3630 Feb 27 16:01 index.js
+-rw-------. 1 u0_a287 u0_a287  11372 Feb 27 16:01 module-runner.d.ts
+-rw-------. 1 u0_a287 u0_a287  50376 Feb 27 16:01 module-runner.js
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/vite/dist/node/chunks:
+total 1816
+-rw-------. 1 u0_a287 u0_a287     607 Feb 27 16:01 build.js
+-rw-------. 1 u0_a287 u0_a287  208226 Feb 27 16:01 build2.js
+-rw-------. 1 u0_a287 u0_a287    1919 Feb 27 16:01 chunk.js
+-rw-------. 1 u0_a287 u0_a287 1332878 Feb 27 16:01 config.js
+-rw-------. 1 u0_a287 u0_a287     278 Feb 27 16:01 config2.js
+-rw-------. 1 u0_a287 u0_a287  240995 Feb 27 16:01 dist.js
+-rw-------. 1 u0_a287 u0_a287   11729 Feb 27 16:01 lib.js
+-rw-------. 1 u0_a287 u0_a287   11737 Feb 27 16:01 logger.js
+-rw-------. 1 u0_a287 u0_a287    3059 Feb 27 16:01 moduleRunnerTransport.d.ts
+-rw-------. 1 u0_a287 u0_a287     698 Feb 27 16:01 optimizer.js
+-rw-------. 1 u0_a287 u0_a287   18464 Feb 27 16:01 postcss-import.js
+-rw-------. 1 u0_a287 u0_a287     114 Feb 27 16:01 preview.js
+-rw-------. 1 u0_a287 u0_a287     230 Feb 27 16:01 server.js
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/vite/misc:
+total 8
+-rw-------. 1 u0_a287 u0_a287 21 Feb 27 16:01 false.js
+-rw-------. 1 u0_a287 u0_a287 20 Feb 27 16:01 true.js
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/vite/types:
+total 36
+-rw-------. 1 u0_a287 u0_a287 1424 Feb 27 16:01 customEvent.d.ts
+-rw-------. 1 u0_a287 u0_a287 1282 Feb 27 16:01 hmrPayload.d.ts
+-rw-------. 1 u0_a287 u0_a287 1060 Feb 27 16:01 hot.d.ts
+-rw-------. 1 u0_a287 u0_a287  249 Feb 27 16:01 import-meta.d.ts
+-rw-------. 1 u0_a287 u0_a287 2291 Feb 27 16:01 importGlob.d.ts
+-rw-------. 1 u0_a287 u0_a287  878 Feb 27 16:01 importMeta.d.ts
+drwx------. 2 u0_a287 u0_a287 3452 Feb 27 16:01 internal
+-rw-------. 1 u0_a287 u0_a287  861 Feb 27 16:01 metadata.d.ts
+-rw-------. 1 u0_a287 u0_a287  109 Feb 27 16:01 package.json
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/vite/types/internal:
+total 12
+-rw-------. 1 u0_a287 u0_a287 1420 Feb 27 16:01 cssPreprocessorOptions.d.ts
+-rw-------. 1 u0_a287 u0_a287  520 Feb 27 16:01 lightningcssOptions.d.ts
+-rw-------. 1 u0_a287 u0_a287  384 Feb 27 16:01 terserOptions.d.ts
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/vitefu:
+total 16
+-rw-------. 1 u0_a287 u0_a287 1074 Feb 27 16:01 LICENSE
+-rw-------. 1 u0_a287 u0_a287  123 Feb 27 16:01 README.md
+-rw-------. 1 u0_a287 u0_a287  962 Feb 27 16:01 package.json
+drwx------. 2 u0_a287 u0_a287 3452 Feb 27 16:01 src
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/vitefu/src:
+total 32
+-rw-------. 1 u0_a287 u0_a287   501 Feb 27 16:01 index.cjs
+-rw-------. 1 u0_a287 u0_a287  1543 Feb 27 16:01 index.d.cts
+-rw-------. 1 u0_a287 u0_a287  5817 Feb 27 16:01 index.d.ts
+-rw-------. 1 u0_a287 u0_a287 11209 Feb 27 16:01 index.js
+-rw-------. 1 u0_a287 u0_a287  1829 Feb 27 16:01 sync.cjs
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/zimmerframe:
+total 23
+-rw-------. 1 u0_a287 u0_a287 1135 Feb 27 16:01 LICENSE
+-rw-------. 1 u0_a287 u0_a287 5176 Feb 27 16:01 README.md
+-rw-------. 1 u0_a287 u0_a287  735 Feb 27 16:01 package.json
+drwx------. 2 u0_a287 u0_a287 3452 Feb 27 16:01 src
+drwx------. 2 u0_a287 u0_a287 3452 Feb 27 16:01 types
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/zimmerframe/src:
+total 12
+-rw-------. 1 u0_a287 u0_a287   57 Feb 27 16:01 index.d.ts
+-rw-------. 1 u0_a287 u0_a287  569 Feb 27 16:01 types.d.ts
+-rw-------. 1 u0_a287 u0_a287 3693 Feb 27 16:01 walk.js
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/node_modules/zimmerframe/types:
+total 8
+-rw-------. 1 u0_a287 u0_a287 808 Feb 27 16:01 index.d.ts
+-rw-------. 1 u0_a287 u0_a287 392 Feb 27 16:01 index.d.ts.map
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/public:
+total 4
+-rw-------. 1 u0_a287 u0_a287 1497 Feb 27 16:01 vite.svg
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/src:
+total 12
+-rw-------. 1 u0_a287 u0_a287  221 Feb 27 16:20 App.svelte
+-rw-------. 1 u0_a287 u0_a287 1755 Feb 27 16:43 Monitor.svelte
+-rw-------. 1 u0_a287 u0_a287  592 Feb 27 16:43 api.js
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP_BACKUP_20260223222530:
+total 4
+drwx------. 3 u0_a287 u0_a287 3452 Feb 27 13:27 node_modules
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP_BACKUP_20260223222530/node_modules:
+total 0
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/monitor:
+total 0
+
+/data/data/com.termux/files/home/soda/04-DOCS:
+total 8
+-rw-r--r--. 1 u0_a287 u0_a287 4161 Mar 11 11:18 PROTOCOLO_HERRAMIENTAS.md
+
+/data/data/com.termux/files/home/soda/04-REGISTROS:
+total 76
+drwx------. 2 u0_a287 u0_a287  3452 Mar  7 13:21 ANTIAMNESIA
+drwx------. 2 u0_a287 u0_a287  3452 Mar  7 13:21 BACKEND
+-rw-------. 1 u0_a287 u0_a287    59 Mar  3 12:24 FASE0.log
+-rw-------. 1 u0_a287 u0_a287    67 Mar  3 12:35 FASE1.log
+-rw-------. 1 u0_a287 u0_a287    70 Mar  3 12:56 FASE2.log
+drwx------. 4 u0_a287 u0_a287  3452 Mar  7 13:21 GUARDIAN
+drwx------. 3 u0_a287 u0_a287  3452 Mar  7 15:37 LOGS-LEGACY
+drwx------. 2 u0_a287 u0_a287  3452 Mar  7 13:21 MONITOR
+drwx------. 3 u0_a287 u0_a287  3452 Mar  7 15:38 REGISTROS-LEGACY
+drwx------. 2 u0_a287 u0_a287  8192 Mar 11 12:44 SYSTEM
+drwx------. 2 u0_a287 u0_a287  3452 Mar  7 13:21 SYSTEM-MAP
+drwx------. 2 u0_a287 u0_a287  3452 Feb 27 13:27 TUNNEL
+-rw-------. 1 u0_a287 u0_a287   622 Mar  9 20:24 hitos.log
+drwx------. 2 u0_a287 u0_a287  3452 Mar 11 11:35 ia_sesiones
+-rw-------. 1 u0_a287 u0_a287 17064 Feb 24 23:37 logs.txt
+
+/data/data/com.termux/files/home/soda/04-REGISTROS/ANTIAMNESIA:
+total 648
+-rw-------. 1 u0_a287 u0_a287  83311 Mar  7 12:03 antiamnesia.log
+-rw-------. 1 u0_a287 u0_a287 577230 Mar  7 12:03 watchdog.log
+
+/data/data/com.termux/files/home/soda/04-REGISTROS/BACKEND:
+total 8
+-rw-------. 1 u0_a287 u0_a287  59 Mar  3 12:35 backend_v1.log
+-rw-------. 1 u0_a287 u0_a287 217 Mar  3 13:58 backend_v1_port5051.log
+
+/data/data/com.termux/files/home/soda/04-REGISTROS/GUARDIAN:
+total 31
+drwx------. 2 u0_a287 u0_a287 3452 Mar  4 20:56 ALERTAS
+drwx------. 2 u0_a287 u0_a287 3452 Mar  7 00:01 SESIONES
+-rw-------. 1 u0_a287 u0_a287 3738 Mar  4 20:54 diff_2026-03-04_20-54-00.json
+-rw-------. 1 u0_a287 u0_a287 4154 Mar  4 20:56 diff_2026-03-04_20-56-06.json
+-rw-------. 1 u0_a287 u0_a287 8363 Mar  4 14:42 hashes_baseline.json
+
+/data/data/com.termux/files/home/soda/04-REGISTROS/GUARDIAN/ALERTAS:
+total 12
+-rw-------. 1 u0_a287 u0_a287 214 Mar  4 14:42 alerta_2026-03-04_14-42-34.log
+-rw-------. 1 u0_a287 u0_a287 368 Mar  4 20:54 alerta_2026-03-04_20-54-00.log
+-rw-------. 1 u0_a287 u0_a287 368 Mar  4 20:56 alerta_2026-03-04_20-56-06.log
+
+/data/data/com.termux/files/home/soda/04-REGISTROS/GUARDIAN/SESIONES:
+total 104
+-rw-------. 1 u0_a287 u0_a287   187 Mar  6 13:27 snx_backend_v2_20260306_132737.log
+-rw-------. 1 u0_a287 u0_a287   129 Mar  6 13:28 snx_backend_v3_20260306_132840.log
+-rw-------. 1 u0_a287 u0_a287   128 Mar  6 13:28 snx_backend_v3_20260306_132841.log
+-rw-------. 1 u0_a287 u0_a287   382 Mar  4 20:02 snx_fase1_5_fix_service_20260304.log
+-rw-------. 1 u0_a287 u0_a287   827 Mar  4 14:42 snx_guardian_sesion_2026-03-04_14-42-34.log
+-rw-------. 1 u0_a287 u0_a287   934 Mar  4 20:54 snx_guardian_sesion_2026-03-04_20-54-00.log
+-rw-------. 1 u0_a287 u0_a287   934 Mar  4 20:56 snx_guardian_sesion_2026-03-04_20-56-06.log
+-rw-------. 1 u0_a287 u0_a287   106 Mar  4 15:42 snx_sesion_20260304_154201.log
+-rw-------. 1 u0_a287 u0_a287    50 Mar  4 15:50 snx_sesion_20260304_155041.log
+-rw-------. 1 u0_a287 u0_a287    63 Mar  4 15:50 snx_sesion_20260304_155043.log
+-rw-------. 1 u0_a287 u0_a287   113 Mar  4 15:54 snx_sesion_20260304_155406.log
+-rw-------. 1 u0_a287 u0_a287   113 Mar  4 15:54 snx_sesion_20260304_155413.log
+-rw-------. 1 u0_a287 u0_a287  4101 Mar  4 23:59 snx_termux_blindaje_20260304.log
+-rw-------. 1 u0_a287 u0_a287 18526 Mar  5 23:57 snx_termux_blindaje_20260305.log
+-rw-------. 1 u0_a287 u0_a287 17643 Mar  6 23:56 snx_termux_blindaje_20260306.log
+-rw-------. 1 u0_a287 u0_a287  5988 Mar  7 13:21 snx_termux_blindaje_20260307.log
+
+/data/data/com.termux/files/home/soda/04-REGISTROS/LOGS-LEGACY:
+total 4
+drwx------. 2 u0_a287 u0_a287 3452 Mar  7 15:37 TUNNEL
+
+/data/data/com.termux/files/home/soda/04-REGISTROS/LOGS-LEGACY/TUNNEL:
+total 4948
+-rw-------. 1 u0_a287 u0_a287    6218 Mar  5 08:54 tor_snx_monitor_v2_runtime.log
+-rw-------. 1 u0_a287 u0_a287     800 Mar  3 13:03 tor_snx_v1.log
+-rw-------. 1 u0_a287 u0_a287    5085 Mar  3 13:48 tor_snx_v1_runtime.log
+-rw-------. 1 u0_a287 u0_a287 5041767 Mar  7 15:37 tunnel_202603.log
+
+/data/data/com.termux/files/home/soda/04-REGISTROS/MONITOR:
+total 8
+-rw-------. 1 u0_a287 u0_a287   68 Mar  3 13:00 FASE3.log
+-rw-------. 1 u0_a287 u0_a287 1895 Mar  6 13:28 monitor_audit.jsonl
+-rw-------. 1 u0_a287 u0_a287    0 Mar  3 13:21 monitor_http_v2.log
+
+/data/data/com.termux/files/home/soda/04-REGISTROS/REGISTROS-LEGACY:
+total 4
+drwx------. 2 u0_a287 u0_a287 3452 Mar  7 15:38 BACKEND
+
+/data/data/com.termux/files/home/soda/04-REGISTROS/REGISTROS-LEGACY/BACKEND:
+total 0
+
+/data/data/com.termux/files/home/soda/04-REGISTROS/SYSTEM:
+total 1084
+-rw-------. 1 u0_a287 u0_a287     77 Mar  9 14:53 00-GOBIERNO_estructura.log
+-rw-------. 1 u0_a287 u0_a287   3961 Mar  9 14:53 00-GOBIERNO_ia.log
+-rw-------. 1 u0_a287 u0_a287    727 Mar  7 22:22 00-GOBIERNO_tree_20260307_222202.log
+-rw-------. 1 u0_a287 u0_a287    727 Mar  7 22:35 00-GOBIERNO_tree_20260307_223512.log
+-rw-------. 1 u0_a287 u0_a287    727 Mar  7 22:36 00-GOBIERNO_tree_20260307_223637.log
+-rw-------. 1 u0_a287 u0_a287     91 Mar  7 22:22 01-MEMORIA_backups_20260307_222202.log
+-rw-------. 1 u0_a287 u0_a287     91 Mar  7 22:35 01-MEMORIA_backups_20260307_223513.log
+-rw-------. 1 u0_a287 u0_a287     91 Mar  7 22:36 01-MEMORIA_backups_20260307_223637.log
+-rw-------. 1 u0_a287 u0_a287     54 Mar  9 14:53 01-MEMORIA_du.log
+-rw-------. 1 u0_a287 u0_a287   4632 Mar  9 14:53 01-MEMORIA_ia.log
+-rw-------. 1 u0_a287 u0_a287  40735 Mar  9 14:53 02-SISTEMA_ia.log
+-rw-------. 1 u0_a287 u0_a287     57 Mar  9 14:53 03-OPERACIONES_du.log
+-rw-------. 1 u0_a287 u0_a287   4852 Mar  9 14:53 03-OPERACIONES_ia.log
+-rw-------. 1 u0_a287 u0_a287     56 Mar  9 14:53 04-REGISTROS_du.log
+-rw-------. 1 u0_a287 u0_a287     56 Mar  7 22:22 04-REGISTROS_du_20260307_222204.log
+-rw-------. 1 u0_a287 u0_a287     56 Mar  7 22:35 04-REGISTROS_du_20260307_223514.log
+-rw-------. 1 u0_a287 u0_a287   3464 Mar  9 14:53 04-REGISTROS_ia.log
+-rw-------. 1 u0_a287 u0_a287   1031 Mar  7 22:22 05-DOCUMENTACION_docs_sin_prefijo_20260307_222204.log
+-rw-------. 1 u0_a287 u0_a287   1114 Mar  7 22:35 05-DOCUMENTACION_docs_sin_prefijo_20260307_223514.log
+-rw-------. 1 u0_a287 u0_a287     60 Mar  9 14:53 05-DOCUMENTACION_du.log
+-rw-------. 1 u0_a287 u0_a287   3683 Mar  9 14:53 05-DOCUMENTACION_ia.log
+-rw-------. 1 u0_a287 u0_a287   1114 Mar  9 14:24 05-DOCUMENTACION_sin_prefijo.log
+-rw-------. 1 u0_a287 u0_a287     54 Mar  9 14:53 06-MONITOR_du.log
+-rw-------. 1 u0_a287 u0_a287   4200 Mar  9 14:53 06-MONITOR_ia.log
+-rw-------. 1 u0_a287 u0_a287  65388 Mar  9 14:53 antiamnesia_soberano.log
+-rw-------. 1 u0_a287 u0_a287   3321 Mar  9 14:37 auditoria_final.log
+-rw-------. 1 u0_a287 u0_a287    227 Mar 11 12:44 auditoria_total_20260311_124431.log
+-rw-------. 1 u0_a287 u0_a287  40879 Mar  9 14:53 central_ia.log
+-rw-------. 1 u0_a287 u0_a287    743 Mar  9 12:57 integridad.log
+-rw-------. 1 u0_a287 u0_a287 135168 Mar 11 12:44 ls_lR_20260311_124431.log
+-rw-------. 1 u0_a287 u0_a287  39634 Mar  9 14:36 monitor_permanente.log
+-rw-------. 1 u0_a287 u0_a287    458 Feb 27 07:31 reader_20260227_0731.log
+-rw-------. 1 u0_a287 u0_a287      0 Mar  9 12:43 system_map_20260309_124333.log
+-rw-------. 1 u0_a287 u0_a287      0 Mar  9 13:46 system_map_20260309_134624.log
+-rw-------. 1 u0_a287 u0_a287      0 Mar  9 14:20 system_map_20260309_142024.log
+-rw-------. 1 u0_a287 u0_a287      0 Mar  9 14:24 system_map_20260309_142404.log
+-rw-------. 1 u0_a287 u0_a287      0 Mar  9 14:24 system_map_20260309_142442.log
+-rw-------. 1 u0_a287 u0_a287      0 Mar  9 14:25 system_map_20260309_142522.log
+-rw-------. 1 u0_a287 u0_a287      0 Mar  9 14:25 system_map_20260309_142558.log
+-rw-------. 1 u0_a287 u0_a287      0 Mar  9 14:38 system_map_20260309_143843.log
+-rw-------. 1 u0_a287 u0_a287      0 Mar  9 14:41 system_map_20260309_144132.log
+-rw-------. 1 u0_a287 u0_a287      0 Mar  9 14:53 system_map_20260309_145302.log
+-rw-------. 1 u0_a287 u0_a287      0 Mar  9 14:53 system_map_20260309_145331.log
+-rw-------. 1 u0_a287 u0_a287      0 Mar  9 14:53 system_map_20260309_145346.log
+-rw-------. 1 u0_a287 u0_a287  69800 Feb 27 07:31 tree_20260227_0731.log
+-rw-------. 1 u0_a287 u0_a287 149531 Mar 11 12:44 tree_20260311_124431.log
+-rw-------. 1 u0_a287 u0_a287 145046 Mar  9 14:41 validacion_certificada.log
+-rw-------. 1 u0_a287 u0_a287 289931 Mar  9 14:53 validacion_total.log
+
+/data/data/com.termux/files/home/soda/04-REGISTROS/SYSTEM-MAP:
+total 572
+-rw-------. 1 u0_a287 u0_a287 582937 Mar  4 14:57 snx_system_map_2026-03-04_14-56-09.txt
+
+/data/data/com.termux/files/home/soda/04-REGISTROS/TUNNEL:
+total 888
+-rw-------. 1 u0_a287 u0_a287 870090 Feb 27 13:26 tunnel_202602.log
+-rw-------. 1 u0_a287 u0_a287  34079 Feb 27 00:14 tunnel_20260226.log
+
+/data/data/com.termux/files/home/soda/04-REGISTROS/ia_sesiones:
+total 20
+-rw-------. 1 u0_a287 u0_a287 330 Mar  9 20:49 2026-03-10_004954_ia_sesion.json
+-rw-------. 1 u0_a287 u0_a287 208 Mar 10 16:53 2026-03-10_205314_ia_sesion.json
+-rw-------. 1 u0_a287 u0_a287 342 Mar 11 09:15 2026-03-11_131510_ia_sesion.json
+-rw-------. 1 u0_a287 u0_a287 342 Mar 11 09:15 2026-03-11_131524_ia_sesion.json
+-rw-------. 1 u0_a287 u0_a287 335 Mar 11 11:35 2026-03-11_153556_ia_sesion.json
+
+/data/data/com.termux/files/home/soda/05-DOCUMENTACION:
+total 1045
+drwx------. 2 u0_a287 u0_a287   3452 Mar  9 14:41 CERTIFICACION
+drwx------. 2 u0_a287 u0_a287   3452 Mar  7 22:22 CONTEXTOS
+drwx------. 2 u0_a287 u0_a287   3452 Mar  9 14:37 INFORMES
+drwx------. 2 u0_a287 u0_a287   3452 Mar  7 13:21 MONITOR
+-rw-------. 1 u0_a287 u0_a287     36 Feb 27 14:06 NOMBRE_DEL_DOCUMENTO.md
+-rw-------. 1 u0_a287 u0_a287   3762 Feb 27 14:32 SNX-CONSULTA-IA-SCRIPT-CENTRAL-v1.0.md
+-rw-------. 1 u0_a287 u0_a287   5395 Feb 27 14:17 SNX-CONTEXTO-PROYECTO-v1.0.md
+-rw-------. 1 u0_a287 u0_a287   3818 Feb 27 15:05 SNX-DEBATE-IA-SCRIPT-CENTRAL-v1.0.md
+-rw-------. 1 u0_a287 u0_a287   4283 Mar  1 22:51 SNX-HOJA-DE-RUTA-2026.md
+-rw-------. 1 u0_a287 u0_a287   4721 Mar  3 09:13 SNX-INSTRUCTIVO-GUARDADO-TERMUX.md
+-rw-------. 1 u0_a287 u0_a287    957 Mar  3 12:24 SNX-LEY-000.md
+-rw-------. 1 u0_a287 u0_a287    886 Feb 27 14:07 SNX-LEY-REGLAS-DE-PRODUCCION-v2.0.md
+-rw-------. 1 u0_a287 u0_a287   2258 Feb 27 14:15 SNX-LEY-REGLAS-DE-PRODUCCION-v3.1.md
+-rw-------. 1 u0_a287 u0_a287   4394 Mar  1 11:27 SNX-MONITOR-PLAN-2026.md
+-rw-------. 1 u0_a287 u0_a287     63 Mar  4 20:56 SNX-TOR-MONITOR-V2.txt
+-rw-------. 1 u0_a287 u0_a287     63 Mar  3 12:56 SNX-TOR-ONION-V1.txt
+-rw-------. 1 u0_a287 u0_a287   5764 Feb 26 18:16 SNX-TUNNEL-2026.md
+-rw-------. 1 u0_a287 u0_a287 965123 Feb 27 12:36 TODO_EL_SISTEMA.txt
+drwx------. 2 u0_a287 u0_a287   3452 Feb 27 13:35 TODO_SPLIT
+drwx------. 2 u0_a287 u0_a287   3452 Mar  9 14:38 VALIDACION
+-rw-------. 1 u0_a287 u0_a287    834 Mar  4 10:25 ia.js
+-rw-------. 1 u0_a287 u0_a287   2123 Mar  9 14:25 snx_ia_documentacion.sh
+
+/data/data/com.termux/files/home/soda/05-DOCUMENTACION/CERTIFICACION:
+total 4
+-rw-------. 1 u0_a287 u0_a287 3844 Mar  9 14:41 INFORME-CERTIFICACION-SISTEMA.md
+
+/data/data/com.termux/files/home/soda/05-DOCUMENTACION/CONTEXTOS:
+total 28
+-rw-------. 1 u0_a287 u0_a287 276 Mar  7 22:22 CTX-00-GOBIERNO.md
+-rw-------. 1 u0_a287 u0_a287 212 Mar  7 22:22 CTX-01-MEMORIA.md
+-rw-------. 1 u0_a287 u0_a287 235 Mar  7 22:22 CTX-02-SISTEMA.md
+-rw-------. 1 u0_a287 u0_a287 238 Mar  7 22:22 CTX-03-OPERACIONES.md
+-rw-------. 1 u0_a287 u0_a287 234 Mar  7 22:22 CTX-04-REGISTROS.md
+-rw-------. 1 u0_a287 u0_a287 252 Mar  7 22:22 CTX-05-DOCUMENTACION.md
+-rw-------. 1 u0_a287 u0_a287 233 Mar  7 22:22 CTX-06-MONITOR.md
+
+/data/data/com.termux/files/home/soda/05-DOCUMENTACION/INFORMES:
+total 156
+-rw-------. 1 u0_a287 u0_a287   1818 Mar  9 14:37 INFORME-AUDITORIA-FINAL.md
+-rw-------. 1 u0_a287 u0_a287 133719 Mar  9 14:37 INFORME-CONSOLIDACION-DOCUMENTAL.md
+-rw-------. 1 u0_a287 u0_a287  14185 Mar  9 14:37 INFORME-OPTIMIZACION.md
+-rwx------. 1 u0_a287 u0_a287    691 Mar  9 14:37 snx_consolidacion_documental.sh
+
+/data/data/com.termux/files/home/soda/05-DOCUMENTACION/MONITOR:
+total 28
+-rw-------. 1 u0_a287 u0_a287 5877 Mar  4 09:35 CONTEXTO-GENERAL.md
+-rw-------. 1 u0_a287 u0_a287 7527 Mar  3 15:57 FASE-1-CONSTITUCION.md
+-rw-------. 1 u0_a287 u0_a287 1710 Mar  3 22:10 FASE-3-FRONTEND.md
+-rw-------. 1 u0_a287 u0_a287  617 Mar  4 09:58 FASE-5-AUDITORIA-E-INTEGRIDAD.md
+-rw-------. 1 u0_a287 u0_a287  940 Mar  4 10:18 FASE-6-PUBLICACION-AVANZADA.md
+
+/data/data/com.termux/files/home/soda/05-DOCUMENTACION/TODO_SPLIT:
+total 944
+-rw-------. 1 u0_a287 u0_a287 642238 Feb 27 12:40 parte_aa
+-rw-------. 1 u0_a287 u0_a287 322885 Feb 27 12:40 parte_ab
+
+/data/data/com.termux/files/home/soda/05-DOCUMENTACION/VALIDACION:
+total 4
+-rw-------. 1 u0_a287 u0_a287 3940 Mar  9 14:53 INFORME-VALIDACION-TOTAL.md
+
+/data/data/com.termux/files/home/soda/05-REGISTROS:
+total 4
+drwx------. 3 u0_a287 u0_a287 3452 Mar  7 16:48 GUARDIAN
+
+/data/data/com.termux/files/home/soda/05-REGISTROS/GUARDIAN:
+total 4
+drwx------. 2 u0_a287 u0_a287 3452 Mar 11 00:01 SESIONES
+
+/data/data/com.termux/files/home/soda/05-REGISTROS/GUARDIAN/SESIONES:
+total 80
+-rw-------. 1 u0_a287 u0_a287  5608 Mar  7 23:59 snx_termux_blindaje_20260307.log
+-rw-------. 1 u0_a287 u0_a287 17388 Mar  8 23:59 snx_termux_blindaje_20260308.log
+-rw-------. 1 u0_a287 u0_a287 19353 Mar  9 23:59 snx_termux_blindaje_20260309.log
+-rw-------. 1 u0_a287 u0_a287 18271 Mar 10 23:56 snx_termux_blindaje_20260310.log
+-rw-------. 1 u0_a287 u0_a287  9140 Mar 11 12:40 snx_termux_blindaje_20260311.log
+
+/data/data/com.termux/files/home/soda/06-MONITOR:
+total 19
+drwx------. 2 u0_a287 u0_a287 3452 Mar  3 12:35 V1
+drwx------. 2 u0_a287 u0_a287 3452 Mar  3 13:00 V2
+drwx------. 2 u0_a287 u0_a287 3452 Mar  9 20:50 V3
+-rwx------. 1 u0_a287 u0_a287 2121 Mar  9 14:25 snx_ia_monitor.sh
+-rwx------. 1 u0_a287 u0_a287  321 Mar  9 14:37 snx_monitor_permanente.sh
+
+/data/data/com.termux/files/home/soda/06-MONITOR/V1:
+total 8
+-rw-------. 1 u0_a287 u0_a287 1505 Mar  3 12:35 index-v1.html
+-rw-------. 1 u0_a287 u0_a287 1042 Mar  3 12:35 monitor-v1.js
+
+/data/data/com.termux/files/home/soda/06-MONITOR/V2:
+total 8
+-rw-------. 1 u0_a287 u0_a287 1511 Mar  3 13:00 index-v2.html
+-rw-------. 1 u0_a287 u0_a287 1657 Mar  3 13:00 monitor-v2.js
+
+/data/data/com.termux/files/home/soda/06-MONITOR/V3:
+total 412
+-rw-------. 1 u0_a287 u0_a287    230 Mar  9 17:36 config_monitor.json
+-rw-------. 1 u0_a287 u0_a287    278 Mar  9 20:21 index.html
+-rw-------. 1 u0_a287 u0_a287 370880 Mar  6 13:28 monitor_data.json
+-rw-------. 1 u0_a287 u0_a287   1070 Mar  7 12:57 monitor_soberano_bootstrap.html
+-rw-------. 1 u0_a287 u0_a287   5320 Mar  9 20:17 monitor_soberano_v2.html
+-rw-------. 1 u0_a287 u0_a287   4534 Mar  9 20:50 monitor_soberano_v3.html
+-rw-------. 1 u0_a287 u0_a287   1102 Mar  6 13:38 snx_monitor_client_v1.js
+-rw-------. 1 u0_a287 u0_a287    477 Mar  6 13:38 snx_monitor_interface_v1.html
+-rw-------. 1 u0_a287 u0_a287   4041 Mar  9 20:17 snx_monitor_v2.js
+-rw-------. 1 u0_a287 u0_a287   4761 Mar  9 20:50 snx_monitor_v3.js
+
+/data/data/com.termux/files/home/soda/99-TMP:
+total 4
+drwx------. 3 u0_a287 u0_a287 3452 Mar  3 15:05 snx_publish_monitor
+
+/data/data/com.termux/files/home/soda/99-TMP/snx_publish_monitor:
+total 4
+drwx------. 12 u0_a287 u0_a287 3452 Mar  3 15:06 repo
+
+/data/data/com.termux/files/home/soda/99-TMP/snx_publish_monitor/repo:
+total 97
+-rw-------. 1 u0_a287 u0_a287  2383 Mar  3 15:06 Acta001-backup.md
+-rw-------. 1 u0_a287 u0_a287 24105 Mar  3 15:06 Biblia
+-rw-------. 1 u0_a287 u0_a287  7721 Mar  3 15:06 Modulo1
+-rw-------. 1 u0_a287 u0_a287    66 Mar  3 15:06 README.md
+-rw-------. 1 u0_a287 u0_a287  1738 Mar  3 15:06 Val001-backup.md
+drwx------. 2 u0_a287 u0_a287  3452 Mar  3 15:06 app
+drwx------. 5 u0_a287 u0_a287  3452 Mar  3 15:06 archivo
+-rw-------. 1 u0_a287 u0_a287     0 Mar  3 15:06 arrancar-sistema.sh
+-rwx------. 1 u0_a287 u0_a287     0 Mar  3 15:06 construir-herramientas-dossier.sh
+drwx------. 3 u0_a287 u0_a287  3452 Mar  4 10:25 docs
+drwx------. 9 u0_a287 u0_a287  3452 Mar  3 15:06 dossier
+-rw-------. 1 u0_a287 u0_a287     0 Mar  3 15:06 ejecutar-enmienda-definitiva.sh
+-rwx------. 1 u0_a287 u0_a287     0 Mar  3 15:06 fundacion-mejorada.sh
+-rw-------. 1 u0_a287 u0_a287 11017 Mar  3 15:06 index.html
+-rwx------. 1 u0_a287 u0_a287     0 Mar  3 15:06 instalar-auditor.sh
+-rwx------. 1 u0_a287 u0_a287     0 Mar  3 15:06 instalar-auditoria.sh
+-rwx------. 1 u0_a287 u0_a287     0 Mar  3 15:06 instalar-protocolo-auditoria.sh
+-rw-------. 1 u0_a287 u0_a287  5042 Mar  3 15:06 inventario.json
+-rwx------. 1 u0_a287 u0_a287     0 Mar  3 15:06 leer-constitucion.sh
+drwx------. 2 u0_a287 u0_a287  3452 Mar  3 15:06 logs
+-rw-------. 1 u0_a287 u0_a287     0 Mar  3 15:06 mapa-del-dossier.sh
+-rwx------. 1 u0_a287 u0_a287     0 Mar  3 15:06 ratificar-enmienda.sh
+-rw-------. 1 u0_a287 u0_a287   127 Mar  3 15:06 requirements.txt
+drwx------. 4 u0_a287 u0_a287  3452 Mar  3 15:06 scripts
+-rwx------. 1 u0_a287 u0_a287  1306 Mar  3 15:06 setup_fase1-backup.sh
+drwx------. 2 u0_a287 u0_a287  3452 Mar  3 15:06 src
+
+/data/data/com.termux/files/home/soda/99-TMP/snx_publish_monitor/repo/app:
+total 108
+-rw-------. 1 u0_a287 u0_a287   476 Mar  3 15:06 Dockerfile
+-rw-------. 1 u0_a287 u0_a287   864 Mar  3 15:06 client.js
+-rw-------. 1 u0_a287 u0_a287  2234 Mar  3 15:06 index.js
+-rw-------. 1 u0_a287 u0_a287 93196 Mar  3 15:06 package-lock.json
+-rw-------. 1 u0_a287 u0_a287   284 Mar  3 15:06 package.json
+
+/data/data/com.termux/files/home/soda/99-TMP/snx_publish_monitor/repo/archivo:
+total 11
+drwx------. 3 u0_a287 u0_a287 3452 Mar  3 15:06 backups
+drwx------. 5 u0_a287 u0_a287 3452 Mar  3 15:06 legacy-code
+drwx------. 2 u0_a287 u0_a287 3452 Mar  3 15:06 legacy-config
+
+/data/data/com.termux/files/home/soda/99-TMP/snx_publish_monitor/repo/archivo/backups:
+total 4
+drwx------. 2 u0_a287 u0_a287 3452 Mar  3 15:06 constitucion-pre-enmienda-20250905-135415
+
+/data/data/com.termux/files/home/soda/99-TMP/snx_publish_monitor/repo/archivo/backups/constitucion-pre-enmienda-20250905-135415:
+total 52
+-rw-------. 1 u0_a287 u0_a287 1129 Mar  3 15:06 ACTA-FIRMADA-001.md
+-rw-------. 1 u0_a287 u0_a287 2454 Mar  3 15:06 LEY-01-SUPREMACIA.md
+-rw-------. 1 u0_a287 u0_a287 1898 Mar  3 15:06 LEY-02-MISION.md
+-rw-------. 1 u0_a287 u0_a287 1787 Mar  3 15:06 LEY-03-GOBERNANZA.md
+-rw-------. 1 u0_a287 u0_a287 1653 Mar  3 15:06 LEY-04-PROTOCOLOS.md
+-rw-------. 1 u0_a287 u0_a287 1601 Mar  3 15:06 LEY-05-ARQUITECTURA.md
+-rw-------. 1 u0_a287 u0_a287 1018 Mar  3 15:06 LEY-06-NORMAS.md
+-rw-------. 1 u0_a287 u0_a287 1928 Mar  3 15:06 LEY-07-DERECHOS.md
+-rw-------. 1 u0_a287 u0_a287 1109 Mar  3 15:06 LEY-08-ENMIENDAS.md
+-rw-------. 1 u0_a287 u0_a287 1586 Mar  3 15:06 LEY-09-AUTONOMIA.md
+-rw-------. 1 u0_a287 u0_a287  571 Mar  3 15:06 LEY-10-SOBERANIA-DE-SCRIPTS.md
+-rw-------. 1 u0_a287 u0_a287  521 Mar  3 15:06 LEY-11-FUNCION-DEL-MONITOR.md
+-rw-------. 1 u0_a287 u0_a287  536 Mar  3 15:06 LEY-12-FLUJO-DE-IAS.md
+
+/data/data/com.termux/files/home/soda/99-TMP/snx_publish_monitor/repo/archivo/legacy-code:
+total 11
+drwx------. 2 u0_a287 u0_a287 3452 Mar  3 15:06 modulos
+drwx------. 2 u0_a287 u0_a287 3452 Mar  3 15:06 monitor-maestro
+drwx------. 2 u0_a287 u0_a287 3452 Mar  3 15:06 monitor-mvp
+
+/data/data/com.termux/files/home/soda/99-TMP/snx_publish_monitor/repo/archivo/legacy-code/modulos:
+total 24
+-rw-------. 1 u0_a287 u0_a287   32 Mar  3 15:06 Contexto.gs
+-rw-------. 1 u0_a287 u0_a287   36 Mar  3 15:06 Credenciales.gs
+-rw-------. 1 u0_a287 u0_a287  365 Mar  3 15:06 Modulo_2.gs
+-rw-------. 1 u0_a287 u0_a287 1973 Mar  3 15:06 Modulo_ganancias.gs
+-rw-------. 1 u0_a287 u0_a287   41 Mar  3 15:06 Modulo_instalador.gs
+-rw-------. 1 u0_a287 u0_a287   34 Mar  3 15:06 Utilidades.gs
+
+/data/data/com.termux/files/home/soda/99-TMP/snx_publish_monitor/repo/archivo/legacy-code/monitor-maestro:
+total 16
+-rw-------. 1 u0_a287 u0_a287 1034 Mar  3 15:06 CSS.html
+-rw-------. 1 u0_a287 u0_a287  725 Mar  3 15:06 JavaScript.html
+-rw-------. 1 u0_a287 u0_a287  299 Mar  3 15:06 codigo.gs
+-rw-------. 1 u0_a287 u0_a287 1271 Mar  3 15:06 monitor.html
+
+/data/data/com.termux/files/home/soda/99-TMP/snx_publish_monitor/repo/archivo/legacy-code/monitor-mvp:
+total 12
+-rw-------. 1 u0_a287 u0_a287 2420 Mar  3 15:06 client.js
+-rw-------. 1 u0_a287 u0_a287 1428 Mar  3 15:06 index.html
+-rw-------. 1 u0_a287 u0_a287 1824 Mar  3 15:06 style.css
+
+/data/data/com.termux/files/home/soda/99-TMP/snx_publish_monitor/repo/archivo/legacy-config:
+total 20
+-rw-------. 1 u0_a287 u0_a287  841 Mar  3 15:06 deploy-koyeb.yml
+-rw-------. 1 u0_a287 u0_a287  143 Mar  3 15:06 firebase.json
+-rw-------. 1 u0_a287 u0_a287  621 Mar  3 15:06 render.yaml
+-rw-------. 1 u0_a287 u0_a287 2797 Mar  3 15:06 validacion-constitucional.yml
+-rw-------. 1 u0_a287 u0_a287  343 Mar  3 15:06 vercel.json
+
+/data/data/com.termux/files/home/soda/99-TMP/snx_publish_monitor/repo/docs:
+total 40
+-rw-------. 1 u0_a287 u0_a287 1502 Mar  3 15:06 config.js
+-rw-------. 1 u0_a287 u0_a287  834 Mar  4 10:25 ia.js
+-rw-------. 1 u0_a287 u0_a287 3403 Mar  3 15:06 index-2.html
+-rw-------. 1 u0_a287 u0_a287 2237 Mar  3 15:06 index-3.html
+-rw-------. 1 u0_a287 u0_a287 1810 Mar  4 09:57 index.html
+drwx------. 2 u0_a287 u0_a287 3452 Mar  4 09:22 monitor
+-rw-------. 1 u0_a287 u0_a287 1078 Mar  3 15:06 monitor-2.js
+-rw-------. 1 u0_a287 u0_a287 2546 Mar  4 09:57 monitor.js
+-rw-------. 1 u0_a287 u0_a287 1021 Mar  3 15:06 snx-logs-2.js
+-rw-------. 1 u0_a287 u0_a287 2148 Mar  3 15:06 snx-logs.js
+
+/data/data/com.termux/files/home/soda/99-TMP/snx_publish_monitor/repo/docs/monitor:
+total 8
+-rw-------. 1 u0_a287 u0_a287 1810 Mar  4 09:22 index.html
+-rw-------. 1 u0_a287 u0_a287 2546 Mar  4 09:22 monitor.js
+
+/data/data/com.termux/files/home/soda/99-TMP/snx_publish_monitor/repo/dossier:
+total 25
+drwx------. 2 u0_a287 u0_a287 3452 Mar  3 15:06 _plantillas
+drwx------. 2 u0_a287 u0_a287 3452 Mar  3 15:06 actas
+drwx------. 2 u0_a287 u0_a287 3452 Mar  3 15:06 constitucion
+drwx------. 2 u0_a287 u0_a287 3452 Mar  3 15:06 estrategia
+drwx------. 2 u0_a287 u0_a287 3452 Mar  3 15:06 normas
+drwx------. 2 u0_a287 u0_a287 3452 Mar  3 15:06 propuestas
+drwx------. 2 u0_a287 u0_a287 3452 Mar  3 15:06 protocolos
+
+/data/data/com.termux/files/home/soda/99-TMP/snx_publish_monitor/repo/dossier/_plantillas:
+total 16
+-rw-------. 1 u0_a287 u0_a287 110 Mar  3 15:06 LEY_CONSTITUCIONAL.md
+-rw-------. 1 u0_a287 u0_a287 214 Mar  3 15:06 NUEVA_ACTA.md
+-rw-------. 1 u0_a287 u0_a287 197 Mar  3 15:06 NUEVA_LEY.md
+-rw-------. 1 u0_a287 u0_a287 428 Mar  3 15:06 SCRIPT_CONSTITUCIONAL.sh
+
+/data/data/com.termux/files/home/soda/99-TMP/snx_publish_monitor/repo/dossier/actas:
+total 20
+-rw-------. 1 u0_a287 u0_a287  937 Mar  3 15:06 ACTA-BLINDAJE-FASE-1.3.md
+-rw-------. 1 u0_a287 u0_a287 1129 Mar  3 15:06 ACTA-FIRMADA-001.md
+-rw-------. 1 u0_a287 u0_a287 2125 Mar  3 15:06 ACTA-SESION-20250823-001.md
+-rw-------. 1 u0_a287 u0_a287 1142 Mar  3 15:06 ACTA-SESION-20250823-002.md
+-rw-------. 1 u0_a287 u0_a287 1194 Mar  3 15:06 ACTA-SESION-20250824-001.md
+
+/data/data/com.termux/files/home/soda/99-TMP/snx_publish_monitor/repo/dossier/constitucion:
+total 48
+-rw-------. 1 u0_a287 u0_a287 2454 Mar  3 15:06 LEY-01-SUPREMACIA.md
+-rw-------. 1 u0_a287 u0_a287 1898 Mar  3 15:06 LEY-02-MISION.md
+-rw-------. 1 u0_a287 u0_a287 1787 Mar  3 15:06 LEY-03-GOBERNANZA.md
+-rw-------. 1 u0_a287 u0_a287 2715 Mar  3 15:06 LEY-04-PROTOCOLOS-Y-NORMAS.md
+-rw-------. 1 u0_a287 u0_a287 1601 Mar  3 15:06 LEY-05-ARQUITECTURA.md
+-rw-------. 1 u0_a287 u0_a287 1928 Mar  3 15:06 LEY-07-DERECHOS.md
+-rw-------. 1 u0_a287 u0_a287 1109 Mar  3 15:06 LEY-08-ENMIENDAS.md
+-rw-------. 1 u0_a287 u0_a287 1586 Mar  3 15:06 LEY-09-AUTONOMIA.md
+-rw-------. 1 u0_a287 u0_a287  571 Mar  3 15:06 LEY-10-SOBERANIA-DE-SCRIPTS.md
+-rw-------. 1 u0_a287 u0_a287  521 Mar  3 15:06 LEY-11-FUNCION-DEL-MONITOR.md
+-rw-------. 1 u0_a287 u0_a287  536 Mar  3 15:06 LEY-12-FLUJO-DE-IAS.md
+-rw-------. 1 u0_a287 u0_a287  254 Mar  3 15:06 PENDIENTES-ENMIENDA.md
+
+/data/data/com.termux/files/home/soda/99-TMP/snx_publish_monitor/repo/dossier/estrategia:
+total 24
+-rw-------. 1 u0_a287 u0_a287 3570 Mar  3 15:06 Biblia_Finanzas_Brillantes.md
+-rw-------. 1 u0_a287 u0_a287 4008 Mar  3 15:06 DUV-009-Plano-Maestro.md
+-rw-------. 1 u0_a287 u0_a287  571 Mar  3 15:06 ESTADO-DE-LA-NACION-001.md
+-rw-------. 1 u0_a287 u0_a287 7814 Mar  3 15:06 LIBRO-MAESTRO-FINAL.md
+-rw-------. 1 u0_a287 u0_a287   76 Mar  3 15:06 ORDENES.md
+
+/data/data/com.termux/files/home/soda/99-TMP/snx_publish_monitor/repo/dossier/normas:
+total 36
+-rw-------. 1 u0_a287 u0_a287  737 Mar  3 15:06 NORMA-001-Nomenclaturas.md
+-rw-------. 1 u0_a287 u0_a287  656 Mar  3 15:06 NORMA-002-Seguridad.md
+-rw-------. 1 u0_a287 u0_a287  887 Mar  3 15:06 NORMA-003-Formatos.md
+-rw-------. 1 u0_a287 u0_a287 1153 Mar  3 15:06 NORMA-004-Incidentes.md
+-rw-------. 1 u0_a287 u0_a287  955 Mar  3 15:06 NORMA-005-Gobernanza.md
+-rw-------. 1 u0_a287 u0_a287  752 Mar  3 15:06 NORMA-006-Integridad-Datos.md
+-rw-------. 1 u0_a287 u0_a287  992 Mar  3 15:06 NORMA-007-Autonomia.md
+-rw-------. 1 u0_a287 u0_a287  915 Mar  3 15:06 NORMA-008-Escalabilidad.md
+-rw-------. 1 u0_a287 u0_a287  485 Mar  3 15:06 NORMA-009-MANEJO-DE-SECRETOS.md
+
+/data/data/com.termux/files/home/soda/99-TMP/snx_publish_monitor/repo/dossier/propuestas:
+total 24
+-rw-------. 1 u0_a287 u0_a287 2460 Mar  3 15:06 DUV-002-Cloud-Function-Prueba.md
+-rw-------. 1 u0_a287 u0_a287 2467 Mar  3 15:06 DUV-003-Monitor-MVP.md
+-rw-------. 1 u0_a287 u0_a287 2688 Mar  3 15:06 DUV-004-Nexus-Core.md
+-rw-------. 1 u0_a287 u0_a287 2850 Mar  3 15:06 DUV-008-Plano-Maestro-Monitor-Abierto.md
+-rw-------. 1 u0_a287 u0_a287 1841 Mar  3 15:06 DUV-011-Monitor-Profesional.md
+-rw-------. 1 u0_a287 u0_a287 1829 Mar  3 15:06 DUV-012-Monitor-Frontend-Fase1.md
+
+/data/data/com.termux/files/home/soda/99-TMP/snx_publish_monitor/repo/dossier/protocolos:
+total 4
+-rw-------. 1 u0_a287 u0_a287 1790 Mar  3 15:06 PACTO-OPERATIVO-001.md
+
+/data/data/com.termux/files/home/soda/99-TMP/snx_publish_monitor/repo/logs:
+total 4
+-rw-------. 1 u0_a287 u0_a287 128 Mar  3 15:06 LOG_MAESTRO.md
+
+/data/data/com.termux/files/home/soda/99-TMP/snx_publish_monitor/repo/scripts:
+total 7
+drwx------. 2 u0_a287 u0_a287 3452 Mar  3 15:06 mantenimiento
+drwx------. 2 u0_a287 u0_a287 3452 Mar  3 15:06 operativos
+
+/data/data/com.termux/files/home/soda/99-TMP/snx_publish_monitor/repo/scripts/mantenimiento:
+total 8
+-rw-------. 1 u0_a287 u0_a287    0 Mar  3 15:06 auditar-corte.sh
+-rw-------. 1 u0_a287 u0_a287    0 Mar  3 15:06 auditoria-final.sh
+-rwx------. 1 u0_a287 u0_a287    0 Mar  3 15:06 construir-herramientas-director.sh
+-rwx------. 1 u0_a287 u0_a287    0 Mar  3 15:06 limpiar-casos-antiguos.sh
+-rwx------. 1 u0_a287 u0_a287  993 Mar  3 15:06 orden.sh
+-rw-------. 1 u0_a287 u0_a287    0 Mar  3 15:06 renovar-credencial.sh
+-rw-------. 1 u0_a287 u0_a287    0 Mar  3 15:06 reorganizar-proyecto.sh
+-rwx------. 1 u0_a287 u0_a287 1426 Mar  3 15:06 veredicto.sh
+
+/data/data/com.termux/files/home/soda/99-TMP/snx_publish_monitor/repo/scripts/operativos:
+total 20
+-rwx------. 1 u0_a287 u0_a287  457 Mar  3 15:06 crear-acta.sh
+-rwx------. 1 u0_a287 u0_a287  439 Mar  3 15:06 crear-ley.sh
+-rw-------. 1 u0_a287 u0_a287  224 Mar  3 15:06 entrypoint.sh
+-rwx------. 1 u0_a287 u0_a287 1824 Mar  3 15:06 instalar_soberania.sh
+-rw-------. 1 u0_a287 u0_a287  824 Mar  3 15:06 validar-dossier.js
+
+/data/data/com.termux/files/home/soda/99-TMP/snx_publish_monitor/repo/src:
+total 8
+-rw-------. 1 u0_a287 u0_a287 6781 Mar  3 15:06 api.py
+
+/data/data/com.termux/files/home/soda/STATE:
+total 4
+-rw-------. 1 u0_a287 u0_a287 341 Mar  9 17:35 estado_central.json

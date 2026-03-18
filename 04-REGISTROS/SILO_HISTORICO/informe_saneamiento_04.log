@@ -1,0 +1,13 @@
+=== INFORME DE AVANCE INSTITUCIONAL ===
+Fecha: 2026-03-13 12:51:18
+Ministerio: 04-REGISTROS
+Acción: Rotación de logs pesados y limpieza de raíz.
+
+CAMBIOS REALIZADOS:
+1. PESO: tunnel_202603.log comprimido con GZIP para optimizar almacenamiento.
+2. ORDEN: Logs de Fases y logs.txt movidos a REGISTROS-LEGACY.
+3. TRAZABILIDAD: Índices de memoria actualizados mediante snx_ia_registros_V4.sh.
+
+Estado del Ministerio: TRAZABILIDAD OPTIMIZADA Y DOCUMENTADA.
+Director: Jeisson
+Auditor: Gemini SODA-NEXUS

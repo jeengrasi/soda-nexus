@@ -1,0 +1,14 @@
+ACTUAL_SANEADO
+ANTIAMNESIA
+BACKEND
+GUARDIAN
+LOGS-LEGACY
+MONITOR
+REGISTROS-LEGACY
+SYSTEM
+SYSTEM-MAP
+TUNNEL
+hitos.log
+ia_sesiones
+snx_ia_registros_V4.sh
+snx_reingenieria_reg_v1.sh

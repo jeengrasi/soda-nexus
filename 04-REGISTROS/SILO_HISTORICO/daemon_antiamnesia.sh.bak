@@ -1,0 +1,32 @@
+#!/data/data/com.termux/files/usr/bin/bash
+# ============================================================
+# SNX — DAEMON ANTIAMNESIA
+# Verifica existencia de archivos clave y registra estado.
+# ============================================================
+
+BASE="$HOME/soda"
+MEMORIA="$BASE/01-MEMORIA/ACTUAL"
+LOG="$MEMORIA/daemon_antiamnesia.log"
+
+mkdir -p "$MEMORIA"
+
+check_file() {
+  local path="$1"
+  if [ -f "$path" ]; then
+    echo "$(date) [OK] $path" >> "$LOG"
+  else
+    echo "$(date) [FALTA] $path" >> "$LOG"
+  fi
+}
+
+while true; do
+  echo "=== CICLO ANTIAMNESIA $(date) ===" >> "$LOG"
+  check_file "$BASE/00-GOBIERNO/META/PROPOSITO-SOBERANO-V1.md"
+  check_file "$BASE/00-GOBIERNO/SNX-ANTIAMNESIA-V1.md"
+  check_file "$BASE/06-MONITOR/V3/monitor_data.json"
+  check_file "$MEMORIA/TODO_EL_SISTEMA_snapshot.txt"
+  check_file "$MEMORIA/contexto_unificado_IA.json"
+  sleep 300
+done
+
+# PIE DE PÁGINA INSTITUCIONAL — SODA‑NEXUS

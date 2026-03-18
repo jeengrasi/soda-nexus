@@ -1,0 +1,30 @@
+from flask import Flask, jsonify
+import os, json
+from datetime import datetime
+
+BASE = os.path.expanduser("~/soda")
+STATE = os.path.join(BASE, "STATE", "estado_central.json")
+
+def read_json(path):
+    try:
+        with open(path, "r") as f:
+            return json.load(f)
+    except:
+        return {}
+
+app = Flask(__name__)
+
+@app.route("/ping")
+def ping():
+    return jsonify({"status": "ok"})
+
+@app.route("/estado")
+def estado():
+    return jsonify({
+        "status": "ok",
+        "timestamp": datetime.utcnow().isoformat(),
+        "estado_central": read_json(STATE)
+    })
+
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=5050)

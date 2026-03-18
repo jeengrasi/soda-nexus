@@ -1,0 +1,403 @@
+[2026-03-07 22:35:12] [CENTRAL] INICIO CICLO IA-SCRIPT CENTRAL
+[2026-03-07 22:35:12] [CENTRAL] EJECUTANDO IA ministerial: 00-GOBIERNO -> /data/data/com.termux/files/home/soda/00-GOBIERNO/snx_ia_gobierno.sh
+[2026-03-07 22:35:13] [CENTRAL] OK IA ministerial: 00-GOBIERNO
+[2026-03-07 22:35:13] [CENTRAL] EJECUTANDO IA ministerial: 01-MEMORIA -> /data/data/com.termux/files/home/soda/01-MEMORIA/snx_ia_memoria.sh
+[2026-03-07 22:35:13] [CENTRAL] OK IA ministerial: 01-MEMORIA
+[2026-03-07 22:35:13] [CENTRAL] EJECUTANDO IA ministerial: 02-SISTEMA -> /data/data/com.termux/files/home/soda/02-SISTEMA/snx_ia_sistema.sh
+[2026-03-07 22:35:13] [CENTRAL] OK IA ministerial: 02-SISTEMA
+[2026-03-07 22:35:13] [CENTRAL] EJECUTANDO IA ministerial: 03-OPERACIONES -> /data/data/com.termux/files/home/soda/03-OPERACIONES/snx_ia_operaciones.sh
+[2026-03-07 22:35:14] [CENTRAL] OK IA ministerial: 03-OPERACIONES
+[2026-03-07 22:35:14] [CENTRAL] EJECUTANDO IA ministerial: 04-REGISTROS -> /data/data/com.termux/files/home/soda/04-REGISTROS/snx_ia_registros.sh
+[2026-03-07 22:35:14] [CENTRAL] OK IA ministerial: 04-REGISTROS
+[2026-03-07 22:35:14] [CENTRAL] EJECUTANDO IA ministerial: 05-DOCUMENTACION -> /data/data/com.termux/files/home/soda/05-DOCUMENTACION/snx_ia_documentacion.sh
+[2026-03-07 22:35:15] [CENTRAL] OK IA ministerial: 05-DOCUMENTACION
+[2026-03-07 22:35:15] [CENTRAL] EJECUTANDO IA ministerial: 06-MONITOR -> /data/data/com.termux/files/home/soda/06-MONITOR/snx_ia_monitor.sh
+[2026-03-07 22:35:15] [CENTRAL] OK IA ministerial: 06-MONITOR
+[2026-03-07 22:35:15] [CENTRAL] ANTIAMNESIA GLOBAL: verificando que existan ministerios base
+[2026-03-07 22:36:37] [CENTRAL] INICIO CICLO IA-SCRIPT CENTRAL
+[2026-03-07 22:36:37] [CENTRAL] EJECUTANDO IA ministerial: 00-GOBIERNO -> /data/data/com.termux/files/home/soda/00-GOBIERNO/snx_ia_gobierno.sh
+[2026-03-07 22:36:37] [CENTRAL] OK IA ministerial: 00-GOBIERNO
+[2026-03-07 22:36:37] [CENTRAL] EJECUTANDO IA ministerial: 01-MEMORIA -> /data/data/com.termux/files/home/soda/01-MEMORIA/snx_ia_memoria.sh
+[2026-03-07 22:36:37] [CENTRAL] OK IA ministerial: 01-MEMORIA
+[2026-03-07 22:36:37] [CENTRAL] EJECUTANDO IA ministerial: 02-SISTEMA -> /data/data/com.termux/files/home/soda/02-SISTEMA/snx_ia_sistema.sh
+[2026-03-07 22:36:37] [CENTRAL] ERROR IA ministerial: 02-SISTEMA (falló ejecución)
+[2026-03-07 22:36:37] [CENTRAL] EJECUTANDO IA ministerial: 03-OPERACIONES -> /data/data/com.termux/files/home/soda/03-OPERACIONES/snx_ia_operaciones.sh
+[2026-03-07 22:36:38] [CENTRAL] OK IA ministerial: 03-OPERACIONES
+[2026-03-07 22:36:38] [CENTRAL] EJECUTANDO IA ministerial: 04-REGISTROS -> /data/data/com.termux/files/home/soda/04-REGISTROS/snx_ia_registros.sh
+[2026-03-07 22:36:38] [CENTRAL] ERROR IA ministerial: 04-REGISTROS (falló ejecución)
+[2026-03-07 22:36:38] [CENTRAL] EJECUTANDO IA ministerial: 05-DOCUMENTACION -> /data/data/com.termux/files/home/soda/05-DOCUMENTACION/snx_ia_documentacion.sh
+[2026-03-07 22:36:38] [CENTRAL] ERROR IA ministerial: 05-DOCUMENTACION (falló ejecución)
+[2026-03-07 22:36:38] [CENTRAL] EJECUTANDO IA ministerial: 06-MONITOR -> /data/data/com.termux/files/home/soda/06-MONITOR/snx_ia_monitor.sh
+[2026-03-07 22:36:38] [CENTRAL] OK IA ministerial: 06-MONITOR
+[2026-03-07 22:36:38] [CENTRAL] ANTIAMNESIA GLOBAL: verificando que existan ministerios base
+[2026-03-07 22:49:37] [CENTRAL] INICIO CICLO IA-SCRIPT CENTRAL
+[2026-03-07 22:49:37] [CENTRAL] EJECUTANDO IA ministerial: 00-GOBIERNO -> /data/data/com.termux/files/home/soda/00-GOBIERNO/snx_ia_gobierno.sh
+[2026-03-07 22:49:37] [CENTRAL] OK IA ministerial: 00-GOBIERNO
+[2026-03-07 22:49:37] [CENTRAL] EJECUTANDO IA ministerial: 01-MEMORIA -> /data/data/com.termux/files/home/soda/01-MEMORIA/snx_ia_memoria.sh
+[2026-03-07 22:49:37] [CENTRAL] OK IA ministerial: 01-MEMORIA
+[2026-03-07 22:49:37] [CENTRAL] EJECUTANDO IA ministerial: 02-SISTEMA -> /data/data/com.termux/files/home/soda/02-SISTEMA/snx_ia_sistema.sh
+[2026-03-07 22:49:37] [CENTRAL] OK IA ministerial: 02-SISTEMA
+[2026-03-07 22:49:37] [CENTRAL] EJECUTANDO IA ministerial: 03-OPERACIONES -> /data/data/com.termux/files/home/soda/03-OPERACIONES/snx_ia_operaciones.sh
+[2026-03-07 22:49:38] [CENTRAL] OK IA ministerial: 03-OPERACIONES
+[2026-03-07 22:49:38] [CENTRAL] EJECUTANDO IA ministerial: 04-REGISTROS -> /data/data/com.termux/files/home/soda/04-REGISTROS/snx_ia_registros.sh
+[2026-03-07 22:49:38] [CENTRAL] OK IA ministerial: 04-REGISTROS
+[2026-03-07 22:49:38] [CENTRAL] EJECUTANDO IA ministerial: 05-DOCUMENTACION -> /data/data/com.termux/files/home/soda/05-DOCUMENTACION/snx_ia_documentacion.sh
+[2026-03-07 22:49:38] [CENTRAL] OK IA ministerial: 05-DOCUMENTACION
+[2026-03-07 22:49:38] [CENTRAL] EJECUTANDO IA ministerial: 06-MONITOR -> /data/data/com.termux/files/home/soda/06-MONITOR/snx_ia_monitor.sh
+[2026-03-07 22:49:38] [CENTRAL] OK IA ministerial: 06-MONITOR
+[2026-03-07 22:49:38] [CENTRAL] ANTIAMNESIA GLOBAL: verificando que existan ministerios base
+[2026-03-09 11:36:14] [CENTRAL] INICIO CICLO IA-SCRIPT CENTRAL
+[2026-03-09 11:36:14] [CENTRAL] EJECUTANDO IA ministerial: 00-GOBIERNO -> /data/data/com.termux/files/home/soda/00-GOBIERNO/snx_ia_gobierno.sh
+[2026-03-09 11:36:14] [CENTRAL] OK IA ministerial: 00-GOBIERNO
+[2026-03-09 11:36:14] [CENTRAL] EJECUTANDO IA ministerial: 01-MEMORIA -> /data/data/com.termux/files/home/soda/01-MEMORIA/snx_ia_memoria.sh
+[2026-03-09 11:36:15] [CENTRAL] OK IA ministerial: 01-MEMORIA
+[2026-03-09 11:36:15] [CENTRAL] EJECUTANDO IA ministerial: 02-SISTEMA -> /data/data/com.termux/files/home/soda/02-SISTEMA/snx_ia_sistema.sh
+[2026-03-09 11:36:15] [CENTRAL] OK IA ministerial: 02-SISTEMA
+[2026-03-09 11:36:15] [CENTRAL] EJECUTANDO IA ministerial: 03-OPERACIONES -> /data/data/com.termux/files/home/soda/03-OPERACIONES/snx_ia_operaciones.sh
+[2026-03-09 11:36:15] [CENTRAL] OK IA ministerial: 03-OPERACIONES
+[2026-03-09 11:36:15] [CENTRAL] EJECUTANDO IA ministerial: 04-REGISTROS -> /data/data/com.termux/files/home/soda/04-REGISTROS/snx_ia_registros.sh
+[2026-03-09 11:36:15] [CENTRAL] OK IA ministerial: 04-REGISTROS
+[2026-03-09 11:36:15] [CENTRAL] EJECUTANDO IA ministerial: 05-DOCUMENTACION -> /data/data/com.termux/files/home/soda/05-DOCUMENTACION/snx_ia_documentacion.sh
+[2026-03-09 11:36:16] [CENTRAL] OK IA ministerial: 05-DOCUMENTACION
+[2026-03-09 11:36:16] [CENTRAL] EJECUTANDO IA ministerial: 06-MONITOR -> /data/data/com.termux/files/home/soda/06-MONITOR/snx_ia_monitor.sh
+[2026-03-09 11:36:16] [CENTRAL] OK IA ministerial: 06-MONITOR
+[2026-03-09 11:36:16] [CENTRAL] ANTIAMNESIA GLOBAL: verificando que existan ministerios base
+[2026-03-09 11:36:16] [CENTRAL] CONSOLIDACION: construyendo estado global desde 01-MEMORIA/ACTUAL
+[2026-03-09 11:43:41] [CENTRAL] INICIO CICLO IA-SCRIPT CENTRAL
+[2026-03-09 11:43:41] [CENTRAL] EJECUTANDO IA ministerial: 00-GOBIERNO -> /data/data/com.termux/files/home/soda/00-GOBIERNO/snx_ia_gobierno.sh
+[2026-03-09 11:43:41] [CENTRAL] OK IA ministerial: 00-GOBIERNO
+[2026-03-09 11:43:41] [CENTRAL] EJECUTANDO IA ministerial: 01-MEMORIA -> /data/data/com.termux/files/home/soda/01-MEMORIA/snx_ia_memoria.sh
+[2026-03-09 11:43:41] [CENTRAL] OK IA ministerial: 01-MEMORIA
+[2026-03-09 11:43:41] [CENTRAL] EJECUTANDO IA ministerial: 02-SISTEMA -> /data/data/com.termux/files/home/soda/02-SISTEMA/snx_ia_sistema.sh
+[2026-03-09 11:43:41] [CENTRAL] OK IA ministerial: 02-SISTEMA
+[2026-03-09 11:43:41] [CENTRAL] EJECUTANDO IA ministerial: 03-OPERACIONES -> /data/data/com.termux/files/home/soda/03-OPERACIONES/snx_ia_operaciones.sh
+[2026-03-09 11:43:42] [CENTRAL] OK IA ministerial: 03-OPERACIONES
+[2026-03-09 11:43:42] [CENTRAL] EJECUTANDO IA ministerial: 04-REGISTROS -> /data/data/com.termux/files/home/soda/04-REGISTROS/snx_ia_registros.sh
+[2026-03-09 11:43:42] [CENTRAL] OK IA ministerial: 04-REGISTROS
+[2026-03-09 11:43:42] [CENTRAL] EJECUTANDO IA ministerial: 05-DOCUMENTACION -> /data/data/com.termux/files/home/soda/05-DOCUMENTACION/snx_ia_documentacion.sh
+[2026-03-09 11:43:42] [CENTRAL] OK IA ministerial: 05-DOCUMENTACION
+[2026-03-09 11:43:42] [CENTRAL] EJECUTANDO IA ministerial: 06-MONITOR -> /data/data/com.termux/files/home/soda/06-MONITOR/snx_ia_monitor.sh
+[2026-03-09 11:43:42] [CENTRAL] OK IA ministerial: 06-MONITOR
+[2026-03-09 11:43:42] [CENTRAL] ANTIAMNESIA GLOBAL: verificando que existan ministerios base
+[2026-03-09 11:43:42] [CENTRAL] CONSOLIDACION: construyendo estado global desde 01-MEMORIA/ACTUAL
+[2026-03-09 12:07:36] [CENTRAL] INICIO CICLO IA-SCRIPT CENTRAL
+[2026-03-09 12:07:36] [CENTRAL] EJECUTANDO IA ministerial: 00-GOBIERNO -> /data/data/com.termux/files/home/soda/00-GOBIERNO/snx_ia_gobierno.sh
+[2026-03-09 12:07:36] [CENTRAL] OK IA ministerial: 00-GOBIERNO
+[2026-03-09 12:07:36] [CENTRAL] EJECUTANDO IA ministerial: 01-MEMORIA -> /data/data/com.termux/files/home/soda/01-MEMORIA/snx_ia_memoria.sh
+[2026-03-09 12:07:36] [CENTRAL] OK IA ministerial: 01-MEMORIA
+[2026-03-09 12:07:36] [CENTRAL] EJECUTANDO IA ministerial: 02-SISTEMA -> /data/data/com.termux/files/home/soda/02-SISTEMA/snx_ia_sistema.sh
+[2026-03-09 12:07:36] [CENTRAL] OK IA ministerial: 02-SISTEMA
+[2026-03-09 12:07:36] [CENTRAL] EJECUTANDO IA ministerial: 03-OPERACIONES -> /data/data/com.termux/files/home/soda/03-OPERACIONES/snx_ia_operaciones.sh
+[2026-03-09 12:07:37] [CENTRAL] OK IA ministerial: 03-OPERACIONES
+[2026-03-09 12:07:37] [CENTRAL] EJECUTANDO IA ministerial: 04-REGISTROS -> /data/data/com.termux/files/home/soda/04-REGISTROS/snx_ia_registros.sh
+[2026-03-09 12:07:37] [CENTRAL] OK IA ministerial: 04-REGISTROS
+[2026-03-09 12:07:37] [CENTRAL] EJECUTANDO IA ministerial: 05-DOCUMENTACION -> /data/data/com.termux/files/home/soda/05-DOCUMENTACION/snx_ia_documentacion.sh
+[2026-03-09 12:07:37] [CENTRAL] OK IA ministerial: 05-DOCUMENTACION
+[2026-03-09 12:07:37] [CENTRAL] EJECUTANDO IA ministerial: 06-MONITOR -> /data/data/com.termux/files/home/soda/06-MONITOR/snx_ia_monitor.sh
+[2026-03-09 12:07:37] [CENTRAL] OK IA ministerial: 06-MONITOR
+[2026-03-09 12:07:37] [CENTRAL] ANTIAMNESIA GLOBAL: verificando que existan ministerios base
+[2026-03-09 12:07:37] [CENTRAL] CONSOLIDACION: construyendo estado global desde 01-MEMORIA/ACTUAL
+[2026-03-09 12:26:14] [CENTRAL] INICIO CICLO IA-SCRIPT CENTRAL
+[2026-03-09 12:26:14] [CENTRAL] EJECUTANDO IA ministerial: 00-GOBIERNO -> /data/data/com.termux/files/home/soda/00-GOBIERNO/snx_ia_gobierno.sh
+[2026-03-09 12:26:14] [CENTRAL] OK IA ministerial: 00-GOBIERNO
+[2026-03-09 12:26:14] [CENTRAL] EJECUTANDO IA ministerial: 01-MEMORIA -> /data/data/com.termux/files/home/soda/01-MEMORIA/snx_ia_memoria.sh
+[2026-03-09 12:26:14] [CENTRAL] OK IA ministerial: 01-MEMORIA
+[2026-03-09 12:26:14] [CENTRAL] EJECUTANDO IA ministerial: 02-SISTEMA -> /data/data/com.termux/files/home/soda/02-SISTEMA/snx_ia_sistema.sh
+[2026-03-09 12:26:14] [CENTRAL] OK IA ministerial: 02-SISTEMA
+[2026-03-09 12:26:14] [CENTRAL] EJECUTANDO IA ministerial: 03-OPERACIONES -> /data/data/com.termux/files/home/soda/03-OPERACIONES/snx_ia_operaciones.sh
+[2026-03-09 12:26:15] [CENTRAL] OK IA ministerial: 03-OPERACIONES
+[2026-03-09 12:26:15] [CENTRAL] EJECUTANDO IA ministerial: 04-REGISTROS -> /data/data/com.termux/files/home/soda/04-REGISTROS/snx_ia_registros.sh
+[2026-03-09 12:26:15] [CENTRAL] OK IA ministerial: 04-REGISTROS
+[2026-03-09 12:26:15] [CENTRAL] EJECUTANDO IA ministerial: 05-DOCUMENTACION -> /data/data/com.termux/files/home/soda/05-DOCUMENTACION/snx_ia_documentacion.sh
+[2026-03-09 12:26:15] [CENTRAL] OK IA ministerial: 05-DOCUMENTACION
+[2026-03-09 12:26:15] [CENTRAL] EJECUTANDO IA ministerial: 06-MONITOR -> /data/data/com.termux/files/home/soda/06-MONITOR/snx_ia_monitor.sh
+[2026-03-09 12:26:15] [CENTRAL] OK IA ministerial: 06-MONITOR
+[2026-03-09 12:26:15] [CENTRAL] ANTIAMNESIA GLOBAL: verificando que existan ministerios base
+[2026-03-09 12:26:15] [CENTRAL] CONSOLIDACION: construyendo estado global desde 01-MEMORIA/ACTUAL
+[2026-03-09 12:29:02] [CENTRAL] INICIO CICLO IA-SCRIPT CENTRAL
+[2026-03-09 12:29:02] [CENTRAL] EJECUTANDO IA ministerial: 00-GOBIERNO -> /data/data/com.termux/files/home/soda/00-GOBIERNO/snx_ia_gobierno.sh
+[2026-03-09 12:29:02] [CENTRAL] OK IA ministerial: 00-GOBIERNO
+[2026-03-09 12:29:02] [CENTRAL] EJECUTANDO IA ministerial: 01-MEMORIA -> /data/data/com.termux/files/home/soda/01-MEMORIA/snx_ia_memoria.sh
+[2026-03-09 12:29:02] [CENTRAL] OK IA ministerial: 01-MEMORIA
+[2026-03-09 12:29:02] [CENTRAL] EJECUTANDO IA ministerial: 02-SISTEMA -> /data/data/com.termux/files/home/soda/02-SISTEMA/snx_ia_sistema.sh
+[2026-03-09 12:29:03] [CENTRAL] OK IA ministerial: 02-SISTEMA
+[2026-03-09 12:29:03] [CENTRAL] EJECUTANDO IA ministerial: 03-OPERACIONES -> /data/data/com.termux/files/home/soda/03-OPERACIONES/snx_ia_operaciones.sh
+[2026-03-09 12:29:03] [CENTRAL] OK IA ministerial: 03-OPERACIONES
+[2026-03-09 12:29:03] [CENTRAL] EJECUTANDO IA ministerial: 04-REGISTROS -> /data/data/com.termux/files/home/soda/04-REGISTROS/snx_ia_registros.sh
+[2026-03-09 12:29:03] [CENTRAL] OK IA ministerial: 04-REGISTROS
+[2026-03-09 12:29:03] [CENTRAL] EJECUTANDO IA ministerial: 05-DOCUMENTACION -> /data/data/com.termux/files/home/soda/05-DOCUMENTACION/snx_ia_documentacion.sh
+[2026-03-09 12:29:03] [CENTRAL] OK IA ministerial: 05-DOCUMENTACION
+[2026-03-09 12:29:03] [CENTRAL] EJECUTANDO IA ministerial: 06-MONITOR -> /data/data/com.termux/files/home/soda/06-MONITOR/snx_ia_monitor.sh
+[2026-03-09 12:29:03] [CENTRAL] OK IA ministerial: 06-MONITOR
+[2026-03-09 12:29:03] [CENTRAL] ANTIAMNESIA GLOBAL: verificando que existan ministerios base
+[2026-03-09 12:29:03] [CENTRAL] CONSOLIDACION: construyendo estado global desde 01-MEMORIA/ACTUAL
+[2026-03-09 12:31:32] [CENTRAL] INICIO CICLO IA-SCRIPT CENTRAL
+[2026-03-09 12:31:32] [CENTRAL] EJECUTANDO IA ministerial: 00-GOBIERNO -> /data/data/com.termux/files/home/soda/00-GOBIERNO/snx_ia_gobierno.sh
+[2026-03-09 12:31:32] [CENTRAL] OK IA ministerial: 00-GOBIERNO
+[2026-03-09 12:31:32] [CENTRAL] EJECUTANDO IA ministerial: 01-MEMORIA -> /data/data/com.termux/files/home/soda/01-MEMORIA/snx_ia_memoria.sh
+[2026-03-09 12:31:32] [CENTRAL] OK IA ministerial: 01-MEMORIA
+[2026-03-09 12:31:32] [CENTRAL] EJECUTANDO IA ministerial: 02-SISTEMA -> /data/data/com.termux/files/home/soda/02-SISTEMA/snx_ia_sistema.sh
+[2026-03-09 12:31:32] [CENTRAL] OK IA ministerial: 02-SISTEMA
+[2026-03-09 12:31:32] [CENTRAL] EJECUTANDO IA ministerial: 03-OPERACIONES -> /data/data/com.termux/files/home/soda/03-OPERACIONES/snx_ia_operaciones.sh
+[2026-03-09 12:31:32] [CENTRAL] OK IA ministerial: 03-OPERACIONES
+[2026-03-09 12:31:32] [CENTRAL] EJECUTANDO IA ministerial: 04-REGISTROS -> /data/data/com.termux/files/home/soda/04-REGISTROS/snx_ia_registros.sh
+[2026-03-09 12:31:33] [CENTRAL] OK IA ministerial: 04-REGISTROS
+[2026-03-09 12:31:33] [CENTRAL] EJECUTANDO IA ministerial: 05-DOCUMENTACION -> /data/data/com.termux/files/home/soda/05-DOCUMENTACION/snx_ia_documentacion.sh
+[2026-03-09 12:31:33] [CENTRAL] OK IA ministerial: 05-DOCUMENTACION
+[2026-03-09 12:31:33] [CENTRAL] EJECUTANDO IA ministerial: 06-MONITOR -> /data/data/com.termux/files/home/soda/06-MONITOR/snx_ia_monitor.sh
+[2026-03-09 12:31:33] [CENTRAL] OK IA ministerial: 06-MONITOR
+[2026-03-09 12:31:33] [CENTRAL] ANTIAMNESIA GLOBAL: verificando que existan ministerios base
+[2026-03-09 12:31:33] [CENTRAL] CONSOLIDACION: construyendo estado global desde 01-MEMORIA/ACTUAL
+[2026-03-09 12:34:35] [CENTRAL] INICIO CICLO IA-SCRIPT CENTRAL
+[2026-03-09 12:34:35] [CENTRAL] EJECUTANDO IA ministerial: 00-GOBIERNO -> /data/data/com.termux/files/home/soda/00-GOBIERNO/snx_ia_gobierno.sh
+[2026-03-09 12:34:35] [CENTRAL] OK IA ministerial: 00-GOBIERNO
+[2026-03-09 12:34:35] [CENTRAL] EJECUTANDO IA ministerial: 01-MEMORIA -> /data/data/com.termux/files/home/soda/01-MEMORIA/snx_ia_memoria.sh
+[2026-03-09 12:34:35] [CENTRAL] OK IA ministerial: 01-MEMORIA
+[2026-03-09 12:34:35] [CENTRAL] EJECUTANDO IA ministerial: 02-SISTEMA -> /data/data/com.termux/files/home/soda/02-SISTEMA/snx_ia_sistema.sh
+[2026-03-09 12:34:36] [CENTRAL] OK IA ministerial: 02-SISTEMA
+[2026-03-09 12:34:36] [CENTRAL] EJECUTANDO IA ministerial: 03-OPERACIONES -> /data/data/com.termux/files/home/soda/03-OPERACIONES/snx_ia_operaciones.sh
+[2026-03-09 12:34:36] [CENTRAL] OK IA ministerial: 03-OPERACIONES
+[2026-03-09 12:34:36] [CENTRAL] EJECUTANDO IA ministerial: 04-REGISTROS -> /data/data/com.termux/files/home/soda/04-REGISTROS/snx_ia_registros.sh
+[2026-03-09 12:34:36] [CENTRAL] OK IA ministerial: 04-REGISTROS
+[2026-03-09 12:34:36] [CENTRAL] EJECUTANDO IA ministerial: 05-DOCUMENTACION -> /data/data/com.termux/files/home/soda/05-DOCUMENTACION/snx_ia_documentacion.sh
+[2026-03-09 12:34:36] [CENTRAL] OK IA ministerial: 05-DOCUMENTACION
+[2026-03-09 12:34:36] [CENTRAL] EJECUTANDO IA ministerial: 06-MONITOR -> /data/data/com.termux/files/home/soda/06-MONITOR/snx_ia_monitor.sh
+[2026-03-09 12:34:36] [CENTRAL] OK IA ministerial: 06-MONITOR
+[2026-03-09 12:34:36] [CENTRAL] ANTIAMNESIA GLOBAL: verificando que existan ministerios base
+[2026-03-09 12:34:36] [CENTRAL] CONSOLIDACION: construyendo estado global desde 01-MEMORIA/ACTUAL
+[2026-03-09 12:43:31] [CENTRAL] INICIO CICLO IA-SCRIPT CENTRAL
+[2026-03-09 12:43:31] [CENTRAL] EJECUTANDO IA ministerial: 00-GOBIERNO -> /data/data/com.termux/files/home/soda/00-GOBIERNO/snx_ia_gobierno.sh
+[2026-03-09 12:43:32] [CENTRAL] OK IA ministerial: 00-GOBIERNO
+[2026-03-09 12:43:32] [CENTRAL] EJECUTANDO IA ministerial: 01-MEMORIA -> /data/data/com.termux/files/home/soda/01-MEMORIA/snx_ia_memoria.sh
+[2026-03-09 12:43:32] [CENTRAL] OK IA ministerial: 01-MEMORIA
+[2026-03-09 12:43:32] [CENTRAL] EJECUTANDO IA ministerial: 02-SISTEMA -> /data/data/com.termux/files/home/soda/02-SISTEMA/snx_ia_sistema.sh
+[2026-03-09 12:43:32] [CENTRAL] OK IA ministerial: 02-SISTEMA
+[2026-03-09 12:43:32] [CENTRAL] EJECUTANDO IA ministerial: 03-OPERACIONES -> /data/data/com.termux/files/home/soda/03-OPERACIONES/snx_ia_operaciones.sh
+[2026-03-09 12:43:32] [CENTRAL] OK IA ministerial: 03-OPERACIONES
+[2026-03-09 12:43:32] [CENTRAL] EJECUTANDO IA ministerial: 04-REGISTROS -> /data/data/com.termux/files/home/soda/04-REGISTROS/snx_ia_registros.sh
+[2026-03-09 12:43:33] [CENTRAL] OK IA ministerial: 04-REGISTROS
+[2026-03-09 12:43:33] [CENTRAL] EJECUTANDO IA ministerial: 05-DOCUMENTACION -> /data/data/com.termux/files/home/soda/05-DOCUMENTACION/snx_ia_documentacion.sh
+[2026-03-09 12:43:33] [CENTRAL] OK IA ministerial: 05-DOCUMENTACION
+[2026-03-09 12:43:33] [CENTRAL] EJECUTANDO IA ministerial: 06-MONITOR -> /data/data/com.termux/files/home/soda/06-MONITOR/snx_ia_monitor.sh
+[2026-03-09 12:43:33] [CENTRAL] OK IA ministerial: 06-MONITOR
+[2026-03-09 12:43:33] [CENTRAL] ANTIAMNESIA GLOBAL: verificando que existan ministerios base
+[2026-03-09 12:43:33] [CENTRAL] CONSOLIDACION: construyendo estado global desde 01-MEMORIA/ACTUAL
+[2026-03-09 12:43:33] [CENTRAL] CONSOLIDACION: estado global actualizado en /data/data/com.termux/files/home/soda/00-GOBIERNO/ESTADO/snx_state.json
+[2026-03-09 12:43:33] [CENTRAL] REPORTE GLOBAL: generando snapshot de estructura
+[2026-03-09 12:43:33] [CENTRAL] FIN CICLO IA-SCRIPT CENTRAL
+[2026-03-09 13:46:22] [CENTRAL] INICIO CICLO IA-SCRIPT CENTRAL
+[2026-03-09 13:46:22] [CENTRAL] EJECUTANDO IA ministerial: 00-GOBIERNO -> /data/data/com.termux/files/home/soda/00-GOBIERNO/snx_ia_gobierno.sh
+[2026-03-09 13:46:23] [CENTRAL] OK IA ministerial: 00-GOBIERNO
+[2026-03-09 13:46:23] [CENTRAL] EJECUTANDO IA ministerial: 01-MEMORIA -> /data/data/com.termux/files/home/soda/01-MEMORIA/snx_ia_memoria.sh
+[2026-03-09 13:46:23] [CENTRAL] OK IA ministerial: 01-MEMORIA
+[2026-03-09 13:46:23] [CENTRAL] EJECUTANDO IA ministerial: 02-SISTEMA -> /data/data/com.termux/files/home/soda/02-SISTEMA/snx_ia_sistema.sh
+[2026-03-09 13:46:23] [CENTRAL] OK IA ministerial: 02-SISTEMA
+[2026-03-09 13:46:23] [CENTRAL] EJECUTANDO IA ministerial: 03-OPERACIONES -> /data/data/com.termux/files/home/soda/03-OPERACIONES/snx_ia_operaciones.sh
+[2026-03-09 13:46:23] [CENTRAL] OK IA ministerial: 03-OPERACIONES
+[2026-03-09 13:46:23] [CENTRAL] EJECUTANDO IA ministerial: 04-REGISTROS -> /data/data/com.termux/files/home/soda/04-REGISTROS/snx_ia_registros.sh
+[2026-03-09 13:46:24] [CENTRAL] OK IA ministerial: 04-REGISTROS
+[2026-03-09 13:46:24] [CENTRAL] EJECUTANDO IA ministerial: 05-DOCUMENTACION -> /data/data/com.termux/files/home/soda/05-DOCUMENTACION/snx_ia_documentacion.sh
+[2026-03-09 13:46:24] [CENTRAL] OK IA ministerial: 05-DOCUMENTACION
+[2026-03-09 13:46:24] [CENTRAL] EJECUTANDO IA ministerial: 06-MONITOR -> /data/data/com.termux/files/home/soda/06-MONITOR/snx_ia_monitor.sh
+[2026-03-09 13:46:24] [CENTRAL] OK IA ministerial: 06-MONITOR
+[2026-03-09 13:46:24] [CENTRAL] ANTIAMNESIA GLOBAL: verificando que existan ministerios base
+[2026-03-09 13:46:24] [CENTRAL] CONSOLIDACION: construyendo estado global desde 01-MEMORIA/ACTUAL
+[2026-03-09 13:46:24] [CENTRAL] CONSOLIDACION: estado global actualizado en /data/data/com.termux/files/home/soda/00-GOBIERNO/ESTADO/snx_state.json
+[2026-03-09 13:46:24] [CENTRAL] REPORTE GLOBAL: generando snapshot de estructura
+[2026-03-09 13:46:24] [CENTRAL] FIN CICLO IA-SCRIPT CENTRAL
+[2026-03-09 14:20:22] [CENTRAL] INICIO CICLO IA-SCRIPT CENTRAL
+[2026-03-09 14:20:22] [CENTRAL] EJECUTANDO IA ministerial: 00-GOBIERNO -> /data/data/com.termux/files/home/soda/00-GOBIERNO/snx_ia_gobierno.sh
+[2026-03-09 14:20:23] [CENTRAL] OK IA ministerial: 00-GOBIERNO
+[2026-03-09 14:20:23] [CENTRAL] EJECUTANDO IA ministerial: 01-MEMORIA -> /data/data/com.termux/files/home/soda/01-MEMORIA/snx_ia_memoria.sh
+[2026-03-09 14:20:23] [CENTRAL] OK IA ministerial: 01-MEMORIA
+[2026-03-09 14:20:23] [CENTRAL] EJECUTANDO IA ministerial: 02-SISTEMA -> /data/data/com.termux/files/home/soda/02-SISTEMA/snx_ia_sistema.sh
+[2026-03-09 14:20:23] [CENTRAL] OK IA ministerial: 02-SISTEMA
+[2026-03-09 14:20:23] [CENTRAL] EJECUTANDO IA ministerial: 03-OPERACIONES -> /data/data/com.termux/files/home/soda/03-OPERACIONES/snx_ia_operaciones.sh
+[2026-03-09 14:20:24] [CENTRAL] OK IA ministerial: 03-OPERACIONES
+[2026-03-09 14:20:24] [CENTRAL] EJECUTANDO IA ministerial: 04-REGISTROS -> /data/data/com.termux/files/home/soda/04-REGISTROS/snx_ia_registros.sh
+[2026-03-09 14:20:24] [CENTRAL] OK IA ministerial: 04-REGISTROS
+[2026-03-09 14:20:24] [CENTRAL] EJECUTANDO IA ministerial: 05-DOCUMENTACION -> /data/data/com.termux/files/home/soda/05-DOCUMENTACION/snx_ia_documentacion.sh
+[2026-03-09 14:20:24] [CENTRAL] OK IA ministerial: 05-DOCUMENTACION
+[2026-03-09 14:20:24] [CENTRAL] EJECUTANDO IA ministerial: 06-MONITOR -> /data/data/com.termux/files/home/soda/06-MONITOR/snx_ia_monitor.sh
+[2026-03-09 14:20:24] [CENTRAL] OK IA ministerial: 06-MONITOR
+[2026-03-09 14:20:24] [CENTRAL] ANTIAMNESIA GLOBAL: verificando que existan ministerios base
+[2026-03-09 14:20:24] [CENTRAL] CONSOLIDACION: construyendo estado global desde 01-MEMORIA/ACTUAL
+[2026-03-09 14:20:24] [CENTRAL] CONSOLIDACION: estado global actualizado en /data/data/com.termux/files/home/soda/00-GOBIERNO/ESTADO/snx_state.json
+[2026-03-09 14:20:24] [CENTRAL] REPORTE GLOBAL: generando snapshot de estructura
+[2026-03-09 14:20:24] [CENTRAL] FIN CICLO IA-SCRIPT CENTRAL
+[2026-03-09 14:24:01] [CENTRAL] INICIO CICLO IA-SCRIPT CENTRAL
+[2026-03-09 14:24:01] [CENTRAL] EJECUTANDO IA ministerial: 00-GOBIERNO -> /data/data/com.termux/files/home/soda/00-GOBIERNO/snx_ia_gobierno.sh
+[2026-03-09 14:24:02] [CENTRAL] OK IA ministerial: 00-GOBIERNO
+[2026-03-09 14:24:02] [CENTRAL] EJECUTANDO IA ministerial: 01-MEMORIA -> /data/data/com.termux/files/home/soda/01-MEMORIA/snx_ia_memoria.sh
+[2026-03-09 14:24:02] [CENTRAL] OK IA ministerial: 01-MEMORIA
+[2026-03-09 14:24:02] [CENTRAL] EJECUTANDO IA ministerial: 02-SISTEMA -> /data/data/com.termux/files/home/soda/02-SISTEMA/snx_ia_sistema.sh
+[2026-03-09 14:24:02] [CENTRAL] OK IA ministerial: 02-SISTEMA
+[2026-03-09 14:24:02] [CENTRAL] EJECUTANDO IA ministerial: 03-OPERACIONES -> /data/data/com.termux/files/home/soda/03-OPERACIONES/snx_ia_operaciones.sh
+[2026-03-09 14:24:03] [CENTRAL] OK IA ministerial: 03-OPERACIONES
+[2026-03-09 14:24:03] [CENTRAL] EJECUTANDO IA ministerial: 04-REGISTROS -> /data/data/com.termux/files/home/soda/04-REGISTROS/snx_ia_registros.sh
+[2026-03-09 14:24:03] [CENTRAL] OK IA ministerial: 04-REGISTROS
+[2026-03-09 14:24:03] [CENTRAL] EJECUTANDO IA ministerial: 05-DOCUMENTACION -> /data/data/com.termux/files/home/soda/05-DOCUMENTACION/snx_ia_documentacion.sh
+[2026-03-09 14:24:03] [CENTRAL] OK IA ministerial: 05-DOCUMENTACION
+[2026-03-09 14:24:03] [CENTRAL] EJECUTANDO IA ministerial: 06-MONITOR -> /data/data/com.termux/files/home/soda/06-MONITOR/snx_ia_monitor.sh
+[2026-03-09 14:24:03] [CENTRAL] OK IA ministerial: 06-MONITOR
+[2026-03-09 14:24:03] [CENTRAL] ANTIAMNESIA GLOBAL: verificando que existan ministerios base
+[2026-03-09 14:24:03] [CENTRAL] CONSOLIDACION: construyendo estado global desde 01-MEMORIA/ACTUAL
+[2026-03-09 14:24:04] [CENTRAL] CONSOLIDACION: estado global actualizado en /data/data/com.termux/files/home/soda/00-GOBIERNO/ESTADO/snx_state.json
+[2026-03-09 14:24:04] [CENTRAL] REPORTE GLOBAL: generando snapshot de estructura
+[2026-03-09 14:24:04] [CENTRAL] FIN CICLO IA-SCRIPT CENTRAL
+[2026-03-09 14:24:40] [CENTRAL] INICIO CICLO IA-SCRIPT CENTRAL
+[2026-03-09 14:24:40] [CENTRAL] EJECUTANDO IA ministerial: 00-GOBIERNO -> /data/data/com.termux/files/home/soda/00-GOBIERNO/snx_ia_gobierno.sh
+[2026-03-09 14:24:40] [CENTRAL] OK IA ministerial: 00-GOBIERNO
+[2026-03-09 14:24:40] [CENTRAL] EJECUTANDO IA ministerial: 01-MEMORIA -> /data/data/com.termux/files/home/soda/01-MEMORIA/snx_ia_memoria.sh
+[2026-03-09 14:24:40] [CENTRAL] OK IA ministerial: 01-MEMORIA
+[2026-03-09 14:24:40] [CENTRAL] EJECUTANDO IA ministerial: 02-SISTEMA -> /data/data/com.termux/files/home/soda/02-SISTEMA/snx_ia_sistema.sh
+[2026-03-09 14:24:41] [CENTRAL] OK IA ministerial: 02-SISTEMA
+[2026-03-09 14:24:41] [CENTRAL] EJECUTANDO IA ministerial: 03-OPERACIONES -> /data/data/com.termux/files/home/soda/03-OPERACIONES/snx_ia_operaciones.sh
+[2026-03-09 14:24:41] [CENTRAL] OK IA ministerial: 03-OPERACIONES
+[2026-03-09 14:24:41] [CENTRAL] EJECUTANDO IA ministerial: 04-REGISTROS -> /data/data/com.termux/files/home/soda/04-REGISTROS/snx_ia_registros.sh
+[2026-03-09 14:24:41] [CENTRAL] OK IA ministerial: 04-REGISTROS
+[2026-03-09 14:24:41] [CENTRAL] EJECUTANDO IA ministerial: 05-DOCUMENTACION -> /data/data/com.termux/files/home/soda/05-DOCUMENTACION/snx_ia_documentacion.sh
+[2026-03-09 14:24:42] [CENTRAL] OK IA ministerial: 05-DOCUMENTACION
+[2026-03-09 14:24:42] [CENTRAL] EJECUTANDO IA ministerial: 06-MONITOR -> /data/data/com.termux/files/home/soda/06-MONITOR/snx_ia_monitor.sh
+[2026-03-09 14:24:42] [CENTRAL] OK IA ministerial: 06-MONITOR
+[2026-03-09 14:24:42] [CENTRAL] ANTIAMNESIA GLOBAL: verificando que existan ministerios base
+[2026-03-09 14:24:42] [CENTRAL] CONSOLIDACION: construyendo estado global desde 01-MEMORIA/ACTUAL
+[2026-03-09 14:24:42] [CENTRAL] CONSOLIDACION: estado global actualizado en /data/data/com.termux/files/home/soda/00-GOBIERNO/ESTADO/snx_state.json
+[2026-03-09 14:24:42] [CENTRAL] REPORTE GLOBAL: generando snapshot de estructura
+[2026-03-09 14:24:42] [CENTRAL] FIN CICLO IA-SCRIPT CENTRAL
+[2026-03-09 14:25:20] [CENTRAL] INICIO CICLO IA-SCRIPT CENTRAL
+[2026-03-09 14:25:20] [CENTRAL] EJECUTANDO IA ministerial: 00-GOBIERNO -> /data/data/com.termux/files/home/soda/00-GOBIERNO/snx_ia_gobierno.sh
+[2026-03-09 14:25:20] [CENTRAL] OK IA ministerial: 00-GOBIERNO
+[2026-03-09 14:25:20] [CENTRAL] EJECUTANDO IA ministerial: 01-MEMORIA -> /data/data/com.termux/files/home/soda/01-MEMORIA/snx_ia_memoria.sh
+[2026-03-09 14:25:20] [CENTRAL] OK IA ministerial: 01-MEMORIA
+[2026-03-09 14:25:20] [CENTRAL] EJECUTANDO IA ministerial: 02-SISTEMA -> /data/data/com.termux/files/home/soda/02-SISTEMA/snx_ia_sistema.sh
+[2026-03-09 14:25:21] [CENTRAL] OK IA ministerial: 02-SISTEMA
+[2026-03-09 14:25:21] [CENTRAL] EJECUTANDO IA ministerial: 03-OPERACIONES -> /data/data/com.termux/files/home/soda/03-OPERACIONES/snx_ia_operaciones.sh
+[2026-03-09 14:25:21] [CENTRAL] OK IA ministerial: 03-OPERACIONES
+[2026-03-09 14:25:21] [CENTRAL] EJECUTANDO IA ministerial: 04-REGISTROS -> /data/data/com.termux/files/home/soda/04-REGISTROS/snx_ia_registros.sh
+[2026-03-09 14:25:22] [CENTRAL] OK IA ministerial: 04-REGISTROS
+[2026-03-09 14:25:22] [CENTRAL] EJECUTANDO IA ministerial: 05-DOCUMENTACION -> /data/data/com.termux/files/home/soda/05-DOCUMENTACION/snx_ia_documentacion.sh
+[2026-03-09 14:25:22] [CENTRAL] OK IA ministerial: 05-DOCUMENTACION
+[2026-03-09 14:25:22] [CENTRAL] EJECUTANDO IA ministerial: 06-MONITOR -> /data/data/com.termux/files/home/soda/06-MONITOR/snx_ia_monitor.sh
+[2026-03-09 14:25:22] [CENTRAL] OK IA ministerial: 06-MONITOR
+[2026-03-09 14:25:22] [CENTRAL] ANTIAMNESIA GLOBAL: verificando que existan ministerios base
+[2026-03-09 14:25:22] [CENTRAL] CONSOLIDACION: construyendo estado global desde 01-MEMORIA/ACTUAL
+[2026-03-09 14:25:22] [CENTRAL] CONSOLIDACION: estado global actualizado en /data/data/com.termux/files/home/soda/00-GOBIERNO/ESTADO/snx_state.json
+[2026-03-09 14:25:22] [CENTRAL] REPORTE GLOBAL: generando snapshot de estructura
+[2026-03-09 14:25:22] [CENTRAL] FIN CICLO IA-SCRIPT CENTRAL
+[2026-03-09 14:25:56] [CENTRAL] INICIO CICLO IA-SCRIPT CENTRAL
+[2026-03-09 14:25:56] [CENTRAL] EJECUTANDO IA ministerial: 00-GOBIERNO -> /data/data/com.termux/files/home/soda/00-GOBIERNO/snx_ia_gobierno.sh
+[2026-03-09 14:25:56] [CENTRAL] OK IA ministerial: 00-GOBIERNO
+[2026-03-09 14:25:56] [CENTRAL] EJECUTANDO IA ministerial: 01-MEMORIA -> /data/data/com.termux/files/home/soda/01-MEMORIA/snx_ia_memoria.sh
+[2026-03-09 14:25:56] [CENTRAL] OK IA ministerial: 01-MEMORIA
+[2026-03-09 14:25:56] [CENTRAL] EJECUTANDO IA ministerial: 02-SISTEMA -> /data/data/com.termux/files/home/soda/02-SISTEMA/snx_ia_sistema.sh
+[2026-03-09 14:25:57] [CENTRAL] OK IA ministerial: 02-SISTEMA
+[2026-03-09 14:25:57] [CENTRAL] EJECUTANDO IA ministerial: 03-OPERACIONES -> /data/data/com.termux/files/home/soda/03-OPERACIONES/snx_ia_operaciones.sh
+[2026-03-09 14:25:57] [CENTRAL] OK IA ministerial: 03-OPERACIONES
+[2026-03-09 14:25:57] [CENTRAL] EJECUTANDO IA ministerial: 04-REGISTROS -> /data/data/com.termux/files/home/soda/04-REGISTROS/snx_ia_registros.sh
+[2026-03-09 14:25:57] [CENTRAL] OK IA ministerial: 04-REGISTROS
+[2026-03-09 14:25:57] [CENTRAL] EJECUTANDO IA ministerial: 05-DOCUMENTACION -> /data/data/com.termux/files/home/soda/05-DOCUMENTACION/snx_ia_documentacion.sh
+[2026-03-09 14:25:57] [CENTRAL] OK IA ministerial: 05-DOCUMENTACION
+[2026-03-09 14:25:57] [CENTRAL] EJECUTANDO IA ministerial: 06-MONITOR -> /data/data/com.termux/files/home/soda/06-MONITOR/snx_ia_monitor.sh
+[2026-03-09 14:25:58] [CENTRAL] OK IA ministerial: 06-MONITOR
+[2026-03-09 14:25:58] [CENTRAL] ANTIAMNESIA GLOBAL: verificando que existan ministerios base
+[2026-03-09 14:25:58] [CENTRAL] CONSOLIDACION: construyendo estado global desde 01-MEMORIA/ACTUAL
+[2026-03-09 14:25:58] [CENTRAL] CONSOLIDACION: estado global actualizado en /data/data/com.termux/files/home/soda/00-GOBIERNO/ESTADO/snx_state.json
+[2026-03-09 14:25:58] [CENTRAL] REPORTE GLOBAL: generando snapshot de estructura
+[2026-03-09 14:25:58] [CENTRAL] FIN CICLO IA-SCRIPT CENTRAL
+[2026-03-09 14:38:40] [CENTRAL] INICIO CICLO IA-SCRIPT CENTRAL
+[2026-03-09 14:38:40] [CENTRAL] EJECUTANDO IA ministerial: 00-GOBIERNO -> /data/data/com.termux/files/home/soda/00-GOBIERNO/snx_ia_gobierno.sh
+[2026-03-09 14:38:40] [CENTRAL] OK IA ministerial: 00-GOBIERNO
+[2026-03-09 14:38:40] [CENTRAL] EJECUTANDO IA ministerial: 01-MEMORIA -> /data/data/com.termux/files/home/soda/01-MEMORIA/snx_ia_memoria.sh
+[2026-03-09 14:38:41] [CENTRAL] OK IA ministerial: 01-MEMORIA
+[2026-03-09 14:38:41] [CENTRAL] EJECUTANDO IA ministerial: 02-SISTEMA -> /data/data/com.termux/files/home/soda/02-SISTEMA/snx_ia_sistema.sh
+[2026-03-09 14:38:41] [CENTRAL] OK IA ministerial: 02-SISTEMA
+[2026-03-09 14:38:41] [CENTRAL] EJECUTANDO IA ministerial: 03-OPERACIONES -> /data/data/com.termux/files/home/soda/03-OPERACIONES/snx_ia_operaciones.sh
+[2026-03-09 14:38:41] [CENTRAL] OK IA ministerial: 03-OPERACIONES
+[2026-03-09 14:38:41] [CENTRAL] EJECUTANDO IA ministerial: 04-REGISTROS -> /data/data/com.termux/files/home/soda/04-REGISTROS/snx_ia_registros.sh
+[2026-03-09 14:38:42] [CENTRAL] OK IA ministerial: 04-REGISTROS
+[2026-03-09 14:38:42] [CENTRAL] EJECUTANDO IA ministerial: 05-DOCUMENTACION -> /data/data/com.termux/files/home/soda/05-DOCUMENTACION/snx_ia_documentacion.sh
+[2026-03-09 14:38:42] [CENTRAL] OK IA ministerial: 05-DOCUMENTACION
+[2026-03-09 14:38:42] [CENTRAL] EJECUTANDO IA ministerial: 06-MONITOR -> /data/data/com.termux/files/home/soda/06-MONITOR/snx_ia_monitor.sh
+[2026-03-09 14:38:42] [CENTRAL] OK IA ministerial: 06-MONITOR
+[2026-03-09 14:38:42] [CENTRAL] ANTIAMNESIA GLOBAL: verificando que existan ministerios base
+[2026-03-09 14:38:42] [CENTRAL] CONSOLIDACION: construyendo estado global desde 01-MEMORIA/ACTUAL
+[2026-03-09 14:38:43] [CENTRAL] CONSOLIDACION: estado global actualizado en /data/data/com.termux/files/home/soda/00-GOBIERNO/ESTADO/snx_state.json
+[2026-03-09 14:38:43] [CENTRAL] REPORTE GLOBAL: generando snapshot de estructura
+[2026-03-09 14:38:43] [CENTRAL] FIN CICLO IA-SCRIPT CENTRAL
+[2026-03-09 14:41:29] [CENTRAL] INICIO CICLO IA-SCRIPT CENTRAL
+[2026-03-09 14:41:29] [CENTRAL] EJECUTANDO IA ministerial: 00-GOBIERNO -> /data/data/com.termux/files/home/soda/00-GOBIERNO/snx_ia_gobierno.sh
+[2026-03-09 14:41:30] [CENTRAL] OK IA ministerial: 00-GOBIERNO
+[2026-03-09 14:41:30] [CENTRAL] EJECUTANDO IA ministerial: 01-MEMORIA -> /data/data/com.termux/files/home/soda/01-MEMORIA/snx_ia_memoria.sh
+[2026-03-09 14:41:30] [CENTRAL] OK IA ministerial: 01-MEMORIA
+[2026-03-09 14:41:30] [CENTRAL] EJECUTANDO IA ministerial: 02-SISTEMA -> /data/data/com.termux/files/home/soda/02-SISTEMA/snx_ia_sistema.sh
+[2026-03-09 14:41:30] [CENTRAL] OK IA ministerial: 02-SISTEMA
+[2026-03-09 14:41:30] [CENTRAL] EJECUTANDO IA ministerial: 03-OPERACIONES -> /data/data/com.termux/files/home/soda/03-OPERACIONES/snx_ia_operaciones.sh
+[2026-03-09 14:41:31] [CENTRAL] OK IA ministerial: 03-OPERACIONES
+[2026-03-09 14:41:31] [CENTRAL] EJECUTANDO IA ministerial: 04-REGISTROS -> /data/data/com.termux/files/home/soda/04-REGISTROS/snx_ia_registros.sh
+[2026-03-09 14:41:31] [CENTRAL] OK IA ministerial: 04-REGISTROS
+[2026-03-09 14:41:31] [CENTRAL] EJECUTANDO IA ministerial: 05-DOCUMENTACION -> /data/data/com.termux/files/home/soda/05-DOCUMENTACION/snx_ia_documentacion.sh
+[2026-03-09 14:41:31] [CENTRAL] OK IA ministerial: 05-DOCUMENTACION
+[2026-03-09 14:41:31] [CENTRAL] EJECUTANDO IA ministerial: 06-MONITOR -> /data/data/com.termux/files/home/soda/06-MONITOR/snx_ia_monitor.sh
+[2026-03-09 14:41:32] [CENTRAL] OK IA ministerial: 06-MONITOR
+[2026-03-09 14:41:32] [CENTRAL] ANTIAMNESIA GLOBAL: verificando que existan ministerios base
+[2026-03-09 14:41:32] [CENTRAL] CONSOLIDACION: construyendo estado global desde 01-MEMORIA/ACTUAL
+[2026-03-09 14:41:32] [CENTRAL] CONSOLIDACION: estado global actualizado en /data/data/com.termux/files/home/soda/00-GOBIERNO/ESTADO/snx_state.json
+[2026-03-09 14:41:32] [CENTRAL] REPORTE GLOBAL: generando snapshot de estructura
+[2026-03-09 14:41:32] [CENTRAL] FIN CICLO IA-SCRIPT CENTRAL
+[2026-03-09 14:52:59] [CENTRAL] INICIO CICLO IA-SCRIPT CENTRAL
+[2026-03-09 14:52:59] [CENTRAL] EJECUTANDO IA ministerial: 00-GOBIERNO -> /data/data/com.termux/files/home/soda/00-GOBIERNO/snx_ia_gobierno.sh
+[2026-03-09 14:52:59] [CENTRAL] OK IA ministerial: 00-GOBIERNO
+[2026-03-09 14:52:59] [CENTRAL] EJECUTANDO IA ministerial: 01-MEMORIA -> /data/data/com.termux/files/home/soda/01-MEMORIA/snx_ia_memoria.sh
+[2026-03-09 14:53:00] [CENTRAL] OK IA ministerial: 01-MEMORIA
+[2026-03-09 14:53:00] [CENTRAL] EJECUTANDO IA ministerial: 02-SISTEMA -> /data/data/com.termux/files/home/soda/02-SISTEMA/snx_ia_sistema.sh
+[2026-03-09 14:53:00] [CENTRAL] OK IA ministerial: 02-SISTEMA
+[2026-03-09 14:53:00] [CENTRAL] EJECUTANDO IA ministerial: 03-OPERACIONES -> /data/data/com.termux/files/home/soda/03-OPERACIONES/snx_ia_operaciones.sh
+[2026-03-09 14:53:01] [CENTRAL] OK IA ministerial: 03-OPERACIONES
+[2026-03-09 14:53:01] [CENTRAL] EJECUTANDO IA ministerial: 04-REGISTROS -> /data/data/com.termux/files/home/soda/04-REGISTROS/snx_ia_registros.sh
+[2026-03-09 14:53:01] [CENTRAL] OK IA ministerial: 04-REGISTROS
+[2026-03-09 14:53:01] [CENTRAL] EJECUTANDO IA ministerial: 05-DOCUMENTACION -> /data/data/com.termux/files/home/soda/05-DOCUMENTACION/snx_ia_documentacion.sh
+[2026-03-09 14:53:01] [CENTRAL] OK IA ministerial: 05-DOCUMENTACION
+[2026-03-09 14:53:01] [CENTRAL] EJECUTANDO IA ministerial: 06-MONITOR -> /data/data/com.termux/files/home/soda/06-MONITOR/snx_ia_monitor.sh
+[2026-03-09 14:53:02] [CENTRAL] OK IA ministerial: 06-MONITOR
+[2026-03-09 14:53:02] [CENTRAL] ANTIAMNESIA GLOBAL: verificando que existan ministerios base
+[2026-03-09 14:53:02] [CENTRAL] CONSOLIDACION: construyendo estado global desde 01-MEMORIA/ACTUAL
+[2026-03-09 14:53:02] [CENTRAL] CONSOLIDACION: estado global actualizado en /data/data/com.termux/files/home/soda/00-GOBIERNO/ESTADO/snx_state.json
+[2026-03-09 14:53:02] [CENTRAL] REPORTE GLOBAL: generando snapshot de estructura
+[2026-03-09 14:53:02] [CENTRAL] FIN CICLO IA-SCRIPT CENTRAL
+[2026-03-09 14:53:29] [CENTRAL] INICIO CICLO IA-SCRIPT CENTRAL
+[2026-03-09 14:53:29] [CENTRAL] EJECUTANDO IA ministerial: 00-GOBIERNO -> /data/data/com.termux/files/home/soda/00-GOBIERNO/snx_ia_gobierno.sh
+[2026-03-09 14:53:29] [CENTRAL] OK IA ministerial: 00-GOBIERNO
+[2026-03-09 14:53:29] [CENTRAL] EJECUTANDO IA ministerial: 01-MEMORIA -> /data/data/com.termux/files/home/soda/01-MEMORIA/snx_ia_memoria.sh
+[2026-03-09 14:53:29] [CENTRAL] OK IA ministerial: 01-MEMORIA
+[2026-03-09 14:53:29] [CENTRAL] EJECUTANDO IA ministerial: 02-SISTEMA -> /data/data/com.termux/files/home/soda/02-SISTEMA/snx_ia_sistema.sh
+[2026-03-09 14:53:30] [CENTRAL] OK IA ministerial: 02-SISTEMA
+[2026-03-09 14:53:30] [CENTRAL] EJECUTANDO IA ministerial: 03-OPERACIONES -> /data/data/com.termux/files/home/soda/03-OPERACIONES/snx_ia_operaciones.sh
+[2026-03-09 14:53:30] [CENTRAL] OK IA ministerial: 03-OPERACIONES
+[2026-03-09 14:53:30] [CENTRAL] AVISO: script IA ministerial no encontrado o no ejecutable: /data/data/com.termux/files/home/soda/04-REGISTROS/snx_ia_registros.sh
+[2026-03-09 14:53:30] [CENTRAL] AVISO: script IA ministerial no encontrado o no ejecutable: /data/data/com.termux/files/home/soda/05-DOCUMENTACION/snx_ia_documentacion.sh
+[2026-03-09 14:53:30] [CENTRAL] EJECUTANDO IA ministerial: 06-MONITOR -> /data/data/com.termux/files/home/soda/06-MONITOR/snx_ia_monitor.sh
+[2026-03-09 14:53:30] [CENTRAL] OK IA ministerial: 06-MONITOR
+[2026-03-09 14:53:30] [CENTRAL] ANTIAMNESIA GLOBAL: verificando que existan ministerios base
+[2026-03-09 14:53:30] [CENTRAL] CONSOLIDACION: construyendo estado global desde 01-MEMORIA/ACTUAL
+[2026-03-09 14:53:31] [CENTRAL] CONSOLIDACION: estado global actualizado en /data/data/com.termux/files/home/soda/00-GOBIERNO/ESTADO/snx_state.json
+[2026-03-09 14:53:31] [CENTRAL] REPORTE GLOBAL: generando snapshot de estructura
+[2026-03-09 14:53:31] [CENTRAL] FIN CICLO IA-SCRIPT CENTRAL
+[2026-03-09 14:53:44] [CENTRAL] INICIO CICLO IA-SCRIPT CENTRAL
+[2026-03-09 14:53:44] [CENTRAL] EJECUTANDO IA ministerial: 00-GOBIERNO -> /data/data/com.termux/files/home/soda/00-GOBIERNO/snx_ia_gobierno.sh
+[2026-03-09 14:53:44] [CENTRAL] OK IA ministerial: 00-GOBIERNO
+[2026-03-09 14:53:44] [CENTRAL] EJECUTANDO IA ministerial: 01-MEMORIA -> /data/data/com.termux/files/home/soda/01-MEMORIA/snx_ia_memoria.sh
+[2026-03-09 14:53:44] [CENTRAL] OK IA ministerial: 01-MEMORIA
+[2026-03-09 14:53:44] [CENTRAL] EJECUTANDO IA ministerial: 02-SISTEMA -> /data/data/com.termux/files/home/soda/02-SISTEMA/snx_ia_sistema.sh
+[2026-03-09 14:53:45] [CENTRAL] OK IA ministerial: 02-SISTEMA
+[2026-03-09 14:53:45] [CENTRAL] EJECUTANDO IA ministerial: 03-OPERACIONES -> /data/data/com.termux/files/home/soda/03-OPERACIONES/snx_ia_operaciones.sh
+[2026-03-09 14:53:45] [CENTRAL] OK IA ministerial: 03-OPERACIONES
+[2026-03-09 14:53:45] [CENTRAL] AVISO: script IA ministerial no encontrado o no ejecutable: /data/data/com.termux/files/home/soda/04-REGISTROS/snx_ia_registros.sh
+[2026-03-09 14:53:45] [CENTRAL] AVISO: script IA ministerial no encontrado o no ejecutable: /data/data/com.termux/files/home/soda/05-DOCUMENTACION/snx_ia_documentacion.sh
+[2026-03-09 14:53:45] [CENTRAL] EJECUTANDO IA ministerial: 06-MONITOR -> /data/data/com.termux/files/home/soda/06-MONITOR/snx_ia_monitor.sh
+[2026-03-09 14:53:45] [CENTRAL] OK IA ministerial: 06-MONITOR
+[2026-03-09 14:53:45] [CENTRAL] ANTIAMNESIA GLOBAL: verificando que existan ministerios base
+[2026-03-09 14:53:45] [CENTRAL] CONSOLIDACION: construyendo estado global desde 01-MEMORIA/ACTUAL
+[2026-03-09 14:53:46] [CENTRAL] CONSOLIDACION: estado global actualizado en /data/data/com.termux/files/home/soda/00-GOBIERNO/ESTADO/snx_state.json
+[2026-03-09 14:53:46] [CENTRAL] REPORTE GLOBAL: generando snapshot de estructura
+[2026-03-09 14:53:46] [CENTRAL] FIN CICLO IA-SCRIPT CENTRAL

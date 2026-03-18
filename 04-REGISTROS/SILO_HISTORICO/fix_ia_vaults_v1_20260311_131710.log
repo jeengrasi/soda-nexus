@@ -1,0 +1,11 @@
+==========================================
+[FIX IA VAULTS V1] 20260311_131710
+VAULT: /data/data/com.termux/files/home/soda/02-SISTEMA/VAULT
+==========================================
+[CREADO] /data/data/com.termux/files/home/soda/02-SISTEMA/VAULT/LOCAL_IA_MODEL
+[CREADO] /data/data/com.termux/files/home/soda/02-SISTEMA/VAULT/REMOTE_IA_URL
+[CREADO] /data/data/com.termux/files/home/soda/02-SISTEMA/VAULT/REMOTE_IA_MODEL
+[COPIA] DEEPSEEK_KEY -> REMOTE_IA_KEY
+==========================================
+[FIX IA VAULTS V1 COMPLETADO] Log: /data/data/com.termux/files/home/soda/04-REGISTROS/SYSTEM/fix_ia_vaults_v1_20260311_131710.log
+==========================================

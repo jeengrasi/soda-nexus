@@ -1,0 +1,182 @@
+from flask import Flask, jsonify, request
+import os, json, requests
+from datetime import datetime
+
+BASE = os.path.expanduser("~/soda")
+REG_IA = os.path.join(BASE, "04-REGISTROS", "ia_sesiones")
+VAULT_KEY = os.path.expanduser("~/soda/02-SISTEMA/VAULT/DEEPSEEK_KEY")
+VAULT_MODEL_LOCAL = os.path.expanduser("~/soda/02-SISTEMA/VAULT/LOCAL_IA_MODEL")
+
+def load_key():
+    try:
+        with open(VAULT_KEY, "r", encoding="utf-8") as f:
+            return f.read().strip()
+    except:
+        return None
+
+def load_local_model():
+    try:
+        with open(VAULT_MODEL_LOCAL, "r", encoding="utf-8") as f:
+            return f.read().strip()
+    except:
+        return None
+
+def read_text(path):
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            return f.read()
+    except:
+        return ""
+
+def list_dir(path):
+    try:
+        return sorted(os.listdir(path))
+    except:
+        return []
+
+app = Flask(__name__)
+
+@app.route("/ping_v3")
+def ping_v3():
+    return jsonify({"status": "ok", "message": "SODA-NEXUS backend V3 activo"})
+
+@app.route("/archivo")
+def archivo():
+    path = request.args.get("path", "")
+    if not path.startswith("/soda/"):
+        return jsonify({"status": "error", "message": "Ruta fuera de /soda no permitida"}), 400
+    full = os.path.expanduser(path.replace("/soda", "~/soda"))
+    return jsonify({
+        "status": "ok",
+        "path": path,
+        "contenido": read_text(full)
+    })
+
+@app.route("/carpeta")
+def carpeta():
+    path = request.args.get("path", "/soda")
+    if not path.startswith("/soda"):
+        return jsonify({"status": "error", "message": "Ruta fuera de /soda no permitida"}), 400
+    full = os.path.expanduser(path.replace("/soda", "~/soda"))
+    contenido = list_dir(full)
+    return jsonify({
+        "status": "ok",
+        "path": path,
+        "contenido": contenido
+    })
+
+@app.route("/arbol")
+def arbol():
+    path = request.args.get("path", "/soda")
+    if not path.startswith("/soda"):
+        return jsonify({"status": "error", "message": "Ruta fuera de /soda no permitida"}), 400
+    full = os.path.expanduser(path.replace("/soda", "~/soda"))
+    tree = {}
+    for root, dirs, files in os.walk(full):
+        rel = root.replace(os.path.expanduser("~/soda"), "/soda")
+        tree[rel] = {"dirs": sorted(dirs), "files": sorted(files)}
+    return jsonify({
+        "status": "ok",
+        "path": path,
+        "arbol": tree
+    })
+
+@app.route("/buscar")
+def buscar():
+    nombre = request.args.get("nombre", "").lower()
+    if not nombre:
+        return jsonify({"status": "error", "message": "Parámetro 'nombre' requerido"}), 400
+    resultados = []
+    for root, dirs, files in os.walk(os.path.expanduser("~/soda")):
+        for f in files:
+            if nombre in f.lower():
+                rel_dir = root.replace(os.path.expanduser("~/soda"), "/soda")
+                resultados.append(os.path.join(rel_dir, f))
+    return jsonify({
+        "status": "ok",
+        "nombre": nombre,
+        "resultados": resultados
+    })
+
+def llamar_ia_local(instruccion, contexto):
+    modelo = load_local_model()
+    if not modelo:
+        return None, "Modelo local no configurado en VAULT"
+
+    try:
+        resp = requests.post(
+            "http://127.0.0.1:11434/api/chat",
+            headers={"Content-Type": "application/json"},
+            json={
+                "model": modelo,
+                "messages": [
+                    {
+                        "role": "system",
+                        "content": (
+                            "Eres la IA local del Estado SODA-NEXUS. "
+                            "Nunca ejecutas comandos, solo analizas, propones y documentas. "
+                            "Respetas la estructura 00–06, los VAULTs y los registros."
+                        )
+                    },
+                    {
+                        "role": "user",
+                        "content": instruccion
+                    }
+                ],
+                "stream": False
+            },
+            timeout=120
+        )
+        data = resp.json()
+        if "message" in data and "content" in data["message"]:
+            return data["message"]["content"].strip(), None
+        if "choices" in data:
+            msg = data["choices"][0].get("message", {}).get("content", "")
+            return msg.strip(), None
+        return None, f"Respuesta inesperada de IA local. HTTP {resp.status_code}"
+    except Exception as e:
+        return None, f"Error al contactar IA local: {str(e)}"
+
+@app.route("/ia_ejecutar", methods=["POST"])
+def ia_ejecutar():
+    data = request.get_json(silent=True) or {}
+    instruccion = data.get("instruccion", "").strip()
+    contexto = data.get("contexto", {})
+
+    if not instruccion:
+        return jsonify({"status": "error", "message": "Instrucción vacía"}), 400
+
+    # 1) Intentar IA local (gratis, soberana)
+    respuesta_ia, error_local = llamar_ia_local(instruccion, contexto)
+
+    # 2) Si IA local falla, devolver error explícito (no usamos DeepSeek por costo)
+    if respuesta_ia is None:
+        respuesta_ia = (
+            "No se pudo usar la IA local.\n"
+            f"Detalle: {error_local}\n\n"
+            "Verifica que el servidor de IA local (tipo Ollama/llama.cpp) "
+            "esté corriendo en http://127.0.0.1:11434 y que el modelo exista."
+        )
+
+    ts = datetime.utcnow().strftime("%Y-%m-%d_%H%M%S")
+    os.makedirs(REG_IA, exist_ok=True)
+    sesion_path = os.path.join(REG_IA, f"{ts}_ia_sesion.json")
+
+    registro = {
+        "timestamp": ts,
+        "instruccion": instruccion,
+        "contexto": contexto,
+        "respuesta": respuesta_ia
+    }
+
+    with open(sesion_path, "w", encoding="utf-8") as f:
+        json.dump(registro, f, ensure_ascii=False, indent=2)
+
+    return jsonify({
+        "status": "ok",
+        "sesion_guardada": sesion_path.replace(os.path.expanduser("~/soda"), "/soda"),
+        "respuesta": respuesta_ia
+    })
+
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=5051)

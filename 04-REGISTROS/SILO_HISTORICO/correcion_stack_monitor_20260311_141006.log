@@ -1,0 +1,25 @@
+==========================================
+[CORRECCION STACK MONITOR] 20260311_141006
+BASE: /data/data/com.termux/files/home/soda
+==========================================
+[OK] ejecutable: /data/data/com.termux/files/home/soda/02-SISTEMA/API/iniciar_orquestador_v4.sh
+[OK] ejecutable: /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_backend_run.sh
+[OK] ejecutable: /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/monitor_bridge_run.sh
+[KILL] api_v4 / monitor_backend / bridge
+[RUN] Orquestador V4
+[RUN] Backend Monitor (snx_monitor_backend_run.sh)
+[RUN] Bridge Monitor (monitor_bridge_run.sh)
+[CHECK] ENDPOINTS FINALES
+[FAIL] ORQ_V4 /ping_v4 -> http://127.0.0.1:5051/ping_v4 (no responde)
+[FAIL] ORQ_V4 /health -> http://127.0.0.1:5051/health (no responde)
+[OK] MONITOR /estado -> http://127.0.0.1:5052/estado
+     RESP: {"status":"online","timestamp":1773252620.8567407}
+[OK] BRIDGE /monitor_estado -> http://127.0.0.1:5053/monitor_estado
+     RESP: {"monitor":{"status":"online","timestamp":1773252621.0072768},"orquestador":{"local_model":true,"remote_config":true,"status":"ok"}}
+[OK] BRIDGE /estado -> http://127.0.0.1:5053/estado
+     RESP: {"status":"online","timestamp":1773252621.1428962}
+[OK] BRIDGE /ia_contexto -> http://127.0.0.1:5053/ia_contexto
+     RESP: {"detail":"no responde: http://127.0.0.1:5051/health","status":"error"}
+==========================================
+[CORRECCION STACK MONITOR COMPLETADA] Log: /data/data/com.termux/files/home/soda/04-REGISTROS/SYSTEM/correcion_stack_monitor_20260311_141006.log
+==========================================

@@ -1,0 +1,6 @@
+ACTUAL
+BACKUPS
+CANON
+SNX-GUIA-IA-V1.md
+SNX-RESUMEN-ACTUAL.md
+snx_ia_memoria.sh

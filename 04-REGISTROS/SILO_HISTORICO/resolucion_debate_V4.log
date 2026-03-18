@@ -1,0 +1,5 @@
+=== RESOLUCIÓN DE MESA TÉCNICA ===
+Fecha: Sat Mar 14 05:46:36 EDT 2026
+Veredicto: Abandono de Gunicorn por incompatibilidad con fork() en Android.
+Nueva Ruta: Waitress (WSGI Puro) + HTTP Interno.
+Estrategia: Estabilidad sobre complejidad. Blindaje contra Phantom Killer.

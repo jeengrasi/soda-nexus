@@ -1,0 +1,301 @@
+[2026-03-07 22:22:03] [02-SISTEMA] INICIO ciclo IA ministerial
+[2026-03-07 22:22:03] [02-SISTEMA] MEMORIA: inventario de scripts y servicios del sistema
+[2026-03-07 22:22:03] [02-SISTEMA] CONTEXTO: contexto del motor del sistema
+[2026-03-07 22:22:03] [02-SISTEMA] ANTIAMNESIA: verificando scripts críticos y rutas sagradas
+[2026-03-07 22:22:03] [02-SISTEMA] AUDITORIA: verificando permisos de scripts snx_*
+[2026-03-07 22:22:03] [02-SISTEMA] AVISO AUDITORIA: script sin permiso de ejecución: /data/data/com.termux/files/home/soda/02-SISTEMA/API/snx_bridge.py
+[2026-03-07 22:22:03] [02-SISTEMA] AVISO AUDITORIA: script sin permiso de ejecución: /data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_open_all_docs.sh
+[2026-03-07 22:22:03] [02-SISTEMA] AVISO AUDITORIA: script sin permiso de ejecución: /data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_split_docs.sh
+[2026-03-07 22:22:03] [02-SISTEMA] AVISO AUDITORIA: script sin permiso de ejecución: /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_backend.py
+[2026-03-07 22:22:03] [02-SISTEMA] AVISO AUDITORIA: script sin permiso de ejecución: /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_backend.py.bak.20260304-232705
+[2026-03-07 22:22:03] [02-SISTEMA] AVISO AUDITORIA: script sin permiso de ejecución: /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_backend.py.bak.20260305-100225
+[2026-03-07 22:22:03] [02-SISTEMA] AVISO AUDITORIA: script sin permiso de ejecución: /data/data/com.termux/files/home/soda/02-SISTEMA/SERVICIOS/snx_monitor_sagrado_run_v1.sh
+[2026-03-07 22:22:03] [02-SISTEMA] AVISO AUDITORIA: script sin permiso de ejecución: /data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA/snx_verificar_archivos_sagrados_v1.sh
+[2026-03-07 22:22:03] [02-SISTEMA] AVISO AUDITORIA: script sin permiso de ejecución: /data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA/snx_antiamnesia_integracion_sagrados_v1.sh
+[2026-03-07 22:22:03] [02-SISTEMA] AVISO AUDITORIA: script sin permiso de ejecución: /data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA/snx_watchdog_sagrados_v1.sh
+[2026-03-07 22:22:03] [02-SISTEMA] ENGRANAJE: declarando dependencias con OPERACIONES y REGISTROS
+[2026-03-07 22:22:03] [02-SISTEMA] SINCRONIZACION: marcando snapshot de servicios
+[2026-03-07 22:22:03] [02-SISTEMA] REPORTE: ciclo IA sistema completado
+[2026-03-07 22:22:03] [02-SISTEMA] FIN ciclo IA ministerial
+[2026-03-07 22:35:13] [02-SISTEMA] INICIO ciclo IA ministerial
+[2026-03-07 22:35:13] [02-SISTEMA] MEMORIA: inventario de scripts y servicios del sistema
+[2026-03-07 22:35:13] [02-SISTEMA] CONTEXTO: contexto del motor del sistema
+[2026-03-07 22:35:13] [02-SISTEMA] ANTIAMNESIA: verificando scripts críticos y rutas sagradas
+[2026-03-07 22:35:13] [02-SISTEMA] AUDITORIA: verificando permisos de scripts snx_*
+[2026-03-07 22:35:13] [02-SISTEMA] AVISO AUDITORIA: script sin permiso de ejecución: /data/data/com.termux/files/home/soda/02-SISTEMA/API/snx_bridge.py
+[2026-03-07 22:35:13] [02-SISTEMA] AVISO AUDITORIA: script sin permiso de ejecución: /data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_open_all_docs.sh
+[2026-03-07 22:35:13] [02-SISTEMA] AVISO AUDITORIA: script sin permiso de ejecución: /data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_split_docs.sh
+[2026-03-07 22:35:13] [02-SISTEMA] AVISO AUDITORIA: script sin permiso de ejecución: /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_backend.py
+[2026-03-07 22:35:13] [02-SISTEMA] AVISO AUDITORIA: script sin permiso de ejecución: /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_backend.py.bak.20260304-232705
+[2026-03-07 22:35:13] [02-SISTEMA] AVISO AUDITORIA: script sin permiso de ejecución: /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_backend.py.bak.20260305-100225
+[2026-03-07 22:35:13] [02-SISTEMA] AVISO AUDITORIA: script sin permiso de ejecución: /data/data/com.termux/files/home/soda/02-SISTEMA/SERVICIOS/snx_monitor_sagrado_run_v1.sh
+[2026-03-07 22:35:13] [02-SISTEMA] AVISO AUDITORIA: script sin permiso de ejecución: /data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA/snx_verificar_archivos_sagrados_v1.sh
+[2026-03-07 22:35:13] [02-SISTEMA] AVISO AUDITORIA: script sin permiso de ejecución: /data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA/snx_antiamnesia_integracion_sagrados_v1.sh
+[2026-03-07 22:35:13] [02-SISTEMA] AVISO AUDITORIA: script sin permiso de ejecución: /data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA/snx_watchdog_sagrados_v1.sh
+[2026-03-07 22:35:13] [02-SISTEMA] ENGRANAJE: declarando dependencias con OPERACIONES y REGISTROS
+[2026-03-07 22:35:13] [02-SISTEMA] SINCRONIZACION: marcando snapshot de servicios
+[2026-03-07 22:35:13] [02-SISTEMA] REPORTE: ciclo IA sistema completado
+[2026-03-07 22:35:13] [02-SISTEMA] FIN ciclo IA ministerial
+[2026-03-07 22:49:37] [02-SISTEMA] INICIO
+[2026-03-07 22:49:37] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/API/snx_bridge.py sin permiso de ejecución
+[2026-03-07 22:49:37] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_open_all_docs.sh sin permiso de ejecución
+[2026-03-07 22:49:37] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_split_docs.sh sin permiso de ejecución
+[2026-03-07 22:49:37] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_backend.py sin permiso de ejecución
+[2026-03-07 22:49:37] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_backend.py.bak.20260304-232705 sin permiso de ejecución
+[2026-03-07 22:49:37] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_backend.py.bak.20260305-100225 sin permiso de ejecución
+[2026-03-07 22:49:37] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/SERVICIOS/snx_monitor_sagrado_run_v1.sh sin permiso de ejecución
+[2026-03-07 22:49:37] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA/snx_verificar_archivos_sagrados_v1.sh sin permiso de ejecución
+[2026-03-07 22:49:37] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA/snx_antiamnesia_integracion_sagrados_v1.sh sin permiso de ejecución
+[2026-03-07 22:49:37] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA/snx_watchdog_sagrados_v1.sh sin permiso de ejecución
+[2026-03-07 22:49:37] [02-SISTEMA] FIN
+[2026-03-09 11:36:15] [02-SISTEMA] INICIO
+[2026-03-09 11:36:15] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/API/snx_bridge.py sin permiso de ejecución
+[2026-03-09 11:36:15] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_open_all_docs.sh sin permiso de ejecución
+[2026-03-09 11:36:15] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_split_docs.sh sin permiso de ejecución
+[2026-03-09 11:36:15] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_backend.py sin permiso de ejecución
+[2026-03-09 11:36:15] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_backend.py.bak.20260304-232705 sin permiso de ejecución
+[2026-03-09 11:36:15] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_backend.py.bak.20260305-100225 sin permiso de ejecución
+[2026-03-09 11:36:15] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/SERVICIOS/snx_monitor_sagrado_run_v1.sh sin permiso de ejecución
+[2026-03-09 11:36:15] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA/snx_verificar_archivos_sagrados_v1.sh sin permiso de ejecución
+[2026-03-09 11:36:15] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA/snx_antiamnesia_integracion_sagrados_v1.sh sin permiso de ejecución
+[2026-03-09 11:36:15] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA/snx_watchdog_sagrados_v1.sh sin permiso de ejecución
+[2026-03-09 11:36:15] [02-SISTEMA] FIN
+[2026-03-09 11:43:41] [02-SISTEMA] INICIO
+[2026-03-09 11:43:41] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/API/snx_bridge.py sin permiso de ejecución
+[2026-03-09 11:43:41] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_open_all_docs.sh sin permiso de ejecución
+[2026-03-09 11:43:41] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_split_docs.sh sin permiso de ejecución
+[2026-03-09 11:43:41] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_backend.py sin permiso de ejecución
+[2026-03-09 11:43:41] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_backend.py.bak.20260304-232705 sin permiso de ejecución
+[2026-03-09 11:43:41] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_backend.py.bak.20260305-100225 sin permiso de ejecución
+[2026-03-09 11:43:41] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/SERVICIOS/snx_monitor_sagrado_run_v1.sh sin permiso de ejecución
+[2026-03-09 11:43:41] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA/snx_verificar_archivos_sagrados_v1.sh sin permiso de ejecución
+[2026-03-09 11:43:41] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA/snx_antiamnesia_integracion_sagrados_v1.sh sin permiso de ejecución
+[2026-03-09 11:43:41] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA/snx_watchdog_sagrados_v1.sh sin permiso de ejecución
+[2026-03-09 11:43:41] [02-SISTEMA] FIN
+[2026-03-09 12:07:36] [02-SISTEMA] INICIO
+[2026-03-09 12:07:36] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/API/snx_bridge.py sin permiso de ejecución
+[2026-03-09 12:07:36] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_open_all_docs.sh sin permiso de ejecución
+[2026-03-09 12:07:36] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_split_docs.sh sin permiso de ejecución
+[2026-03-09 12:07:36] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_backend.py sin permiso de ejecución
+[2026-03-09 12:07:36] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_backend.py.bak.20260304-232705 sin permiso de ejecución
+[2026-03-09 12:07:36] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_backend.py.bak.20260305-100225 sin permiso de ejecución
+[2026-03-09 12:07:36] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/SERVICIOS/snx_monitor_sagrado_run_v1.sh sin permiso de ejecución
+[2026-03-09 12:07:36] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA/snx_verificar_archivos_sagrados_v1.sh sin permiso de ejecución
+[2026-03-09 12:07:36] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA/snx_antiamnesia_integracion_sagrados_v1.sh sin permiso de ejecución
+[2026-03-09 12:07:36] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA/snx_watchdog_sagrados_v1.sh sin permiso de ejecución
+[2026-03-09 12:07:36] [02-SISTEMA] FIN
+[2026-03-09 12:26:14] [02-SISTEMA] INICIO
+[2026-03-09 12:26:14] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/API/snx_bridge.py sin permiso de ejecución
+[2026-03-09 12:26:14] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_open_all_docs.sh sin permiso de ejecución
+[2026-03-09 12:26:14] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_split_docs.sh sin permiso de ejecución
+[2026-03-09 12:26:14] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_backend.py sin permiso de ejecución
+[2026-03-09 12:26:14] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_backend.py.bak.20260304-232705 sin permiso de ejecución
+[2026-03-09 12:26:14] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_backend.py.bak.20260305-100225 sin permiso de ejecución
+[2026-03-09 12:26:14] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/SERVICIOS/snx_monitor_sagrado_run_v1.sh sin permiso de ejecución
+[2026-03-09 12:26:14] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA/snx_verificar_archivos_sagrados_v1.sh sin permiso de ejecución
+[2026-03-09 12:26:14] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA/snx_antiamnesia_integracion_sagrados_v1.sh sin permiso de ejecución
+[2026-03-09 12:26:14] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA/snx_watchdog_sagrados_v1.sh sin permiso de ejecución
+[2026-03-09 12:26:14] [02-SISTEMA] FIN
+[2026-03-09 12:29:02] [02-SISTEMA] INICIO
+[2026-03-09 12:29:02] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/API/snx_bridge.py sin permiso de ejecución
+[2026-03-09 12:29:02] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_open_all_docs.sh sin permiso de ejecución
+[2026-03-09 12:29:02] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_split_docs.sh sin permiso de ejecución
+[2026-03-09 12:29:02] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_backend.py sin permiso de ejecución
+[2026-03-09 12:29:02] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_backend.py.bak.20260304-232705 sin permiso de ejecución
+[2026-03-09 12:29:02] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_backend.py.bak.20260305-100225 sin permiso de ejecución
+[2026-03-09 12:29:02] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/SERVICIOS/snx_monitor_sagrado_run_v1.sh sin permiso de ejecución
+[2026-03-09 12:29:03] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA/snx_verificar_archivos_sagrados_v1.sh sin permiso de ejecución
+[2026-03-09 12:29:03] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA/snx_antiamnesia_integracion_sagrados_v1.sh sin permiso de ejecución
+[2026-03-09 12:29:03] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA/snx_watchdog_sagrados_v1.sh sin permiso de ejecución
+[2026-03-09 12:29:03] [02-SISTEMA] FIN
+[2026-03-09 12:31:32] [02-SISTEMA] INICIO
+[2026-03-09 12:31:32] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/API/snx_bridge.py sin permiso de ejecución
+[2026-03-09 12:31:32] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_open_all_docs.sh sin permiso de ejecución
+[2026-03-09 12:31:32] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_split_docs.sh sin permiso de ejecución
+[2026-03-09 12:31:32] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_backend.py sin permiso de ejecución
+[2026-03-09 12:31:32] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_backend.py.bak.20260304-232705 sin permiso de ejecución
+[2026-03-09 12:31:32] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_backend.py.bak.20260305-100225 sin permiso de ejecución
+[2026-03-09 12:31:32] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/SERVICIOS/snx_monitor_sagrado_run_v1.sh sin permiso de ejecución
+[2026-03-09 12:31:32] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA/snx_verificar_archivos_sagrados_v1.sh sin permiso de ejecución
+[2026-03-09 12:31:32] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA/snx_antiamnesia_integracion_sagrados_v1.sh sin permiso de ejecución
+[2026-03-09 12:31:32] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA/snx_watchdog_sagrados_v1.sh sin permiso de ejecución
+[2026-03-09 12:31:32] [02-SISTEMA] FIN
+[2026-03-09 12:34:35] [02-SISTEMA] INICIO
+[2026-03-09 12:34:36] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/API/snx_bridge.py sin permiso de ejecución
+[2026-03-09 12:34:36] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_open_all_docs.sh sin permiso de ejecución
+[2026-03-09 12:34:36] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_split_docs.sh sin permiso de ejecución
+[2026-03-09 12:34:36] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_backend.py sin permiso de ejecución
+[2026-03-09 12:34:36] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_backend.py.bak.20260304-232705 sin permiso de ejecución
+[2026-03-09 12:34:36] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_backend.py.bak.20260305-100225 sin permiso de ejecución
+[2026-03-09 12:34:36] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/SERVICIOS/snx_monitor_sagrado_run_v1.sh sin permiso de ejecución
+[2026-03-09 12:34:36] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA/snx_verificar_archivos_sagrados_v1.sh sin permiso de ejecución
+[2026-03-09 12:34:36] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA/snx_antiamnesia_integracion_sagrados_v1.sh sin permiso de ejecución
+[2026-03-09 12:34:36] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA/snx_watchdog_sagrados_v1.sh sin permiso de ejecución
+[2026-03-09 12:34:36] [02-SISTEMA] FIN
+[2026-03-09 12:43:32] [02-SISTEMA] INICIO
+[2026-03-09 12:43:32] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/API/snx_bridge.py sin permiso de ejecución
+[2026-03-09 12:43:32] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_open_all_docs.sh sin permiso de ejecución
+[2026-03-09 12:43:32] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_split_docs.sh sin permiso de ejecución
+[2026-03-09 12:43:32] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_backend.py sin permiso de ejecución
+[2026-03-09 12:43:32] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_backend.py.bak.20260304-232705 sin permiso de ejecución
+[2026-03-09 12:43:32] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_backend.py.bak.20260305-100225 sin permiso de ejecución
+[2026-03-09 12:43:32] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/SERVICIOS/snx_monitor_sagrado_run_v1.sh sin permiso de ejecución
+[2026-03-09 12:43:32] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA/snx_verificar_archivos_sagrados_v1.sh sin permiso de ejecución
+[2026-03-09 12:43:32] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA/snx_antiamnesia_integracion_sagrados_v1.sh sin permiso de ejecución
+[2026-03-09 12:43:32] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA/snx_watchdog_sagrados_v1.sh sin permiso de ejecución
+[2026-03-09 12:43:32] [02-SISTEMA] FIN
+[2026-03-09 13:46:23] [02-SISTEMA] INICIO
+[2026-03-09 13:46:23] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/API/snx_bridge.py sin permiso de ejecución
+[2026-03-09 13:46:23] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_open_all_docs.sh sin permiso de ejecución
+[2026-03-09 13:46:23] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_split_docs.sh sin permiso de ejecución
+[2026-03-09 13:46:23] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_backend.py sin permiso de ejecución
+[2026-03-09 13:46:23] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_backend.py.bak.20260304-232705 sin permiso de ejecución
+[2026-03-09 13:46:23] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_backend.py.bak.20260305-100225 sin permiso de ejecución
+[2026-03-09 13:46:23] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/SERVICIOS/snx_monitor_sagrado_run_v1.sh sin permiso de ejecución
+[2026-03-09 13:46:23] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA/snx_verificar_archivos_sagrados_v1.sh sin permiso de ejecución
+[2026-03-09 13:46:23] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA/snx_antiamnesia_integracion_sagrados_v1.sh sin permiso de ejecución
+[2026-03-09 13:46:23] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA/snx_watchdog_sagrados_v1.sh sin permiso de ejecución
+[2026-03-09 13:46:23] [02-SISTEMA] FIN
+[2026-03-09 13:58:37] [02-SISTEMA] INICIO
+[2026-03-09 13:58:37] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/API/snx_bridge.py sin permiso de ejecución
+[2026-03-09 13:58:37] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_open_all_docs.sh sin permiso de ejecución
+[2026-03-09 13:58:37] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_split_docs.sh sin permiso de ejecución
+[2026-03-09 13:58:37] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_backend.py sin permiso de ejecución
+[2026-03-09 13:58:38] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_backend.py.bak.20260304-232705 sin permiso de ejecución
+[2026-03-09 13:58:38] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_backend.py.bak.20260305-100225 sin permiso de ejecución
+[2026-03-09 13:58:38] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/SERVICIOS/snx_monitor_sagrado_run_v1.sh sin permiso de ejecución
+[2026-03-09 13:58:38] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA/snx_verificar_archivos_sagrados_v1.sh sin permiso de ejecución
+[2026-03-09 13:58:38] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA/snx_antiamnesia_integracion_sagrados_v1.sh sin permiso de ejecución
+[2026-03-09 13:58:38] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA/snx_watchdog_sagrados_v1.sh sin permiso de ejecución
+[2026-03-09 13:58:38] [02-SISTEMA] Estado generado: estado_02-SISTEMA.json
+[2026-03-09 13:58:38] [02-SISTEMA] FIN
+[2026-03-09 14:20:23] [02-SISTEMA] INICIO
+[2026-03-09 14:20:23] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/API/snx_bridge.py sin permiso de ejecución
+[2026-03-09 14:20:23] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_open_all_docs.sh sin permiso de ejecución
+[2026-03-09 14:20:23] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_split_docs.sh sin permiso de ejecución
+[2026-03-09 14:20:23] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_backend.py sin permiso de ejecución
+[2026-03-09 14:20:23] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_backend.py.bak.20260304-232705 sin permiso de ejecución
+[2026-03-09 14:20:23] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_backend.py.bak.20260305-100225 sin permiso de ejecución
+[2026-03-09 14:20:23] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/SERVICIOS/snx_monitor_sagrado_run_v1.sh sin permiso de ejecución
+[2026-03-09 14:20:23] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA/snx_verificar_archivos_sagrados_v1.sh sin permiso de ejecución
+[2026-03-09 14:20:23] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA/snx_antiamnesia_integracion_sagrados_v1.sh sin permiso de ejecución
+[2026-03-09 14:20:23] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA/snx_watchdog_sagrados_v1.sh sin permiso de ejecución
+[2026-03-09 14:20:23] [02-SISTEMA] Estado generado: estado_02-SISTEMA.json
+[2026-03-09 14:20:23] [02-SISTEMA] FIN
+[2026-03-09 14:24:02] [02-SISTEMA] INICIO
+[2026-03-09 14:24:02] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/API/snx_bridge.py sin permiso de ejecución
+[2026-03-09 14:24:02] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_open_all_docs.sh sin permiso de ejecución
+[2026-03-09 14:24:02] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_split_docs.sh sin permiso de ejecución
+[2026-03-09 14:24:02] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_backend.py sin permiso de ejecución
+[2026-03-09 14:24:02] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_backend.py.bak.20260304-232705 sin permiso de ejecución
+[2026-03-09 14:24:02] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_backend.py.bak.20260305-100225 sin permiso de ejecución
+[2026-03-09 14:24:02] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/SERVICIOS/snx_monitor_sagrado_run_v1.sh sin permiso de ejecución
+[2026-03-09 14:24:02] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA/snx_verificar_archivos_sagrados_v1.sh sin permiso de ejecución
+[2026-03-09 14:24:02] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA/snx_antiamnesia_integracion_sagrados_v1.sh sin permiso de ejecución
+[2026-03-09 14:24:02] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA/snx_watchdog_sagrados_v1.sh sin permiso de ejecución
+[2026-03-09 14:24:02] [02-SISTEMA] Estado generado: estado_02-SISTEMA.json
+[2026-03-09 14:24:02] [02-SISTEMA] FIN
+[2026-03-09 14:24:40] [02-SISTEMA] INICIO
+[2026-03-09 14:24:40] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/API/snx_bridge.py sin permiso de ejecución
+[2026-03-09 14:24:40] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_open_all_docs.sh sin permiso de ejecución
+[2026-03-09 14:24:40] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_split_docs.sh sin permiso de ejecución
+[2026-03-09 14:24:40] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_backend.py sin permiso de ejecución
+[2026-03-09 14:24:40] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_backend.py.bak.20260304-232705 sin permiso de ejecución
+[2026-03-09 14:24:40] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_backend.py.bak.20260305-100225 sin permiso de ejecución
+[2026-03-09 14:24:40] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/SERVICIOS/snx_monitor_sagrado_run_v1.sh sin permiso de ejecución
+[2026-03-09 14:24:41] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA/snx_verificar_archivos_sagrados_v1.sh sin permiso de ejecución
+[2026-03-09 14:24:41] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA/snx_antiamnesia_integracion_sagrados_v1.sh sin permiso de ejecución
+[2026-03-09 14:24:41] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA/snx_watchdog_sagrados_v1.sh sin permiso de ejecución
+[2026-03-09 14:24:41] [02-SISTEMA] Estado generado: estado_02-SISTEMA.json
+[2026-03-09 14:24:41] [02-SISTEMA] FIN
+[2026-03-09 14:25:21] [02-SISTEMA] INICIO
+[2026-03-09 14:25:21] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/API/snx_bridge.py sin permiso de ejecución
+[2026-03-09 14:25:21] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_open_all_docs.sh sin permiso de ejecución
+[2026-03-09 14:25:21] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_split_docs.sh sin permiso de ejecución
+[2026-03-09 14:25:21] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_backend.py sin permiso de ejecución
+[2026-03-09 14:25:21] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_backend.py.bak.20260304-232705 sin permiso de ejecución
+[2026-03-09 14:25:21] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_backend.py.bak.20260305-100225 sin permiso de ejecución
+[2026-03-09 14:25:21] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/SERVICIOS/snx_monitor_sagrado_run_v1.sh sin permiso de ejecución
+[2026-03-09 14:25:21] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA/snx_verificar_archivos_sagrados_v1.sh sin permiso de ejecución
+[2026-03-09 14:25:21] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA/snx_antiamnesia_integracion_sagrados_v1.sh sin permiso de ejecución
+[2026-03-09 14:25:21] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA/snx_watchdog_sagrados_v1.sh sin permiso de ejecución
+[2026-03-09 14:25:21] [02-SISTEMA] Estado generado: estado_02-SISTEMA.json
+[2026-03-09 14:25:21] [02-SISTEMA] FIN
+[2026-03-09 14:25:56] [02-SISTEMA] INICIO
+[2026-03-09 14:25:56] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/API/snx_bridge.py sin permiso de ejecución
+[2026-03-09 14:25:56] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_open_all_docs.sh sin permiso de ejecución
+[2026-03-09 14:25:56] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_split_docs.sh sin permiso de ejecución
+[2026-03-09 14:25:56] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_backend.py sin permiso de ejecución
+[2026-03-09 14:25:56] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_backend.py.bak.20260304-232705 sin permiso de ejecución
+[2026-03-09 14:25:56] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_backend.py.bak.20260305-100225 sin permiso de ejecución
+[2026-03-09 14:25:56] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/SERVICIOS/snx_monitor_sagrado_run_v1.sh sin permiso de ejecución
+[2026-03-09 14:25:56] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA/snx_verificar_archivos_sagrados_v1.sh sin permiso de ejecución
+[2026-03-09 14:25:56] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA/snx_antiamnesia_integracion_sagrados_v1.sh sin permiso de ejecución
+[2026-03-09 14:25:56] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA/snx_watchdog_sagrados_v1.sh sin permiso de ejecución
+[2026-03-09 14:25:56] [02-SISTEMA] Estado generado: estado_02-SISTEMA.json
+[2026-03-09 14:25:56] [02-SISTEMA] FIN
+[2026-03-09 14:38:41] [02-SISTEMA] INICIO
+[2026-03-09 14:38:41] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/API/snx_bridge.py sin permiso de ejecución
+[2026-03-09 14:38:41] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_open_all_docs.sh sin permiso de ejecución
+[2026-03-09 14:38:41] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_split_docs.sh sin permiso de ejecución
+[2026-03-09 14:38:41] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_backend.py sin permiso de ejecución
+[2026-03-09 14:38:41] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_backend.py.bak.20260304-232705 sin permiso de ejecución
+[2026-03-09 14:38:41] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_backend.py.bak.20260305-100225 sin permiso de ejecución
+[2026-03-09 14:38:41] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/SERVICIOS/snx_monitor_sagrado_run_v1.sh sin permiso de ejecución
+[2026-03-09 14:38:41] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA/snx_verificar_archivos_sagrados_v1.sh sin permiso de ejecución
+[2026-03-09 14:38:41] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA/snx_antiamnesia_integracion_sagrados_v1.sh sin permiso de ejecución
+[2026-03-09 14:38:41] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA/snx_watchdog_sagrados_v1.sh sin permiso de ejecución
+[2026-03-09 14:38:41] [02-SISTEMA] Estado generado: estado_02-SISTEMA.json
+[2026-03-09 14:38:41] [02-SISTEMA] FIN
+[2026-03-09 14:41:30] [02-SISTEMA] INICIO
+[2026-03-09 14:41:30] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/API/snx_bridge.py sin permiso de ejecución
+[2026-03-09 14:41:30] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_open_all_docs.sh sin permiso de ejecución
+[2026-03-09 14:41:30] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_split_docs.sh sin permiso de ejecución
+[2026-03-09 14:41:30] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_backend.py sin permiso de ejecución
+[2026-03-09 14:41:30] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_backend.py.bak.20260304-232705 sin permiso de ejecución
+[2026-03-09 14:41:30] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_backend.py.bak.20260305-100225 sin permiso de ejecución
+[2026-03-09 14:41:30] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/SERVICIOS/snx_monitor_sagrado_run_v1.sh sin permiso de ejecución
+[2026-03-09 14:41:30] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA/snx_verificar_archivos_sagrados_v1.sh sin permiso de ejecución
+[2026-03-09 14:41:30] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA/snx_antiamnesia_integracion_sagrados_v1.sh sin permiso de ejecución
+[2026-03-09 14:41:30] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA/snx_watchdog_sagrados_v1.sh sin permiso de ejecución
+[2026-03-09 14:41:30] [02-SISTEMA] Estado generado: estado_02-SISTEMA.json
+[2026-03-09 14:41:30] [02-SISTEMA] FIN
+[2026-03-09 14:53:00] [02-SISTEMA] INICIO
+[2026-03-09 14:53:00] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/API/snx_bridge.py sin permiso de ejecución
+[2026-03-09 14:53:00] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_open_all_docs.sh sin permiso de ejecución
+[2026-03-09 14:53:00] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_split_docs.sh sin permiso de ejecución
+[2026-03-09 14:53:00] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_backend.py sin permiso de ejecución
+[2026-03-09 14:53:00] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_backend.py.bak.20260304-232705 sin permiso de ejecución
+[2026-03-09 14:53:00] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_backend.py.bak.20260305-100225 sin permiso de ejecución
+[2026-03-09 14:53:00] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/SERVICIOS/snx_monitor_sagrado_run_v1.sh sin permiso de ejecución
+[2026-03-09 14:53:00] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA/snx_verificar_archivos_sagrados_v1.sh sin permiso de ejecución
+[2026-03-09 14:53:00] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA/snx_antiamnesia_integracion_sagrados_v1.sh sin permiso de ejecución
+[2026-03-09 14:53:00] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA/snx_watchdog_sagrados_v1.sh sin permiso de ejecución
+[2026-03-09 14:53:00] [02-SISTEMA] Estado generado: estado_02-SISTEMA.json
+[2026-03-09 14:53:00] [02-SISTEMA] FIN
+[2026-03-09 14:53:29] [02-SISTEMA] INICIO
+[2026-03-09 14:53:29] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/API/snx_bridge.py sin permiso de ejecución
+[2026-03-09 14:53:29] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_open_all_docs.sh sin permiso de ejecución
+[2026-03-09 14:53:29] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_split_docs.sh sin permiso de ejecución
+[2026-03-09 14:53:29] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_backend.py sin permiso de ejecución
+[2026-03-09 14:53:29] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_backend.py.bak.20260304-232705 sin permiso de ejecución
+[2026-03-09 14:53:29] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_backend.py.bak.20260305-100225 sin permiso de ejecución
+[2026-03-09 14:53:29] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/SERVICIOS/snx_monitor_sagrado_run_v1.sh sin permiso de ejecución
+[2026-03-09 14:53:29] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA/snx_verificar_archivos_sagrados_v1.sh sin permiso de ejecución
+[2026-03-09 14:53:29] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA/snx_antiamnesia_integracion_sagrados_v1.sh sin permiso de ejecución
+[2026-03-09 14:53:30] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA/snx_watchdog_sagrados_v1.sh sin permiso de ejecución
+[2026-03-09 14:53:30] [02-SISTEMA] Estado generado: estado_02-SISTEMA.json
+[2026-03-09 14:53:30] [02-SISTEMA] FIN
+[2026-03-09 14:53:44] [02-SISTEMA] INICIO
+[2026-03-09 14:53:44] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/API/snx_bridge.py sin permiso de ejecución
+[2026-03-09 14:53:44] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_open_all_docs.sh sin permiso de ejecución
+[2026-03-09 14:53:44] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_split_docs.sh sin permiso de ejecución
+[2026-03-09 14:53:44] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_backend.py sin permiso de ejecución
+[2026-03-09 14:53:44] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_backend.py.bak.20260304-232705 sin permiso de ejecución
+[2026-03-09 14:53:44] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_backend.py.bak.20260305-100225 sin permiso de ejecución
+[2026-03-09 14:53:44] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/SERVICIOS/snx_monitor_sagrado_run_v1.sh sin permiso de ejecución
+[2026-03-09 14:53:44] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA/snx_verificar_archivos_sagrados_v1.sh sin permiso de ejecución
+[2026-03-09 14:53:44] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA/snx_antiamnesia_integracion_sagrados_v1.sh sin permiso de ejecución
+[2026-03-09 14:53:44] [02-SISTEMA] AVISO: /data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA/snx_watchdog_sagrados_v1.sh sin permiso de ejecución
+[2026-03-09 14:53:45] [02-SISTEMA] Estado generado: estado_02-SISTEMA.json
+[2026-03-09 14:53:45] [02-SISTEMA] FIN

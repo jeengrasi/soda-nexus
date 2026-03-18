@@ -1,0 +1,4 @@
+=== PROTOCOLO DE CIRUGÍA DE RUTAS ===
+Fecha: Fri Mar 13 21:52:28 EDT 2026
+Causa: Errores 404 persistentes en archivos estáticos (JS/CSS).
+Acción: Unificación de Frontend y Backend en una sola ruta de producción absoluta.

@@ -1,0 +1,10 @@
+[2026-03-04 20:56:06] INICIO DE SESIÓN DEL GUARDIAN SOBERANO
+[2026-03-04 20:56:06] Estructura base encontrada. Escaneando rutas críticas.
+[2026-03-04 20:56:06] Ruta crítica OK: /data/data/com.termux/files/home/soda/00-GOBIERNO
+[2026-03-04 20:56:06] ALERTA: Ruta crítica ausente: /data/data/com.termux/files/home/soda/01-ARCHIVO-HISTORICO
+[2026-03-04 20:56:06] Ruta crítica OK: /data/data/com.termux/files/home/soda/02-SISTEMA
+[2026-03-04 20:56:06] ALERTA: Ruta crítica ausente: /data/data/com.termux/files/home/soda/03-MODULOS
+[2026-03-04 20:56:06] Ruta crítica OK: /data/data/com.termux/files/home/soda/04-COMUNICACIONES
+[2026-03-04 20:56:06] Ruta crítica OK: /data/data/com.termux/files/home/soda/05-REGISTROS
+[2026-03-04 20:56:12] ALERTA: CAMBIOS DETECTADOS. Archivo diff: /data/data/com.termux/files/home/soda/05-REGISTROS/GUARDIAN/diff_2026-03-04_20-56-06.json
+[2026-03-04 20:56:12] FIN DE SESIÓN DEL GUARDIAN SOBERANO.

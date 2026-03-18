@@ -1,0 +1,81 @@
+{"sistema":{"timestamp":"2026-03-09T14:25:58","ministerios":{
+"00-GOBIERNO": {"ministerio":"00-GOBIERNO","timestamp":"2026-03-09T14:25:56"}
+,
+"01-MEMORIA": {
+  "ministerio": "01-MEMORIA",
+  "timestamp": "2026-03-09T14:25:56",
+  "memoria_index": "6 entradas",
+  "engranaje": {"relaciones":["00-GOBIERNO","02-SISTEMA"]},
+  "sync": {"sync":"2026-03-09T14:25:56"},
+  "archivos": {
+    "memoria_index": "ok",
+    "engranaje": "ok",
+    "sync": "ok"
+  }
+}
+,
+"02-SISTEMA": {
+  "ministerio": "02-SISTEMA",
+  "timestamp": "2026-03-09T14:25:56",
+  "inventario": "87 archivos",
+  "engranaje": {"relaciones":["03-OPERACIONES","04-REGISTROS"]},
+  "sync": {"sync":"2026-03-09T14:25:56"},
+  "archivos": {
+    "inventario": "ok",
+    "engranaje": "ok",
+    "sync": "ok"
+  }
+}
+,
+"03-OPERACIONES": {
+  "ministerio": "03-OPERACIONES",
+  "timestamp": "2026-03-09T14:25:57",
+  "operaciones_tree": "11 entradas",
+  "engranaje": {"relaciones":["02-SISTEMA","04-REGISTROS"]},
+  "sync": {"sync":"2026-03-09T14:25:57"},
+  "archivos": {
+    "operaciones_tree": "ok",
+    "engranaje": "ok",
+    "sync": "ok"
+  }
+}
+,
+"04-REGISTROS": {
+  "ministerio": "04-REGISTROS",
+  "timestamp": "2026-03-09T14:25:57",
+  "logs_index": "14 entradas",
+  "engranaje": {"relaciones":["01-MEMORIA","02-SISTEMA"]},
+  "sync": {"sync":"2026-03-09T14:25:57"},
+  "archivos": {
+    "logs_index": "ok",
+    "engranaje": "ok",
+    "sync": "ok"
+  }
+}
+,
+"05-DOCUMENTACION": {
+  "ministerio": "05-DOCUMENTACION",
+  "timestamp": "2026-03-09T14:25:57",
+  "docs_index": "19 entradas",
+  "engranaje": {"relaciones":["01-MEMORIA","06-MONITOR"]},
+  "sync": {"sync":"2026-03-09T14:25:57"},
+  "archivos": {
+    "docs_index": "ok",
+    "engranaje": "ok",
+    "sync": "ok"
+  }
+}
+,
+"06-MONITOR": {
+  "ministerio": "06-MONITOR",
+  "timestamp": "2026-03-09T14:25:58",
+  "monitor_index": "4 entradas",
+  "engranaje": {"relaciones":["02-SISTEMA","05-DOCUMENTACION"]},
+  "sync": {"sync":"2026-03-09T14:25:58"},
+  "archivos": {
+    "monitor_index": "ok",
+    "engranaje": "ok",
+    "sync": "ok"
+  }
+}
+}}}

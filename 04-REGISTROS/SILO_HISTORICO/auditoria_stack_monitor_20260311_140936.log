@@ -1,0 +1,19 @@
+==========================================
+[AUDITORIA STACK MONITOR] 20260311_140936
+BASE: /data/data/com.termux/files/home/soda
+==========================================
+[OK] FILE: /data/data/com.termux/files/home/soda/02-SISTEMA/API/api_v4.py
+[OK] FILE: /data/data/com.termux/files/home/soda/02-SISTEMA/API/iniciar_orquestador_v4.sh
+[OK] FILE: /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/monitor_soberano.py
+[OK] FILE: /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_backend.py
+[OK] FILE: /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_backend_run.sh
+[OK] FILE: /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/monitor_bridge_v1.py
+[OK] FILE: /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/monitor_bridge_run.sh
+[OK] FILE: /data/data/com.termux/files/home/soda/monitor_estado
+[PERMISOS]
+[OK] ejecutable: /data/data/com.termux/files/home/soda/02-SISTEMA/API/iniciar_orquestador_v4.sh
+[OK] ejecutable: /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_backend_run.sh
+[OK] ejecutable: /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/monitor_bridge_run.sh
+[ENDPOINTS]
+[OK] ORQ_V4 /ping_v4 -> http://127.0.0.1:5051/ping_v4
+     RESP: {"message":"SODA-NEXUS Orquestador V4 activo","status":"ok"}

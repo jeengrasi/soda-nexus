@@ -1,0 +1,6 @@
+=== PROTOCOLO DE CORRECCIÓN FINAL ===
+Fecha: Fri Mar 13 21:57:12 EDT 2026
+Incidente: GET / retorna 404 y Termux recibe Signal 9.
+Causa: El Orquestador busca 'index-v4.html' pero el archivo real es 'index.html' o no existe en la API.
+Acción: Unificación de nomenclatura y protección de proceso.
+ESTADO: SANEAMIENTO INMINENTE.

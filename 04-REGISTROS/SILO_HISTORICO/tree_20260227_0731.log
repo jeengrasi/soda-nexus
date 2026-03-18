@@ -1,0 +1,776 @@
+[2026-02-27 07:31:27] === INICIO DE AUDITORÍA DEL SISTEMA SODA‑NEXUS ===
+[2026-02-27 07:31:27] Carpetas principales:
+[2026-02-27 07:31:27] ✔ 00-VAULT existe
+[2026-02-27 07:31:27] ❌ 01-DATA NO existe
+[2026-02-27 07:31:27] ✔ 02-SISTEMA existe
+[2026-02-27 07:31:27] ✔ 02-SCRIPTS existe
+[2026-02-27 07:31:27] ❌ 03-MODULOS NO existe
+[2026-02-27 07:31:27] ❌ 04-WEBAPP NO existe
+[2026-02-27 07:31:27] ✔ 05-LOGS existe
+[2026-02-27 07:31:27] 
+[2026-02-27 07:31:27] Árbol completo con permisos:
+[drwx------ u0_a287  u0_a287  3.4K Feb 26 18:22]  /data/data/com.termux/files/home/soda
+├── [drwx------ u0_a287  u0_a287  3.4K Feb 26 18:16]  00-DOCS
+│   └── [-rw------- u0_a287  u0_a287  5.6K Feb 26 18:16]  SNX-TUNNEL-2026.md
+├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:40]  00-GOBIERNO
+│   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:40]  ESTADO
+│   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:40]  HERRAMIENTAS
+│   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 22 22:02]  KEYS
+│   └── [drwx------ u0_a287  u0_a287  3.4K Feb 22 22:02]  VAULT
+├── [drwx------ u0_a287  u0_a287  3.4K Feb 26 14:22]  00-VAULT
+│   └── [-rw------- u0_a287  u0_a287    60 Feb 27 07:31]  tunnel.env
+├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  01-ARCHIVO-HISTORICO
+│   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:40]  00-VAULT
+│   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 20 14:35]  TEMPLATES
+│   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:40]  01-STATE
+│   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 20 14:46]  ENGINE
+│   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 20 14:36]  GUARDIAN
+│   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:40]  IMMUNITY
+│   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:40]  MIM
+│   │       └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:40]  DATA
+│   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  02-SCRIPTS
+│   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  AUDIT
+│   │   │   └── [lrwxrwxrwx u0_a287  u0_a287    82 Feb 22 22:18]  AUDIT -> /data/data/com.termux/files/home/soda/01-ARCHIVO-HISTORICO/02-SCRIPTS/AUDIT
+│   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  ENGINE
+│   │   │   └── [lrwxrwxrwx u0_a287  u0_a287    82 Feb 22 22:18]  ENGINE -> /data/data/com.termux/files/home/soda/01-ARCHIVO-HISTORICO/02-SCRIPTS/ENGINE
+│   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:40]  GLOBAL
+│   │   │   └── [lrwxrwxrwx u0_a287  u0_a287    82 Feb 22 22:18]  GLOBAL -> /data/data/com.termux/files/home/soda/01-ARCHIVO-HISTORICO/02-SCRIPTS/GLOBAL
+│   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  GUARDIAN
+│   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  IMMUNITY
+│   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  MIM
+│   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 16 15:47]  MODULES
+│   │       ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  ECONOMY
+│   │       │   ├── [lrwxrwxrwx u0_a287  u0_a287    98 Feb 22 22:18]  ECONOMY -> /data/data/com.termux/files/home/soda/01-ARCHIVO-HISTORICO/02-SCRIPTS/MODULES/ECONOMY
+│   │       │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  SODA
+│   │       └── [drwx------ u0_a287  u0_a287  3.4K Feb 16 12:32]  GENERATOR
+│   │           └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  MIM
+│   │               ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:40]  core
+│   │               ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  data
+│   │               ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  logs
+│   │               └── [drwx------ u0_a287  u0_a287  3.4K Feb 16 12:35]  tmp
+│   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  03-LOG
+│   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  AUDIT
+│   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  audit
+│   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 15 22:19]  corruption
+│   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 15 22:19]  decisions
+│   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  economy
+│   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  incidents
+│   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  milestones
+│   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  04-DOCS
+│   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 15 22:19]  versiones
+│   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  BACKUPS
+├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  01-MEMORIA
+│   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:28]  DECISIONES
+│   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:28]  2026
+│   │       └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  02
+│   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  EVENTOS
+│   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  LECCIONES
+│   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:27]  REFERENCIAS
+├── [drwx------ u0_a287  u0_a287  3.4K Feb 23 20:50]  01-MINISTERIOS
+├── [drwx------ u0_a287  u0_a287  3.4K Feb 27 07:31]  02-SCRIPTS
+│   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 27 07:31]  GLOBAL
+│   │   └── [-rwx------ u0_a287  u0_a287  1008 Feb 27 07:31]  snx_tree.sh
+│   └── [drwx------ u0_a287  u0_a287  3.4K Feb 26 21:15]  TUNNEL
+│       ├── [-rwx------ u0_a287  u0_a287  5.0K Feb 26 14:22]  snx_tunnel_init.sh
+│       ├── [-rwx------ u0_a287  u0_a287  1.4K Feb 26 14:25]  snx_tunnel_login.sh
+│       └── [-rwx------ u0_a287  u0_a287   960 Feb 26 21:15]  snx_tunnel_manager.sh
+├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:57]  02-SISTEMA
+│   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 26 19:10]  API
+│   │   ├── [-rw------- u0_a287  u0_a287   233 Feb 26 19:10]  api.py
+│   │   └── [-rw------- u0_a287  u0_a287    34 Feb 25 09:33]  snx_bridge.py
+│   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:57]  BACKEND
+│   │   └── [-rwx------ u0_a287  u0_a287   673 Feb 24 23:44]  snx_backend.sh
+│   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:44]  CORE
+│   │   └── [-rwx------ u0_a287  u0_a287  2.0K Feb 24 15:44]  snx_doc_backup.sh
+│   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 26 23:45]  DAEMON
+│   │   ├── [-rwx------ u0_a287  u0_a287   377 Feb 24 23:22]  snx_daemon.sh
+│   │   └── [-rwxr-xr-x u0_a287  u0_a287  3.3K Feb 27 00:04]  snx_tunnel_persistent.sh
+│   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  ENGINE
+│   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  ESTADO
+│   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  GLOBAL
+│   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  GUARDIAN
+│   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  IMMUNITY
+│   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 22 22:02]  LIB
+│   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 22 22:02]  bash
+│   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 22 22:02]  python
+│   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  MIM
+│   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  REGISTRO
+├── [drwx------ u0_a287  u0_a287  3.4K Feb 26 14:22]  03-CONFIG
+│   └── [drwx------ u0_a287  u0_a287  3.4K Feb 26 14:22]  tunnel
+│       └── [-rw------- u0_a287  u0_a287     0 Feb 26 14:22]  config.yml
+├── [drwx------ u0_a287  u0_a287  3.4K Feb 23 05:59]  03-OPERACIONES
+│   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 22 22:02]  BRIDGES
+│   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  ECONOMY
+│   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 22 22:02]  LEGACY
+│   │   ├── [lrwxrwxrwx u0_a287  u0_a287    82 Feb 22 22:02]  AUDIT -> /data/data/com.termux/files/home/soda/01-ARCHIVO-HISTORICO/02-SCRIPTS/AUDIT
+│   │   ├── [lrwxrwxrwx u0_a287  u0_a287    98 Feb 22 22:02]  ECONOMY -> /data/data/com.termux/files/home/soda/01-ARCHIVO-HISTORICO/02-SCRIPTS/MODULES/ECONOMY
+│   │   ├── [lrwxrwxrwx u0_a287  u0_a287    82 Feb 22 22:02]  ENGINE -> /data/data/com.termux/files/home/soda/01-ARCHIVO-HISTORICO/02-SCRIPTS/ENGINE
+│   │   └── [lrwxrwxrwx u0_a287  u0_a287    82 Feb 22 22:02]  GLOBAL -> /data/data/com.termux/files/home/soda/01-ARCHIVO-HISTORICO/02-SCRIPTS/GLOBAL
+│   └── [drwx------ u0_a287  u0_a287  4.0K Feb 24 15:41]  NATIVOS
+├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  04-COMUNICACIONES
+│   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 22 22:02]  CLI
+│   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  TELEGRAM
+│   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 25 09:32]  WEBAPP
+│   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 25 09:32]  node_modules
+│   │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 25 09:32]  @ampproject
+│   │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 25 09:32]  @esbuild
+│   │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 25 09:32]  @jridgewell
+│   │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 25 09:32]  @rollup
+│   │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 25 09:32]  @sveltejs
+│   │   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 25 09:32]  @types
+│   │   ├── [-rw------- u0_a287  u0_a287    85 Feb 25 09:32]  package-lock.json
+│   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 25 09:12]  src
+│   │       ├── [-rw------- u0_a287  u0_a287    74 Feb 25 09:12]  App.svelte
+│   │       ├── [-rw------- u0_a287  u0_a287   549 Feb 25 09:11]  Monitor.svelte
+│   │       └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  lib
+│   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  WEBAPP_BACKUP_20260223222530
+│       ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  node_modules
+│       │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 23 21:00]  @esbuild
+│       │   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  android-arm64
+│       │   │       └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  bin
+│       │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 23 21:00]  @jridgewell
+│       │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  gen-mapping
+│       │   │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  dist
+│       │   │   │   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  types
+│       │   │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  src
+│       │   │   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  types
+│       │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  remapping
+│       │   │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  dist
+│       │   │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  src
+│       │   │   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  types
+│       │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  resolve-uri
+│       │   │   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  dist
+│       │   │   │       └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  types
+│       │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  sourcemap-codec
+│       │   │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  dist
+│       │   │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  src
+│       │   │   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  types
+│       │   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  trace-mapping
+│       │   │       ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  dist
+│       │   │       ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  src
+│       │   │       └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  types
+│       │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 23 21:00]  @rollup
+│       │   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  rollup-android-arm64
+│       │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 23 21:00]  @sveltejs
+│       │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  acorn-typescript
+│       │   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  vite-plugin-svelte
+│       │   │       ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  src
+│       │   │       │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  plugins
+│       │   │       │   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  inspector
+│       │   │       │   │       └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  runtime
+│       │   │       │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  types
+│       │   │       │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  utils
+│       │   │       └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  types
+│       │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 23 21:00]  @types
+│       │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  estree
+│       │   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  trusted-types
+│       │   │       └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  lib
+│       │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  acorn
+│       │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  bin
+│       │   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  dist
+│       │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  aria-query
+│       │   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  lib
+│       │   │       ├── [drwx------ u0_a287  u0_a287  3.4K Feb 23 21:00]  etc
+│       │   │       │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  roles
+│       │   │       │       ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  abstract
+│       │   │       │       ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  dpub
+│       │   │       │       ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  graphics
+│       │   │       │       └── [drwx------ u0_a287  u0_a287  4.0K Feb 24 15:41]  literal
+│       │   │       └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  util
+│       │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  axobject-query
+│       │   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  lib
+│       │   │       ├── [drwx------ u0_a287  u0_a287  3.4K Feb 23 21:00]  etc
+│       │   │       │   └── [drwx------ u0_a287  u0_a287  8.0K Feb 24 15:41]  objects
+│       │   │       └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  util
+│       │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  clsx
+│       │   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  dist
+│       │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  deepmerge
+│       │   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  dist
+│       │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  devalue
+│       │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  src
+│       │   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  types
+│       │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  esbuild
+│       │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  bin
+│       │   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  lib
+│       │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  esm-env
+│       │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  esrap
+│       │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  src
+│       │   │   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  languages
+│       │   │   │       ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  ts
+│       │   │   │       └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  tsx
+│       │   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  types
+│       │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  fdir
+│       │   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  dist
+│       │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  is-reference
+│       │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  src
+│       │   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  types
+│       │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  locate-character
+│       │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  src
+│       │   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  types
+│       │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  magic-string
+│       │   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  dist
+│       │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  nanoid
+│       │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  async
+│       │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  bin
+│       │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  non-secure
+│       │   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  url-alphabet
+│       │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  obug
+│       │   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  dist
+│       │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  picocolors
+│       │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  picomatch
+│       │   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  lib
+│       │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  postcss
+│       │   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  lib
+│       │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  regexparam
+│       │   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  dist
+│       │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  rollup
+│       │   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  dist
+│       │   │       ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  bin
+│       │   │       ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  es
+│       │   │       │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  shared
+│       │   │       └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  shared
+│       │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  source-map-js
+│       │   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  lib
+│       │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  svelte
+│       │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  compiler
+│       │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  src
+│       │   │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  animate
+│       │   │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  attachments
+│       │   │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  compiler
+│       │   │   │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  migrate
+│       │   │   │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  phases
+│       │   │   │   │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  1-parse
+│       │   │   │   │   │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  read
+│       │   │   │   │   │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  state
+│       │   │   │   │   │   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  utils
+│       │   │   │   │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  2-analyze
+│       │   │   │   │   │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  css
+│       │   │   │   │   │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  utils
+│       │   │   │   │   │   │   └── [drwx------ u0_a287  u0_a287  4.0K Feb 24 15:41]  visitors
+│       │   │   │   │   │   │       └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  shared
+│       │   │   │   │   │   │           └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  a11y
+│       │   │   │   │   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  3-transform
+│       │   │   │   │   │       ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  client
+│       │   │   │   │   │       │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  transform-template
+│       │   │   │   │   │       │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  visitors
+│       │   │   │   │   │       │       └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  shared
+│       │   │   │   │   │       ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  css
+│       │   │   │   │   │       ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  server
+│       │   │   │   │   │       │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  visitors
+│       │   │   │   │   │       │       └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  shared
+│       │   │   │   │   │       └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  shared
+│       │   │   │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  preprocess
+│       │   │   │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  print
+│       │   │   │   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  utils
+│       │   │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  easing
+│       │   │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  events
+│       │   │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  internal
+│       │   │   │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  client
+│       │   │   │   │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  dev
+│       │   │   │   │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  dom
+│       │   │   │   │   │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  blocks
+│       │   │   │   │   │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  elements
+│       │   │   │   │   │   │   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  bindings
+│       │   │   │   │   │   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  legacy
+│       │   │   │   │   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  reactivity
+│       │   │   │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  flags
+│       │   │   │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  server
+│       │   │   │   │   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  blocks
+│       │   │   │   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  shared
+│       │   │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  legacy
+│       │   │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  motion
+│       │   │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  reactivity
+│       │   │   │   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  window
+│       │   │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  server
+│       │   │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  store
+│       │   │   │   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  shared
+│       │   │   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  transition
+│       │   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  types
+│       │   │       └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  compiler
+│       │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  svelte-spa-router
+│       │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  tinyglobby
+│       │   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  dist
+│       │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  vite
+│       │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  bin
+│       │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 23 21:00]  dist
+│       │   │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  client
+│       │   │   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  node
+│       │   │   │       └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  chunks
+│       │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  misc
+│       │   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  types
+│       │   │       └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  internal
+│       │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  vitefu
+│       │   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  src
+│       │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  zimmerframe
+│       │       ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  src
+│       │       └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  types
+│       ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  public
+│       └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  src
+│           ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  components
+│           ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  lib
+│           ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  stores
+│           └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  styles
+├── [drwx------ u0_a287  u0_a287  3.4K Feb 27 07:31]  05-LOGS
+│   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 27 07:31]  SYSTEM
+│   │   └── [-rw------- u0_a287  u0_a287   28K Feb 27 07:31]  tree_20260227_0731.log
+│   └── [drwx------ u0_a287  u0_a287  3.4K Feb 26 23:46]  TUNNEL
+│       ├── [-rw------- u0_a287  u0_a287  473K Feb 27 07:31]  tunnel_202602.log
+│       └── [-rw------- u0_a287  u0_a287   33K Feb 27 00:14]  tunnel_20260226.log
+├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  05-REGISTROS
+│   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  ARCHIVO
+│   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  AUDIT
+│   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  audit
+│   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  economy
+│   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  incidents
+│   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  milestones
+│   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 22 22:02]  AUDIT
+│   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  ECONOMY
+│   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  snapshots
+│   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 22 22:02]  INCIDENTS
+│   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  OANDA
+│   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  SYSTEM
+│   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  WEBAPP
+├── [drwx------ u0_a287  u0_a287  3.4K Feb 23 06:00]  06-DOCUMENTACION
+│   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  ARCHIVO
+│   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  ARQUITECTURA
+│   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  DECISIONES
+│   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  EXPORTS
+│   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  MANUALES
+│   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  REPORTES
+├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:40]  API
+├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:40]  AUDIT
+│   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:40]  MIGRACIONES_20260223_055958
+│   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:40]  VAULT_BACKUP_20260223_001542
+│   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:40]  VAULT_BACKUP_20260223_001634
+├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:40]  CORE
+├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:40]  DAEMON
+├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:40]  ECONOMY
+├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:40]  LOGS
+├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:40]  MODULES
+│   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:40]  AUDIT
+│   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:40]  ECONOMY
+│   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:40]  MIM
+│   └── [drwx------ u0_a287  u0_a287  3.4K Feb 21 15:47]  TELEGRAM
+├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 23:37]  STATE
+│   ├── [-rw------- u0_a287  u0_a287   17K Feb 24 23:37]  logs.txt
+│   └── [-rw------- u0_a287  u0_a287     0 Feb 24 23:37]  state.json
+├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:40]  TELEGRAM
+├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:40]  VAULT
+├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:40]  WEBAPP
+│   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 21 15:47]  static
+│   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:40]  templates
+└── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:45]  backups
+    └── [-rw------- u0_a287  u0_a287  1.8K Feb 24 15:45]  snx_backup_20260224_1545.tar.gz
+
+330 directories, 22 files
+[2026-02-27 07:31:27] 
+[2026-02-27 07:31:27] Archivos vacíos o sospechosos:
+/data/data/com.termux/files/home/soda/STATE/state.json
+/data/data/com.termux/files/home/soda/03-CONFIG/tunnel/config.yml
+[2026-02-27 07:31:27] 
+[2026-02-27 07:31:27] Scripts sin permisos de ejecución:
+/data/data/com.termux/files/home/soda/02-SCRIPTS/TUNNEL/snx_tunnel_init.sh
+/data/data/com.termux/files/home/soda/02-SCRIPTS/TUNNEL/snx_tunnel_login.sh
+/data/data/com.termux/files/home/soda/02-SCRIPTS/TUNNEL/snx_tunnel_manager.sh
+/data/data/com.termux/files/home/soda/02-SCRIPTS/GLOBAL/snx_tree.sh
+/data/data/com.termux/files/home/soda/02-SISTEMA/CORE/snx_doc_backup.sh
+/data/data/com.termux/files/home/soda/02-SISTEMA/DAEMON/snx_daemon.sh
+/data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/snx_backend.sh
+[2026-02-27 07:31:27] 
+[2026-02-27 07:31:27] Servicios runit activos:
+[2026-02-27 07:31:27] 
+[2026-02-27 07:31:27] Tamaño total del sistema:
+1.8M	/data/data/com.termux/files/home/soda
+[2026-02-27 07:31:27] 
+[2026-02-27 07:31:27] === FIN DE AUDITORÍA ===
+[2026-02-27 07:31:27] Reporte guardado en: /data/data/com.termux/files/home/soda/05-LOGS/SYSTEM/tree_20260227_0731.log
+[2026-02-27 07:31:55] === INICIO DE AUDITORÍA DEL SISTEMA SODA‑NEXUS ===
+[2026-02-27 07:31:55] Carpetas principales:
+[2026-02-27 07:31:55] ✔ 00-VAULT existe
+[2026-02-27 07:31:55] ❌ 01-DATA NO existe
+[2026-02-27 07:31:55] ✔ 02-SISTEMA existe
+[2026-02-27 07:31:56] ✔ 02-SCRIPTS existe
+[2026-02-27 07:31:56] ❌ 03-MODULOS NO existe
+[2026-02-27 07:31:56] ❌ 04-WEBAPP NO existe
+[2026-02-27 07:31:56] ✔ 05-LOGS existe
+[2026-02-27 07:31:56] 
+[2026-02-27 07:31:56] Árbol completo con permisos:
+[drwx------ u0_a287  u0_a287  3.4K Feb 26 18:22]  /data/data/com.termux/files/home/soda
+├── [drwx------ u0_a287  u0_a287  3.4K Feb 26 18:16]  00-DOCS
+│   └── [-rw------- u0_a287  u0_a287  5.6K Feb 26 18:16]  SNX-TUNNEL-2026.md
+├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:40]  00-GOBIERNO
+│   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:40]  ESTADO
+│   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:40]  HERRAMIENTAS
+│   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 22 22:02]  KEYS
+│   └── [drwx------ u0_a287  u0_a287  3.4K Feb 22 22:02]  VAULT
+├── [drwx------ u0_a287  u0_a287  3.4K Feb 27 07:31]  00-VAULT
+│   ├── [-rw------- u0_a287  u0_a287   128 Feb 27 07:31]  state.json
+│   └── [-rw------- u0_a287  u0_a287    60 Feb 27 07:31]  tunnel.env
+├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  01-ARCHIVO-HISTORICO
+│   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:40]  00-VAULT
+│   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 20 14:35]  TEMPLATES
+│   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:40]  01-STATE
+│   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 20 14:46]  ENGINE
+│   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 20 14:36]  GUARDIAN
+│   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:40]  IMMUNITY
+│   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:40]  MIM
+│   │       └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:40]  DATA
+│   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  02-SCRIPTS
+│   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  AUDIT
+│   │   │   └── [lrwxrwxrwx u0_a287  u0_a287    82 Feb 22 22:18]  AUDIT -> /data/data/com.termux/files/home/soda/01-ARCHIVO-HISTORICO/02-SCRIPTS/AUDIT
+│   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  ENGINE
+│   │   │   └── [lrwxrwxrwx u0_a287  u0_a287    82 Feb 22 22:18]  ENGINE -> /data/data/com.termux/files/home/soda/01-ARCHIVO-HISTORICO/02-SCRIPTS/ENGINE
+│   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:40]  GLOBAL
+│   │   │   └── [lrwxrwxrwx u0_a287  u0_a287    82 Feb 22 22:18]  GLOBAL -> /data/data/com.termux/files/home/soda/01-ARCHIVO-HISTORICO/02-SCRIPTS/GLOBAL
+│   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  GUARDIAN
+│   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  IMMUNITY
+│   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  MIM
+│   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 16 15:47]  MODULES
+│   │       ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  ECONOMY
+│   │       │   ├── [lrwxrwxrwx u0_a287  u0_a287    98 Feb 22 22:18]  ECONOMY -> /data/data/com.termux/files/home/soda/01-ARCHIVO-HISTORICO/02-SCRIPTS/MODULES/ECONOMY
+│   │       │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  SODA
+│   │       └── [drwx------ u0_a287  u0_a287  3.4K Feb 16 12:32]  GENERATOR
+│   │           └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  MIM
+│   │               ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:40]  core
+│   │               ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  data
+│   │               ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  logs
+│   │               └── [drwx------ u0_a287  u0_a287  3.4K Feb 16 12:35]  tmp
+│   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  03-LOG
+│   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  AUDIT
+│   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  audit
+│   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 15 22:19]  corruption
+│   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 15 22:19]  decisions
+│   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  economy
+│   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  incidents
+│   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  milestones
+│   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  04-DOCS
+│   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 15 22:19]  versiones
+│   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  BACKUPS
+├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  01-MEMORIA
+│   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:28]  DECISIONES
+│   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:28]  2026
+│   │       └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  02
+│   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  EVENTOS
+│   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  LECCIONES
+│   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:27]  REFERENCIAS
+├── [drwx------ u0_a287  u0_a287  3.4K Feb 23 20:50]  01-MINISTERIOS
+├── [drwx------ u0_a287  u0_a287  3.4K Feb 27 07:31]  02-SCRIPTS
+│   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 27 07:31]  GLOBAL
+│   │   ├── [-rwx------ u0_a287  u0_a287  1.1K Feb 27 07:31]  snx_reader.sh
+│   │   └── [-rwx------ u0_a287  u0_a287  1008 Feb 27 07:31]  snx_tree.sh
+│   └── [drwx------ u0_a287  u0_a287  3.4K Feb 26 21:15]  TUNNEL
+│       ├── [-rwx------ u0_a287  u0_a287  5.0K Feb 26 14:22]  snx_tunnel_init.sh
+│       ├── [-rwx------ u0_a287  u0_a287  1.4K Feb 26 14:25]  snx_tunnel_login.sh
+│       └── [-rwx------ u0_a287  u0_a287   960 Feb 26 21:15]  snx_tunnel_manager.sh
+├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:57]  02-SISTEMA
+│   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 26 19:10]  API
+│   │   ├── [-rw------- u0_a287  u0_a287   233 Feb 26 19:10]  api.py
+│   │   └── [-rw------- u0_a287  u0_a287    34 Feb 25 09:33]  snx_bridge.py
+│   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:57]  BACKEND
+│   │   └── [-rwx------ u0_a287  u0_a287   673 Feb 24 23:44]  snx_backend.sh
+│   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:44]  CORE
+│   │   └── [-rwx------ u0_a287  u0_a287  2.0K Feb 24 15:44]  snx_doc_backup.sh
+│   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 26 23:45]  DAEMON
+│   │   ├── [-rwx------ u0_a287  u0_a287   377 Feb 24 23:22]  snx_daemon.sh
+│   │   └── [-rwxr-xr-x u0_a287  u0_a287  3.3K Feb 27 00:04]  snx_tunnel_persistent.sh
+│   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  ENGINE
+│   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  ESTADO
+│   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  GLOBAL
+│   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  GUARDIAN
+│   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  IMMUNITY
+│   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 22 22:02]  LIB
+│   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 22 22:02]  bash
+│   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 22 22:02]  python
+│   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  MIM
+│   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  REGISTRO
+├── [drwx------ u0_a287  u0_a287  3.4K Feb 26 14:22]  03-CONFIG
+│   └── [drwx------ u0_a287  u0_a287  3.4K Feb 26 14:22]  tunnel
+│       └── [-rw------- u0_a287  u0_a287     0 Feb 26 14:22]  config.yml
+├── [drwx------ u0_a287  u0_a287  3.4K Feb 23 05:59]  03-OPERACIONES
+│   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 22 22:02]  BRIDGES
+│   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  ECONOMY
+│   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 22 22:02]  LEGACY
+│   │   ├── [lrwxrwxrwx u0_a287  u0_a287    82 Feb 22 22:02]  AUDIT -> /data/data/com.termux/files/home/soda/01-ARCHIVO-HISTORICO/02-SCRIPTS/AUDIT
+│   │   ├── [lrwxrwxrwx u0_a287  u0_a287    98 Feb 22 22:02]  ECONOMY -> /data/data/com.termux/files/home/soda/01-ARCHIVO-HISTORICO/02-SCRIPTS/MODULES/ECONOMY
+│   │   ├── [lrwxrwxrwx u0_a287  u0_a287    82 Feb 22 22:02]  ENGINE -> /data/data/com.termux/files/home/soda/01-ARCHIVO-HISTORICO/02-SCRIPTS/ENGINE
+│   │   └── [lrwxrwxrwx u0_a287  u0_a287    82 Feb 22 22:02]  GLOBAL -> /data/data/com.termux/files/home/soda/01-ARCHIVO-HISTORICO/02-SCRIPTS/GLOBAL
+│   └── [drwx------ u0_a287  u0_a287  4.0K Feb 24 15:41]  NATIVOS
+├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  04-COMUNICACIONES
+│   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 22 22:02]  CLI
+│   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  TELEGRAM
+│   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 25 09:32]  WEBAPP
+│   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 25 09:32]  node_modules
+│   │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 25 09:32]  @ampproject
+│   │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 25 09:32]  @esbuild
+│   │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 25 09:32]  @jridgewell
+│   │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 25 09:32]  @rollup
+│   │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 25 09:32]  @sveltejs
+│   │   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 25 09:32]  @types
+│   │   ├── [-rw------- u0_a287  u0_a287    85 Feb 25 09:32]  package-lock.json
+│   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 25 09:12]  src
+│   │       ├── [-rw------- u0_a287  u0_a287    74 Feb 25 09:12]  App.svelte
+│   │       ├── [-rw------- u0_a287  u0_a287   549 Feb 25 09:11]  Monitor.svelte
+│   │       └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  lib
+│   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  WEBAPP_BACKUP_20260223222530
+│       ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  node_modules
+│       │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 23 21:00]  @esbuild
+│       │   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  android-arm64
+│       │   │       └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  bin
+│       │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 23 21:00]  @jridgewell
+│       │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  gen-mapping
+│       │   │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  dist
+│       │   │   │   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  types
+│       │   │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  src
+│       │   │   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  types
+│       │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  remapping
+│       │   │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  dist
+│       │   │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  src
+│       │   │   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  types
+│       │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  resolve-uri
+│       │   │   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  dist
+│       │   │   │       └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  types
+│       │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  sourcemap-codec
+│       │   │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  dist
+│       │   │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  src
+│       │   │   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  types
+│       │   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  trace-mapping
+│       │   │       ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  dist
+│       │   │       ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  src
+│       │   │       └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  types
+│       │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 23 21:00]  @rollup
+│       │   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  rollup-android-arm64
+│       │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 23 21:00]  @sveltejs
+│       │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  acorn-typescript
+│       │   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  vite-plugin-svelte
+│       │   │       ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  src
+│       │   │       │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  plugins
+│       │   │       │   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  inspector
+│       │   │       │   │       └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  runtime
+│       │   │       │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  types
+│       │   │       │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  utils
+│       │   │       └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  types
+│       │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 23 21:00]  @types
+│       │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  estree
+│       │   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  trusted-types
+│       │   │       └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  lib
+│       │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  acorn
+│       │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  bin
+│       │   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  dist
+│       │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  aria-query
+│       │   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  lib
+│       │   │       ├── [drwx------ u0_a287  u0_a287  3.4K Feb 23 21:00]  etc
+│       │   │       │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  roles
+│       │   │       │       ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  abstract
+│       │   │       │       ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  dpub
+│       │   │       │       ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  graphics
+│       │   │       │       └── [drwx------ u0_a287  u0_a287  4.0K Feb 24 15:41]  literal
+│       │   │       └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  util
+│       │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  axobject-query
+│       │   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  lib
+│       │   │       ├── [drwx------ u0_a287  u0_a287  3.4K Feb 23 21:00]  etc
+│       │   │       │   └── [drwx------ u0_a287  u0_a287  8.0K Feb 24 15:41]  objects
+│       │   │       └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  util
+│       │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  clsx
+│       │   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  dist
+│       │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  deepmerge
+│       │   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  dist
+│       │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  devalue
+│       │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  src
+│       │   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  types
+│       │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  esbuild
+│       │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  bin
+│       │   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  lib
+│       │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  esm-env
+│       │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  esrap
+│       │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  src
+│       │   │   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  languages
+│       │   │   │       ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  ts
+│       │   │   │       └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  tsx
+│       │   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  types
+│       │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  fdir
+│       │   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  dist
+│       │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  is-reference
+│       │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  src
+│       │   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  types
+│       │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  locate-character
+│       │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  src
+│       │   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  types
+│       │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  magic-string
+│       │   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  dist
+│       │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  nanoid
+│       │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  async
+│       │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  bin
+│       │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  non-secure
+│       │   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  url-alphabet
+│       │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  obug
+│       │   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  dist
+│       │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  picocolors
+│       │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  picomatch
+│       │   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  lib
+│       │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  postcss
+│       │   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  lib
+│       │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  regexparam
+│       │   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  dist
+│       │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  rollup
+│       │   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  dist
+│       │   │       ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  bin
+│       │   │       ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  es
+│       │   │       │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  shared
+│       │   │       └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  shared
+│       │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  source-map-js
+│       │   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  lib
+│       │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  svelte
+│       │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  compiler
+│       │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  src
+│       │   │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  animate
+│       │   │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  attachments
+│       │   │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  compiler
+│       │   │   │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  migrate
+│       │   │   │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  phases
+│       │   │   │   │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  1-parse
+│       │   │   │   │   │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  read
+│       │   │   │   │   │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  state
+│       │   │   │   │   │   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  utils
+│       │   │   │   │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  2-analyze
+│       │   │   │   │   │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  css
+│       │   │   │   │   │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  utils
+│       │   │   │   │   │   │   └── [drwx------ u0_a287  u0_a287  4.0K Feb 24 15:41]  visitors
+│       │   │   │   │   │   │       └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  shared
+│       │   │   │   │   │   │           └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  a11y
+│       │   │   │   │   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  3-transform
+│       │   │   │   │   │       ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  client
+│       │   │   │   │   │       │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  transform-template
+│       │   │   │   │   │       │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  visitors
+│       │   │   │   │   │       │       └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  shared
+│       │   │   │   │   │       ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  css
+│       │   │   │   │   │       ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  server
+│       │   │   │   │   │       │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  visitors
+│       │   │   │   │   │       │       └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  shared
+│       │   │   │   │   │       └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  shared
+│       │   │   │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  preprocess
+│       │   │   │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  print
+│       │   │   │   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  utils
+│       │   │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  easing
+│       │   │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  events
+│       │   │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  internal
+│       │   │   │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  client
+│       │   │   │   │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  dev
+│       │   │   │   │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  dom
+│       │   │   │   │   │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  blocks
+│       │   │   │   │   │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  elements
+│       │   │   │   │   │   │   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  bindings
+│       │   │   │   │   │   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  legacy
+│       │   │   │   │   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  reactivity
+│       │   │   │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  flags
+│       │   │   │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  server
+│       │   │   │   │   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  blocks
+│       │   │   │   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  shared
+│       │   │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  legacy
+│       │   │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  motion
+│       │   │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  reactivity
+│       │   │   │   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  window
+│       │   │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  server
+│       │   │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  store
+│       │   │   │   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  shared
+│       │   │   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  transition
+│       │   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  types
+│       │   │       └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  compiler
+│       │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  svelte-spa-router
+│       │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  tinyglobby
+│       │   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  dist
+│       │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  vite
+│       │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  bin
+│       │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 23 21:00]  dist
+│       │   │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  client
+│       │   │   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  node
+│       │   │   │       └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  chunks
+│       │   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  misc
+│       │   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  types
+│       │   │       └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  internal
+│       │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  vitefu
+│       │   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  src
+│       │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  zimmerframe
+│       │       ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  src
+│       │       └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  types
+│       ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  public
+│       └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  src
+│           ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  components
+│           ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  lib
+│           ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  stores
+│           └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  styles
+├── [drwx------ u0_a287  u0_a287  3.4K Feb 27 07:31]  05-LOGS
+│   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 27 07:31]  SYSTEM
+│   │   ├── [-rw------- u0_a287  u0_a287   458 Feb 27 07:31]  reader_20260227_0731.log
+│   │   └── [-rw------- u0_a287  u0_a287   47K Feb 27 07:31]  tree_20260227_0731.log
+│   └── [drwx------ u0_a287  u0_a287  3.4K Feb 26 23:46]  TUNNEL
+│       ├── [-rw------- u0_a287  u0_a287  474K Feb 27 07:31]  tunnel_202602.log
+│       └── [-rw------- u0_a287  u0_a287   33K Feb 27 00:14]  tunnel_20260226.log
+├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  05-REGISTROS
+│   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  ARCHIVO
+│   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  AUDIT
+│   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  audit
+│   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  economy
+│   │   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  incidents
+│   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  milestones
+│   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 22 22:02]  AUDIT
+│   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  ECONOMY
+│   │   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  snapshots
+│   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 22 22:02]  INCIDENTS
+│   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  OANDA
+│   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  SYSTEM
+│   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  WEBAPP
+├── [drwx------ u0_a287  u0_a287  3.4K Feb 23 06:00]  06-DOCUMENTACION
+│   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  ARCHIVO
+│   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  ARQUITECTURA
+│   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  DECISIONES
+│   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  EXPORTS
+│   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  MANUALES
+│   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:41]  REPORTES
+├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:40]  API
+├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:40]  AUDIT
+│   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:40]  MIGRACIONES_20260223_055958
+│   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:40]  VAULT_BACKUP_20260223_001542
+│   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:40]  VAULT_BACKUP_20260223_001634
+├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:40]  CORE
+├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:40]  DAEMON
+├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:40]  ECONOMY
+├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:40]  LOGS
+├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:40]  MODULES
+│   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:40]  AUDIT
+│   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:40]  ECONOMY
+│   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:40]  MIM
+│   └── [drwx------ u0_a287  u0_a287  3.4K Feb 21 15:47]  TELEGRAM
+├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 23:37]  STATE
+│   ├── [-rw------- u0_a287  u0_a287   17K Feb 24 23:37]  logs.txt
+│   └── [-rw------- u0_a287  u0_a287     0 Feb 24 23:37]  state.json
+├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:40]  TELEGRAM
+├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:40]  VAULT
+├── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:40]  WEBAPP
+│   ├── [drwx------ u0_a287  u0_a287  3.4K Feb 21 15:47]  static
+│   └── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:40]  templates
+└── [drwx------ u0_a287  u0_a287  3.4K Feb 24 15:45]  backups
+    └── [-rw------- u0_a287  u0_a287  1.8K Feb 24 15:45]  snx_backup_20260224_1545.tar.gz
+
+330 directories, 25 files
+[2026-02-27 07:31:56] 
+[2026-02-27 07:31:56] Archivos vacíos o sospechosos:
+/data/data/com.termux/files/home/soda/STATE/state.json
+/data/data/com.termux/files/home/soda/03-CONFIG/tunnel/config.yml
+[2026-02-27 07:31:56] 
+[2026-02-27 07:31:56] Scripts sin permisos de ejecución:
+/data/data/com.termux/files/home/soda/02-SCRIPTS/TUNNEL/snx_tunnel_init.sh
+/data/data/com.termux/files/home/soda/02-SCRIPTS/TUNNEL/snx_tunnel_login.sh
+/data/data/com.termux/files/home/soda/02-SCRIPTS/TUNNEL/snx_tunnel_manager.sh
+/data/data/com.termux/files/home/soda/02-SCRIPTS/GLOBAL/snx_tree.sh
+/data/data/com.termux/files/home/soda/02-SCRIPTS/GLOBAL/snx_reader.sh
+/data/data/com.termux/files/home/soda/02-SISTEMA/CORE/snx_doc_backup.sh
+/data/data/com.termux/files/home/soda/02-SISTEMA/DAEMON/snx_daemon.sh
+/data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/snx_backend.sh
+[2026-02-27 07:31:56] 
+[2026-02-27 07:31:56] Servicios runit activos:
+[2026-02-27 07:31:56] 
+[2026-02-27 07:31:56] Tamaño total del sistema:
+1.8M	/data/data/com.termux/files/home/soda
+[2026-02-27 07:31:56] 
+[2026-02-27 07:31:56] === FIN DE AUDITORÍA ===
+[2026-02-27 07:31:56] Reporte guardado en: /data/data/com.termux/files/home/soda/05-LOGS/SYSTEM/tree_20260227_0731.log

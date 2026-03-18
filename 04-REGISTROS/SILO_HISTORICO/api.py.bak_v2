@@ -1,0 +1,41 @@
+from flask import Flask, jsonify
+import os, json
+from datetime import datetime
+
+BASE = os.path.expanduser("~/soda")
+STATE = os.path.join(BASE, "STATE", "estado_central.json")
+CONFIG_MONITOR = os.path.join(BASE, "06-MONITOR", "V3", "config_monitor.json")
+PROPOSITO = os.path.join(BASE, "00-GOBIERNO", "META", "PROPOSITO-SOBERANO-V1.md")
+
+def read_json(path):
+    try:
+        with open(path, "r") as f:
+            return json.load(f)
+    except:
+        return {}
+
+def read_text(path):
+    try:
+        with open(path, "r") as f:
+            return f.read()
+    except:
+        return ""
+
+app = Flask(__name__)
+
+@app.route("/ping")
+def ping():
+    return jsonify({"status": "ok"})
+
+@app.route("/monitor_estado")
+def monitor_estado():
+    return jsonify({
+        "status": "ok",
+        "timestamp": datetime.utcnow().isoformat(),
+        "estado_central": read_json(STATE),
+        "config_monitor": read_json(CONFIG_MONITOR),
+        "proposito_soberano": read_text(PROPOSITO)
+    })
+
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=5050)

@@ -1,0 +1,5 @@
+V1
+V2
+V3
+snx_ia_monitor.sh
+snx_monitor_permanente.sh

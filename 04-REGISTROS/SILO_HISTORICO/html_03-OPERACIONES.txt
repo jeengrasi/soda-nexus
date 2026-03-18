@@ -1,0 +1,6 @@
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEBAPP/index.html
+/data/data/com.termux/files/home/soda/03-OPERACIONES/SNX-MONITOR.html
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEB/monitor/index.html
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEB/monitor/index-2.html
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEB/monitor/index-3.html
+/data/data/com.termux/files/home/soda/03-OPERACIONES/index.html

@@ -1,0 +1,6 @@
+=== PROTOCOLO DE REANIMACIÓN DE DATOS ===
+Fecha: Fri Mar 13 22:00:51 EDT 2026
+Causa: Frontend operativo pero desconectado de la lógica de datos (SIN_DATOS).
+Diagnóstico: Ausencia de endpoints /api/logs y /api/estructura; JSON desactualizado.
+Acción: Expansión de Orquestador V6 e inyección de estructura JSON V4.
+ESTADO: DATOS EN MOVIMIENTO.

@@ -1,0 +1,15 @@
+[2026-03-09] HITO: Monitor Soberano V1 funcionando desde el iPad.
+- Backend soberano operativo.
+- Endpoint /monitor_estado funcionando.
+- Estado central integrado.
+- IP LAN registrada: 192.168.12.183
+- Monitor accesible desde el iPad.
+- Integración completa entre backend y monitor.
+- Inicio de la fase de blindaje.
+[2026-03-09] HITO: Blindaje total del Monitor Soberano V2.
+- Servicio permanente del monitor creado.
+- Watchdog del monitor activado.
+- Backend V2 estable y protegido.
+- UI V2 blindada contra fallos.
+- Módulos de scripts, motores, desviaciones e IA integrados.
+- Monitor listo para pruebas y expansión.

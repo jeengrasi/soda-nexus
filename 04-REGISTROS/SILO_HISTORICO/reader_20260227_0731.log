@@ -1,0 +1,9 @@
+[2026-02-27 07:31:46] === LECTOR INSTITUCIONAL SODA‑NEXUS ===
+[2026-02-27 07:31:46] ❌ state.json NO existe. Creando archivo base...
+[2026-02-27 07:31:46] ✔ state.json existe
+[2026-02-27 07:31:46] Servicios runit:
+[2026-02-27 07:31:47] ✔ Backend activo
+[2026-02-27 07:31:47] Túnel detectado:
+TUNNEL_URL="https://cgzgu-172-56-99-172.a.free.pinggy.link"
+[2026-02-27 07:31:47] Actualizando state.json...
+[2026-02-27 07:31:47] ✔ state.json actualizado

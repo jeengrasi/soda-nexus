@@ -1,0 +1,4 @@
+/data/data/com.termux/files/home/soda/02-SISTEMA/DAEMONS/snx_backend_v1_service.sh
+/data/data/com.termux/files/home/soda/02-SISTEMA/DAEMONS/snx_tor_persistent_v1.sh
+/data/data/com.termux/files/home/soda/02-SISTEMA/DAEMONS/snx_monitor_http_v2.sh
+/data/data/com.termux/files/home/soda/02-SISTEMA/DAEMONS/snx_tor_monitor_persistent_v2.sh

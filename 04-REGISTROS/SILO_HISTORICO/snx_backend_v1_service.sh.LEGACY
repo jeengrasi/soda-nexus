@@ -1,0 +1,36 @@
+#!/data/data/com.termux/files/usr/bin/bash
+# ============================================================
+# snx_backend_v1_service.sh — Servicio para backend v1
+# Rol: Levantar y mantener el backend v1 con logs
+# Versión: 1.0 — Todo nuevo, nada se modifica
+# ============================================================
+
+BACKEND_SCRIPT="$HOME/soda/03-OPERACIONES/BACKEND/snx_backend_v1.py"
+LOG_FILE="$HOME/soda/05-LOGS/BACKEND/backend_v1_service.log"
+
+mkdir -p "$(dirname "$LOG_FILE")"
+
+log() {
+  echo "[$(date '+%Y-%m-%d %H:%M:%S')] $1" | tee -a "$LOG_FILE"
+}
+
+log "Iniciando servicio backend v1"
+
+while true; do
+  if [ -f "$BACKEND_SCRIPT" ]; then
+    log "Lanzando backend v1..."
+    "$BACKEND_SCRIPT" >> "$HOME/soda/05-LOGS/BACKEND/backend_v1_stdout.log" 2>&1
+    EXIT_CODE=$?
+    log "Backend v1 terminó con código $EXIT_CODE, reiniciando en 5s..."
+    sleep 5
+  else
+    log "ERROR: Backend v1 no encontrado en $BACKEND_SCRIPT"
+    sleep 10
+  fi
+done
+
+# ============================================================
+# PIE INSTITUCIONAL — SODA‑NEXUS
+# Servicio soberano. No modificar sin aprobación.
+# No eliminar logs. Garantizar continuidad y trazabilidad.
+# ============================================================

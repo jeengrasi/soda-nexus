@@ -1,0 +1,5 @@
+# INFORME DE FALLO: SIGNAL 9 & SSHD DROP
+- CAUSA: Exceso de procesos Python (Orquestador V2, V4 y V6 conviviendo).
+- EFECTO: Android OOM Killer cierra la instancia de Termux.
+- SOLUCIÓN: Consolidación en Orquestador V6 y desactivación de servicios 'runit' obsoletos.
+- PIE DE PÁGINA: SODA-NEXUS requiere exclusividad de puerto 15051.

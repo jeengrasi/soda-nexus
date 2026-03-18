@@ -1,0 +1,9 @@
+#!/data/data/com.termux/files/usr/bin/bash
+
+MONITOR_DIR="$HOME/soda/06-MONITOR/V2"
+LOG_FILE="$HOME/soda/05-LOGS/MONITOR/monitor_http_v2.log"
+
+mkdir -p "$(dirname "$LOG_FILE")"
+
+cd "$MONITOR_DIR" || exit 1
+python -m http.server 8081 >> "$LOG_FILE" 2>&1

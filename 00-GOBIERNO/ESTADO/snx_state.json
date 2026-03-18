@@ -1,0 +1,12 @@
+{
+  "version": "V4.0.1-SANEADO",
+  "director": "Jeisson",
+  "ip_actual": "192.168.12.114",
+  "puerto": 15051,
+  "engranajes": {
+    "00-GOBIERNO": ["01-MEMORIA", "02-SISTEMA"],
+    "02-SISTEMA": ["03-OPERACIONES", "04-REGISTROS"],
+    "05-DOCUMENTACION": ["01-MEMORIA", "06-MONITOR"]
+  },
+  "conteo_archivos_referencia": 91
+}

@@ -1,0 +1,143 @@
+from flask import Flask, jsonify
+import os, json
+from datetime import datetime
+
+BASE = os.path.expanduser("~/soda")
+STATE = os.path.join(BASE, "STATE", "estado_central.json")
+CONFIG_MONITOR = os.path.join(BASE, "06-MONITOR", "V3", "config_monitor.json")
+PROPOSITO = os.path.join(BASE, "00-GOBIERNO", "META", "PROPOSITO-SOBERANO-V1.md")
+RUTA_SOBERANA = os.path.join(BASE, "00-GOBIERNO", "META", "RUTA-SOBERANA-PROPOSITO-V1.md")
+IA_OFICIAL = os.path.join(BASE, "00-GOBIERNO", "META", "IA-OFICIAL-DEEPSEEK-V1.md")
+MEMORIA_ACTUAL = os.path.join(BASE, "01-MEMORIA", "ACTUAL")
+LOGS_REGISTROS = os.path.join(BASE, "04-REGISTROS")
+MONITOR_DIR = os.path.join(BASE, "06-MONITOR", "V3")
+
+def read_json(path, default=None):
+    if default is None:
+        default = {}
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except:
+        return default
+
+def read_text(path):
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            return f.read()
+    except:
+        return ""
+
+def list_dir(path):
+    try:
+        return sorted(os.listdir(path))
+    except:
+        return []
+
+app = Flask(__name__)
+
+@app.route("/ping")
+def ping():
+    return jsonify({"status": "ok", "message": "SODA-NEXUS backend activo"})
+
+@app.route("/estado")
+def estado():
+    return jsonify({
+        "status": "ok",
+        "timestamp": datetime.utcnow().isoformat(),
+        "estado_central": read_json(STATE, {})
+    })
+
+@app.route("/proposito")
+def proposito():
+    return jsonify({
+        "status": "ok",
+        "timestamp": datetime.utcnow().isoformat(),
+        "proposito_markdown": read_text(PROPOSITO),
+        "ruta_soberana_markdown": read_text(RUTA_SOBERANA)
+    })
+
+@app.route("/monitor_estado")
+def monitor_estado():
+    return jsonify({
+        "status": "ok",
+        "timestamp": datetime.utcnow().isoformat(),
+        "estado_central": read_json(STATE, {}),
+        "config_monitor": read_json(CONFIG_MONITOR, {}),
+        "proposito_soberano": read_text(PROPOSITO)
+    })
+
+@app.route("/ministerios")
+def ministerios():
+    ministerios = {}
+    for codigo in ["00-GOBIERNO", "01-MEMORIA", "02-SISTEMA",
+                   "03-OPERACIONES", "04-REGISTROS", "05-DOCUMENTACION", "06-MONITOR"]:
+        path = os.path.join(BASE, codigo)
+        ministerios[codigo] = {
+            "path": path,
+            "contenido": list_dir(path)
+        }
+    return jsonify({
+        "status": "ok",
+        "timestamp": datetime.utcnow().isoformat(),
+        "ministerios": ministerios
+    })
+
+@app.route("/logs")
+def logs():
+    memoria_logs = os.path.join(MEMORIA_ACTUAL, "logs_04-REGISTROS.txt")
+    daemon_antiamnesia_log = os.path.join(MEMORIA_ACTUAL, "daemon_antiamnesia.log")
+    hitos_log = os.path.join(LOGS_REGISTROS, "hitos.log")
+    return jsonify({
+        "status": "ok",
+        "timestamp": datetime.utcnow().isoformat(),
+        "memoria_logs": read_text(memoria_logs),
+        "daemon_antiamnesia_log": read_text(daemon_antiamnesia_log),
+        "hitos_log": read_text(hitos_log)
+    })
+
+@app.route("/ia_contexto")
+def ia_contexto():
+    contexto_unificado = os.path.join(MEMORIA_ACTUAL, "contexto_unificado_IA.json")
+    paquete_contexto = os.path.join(MEMORIA_ACTUAL, "paquete_contexto_ia.json")
+    return jsonify({
+        "status": "ok",
+        "timestamp": datetime.utcnow().isoformat(),
+        "ia_oficial": read_text(IA_OFICIAL),
+        "estado_central": read_json(STATE, {}),
+        "config_monitor": read_json(CONFIG_MONITOR, {}),
+        "contexto_unificado_ia": read_json(contexto_unificado, {}),
+        "paquete_contexto_ia": read_json(paquete_contexto, {})
+    })
+
+@app.route("/scripts")
+def scripts():
+    scripts_dir = os.path.join(BASE, "02-SISTEMA", "GLOBAL")
+    scripts = list_dir(scripts_dir)
+    return jsonify({
+        "status": "ok",
+        "timestamp": datetime.utcnow().isoformat(),
+        "scripts_dir": scripts_dir,
+        "scripts": scripts
+    })
+
+@app.route("/motores")
+def motores():
+    motores_file = os.path.join(BASE, "03-OPERACIONES", "motores_estado.json")
+    return jsonify({
+        "status": "ok",
+        "timestamp": datetime.utcnow().isoformat(),
+        "motores": read_json(motores_file, {})
+    })
+
+@app.route("/desviaciones")
+def desviaciones():
+    desviaciones_file = os.path.join(MEMORIA_ACTUAL, "desviaciones.json")
+    return jsonify({
+        "status": "ok",
+        "timestamp": datetime.utcnow().isoformat(),
+        "desviaciones": read_json(desviaciones_file, {})
+    })
+
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=5050)

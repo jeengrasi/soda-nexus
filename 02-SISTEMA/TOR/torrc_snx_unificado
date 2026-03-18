@@ -1,0 +1,11 @@
+DataDirectory /data/data/com.termux/files/home/.tor
+
+# Hidden Service del backend v1 (5051)
+HiddenServiceDir /data/data/com.termux/files/home/.tor/snx_hidden_service_v1/
+HiddenServicePort 80 127.0.0.1:5051
+HiddenServiceVersion 3
+
+# Hidden Service del monitor v2 (8081)
+HiddenServiceDir /data/data/com.termux/files/home/.tor/snx_monitor_service_v2/
+HiddenServicePort 81 127.0.0.1:8081
+HiddenServiceVersion 3

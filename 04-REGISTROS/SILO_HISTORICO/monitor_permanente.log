@@ -1,0 +1,600 @@
+[2026-03-09 14:30:32] [MONITOR] Latido del sistema
+[2026-03-09 14:30:32] [ANTIAMNESIA] INICIO EJECUCION SNX-ANTIAMNESIA-SOBERANO-V3
+[2026-03-09 14:30:32] [ANTIAMNESIA] INICIO: verificación de integridad por HASHES existentes
+[2026-03-09 14:30:32] [ANTIAMNESIA] OK HASH: /data/data/com.termux/files/home/soda/00-GOBIERNO/snx_ia_gobierno.sh
+[2026-03-09 14:30:32] [ANTIAMNESIA] ALERTA: INTEGRIDAD VIOLADA: /data/data/com.termux/files/home/soda/01-MEMORIA/snx_ia_memoria.sh
+[2026-03-09 14:30:32] [ANTIAMNESIA]         HASH previo:  7fa60816eebca455ec08307c779a368cdb129bd176cff2842a6f2fe53f69ca14
+[2026-03-09 14:30:32] [ANTIAMNESIA]         HASH actual: f01dd39e56f230731180aac636f59685b742763c767b5c31da4bffbe3c8c4d06
+[2026-03-09 14:30:32] [ANTIAMNESIA] OK HASH: /data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_ia_central.sh
+[2026-03-09 14:30:32] [ANTIAMNESIA] ALERTA: INTEGRIDAD VIOLADA: /data/data/com.termux/files/home/soda/02-SISTEMA/snx_ia_sistema.sh
+[2026-03-09 14:30:32] [ANTIAMNESIA]         HASH previo:  4118b7a1b5decd1448a8e77b6942e2fd3f115f9776cacdd4fdc99175ca4ea68f
+[2026-03-09 14:30:32] [ANTIAMNESIA]         HASH actual: a3b9fefcbe16f4a47dc88e82f27596e554b881b5e1948e307e48cb160965d202
+[2026-03-09 14:30:32] [ANTIAMNESIA] ALERTA: INTEGRIDAD VIOLADA: /data/data/com.termux/files/home/soda/03-OPERACIONES/snx_ia_operaciones.sh
+[2026-03-09 14:30:32] [ANTIAMNESIA]         HASH previo:  8822ffd5dcb3dded05f6cbdda01c2df4ab8fe32baf716602d78c3830df729bd5
+[2026-03-09 14:30:32] [ANTIAMNESIA]         HASH actual: 92547f7207fb052c549e18cb578b14959c6f2e5793acc34e001d442a200c54a3
+[2026-03-09 14:30:32] [ANTIAMNESIA] ALERTA: INTEGRIDAD VIOLADA: /data/data/com.termux/files/home/soda/04-REGISTROS/snx_ia_registros.sh
+[2026-03-09 14:30:32] [ANTIAMNESIA]         HASH previo:  7f722a248b8cd6f64a8cda1a261534997dde270b3916e76584ae10d60a1dfb98
+[2026-03-09 14:30:32] [ANTIAMNESIA]         HASH actual: 25c3175f495a0bd8b6db262dac804ada17fdb9ab99f158f16f435761cd94d375
+[2026-03-09 14:30:32] [ANTIAMNESIA] ALERTA: INTEGRIDAD VIOLADA: /data/data/com.termux/files/home/soda/05-DOCUMENTACION/snx_ia_documentacion.sh
+[2026-03-09 14:30:33] [ANTIAMNESIA]         HASH previo:  fe64465f41c714073f7e8e602216d9733c2a8381820b0deae43bd15fcac3e8f0
+[2026-03-09 14:30:33] [ANTIAMNESIA]         HASH actual: 8d0fdc63ed32b8649ff198146a7e82b2b3f763fd1964175d55a89b7ad4562a35
+[2026-03-09 14:30:33] [ANTIAMNESIA] ALERTA: INTEGRIDAD VIOLADA: /data/data/com.termux/files/home/soda/06-MONITOR/snx_ia_monitor.sh
+[2026-03-09 14:30:33] [ANTIAMNESIA]         HASH previo:  26e6edaaab36d5118da14b30d2610205c7f1dccbf97a3bee62fc36331c2c2ec6
+[2026-03-09 14:30:33] [ANTIAMNESIA]         HASH actual: a5051c414d3c85a8d7c1c888ede12ea81f2eb4c2da637c7718e73c26f17a9c9e
+[2026-03-09 14:30:33] [ANTIAMNESIA] FIN: verificación de integridad por HASHES existentes
+[2026-03-09 14:30:33] [ANTIAMNESIA] INICIO: revisión de MEMORIA/ACTUAL por ministerio
+[2026-03-09 14:30:33] [ANTIAMNESIA] MINISTERIO: 00-GOBIERNO
+[2026-03-09 14:30:33] [ANTIAMNESIA]   OK estado:    estado_00-GOBIERNO.json
+[2026-03-09 14:30:33] [ANTIAMNESIA]   OK engranaje: engranaje_00-GOBIERNO.json
+[2026-03-09 14:30:33] [ANTIAMNESIA]   OK sync:      sync_00-GOBIERNO.json
+[2026-03-09 14:30:33] [ANTIAMNESIA] MINISTERIO: 01-MEMORIA
+[2026-03-09 14:30:33] [ANTIAMNESIA]   OK estado:    estado_01-MEMORIA.json
+[2026-03-09 14:30:33] [ANTIAMNESIA]   OK engranaje: engranaje_01-MEMORIA.json
+[2026-03-09 14:30:33] [ANTIAMNESIA]   OK sync:      sync_01-MEMORIA.json
+[2026-03-09 14:30:33] [ANTIAMNESIA] MINISTERIO: 02-SISTEMA
+[2026-03-09 14:30:33] [ANTIAMNESIA]   OK estado:    estado_02-SISTEMA.json
+[2026-03-09 14:30:33] [ANTIAMNESIA]   OK engranaje: engranaje_02-SISTEMA.json
+[2026-03-09 14:30:33] [ANTIAMNESIA]   OK sync:      sync_02-SISTEMA.json
+[2026-03-09 14:30:33] [ANTIAMNESIA] MINISTERIO: 03-OPERACIONES
+[2026-03-09 14:30:33] [ANTIAMNESIA]   OK estado:    estado_03-OPERACIONES.json
+[2026-03-09 14:30:33] [ANTIAMNESIA]   OK engranaje: engranaje_03-OPERACIONES.json
+[2026-03-09 14:30:33] [ANTIAMNESIA]   OK sync:      sync_03-OPERACIONES.json
+[2026-03-09 14:30:33] [ANTIAMNESIA] MINISTERIO: 04-REGISTROS
+[2026-03-09 14:30:33] [ANTIAMNESIA]   OK estado:    estado_04-REGISTROS.json
+[2026-03-09 14:30:33] [ANTIAMNESIA]   OK engranaje: engranaje_04-REGISTROS.json
+[2026-03-09 14:30:33] [ANTIAMNESIA]   OK sync:      sync_04-REGISTROS.json
+[2026-03-09 14:30:33] [ANTIAMNESIA] MINISTERIO: 05-DOCUMENTACION
+[2026-03-09 14:30:33] [ANTIAMNESIA]   OK estado:    estado_05-DOCUMENTACION.json
+[2026-03-09 14:30:33] [ANTIAMNESIA]   OK engranaje: engranaje_05-DOCUMENTACION.json
+[2026-03-09 14:30:34] [ANTIAMNESIA]   OK sync:      sync_05-DOCUMENTACION.json
+[2026-03-09 14:30:34] [ANTIAMNESIA] MINISTERIO: 06-MONITOR
+[2026-03-09 14:30:34] [ANTIAMNESIA]   OK estado:    estado_06-MONITOR.json
+[2026-03-09 14:30:34] [ANTIAMNESIA]   OK engranaje: engranaje_06-MONITOR.json
+[2026-03-09 14:30:34] [ANTIAMNESIA]   OK sync:      sync_06-MONITOR.json
+[2026-03-09 14:30:34] [ANTIAMNESIA] FIN: revisión de MEMORIA/ACTUAL por ministerio
+[2026-03-09 14:30:34] [ANTIAMNESIA] INICIO: versionado de estado global
+[2026-03-09 14:30:34] [ANTIAMNESIA] Estado global versionado: snx_state_20260309-143034.json
+[2026-03-09 14:30:34] [ANTIAMNESIA] FIN: versionado de estado global
+[2026-03-09 14:30:34] [ANTIAMNESIA] Generando snapshot antiamnesia en /data/data/com.termux/files/home/soda/01-MEMORIA/ACTUAL/antiamnesia_snapshot.txt
+[2026-03-09 14:30:34] [ANTIAMNESIA] Snapshot antiamnesia actualizado: /data/data/com.termux/files/home/soda/01-MEMORIA/ACTUAL/antiamnesia_snapshot.txt
+[2026-03-09 14:30:34] [ANTIAMNESIA] FIN EJECUCION SNX-ANTIAMNESIA-SOBERANO-V3
+[2026-03-09 14:31:34] [MONITOR] Latido del sistema
+[2026-03-09 14:31:34] [ANTIAMNESIA] INICIO EJECUCION SNX-ANTIAMNESIA-SOBERANO-V3
+[2026-03-09 14:31:34] [ANTIAMNESIA] INICIO: verificación de integridad por HASHES existentes
+[2026-03-09 14:31:34] [ANTIAMNESIA] OK HASH: /data/data/com.termux/files/home/soda/00-GOBIERNO/snx_ia_gobierno.sh
+[2026-03-09 14:31:34] [ANTIAMNESIA] ALERTA: INTEGRIDAD VIOLADA: /data/data/com.termux/files/home/soda/01-MEMORIA/snx_ia_memoria.sh
+[2026-03-09 14:31:34] [ANTIAMNESIA]         HASH previo:  7fa60816eebca455ec08307c779a368cdb129bd176cff2842a6f2fe53f69ca14
+[2026-03-09 14:31:34] [ANTIAMNESIA]         HASH actual: f01dd39e56f230731180aac636f59685b742763c767b5c31da4bffbe3c8c4d06
+[2026-03-09 14:31:34] [ANTIAMNESIA] OK HASH: /data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_ia_central.sh
+[2026-03-09 14:31:35] [ANTIAMNESIA] ALERTA: INTEGRIDAD VIOLADA: /data/data/com.termux/files/home/soda/02-SISTEMA/snx_ia_sistema.sh
+[2026-03-09 14:31:35] [ANTIAMNESIA]         HASH previo:  4118b7a1b5decd1448a8e77b6942e2fd3f115f9776cacdd4fdc99175ca4ea68f
+[2026-03-09 14:31:35] [ANTIAMNESIA]         HASH actual: a3b9fefcbe16f4a47dc88e82f27596e554b881b5e1948e307e48cb160965d202
+[2026-03-09 14:31:35] [ANTIAMNESIA] ALERTA: INTEGRIDAD VIOLADA: /data/data/com.termux/files/home/soda/03-OPERACIONES/snx_ia_operaciones.sh
+[2026-03-09 14:31:35] [ANTIAMNESIA]         HASH previo:  8822ffd5dcb3dded05f6cbdda01c2df4ab8fe32baf716602d78c3830df729bd5
+[2026-03-09 14:31:35] [ANTIAMNESIA]         HASH actual: 92547f7207fb052c549e18cb578b14959c6f2e5793acc34e001d442a200c54a3
+[2026-03-09 14:31:35] [ANTIAMNESIA] ALERTA: INTEGRIDAD VIOLADA: /data/data/com.termux/files/home/soda/04-REGISTROS/snx_ia_registros.sh
+[2026-03-09 14:31:35] [ANTIAMNESIA]         HASH previo:  7f722a248b8cd6f64a8cda1a261534997dde270b3916e76584ae10d60a1dfb98
+[2026-03-09 14:31:35] [ANTIAMNESIA]         HASH actual: 25c3175f495a0bd8b6db262dac804ada17fdb9ab99f158f16f435761cd94d375
+[2026-03-09 14:31:35] [ANTIAMNESIA] ALERTA: INTEGRIDAD VIOLADA: /data/data/com.termux/files/home/soda/05-DOCUMENTACION/snx_ia_documentacion.sh
+[2026-03-09 14:31:35] [ANTIAMNESIA]         HASH previo:  fe64465f41c714073f7e8e602216d9733c2a8381820b0deae43bd15fcac3e8f0
+[2026-03-09 14:31:35] [ANTIAMNESIA]         HASH actual: 8d0fdc63ed32b8649ff198146a7e82b2b3f763fd1964175d55a89b7ad4562a35
+[2026-03-09 14:31:35] [ANTIAMNESIA] ALERTA: INTEGRIDAD VIOLADA: /data/data/com.termux/files/home/soda/06-MONITOR/snx_ia_monitor.sh
+[2026-03-09 14:31:35] [ANTIAMNESIA]         HASH previo:  26e6edaaab36d5118da14b30d2610205c7f1dccbf97a3bee62fc36331c2c2ec6
+[2026-03-09 14:31:35] [ANTIAMNESIA]         HASH actual: a5051c414d3c85a8d7c1c888ede12ea81f2eb4c2da637c7718e73c26f17a9c9e
+[2026-03-09 14:31:35] [ANTIAMNESIA] FIN: verificación de integridad por HASHES existentes
+[2026-03-09 14:31:35] [ANTIAMNESIA] INICIO: revisión de MEMORIA/ACTUAL por ministerio
+[2026-03-09 14:31:35] [ANTIAMNESIA] MINISTERIO: 00-GOBIERNO
+[2026-03-09 14:31:35] [ANTIAMNESIA]   OK estado:    estado_00-GOBIERNO.json
+[2026-03-09 14:31:35] [ANTIAMNESIA]   OK engranaje: engranaje_00-GOBIERNO.json
+[2026-03-09 14:31:35] [ANTIAMNESIA]   OK sync:      sync_00-GOBIERNO.json
+[2026-03-09 14:31:35] [ANTIAMNESIA] MINISTERIO: 01-MEMORIA
+[2026-03-09 14:31:35] [ANTIAMNESIA]   OK estado:    estado_01-MEMORIA.json
+[2026-03-09 14:31:35] [ANTIAMNESIA]   OK engranaje: engranaje_01-MEMORIA.json
+[2026-03-09 14:31:35] [ANTIAMNESIA]   OK sync:      sync_01-MEMORIA.json
+[2026-03-09 14:31:35] [ANTIAMNESIA] MINISTERIO: 02-SISTEMA
+[2026-03-09 14:31:35] [ANTIAMNESIA]   OK estado:    estado_02-SISTEMA.json
+[2026-03-09 14:31:36] [ANTIAMNESIA]   OK engranaje: engranaje_02-SISTEMA.json
+[2026-03-09 14:31:36] [ANTIAMNESIA]   OK sync:      sync_02-SISTEMA.json
+[2026-03-09 14:31:36] [ANTIAMNESIA] MINISTERIO: 03-OPERACIONES
+[2026-03-09 14:31:36] [ANTIAMNESIA]   OK estado:    estado_03-OPERACIONES.json
+[2026-03-09 14:31:36] [ANTIAMNESIA]   OK engranaje: engranaje_03-OPERACIONES.json
+[2026-03-09 14:31:36] [ANTIAMNESIA]   OK sync:      sync_03-OPERACIONES.json
+[2026-03-09 14:31:36] [ANTIAMNESIA] MINISTERIO: 04-REGISTROS
+[2026-03-09 14:31:36] [ANTIAMNESIA]   OK estado:    estado_04-REGISTROS.json
+[2026-03-09 14:31:36] [ANTIAMNESIA]   OK engranaje: engranaje_04-REGISTROS.json
+[2026-03-09 14:31:36] [ANTIAMNESIA]   OK sync:      sync_04-REGISTROS.json
+[2026-03-09 14:31:36] [ANTIAMNESIA] MINISTERIO: 05-DOCUMENTACION
+[2026-03-09 14:31:36] [ANTIAMNESIA]   OK estado:    estado_05-DOCUMENTACION.json
+[2026-03-09 14:31:36] [ANTIAMNESIA]   OK engranaje: engranaje_05-DOCUMENTACION.json
+[2026-03-09 14:31:36] [ANTIAMNESIA]   OK sync:      sync_05-DOCUMENTACION.json
+[2026-03-09 14:31:36] [ANTIAMNESIA] MINISTERIO: 06-MONITOR
+[2026-03-09 14:31:36] [ANTIAMNESIA]   OK estado:    estado_06-MONITOR.json
+[2026-03-09 14:31:36] [ANTIAMNESIA]   OK engranaje: engranaje_06-MONITOR.json
+[2026-03-09 14:31:36] [ANTIAMNESIA]   OK sync:      sync_06-MONITOR.json
+[2026-03-09 14:31:36] [ANTIAMNESIA] FIN: revisión de MEMORIA/ACTUAL por ministerio
+[2026-03-09 14:31:36] [ANTIAMNESIA] INICIO: versionado de estado global
+[2026-03-09 14:31:36] [ANTIAMNESIA] Estado global versionado: snx_state_20260309-143136.json
+[2026-03-09 14:31:36] [ANTIAMNESIA] FIN: versionado de estado global
+[2026-03-09 14:31:36] [ANTIAMNESIA] Generando snapshot antiamnesia en /data/data/com.termux/files/home/soda/01-MEMORIA/ACTUAL/antiamnesia_snapshot.txt
+[2026-03-09 14:31:36] [ANTIAMNESIA] Snapshot antiamnesia actualizado: /data/data/com.termux/files/home/soda/01-MEMORIA/ACTUAL/antiamnesia_snapshot.txt
+[2026-03-09 14:31:36] [ANTIAMNESIA] FIN EJECUCION SNX-ANTIAMNESIA-SOBERANO-V3
+[2026-03-09 14:32:36] [MONITOR] Latido del sistema
+[2026-03-09 14:32:37] [ANTIAMNESIA] INICIO EJECUCION SNX-ANTIAMNESIA-SOBERANO-V3
+[2026-03-09 14:32:37] [ANTIAMNESIA] INICIO: verificación de integridad por HASHES existentes
+[2026-03-09 14:32:37] [ANTIAMNESIA] OK HASH: /data/data/com.termux/files/home/soda/00-GOBIERNO/snx_ia_gobierno.sh
+[2026-03-09 14:32:37] [ANTIAMNESIA] ALERTA: INTEGRIDAD VIOLADA: /data/data/com.termux/files/home/soda/01-MEMORIA/snx_ia_memoria.sh
+[2026-03-09 14:32:37] [ANTIAMNESIA]         HASH previo:  7fa60816eebca455ec08307c779a368cdb129bd176cff2842a6f2fe53f69ca14
+[2026-03-09 14:32:37] [ANTIAMNESIA]         HASH actual: f01dd39e56f230731180aac636f59685b742763c767b5c31da4bffbe3c8c4d06
+[2026-03-09 14:32:37] [ANTIAMNESIA] OK HASH: /data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_ia_central.sh
+[2026-03-09 14:32:37] [ANTIAMNESIA] ALERTA: INTEGRIDAD VIOLADA: /data/data/com.termux/files/home/soda/02-SISTEMA/snx_ia_sistema.sh
+[2026-03-09 14:32:37] [ANTIAMNESIA]         HASH previo:  4118b7a1b5decd1448a8e77b6942e2fd3f115f9776cacdd4fdc99175ca4ea68f
+[2026-03-09 14:32:37] [ANTIAMNESIA]         HASH actual: a3b9fefcbe16f4a47dc88e82f27596e554b881b5e1948e307e48cb160965d202
+[2026-03-09 14:32:37] [ANTIAMNESIA] ALERTA: INTEGRIDAD VIOLADA: /data/data/com.termux/files/home/soda/03-OPERACIONES/snx_ia_operaciones.sh
+[2026-03-09 14:32:37] [ANTIAMNESIA]         HASH previo:  8822ffd5dcb3dded05f6cbdda01c2df4ab8fe32baf716602d78c3830df729bd5
+[2026-03-09 14:32:37] [ANTIAMNESIA]         HASH actual: 92547f7207fb052c549e18cb578b14959c6f2e5793acc34e001d442a200c54a3
+[2026-03-09 14:32:37] [ANTIAMNESIA] ALERTA: INTEGRIDAD VIOLADA: /data/data/com.termux/files/home/soda/04-REGISTROS/snx_ia_registros.sh
+[2026-03-09 14:32:37] [ANTIAMNESIA]         HASH previo:  7f722a248b8cd6f64a8cda1a261534997dde270b3916e76584ae10d60a1dfb98
+[2026-03-09 14:32:37] [ANTIAMNESIA]         HASH actual: 25c3175f495a0bd8b6db262dac804ada17fdb9ab99f158f16f435761cd94d375
+[2026-03-09 14:32:37] [ANTIAMNESIA] ALERTA: INTEGRIDAD VIOLADA: /data/data/com.termux/files/home/soda/05-DOCUMENTACION/snx_ia_documentacion.sh
+[2026-03-09 14:32:37] [ANTIAMNESIA]         HASH previo:  fe64465f41c714073f7e8e602216d9733c2a8381820b0deae43bd15fcac3e8f0
+[2026-03-09 14:32:37] [ANTIAMNESIA]         HASH actual: 8d0fdc63ed32b8649ff198146a7e82b2b3f763fd1964175d55a89b7ad4562a35
+[2026-03-09 14:32:37] [ANTIAMNESIA] ALERTA: INTEGRIDAD VIOLADA: /data/data/com.termux/files/home/soda/06-MONITOR/snx_ia_monitor.sh
+[2026-03-09 14:32:37] [ANTIAMNESIA]         HASH previo:  26e6edaaab36d5118da14b30d2610205c7f1dccbf97a3bee62fc36331c2c2ec6
+[2026-03-09 14:32:37] [ANTIAMNESIA]         HASH actual: a5051c414d3c85a8d7c1c888ede12ea81f2eb4c2da637c7718e73c26f17a9c9e
+[2026-03-09 14:32:37] [ANTIAMNESIA] FIN: verificación de integridad por HASHES existentes
+[2026-03-09 14:32:38] [ANTIAMNESIA] INICIO: revisión de MEMORIA/ACTUAL por ministerio
+[2026-03-09 14:32:38] [ANTIAMNESIA] MINISTERIO: 00-GOBIERNO
+[2026-03-09 14:32:38] [ANTIAMNESIA]   OK estado:    estado_00-GOBIERNO.json
+[2026-03-09 14:32:38] [ANTIAMNESIA]   OK engranaje: engranaje_00-GOBIERNO.json
+[2026-03-09 14:32:38] [ANTIAMNESIA]   OK sync:      sync_00-GOBIERNO.json
+[2026-03-09 14:32:38] [ANTIAMNESIA] MINISTERIO: 01-MEMORIA
+[2026-03-09 14:32:38] [ANTIAMNESIA]   OK estado:    estado_01-MEMORIA.json
+[2026-03-09 14:32:38] [ANTIAMNESIA]   OK engranaje: engranaje_01-MEMORIA.json
+[2026-03-09 14:32:38] [ANTIAMNESIA]   OK sync:      sync_01-MEMORIA.json
+[2026-03-09 14:32:38] [ANTIAMNESIA] MINISTERIO: 02-SISTEMA
+[2026-03-09 14:32:38] [ANTIAMNESIA]   OK estado:    estado_02-SISTEMA.json
+[2026-03-09 14:32:38] [ANTIAMNESIA]   OK engranaje: engranaje_02-SISTEMA.json
+[2026-03-09 14:32:38] [ANTIAMNESIA]   OK sync:      sync_02-SISTEMA.json
+[2026-03-09 14:32:38] [ANTIAMNESIA] MINISTERIO: 03-OPERACIONES
+[2026-03-09 14:32:38] [ANTIAMNESIA]   OK estado:    estado_03-OPERACIONES.json
+[2026-03-09 14:32:38] [ANTIAMNESIA]   OK engranaje: engranaje_03-OPERACIONES.json
+[2026-03-09 14:32:38] [ANTIAMNESIA]   OK sync:      sync_03-OPERACIONES.json
+[2026-03-09 14:32:38] [ANTIAMNESIA] MINISTERIO: 04-REGISTROS
+[2026-03-09 14:32:38] [ANTIAMNESIA]   OK estado:    estado_04-REGISTROS.json
+[2026-03-09 14:32:38] [ANTIAMNESIA]   OK engranaje: engranaje_04-REGISTROS.json
+[2026-03-09 14:32:38] [ANTIAMNESIA]   OK sync:      sync_04-REGISTROS.json
+[2026-03-09 14:32:38] [ANTIAMNESIA] MINISTERIO: 05-DOCUMENTACION
+[2026-03-09 14:32:38] [ANTIAMNESIA]   OK estado:    estado_05-DOCUMENTACION.json
+[2026-03-09 14:32:38] [ANTIAMNESIA]   OK engranaje: engranaje_05-DOCUMENTACION.json
+[2026-03-09 14:32:38] [ANTIAMNESIA]   OK sync:      sync_05-DOCUMENTACION.json
+[2026-03-09 14:32:38] [ANTIAMNESIA] MINISTERIO: 06-MONITOR
+[2026-03-09 14:32:38] [ANTIAMNESIA]   OK estado:    estado_06-MONITOR.json
+[2026-03-09 14:32:38] [ANTIAMNESIA]   OK engranaje: engranaje_06-MONITOR.json
+[2026-03-09 14:32:38] [ANTIAMNESIA]   OK sync:      sync_06-MONITOR.json
+[2026-03-09 14:32:38] [ANTIAMNESIA] FIN: revisión de MEMORIA/ACTUAL por ministerio
+[2026-03-09 14:32:39] [ANTIAMNESIA] INICIO: versionado de estado global
+[2026-03-09 14:32:39] [ANTIAMNESIA] Estado global versionado: snx_state_20260309-143239.json
+[2026-03-09 14:32:39] [ANTIAMNESIA] FIN: versionado de estado global
+[2026-03-09 14:32:39] [ANTIAMNESIA] Generando snapshot antiamnesia en /data/data/com.termux/files/home/soda/01-MEMORIA/ACTUAL/antiamnesia_snapshot.txt
+[2026-03-09 14:32:39] [ANTIAMNESIA] Snapshot antiamnesia actualizado: /data/data/com.termux/files/home/soda/01-MEMORIA/ACTUAL/antiamnesia_snapshot.txt
+[2026-03-09 14:32:39] [ANTIAMNESIA] FIN EJECUCION SNX-ANTIAMNESIA-SOBERANO-V3
+[2026-03-09 14:33:39] [MONITOR] Latido del sistema
+[2026-03-09 14:33:39] [ANTIAMNESIA] INICIO EJECUCION SNX-ANTIAMNESIA-SOBERANO-V3
+[2026-03-09 14:33:39] [ANTIAMNESIA] INICIO: verificación de integridad por HASHES existentes
+[2026-03-09 14:33:39] [ANTIAMNESIA] OK HASH: /data/data/com.termux/files/home/soda/00-GOBIERNO/snx_ia_gobierno.sh
+[2026-03-09 14:33:39] [ANTIAMNESIA] ALERTA: INTEGRIDAD VIOLADA: /data/data/com.termux/files/home/soda/01-MEMORIA/snx_ia_memoria.sh
+[2026-03-09 14:33:39] [ANTIAMNESIA]         HASH previo:  7fa60816eebca455ec08307c779a368cdb129bd176cff2842a6f2fe53f69ca14
+[2026-03-09 14:33:39] [ANTIAMNESIA]         HASH actual: f01dd39e56f230731180aac636f59685b742763c767b5c31da4bffbe3c8c4d06
+[2026-03-09 14:33:39] [ANTIAMNESIA] OK HASH: /data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_ia_central.sh
+[2026-03-09 14:33:39] [ANTIAMNESIA] ALERTA: INTEGRIDAD VIOLADA: /data/data/com.termux/files/home/soda/02-SISTEMA/snx_ia_sistema.sh
+[2026-03-09 14:33:39] [ANTIAMNESIA]         HASH previo:  4118b7a1b5decd1448a8e77b6942e2fd3f115f9776cacdd4fdc99175ca4ea68f
+[2026-03-09 14:33:39] [ANTIAMNESIA]         HASH actual: a3b9fefcbe16f4a47dc88e82f27596e554b881b5e1948e307e48cb160965d202
+[2026-03-09 14:33:39] [ANTIAMNESIA] ALERTA: INTEGRIDAD VIOLADA: /data/data/com.termux/files/home/soda/03-OPERACIONES/snx_ia_operaciones.sh
+[2026-03-09 14:33:39] [ANTIAMNESIA]         HASH previo:  8822ffd5dcb3dded05f6cbdda01c2df4ab8fe32baf716602d78c3830df729bd5
+[2026-03-09 14:33:40] [ANTIAMNESIA]         HASH actual: 92547f7207fb052c549e18cb578b14959c6f2e5793acc34e001d442a200c54a3
+[2026-03-09 14:33:40] [ANTIAMNESIA] ALERTA: INTEGRIDAD VIOLADA: /data/data/com.termux/files/home/soda/04-REGISTROS/snx_ia_registros.sh
+[2026-03-09 14:33:40] [ANTIAMNESIA]         HASH previo:  7f722a248b8cd6f64a8cda1a261534997dde270b3916e76584ae10d60a1dfb98
+[2026-03-09 14:33:40] [ANTIAMNESIA]         HASH actual: 25c3175f495a0bd8b6db262dac804ada17fdb9ab99f158f16f435761cd94d375
+[2026-03-09 14:33:40] [ANTIAMNESIA] ALERTA: INTEGRIDAD VIOLADA: /data/data/com.termux/files/home/soda/05-DOCUMENTACION/snx_ia_documentacion.sh
+[2026-03-09 14:33:40] [ANTIAMNESIA]         HASH previo:  fe64465f41c714073f7e8e602216d9733c2a8381820b0deae43bd15fcac3e8f0
+[2026-03-09 14:33:40] [ANTIAMNESIA]         HASH actual: 8d0fdc63ed32b8649ff198146a7e82b2b3f763fd1964175d55a89b7ad4562a35
+[2026-03-09 14:33:40] [ANTIAMNESIA] ALERTA: INTEGRIDAD VIOLADA: /data/data/com.termux/files/home/soda/06-MONITOR/snx_ia_monitor.sh
+[2026-03-09 14:33:40] [ANTIAMNESIA]         HASH previo:  26e6edaaab36d5118da14b30d2610205c7f1dccbf97a3bee62fc36331c2c2ec6
+[2026-03-09 14:33:40] [ANTIAMNESIA]         HASH actual: a5051c414d3c85a8d7c1c888ede12ea81f2eb4c2da637c7718e73c26f17a9c9e
+[2026-03-09 14:33:40] [ANTIAMNESIA] FIN: verificación de integridad por HASHES existentes
+[2026-03-09 14:33:40] [ANTIAMNESIA] INICIO: revisión de MEMORIA/ACTUAL por ministerio
+[2026-03-09 14:33:40] [ANTIAMNESIA] MINISTERIO: 00-GOBIERNO
+[2026-03-09 14:33:40] [ANTIAMNESIA]   OK estado:    estado_00-GOBIERNO.json
+[2026-03-09 14:33:40] [ANTIAMNESIA]   OK engranaje: engranaje_00-GOBIERNO.json
+[2026-03-09 14:33:40] [ANTIAMNESIA]   OK sync:      sync_00-GOBIERNO.json
+[2026-03-09 14:33:40] [ANTIAMNESIA] MINISTERIO: 01-MEMORIA
+[2026-03-09 14:33:40] [ANTIAMNESIA]   OK estado:    estado_01-MEMORIA.json
+[2026-03-09 14:33:40] [ANTIAMNESIA]   OK engranaje: engranaje_01-MEMORIA.json
+[2026-03-09 14:33:40] [ANTIAMNESIA]   OK sync:      sync_01-MEMORIA.json
+[2026-03-09 14:33:40] [ANTIAMNESIA] MINISTERIO: 02-SISTEMA
+[2026-03-09 14:33:40] [ANTIAMNESIA]   OK estado:    estado_02-SISTEMA.json
+[2026-03-09 14:33:40] [ANTIAMNESIA]   OK engranaje: engranaje_02-SISTEMA.json
+[2026-03-09 14:33:40] [ANTIAMNESIA]   OK sync:      sync_02-SISTEMA.json
+[2026-03-09 14:33:40] [ANTIAMNESIA] MINISTERIO: 03-OPERACIONES
+[2026-03-09 14:33:40] [ANTIAMNESIA]   OK estado:    estado_03-OPERACIONES.json
+[2026-03-09 14:33:40] [ANTIAMNESIA]   OK engranaje: engranaje_03-OPERACIONES.json
+[2026-03-09 14:33:40] [ANTIAMNESIA]   OK sync:      sync_03-OPERACIONES.json
+[2026-03-09 14:33:41] [ANTIAMNESIA] MINISTERIO: 04-REGISTROS
+[2026-03-09 14:33:41] [ANTIAMNESIA]   OK estado:    estado_04-REGISTROS.json
+[2026-03-09 14:33:41] [ANTIAMNESIA]   OK engranaje: engranaje_04-REGISTROS.json
+[2026-03-09 14:33:41] [ANTIAMNESIA]   OK sync:      sync_04-REGISTROS.json
+[2026-03-09 14:33:41] [ANTIAMNESIA] MINISTERIO: 05-DOCUMENTACION
+[2026-03-09 14:33:41] [ANTIAMNESIA]   OK estado:    estado_05-DOCUMENTACION.json
+[2026-03-09 14:33:41] [ANTIAMNESIA]   OK engranaje: engranaje_05-DOCUMENTACION.json
+[2026-03-09 14:33:41] [ANTIAMNESIA]   OK sync:      sync_05-DOCUMENTACION.json
+[2026-03-09 14:33:41] [ANTIAMNESIA] MINISTERIO: 06-MONITOR
+[2026-03-09 14:33:41] [ANTIAMNESIA]   OK estado:    estado_06-MONITOR.json
+[2026-03-09 14:33:41] [ANTIAMNESIA]   OK engranaje: engranaje_06-MONITOR.json
+[2026-03-09 14:33:41] [ANTIAMNESIA]   OK sync:      sync_06-MONITOR.json
+[2026-03-09 14:33:41] [ANTIAMNESIA] FIN: revisión de MEMORIA/ACTUAL por ministerio
+[2026-03-09 14:33:41] [ANTIAMNESIA] INICIO: versionado de estado global
+[2026-03-09 14:33:41] [ANTIAMNESIA] Estado global versionado: snx_state_20260309-143341.json
+[2026-03-09 14:33:41] [ANTIAMNESIA] FIN: versionado de estado global
+[2026-03-09 14:33:41] [ANTIAMNESIA] Generando snapshot antiamnesia en /data/data/com.termux/files/home/soda/01-MEMORIA/ACTUAL/antiamnesia_snapshot.txt
+[2026-03-09 14:33:41] [ANTIAMNESIA] Snapshot antiamnesia actualizado: /data/data/com.termux/files/home/soda/01-MEMORIA/ACTUAL/antiamnesia_snapshot.txt
+[2026-03-09 14:33:41] [ANTIAMNESIA] FIN EJECUCION SNX-ANTIAMNESIA-SOBERANO-V3
+[2026-03-09 14:34:41] [MONITOR] Latido del sistema
+[2026-03-09 14:34:41] [ANTIAMNESIA] INICIO EJECUCION SNX-ANTIAMNESIA-SOBERANO-V3
+[2026-03-09 14:34:41] [ANTIAMNESIA] INICIO: verificación de integridad por HASHES existentes
+[2026-03-09 14:34:41] [ANTIAMNESIA] OK HASH: /data/data/com.termux/files/home/soda/00-GOBIERNO/snx_ia_gobierno.sh
+[2026-03-09 14:34:42] [ANTIAMNESIA] ALERTA: INTEGRIDAD VIOLADA: /data/data/com.termux/files/home/soda/01-MEMORIA/snx_ia_memoria.sh
+[2026-03-09 14:34:42] [ANTIAMNESIA]         HASH previo:  7fa60816eebca455ec08307c779a368cdb129bd176cff2842a6f2fe53f69ca14
+[2026-03-09 14:34:42] [ANTIAMNESIA]         HASH actual: f01dd39e56f230731180aac636f59685b742763c767b5c31da4bffbe3c8c4d06
+[2026-03-09 14:34:42] [ANTIAMNESIA] OK HASH: /data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_ia_central.sh
+[2026-03-09 14:34:42] [ANTIAMNESIA] ALERTA: INTEGRIDAD VIOLADA: /data/data/com.termux/files/home/soda/02-SISTEMA/snx_ia_sistema.sh
+[2026-03-09 14:34:42] [ANTIAMNESIA]         HASH previo:  4118b7a1b5decd1448a8e77b6942e2fd3f115f9776cacdd4fdc99175ca4ea68f
+[2026-03-09 14:34:42] [ANTIAMNESIA]         HASH actual: a3b9fefcbe16f4a47dc88e82f27596e554b881b5e1948e307e48cb160965d202
+[2026-03-09 14:34:42] [ANTIAMNESIA] ALERTA: INTEGRIDAD VIOLADA: /data/data/com.termux/files/home/soda/03-OPERACIONES/snx_ia_operaciones.sh
+[2026-03-09 14:34:42] [ANTIAMNESIA]         HASH previo:  8822ffd5dcb3dded05f6cbdda01c2df4ab8fe32baf716602d78c3830df729bd5
+[2026-03-09 14:34:42] [ANTIAMNESIA]         HASH actual: 92547f7207fb052c549e18cb578b14959c6f2e5793acc34e001d442a200c54a3
+[2026-03-09 14:34:42] [ANTIAMNESIA] ALERTA: INTEGRIDAD VIOLADA: /data/data/com.termux/files/home/soda/04-REGISTROS/snx_ia_registros.sh
+[2026-03-09 14:34:42] [ANTIAMNESIA]         HASH previo:  7f722a248b8cd6f64a8cda1a261534997dde270b3916e76584ae10d60a1dfb98
+[2026-03-09 14:34:42] [ANTIAMNESIA]         HASH actual: 25c3175f495a0bd8b6db262dac804ada17fdb9ab99f158f16f435761cd94d375
+[2026-03-09 14:34:42] [ANTIAMNESIA] ALERTA: INTEGRIDAD VIOLADA: /data/data/com.termux/files/home/soda/05-DOCUMENTACION/snx_ia_documentacion.sh
+[2026-03-09 14:34:42] [ANTIAMNESIA]         HASH previo:  fe64465f41c714073f7e8e602216d9733c2a8381820b0deae43bd15fcac3e8f0
+[2026-03-09 14:34:42] [ANTIAMNESIA]         HASH actual: 8d0fdc63ed32b8649ff198146a7e82b2b3f763fd1964175d55a89b7ad4562a35
+[2026-03-09 14:34:42] [ANTIAMNESIA] ALERTA: INTEGRIDAD VIOLADA: /data/data/com.termux/files/home/soda/06-MONITOR/snx_ia_monitor.sh
+[2026-03-09 14:34:42] [ANTIAMNESIA]         HASH previo:  26e6edaaab36d5118da14b30d2610205c7f1dccbf97a3bee62fc36331c2c2ec6
+[2026-03-09 14:34:42] [ANTIAMNESIA]         HASH actual: a5051c414d3c85a8d7c1c888ede12ea81f2eb4c2da637c7718e73c26f17a9c9e
+[2026-03-09 14:34:43] [ANTIAMNESIA] FIN: verificación de integridad por HASHES existentes
+[2026-03-09 14:34:43] [ANTIAMNESIA] INICIO: revisión de MEMORIA/ACTUAL por ministerio
+[2026-03-09 14:34:43] [ANTIAMNESIA] MINISTERIO: 00-GOBIERNO
+[2026-03-09 14:34:43] [ANTIAMNESIA]   OK estado:    estado_00-GOBIERNO.json
+[2026-03-09 14:34:43] [ANTIAMNESIA]   OK engranaje: engranaje_00-GOBIERNO.json
+[2026-03-09 14:34:43] [ANTIAMNESIA]   OK sync:      sync_00-GOBIERNO.json
+[2026-03-09 14:34:43] [ANTIAMNESIA] MINISTERIO: 01-MEMORIA
+[2026-03-09 14:34:43] [ANTIAMNESIA]   OK estado:    estado_01-MEMORIA.json
+[2026-03-09 14:34:43] [ANTIAMNESIA]   OK engranaje: engranaje_01-MEMORIA.json
+[2026-03-09 14:34:43] [ANTIAMNESIA]   OK sync:      sync_01-MEMORIA.json
+[2026-03-09 14:34:43] [ANTIAMNESIA] MINISTERIO: 02-SISTEMA
+[2026-03-09 14:34:43] [ANTIAMNESIA]   OK estado:    estado_02-SISTEMA.json
+[2026-03-09 14:34:43] [ANTIAMNESIA]   OK engranaje: engranaje_02-SISTEMA.json
+[2026-03-09 14:34:43] [ANTIAMNESIA]   OK sync:      sync_02-SISTEMA.json
+[2026-03-09 14:34:43] [ANTIAMNESIA] MINISTERIO: 03-OPERACIONES
+[2026-03-09 14:34:43] [ANTIAMNESIA]   OK estado:    estado_03-OPERACIONES.json
+[2026-03-09 14:34:43] [ANTIAMNESIA]   OK engranaje: engranaje_03-OPERACIONES.json
+[2026-03-09 14:34:43] [ANTIAMNESIA]   OK sync:      sync_03-OPERACIONES.json
+[2026-03-09 14:34:43] [ANTIAMNESIA] MINISTERIO: 04-REGISTROS
+[2026-03-09 14:34:43] [ANTIAMNESIA]   OK estado:    estado_04-REGISTROS.json
+[2026-03-09 14:34:43] [ANTIAMNESIA]   OK engranaje: engranaje_04-REGISTROS.json
+[2026-03-09 14:34:43] [ANTIAMNESIA]   OK sync:      sync_04-REGISTROS.json
+[2026-03-09 14:34:43] [ANTIAMNESIA] MINISTERIO: 05-DOCUMENTACION
+[2026-03-09 14:34:43] [ANTIAMNESIA]   OK estado:    estado_05-DOCUMENTACION.json
+[2026-03-09 14:34:43] [ANTIAMNESIA]   OK engranaje: engranaje_05-DOCUMENTACION.json
+[2026-03-09 14:34:44] [ANTIAMNESIA]   OK sync:      sync_05-DOCUMENTACION.json
+[2026-03-09 14:34:44] [ANTIAMNESIA] MINISTERIO: 06-MONITOR
+[2026-03-09 14:34:44] [ANTIAMNESIA]   OK estado:    estado_06-MONITOR.json
+[2026-03-09 14:34:44] [ANTIAMNESIA]   OK engranaje: engranaje_06-MONITOR.json
+[2026-03-09 14:34:44] [ANTIAMNESIA]   OK sync:      sync_06-MONITOR.json
+[2026-03-09 14:34:44] [ANTIAMNESIA] FIN: revisión de MEMORIA/ACTUAL por ministerio
+[2026-03-09 14:34:44] [ANTIAMNESIA] INICIO: versionado de estado global
+[2026-03-09 14:34:44] [ANTIAMNESIA] Estado global versionado: snx_state_20260309-143444.json
+[2026-03-09 14:34:44] [ANTIAMNESIA] FIN: versionado de estado global
+[2026-03-09 14:34:44] [ANTIAMNESIA] Generando snapshot antiamnesia en /data/data/com.termux/files/home/soda/01-MEMORIA/ACTUAL/antiamnesia_snapshot.txt
+[2026-03-09 14:34:44] [ANTIAMNESIA] Snapshot antiamnesia actualizado: /data/data/com.termux/files/home/soda/01-MEMORIA/ACTUAL/antiamnesia_snapshot.txt
+[2026-03-09 14:34:44] [ANTIAMNESIA] FIN EJECUCION SNX-ANTIAMNESIA-SOBERANO-V3
+[2026-03-09 14:35:44] [MONITOR] Latido del sistema
+[2026-03-09 14:35:44] [ANTIAMNESIA] INICIO EJECUCION SNX-ANTIAMNESIA-SOBERANO-V3
+[2026-03-09 14:35:44] [ANTIAMNESIA] INICIO: verificación de integridad por HASHES existentes
+[2026-03-09 14:35:44] [ANTIAMNESIA] OK HASH: /data/data/com.termux/files/home/soda/00-GOBIERNO/snx_ia_gobierno.sh
+[2026-03-09 14:35:44] [ANTIAMNESIA] ALERTA: INTEGRIDAD VIOLADA: /data/data/com.termux/files/home/soda/01-MEMORIA/snx_ia_memoria.sh
+[2026-03-09 14:35:44] [ANTIAMNESIA]         HASH previo:  7fa60816eebca455ec08307c779a368cdb129bd176cff2842a6f2fe53f69ca14
+[2026-03-09 14:35:44] [ANTIAMNESIA]         HASH actual: f01dd39e56f230731180aac636f59685b742763c767b5c31da4bffbe3c8c4d06
+[2026-03-09 14:35:45] [ANTIAMNESIA] OK HASH: /data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_ia_central.sh
+[2026-03-09 14:35:45] [ANTIAMNESIA] ALERTA: INTEGRIDAD VIOLADA: /data/data/com.termux/files/home/soda/02-SISTEMA/snx_ia_sistema.sh
+[2026-03-09 14:35:45] [ANTIAMNESIA]         HASH previo:  4118b7a1b5decd1448a8e77b6942e2fd3f115f9776cacdd4fdc99175ca4ea68f
+[2026-03-09 14:35:45] [ANTIAMNESIA]         HASH actual: a3b9fefcbe16f4a47dc88e82f27596e554b881b5e1948e307e48cb160965d202
+[2026-03-09 14:35:45] [ANTIAMNESIA] ALERTA: INTEGRIDAD VIOLADA: /data/data/com.termux/files/home/soda/03-OPERACIONES/snx_ia_operaciones.sh
+[2026-03-09 14:35:45] [ANTIAMNESIA]         HASH previo:  8822ffd5dcb3dded05f6cbdda01c2df4ab8fe32baf716602d78c3830df729bd5
+[2026-03-09 14:35:45] [ANTIAMNESIA]         HASH actual: 92547f7207fb052c549e18cb578b14959c6f2e5793acc34e001d442a200c54a3
+[2026-03-09 14:35:45] [ANTIAMNESIA] ALERTA: INTEGRIDAD VIOLADA: /data/data/com.termux/files/home/soda/04-REGISTROS/snx_ia_registros.sh
+[2026-03-09 14:35:45] [ANTIAMNESIA]         HASH previo:  7f722a248b8cd6f64a8cda1a261534997dde270b3916e76584ae10d60a1dfb98
+[2026-03-09 14:35:45] [ANTIAMNESIA]         HASH actual: 25c3175f495a0bd8b6db262dac804ada17fdb9ab99f158f16f435761cd94d375
+[2026-03-09 14:35:45] [ANTIAMNESIA] ALERTA: INTEGRIDAD VIOLADA: /data/data/com.termux/files/home/soda/05-DOCUMENTACION/snx_ia_documentacion.sh
+[2026-03-09 14:35:45] [ANTIAMNESIA]         HASH previo:  fe64465f41c714073f7e8e602216d9733c2a8381820b0deae43bd15fcac3e8f0
+[2026-03-09 14:35:45] [ANTIAMNESIA]         HASH actual: 8d0fdc63ed32b8649ff198146a7e82b2b3f763fd1964175d55a89b7ad4562a35
+[2026-03-09 14:35:45] [ANTIAMNESIA] ALERTA: INTEGRIDAD VIOLADA: /data/data/com.termux/files/home/soda/06-MONITOR/snx_ia_monitor.sh
+[2026-03-09 14:35:45] [ANTIAMNESIA]         HASH previo:  26e6edaaab36d5118da14b30d2610205c7f1dccbf97a3bee62fc36331c2c2ec6
+[2026-03-09 14:35:45] [ANTIAMNESIA]         HASH actual: a5051c414d3c85a8d7c1c888ede12ea81f2eb4c2da637c7718e73c26f17a9c9e
+[2026-03-09 14:35:45] [ANTIAMNESIA] FIN: verificación de integridad por HASHES existentes
+[2026-03-09 14:35:45] [ANTIAMNESIA] INICIO: revisión de MEMORIA/ACTUAL por ministerio
+[2026-03-09 14:35:45] [ANTIAMNESIA] MINISTERIO: 00-GOBIERNO
+[2026-03-09 14:35:45] [ANTIAMNESIA]   OK estado:    estado_00-GOBIERNO.json
+[2026-03-09 14:35:45] [ANTIAMNESIA]   OK engranaje: engranaje_00-GOBIERNO.json
+[2026-03-09 14:35:45] [ANTIAMNESIA]   OK sync:      sync_00-GOBIERNO.json
+[2026-03-09 14:35:45] [ANTIAMNESIA] MINISTERIO: 01-MEMORIA
+[2026-03-09 14:35:45] [ANTIAMNESIA]   OK estado:    estado_01-MEMORIA.json
+[2026-03-09 14:35:45] [ANTIAMNESIA]   OK engranaje: engranaje_01-MEMORIA.json
+[2026-03-09 14:35:45] [ANTIAMNESIA]   OK sync:      sync_01-MEMORIA.json
+[2026-03-09 14:35:46] [ANTIAMNESIA] MINISTERIO: 02-SISTEMA
+[2026-03-09 14:35:46] [ANTIAMNESIA]   OK estado:    estado_02-SISTEMA.json
+[2026-03-09 14:35:46] [ANTIAMNESIA]   OK engranaje: engranaje_02-SISTEMA.json
+[2026-03-09 14:35:46] [ANTIAMNESIA]   OK sync:      sync_02-SISTEMA.json
+[2026-03-09 14:35:46] [ANTIAMNESIA] MINISTERIO: 03-OPERACIONES
+[2026-03-09 14:35:46] [ANTIAMNESIA]   OK estado:    estado_03-OPERACIONES.json
+[2026-03-09 14:35:46] [ANTIAMNESIA]   OK engranaje: engranaje_03-OPERACIONES.json
+[2026-03-09 14:35:46] [ANTIAMNESIA]   OK sync:      sync_03-OPERACIONES.json
+[2026-03-09 14:35:46] [ANTIAMNESIA] MINISTERIO: 04-REGISTROS
+[2026-03-09 14:35:46] [ANTIAMNESIA]   OK estado:    estado_04-REGISTROS.json
+[2026-03-09 14:35:46] [ANTIAMNESIA]   OK engranaje: engranaje_04-REGISTROS.json
+[2026-03-09 14:35:46] [ANTIAMNESIA]   OK sync:      sync_04-REGISTROS.json
+[2026-03-09 14:35:46] [ANTIAMNESIA] MINISTERIO: 05-DOCUMENTACION
+[2026-03-09 14:35:46] [ANTIAMNESIA]   OK estado:    estado_05-DOCUMENTACION.json
+[2026-03-09 14:35:46] [ANTIAMNESIA]   OK engranaje: engranaje_05-DOCUMENTACION.json
+[2026-03-09 14:35:46] [ANTIAMNESIA]   OK sync:      sync_05-DOCUMENTACION.json
+[2026-03-09 14:35:46] [ANTIAMNESIA] MINISTERIO: 06-MONITOR
+[2026-03-09 14:35:46] [ANTIAMNESIA]   OK estado:    estado_06-MONITOR.json
+[2026-03-09 14:35:46] [ANTIAMNESIA]   OK engranaje: engranaje_06-MONITOR.json
+[2026-03-09 14:35:46] [ANTIAMNESIA]   OK sync:      sync_06-MONITOR.json
+[2026-03-09 14:35:46] [ANTIAMNESIA] FIN: revisión de MEMORIA/ACTUAL por ministerio
+[2026-03-09 14:35:46] [ANTIAMNESIA] INICIO: versionado de estado global
+[2026-03-09 14:35:46] [ANTIAMNESIA] Estado global versionado: snx_state_20260309-143546.json
+[2026-03-09 14:35:46] [ANTIAMNESIA] FIN: versionado de estado global
+[2026-03-09 14:35:46] [ANTIAMNESIA] Generando snapshot antiamnesia en /data/data/com.termux/files/home/soda/01-MEMORIA/ACTUAL/antiamnesia_snapshot.txt
+[2026-03-09 14:35:47] [ANTIAMNESIA] Snapshot antiamnesia actualizado: /data/data/com.termux/files/home/soda/01-MEMORIA/ACTUAL/antiamnesia_snapshot.txt
+[2026-03-09 14:35:47] [ANTIAMNESIA] FIN EJECUCION SNX-ANTIAMNESIA-SOBERANO-V3
+[2026-03-09 14:36:47] [MONITOR] Latido del sistema
+[2026-03-09 14:36:47] [ANTIAMNESIA] INICIO EJECUCION SNX-ANTIAMNESIA-SOBERANO-V3
+[2026-03-09 14:36:47] [ANTIAMNESIA] INICIO: verificación de integridad por HASHES existentes
+[2026-03-09 14:36:47] [ANTIAMNESIA] OK HASH: /data/data/com.termux/files/home/soda/00-GOBIERNO/snx_ia_gobierno.sh
+[2026-03-09 14:36:47] [ANTIAMNESIA] ALERTA: INTEGRIDAD VIOLADA: /data/data/com.termux/files/home/soda/01-MEMORIA/snx_ia_memoria.sh
+[2026-03-09 14:36:47] [ANTIAMNESIA]         HASH previo:  7fa60816eebca455ec08307c779a368cdb129bd176cff2842a6f2fe53f69ca14
+[2026-03-09 14:36:47] [ANTIAMNESIA]         HASH actual: f01dd39e56f230731180aac636f59685b742763c767b5c31da4bffbe3c8c4d06
+[2026-03-09 14:36:47] [ANTIAMNESIA] OK HASH: /data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_ia_central.sh
+[2026-03-09 14:36:47] [ANTIAMNESIA] ALERTA: INTEGRIDAD VIOLADA: /data/data/com.termux/files/home/soda/02-SISTEMA/snx_ia_sistema.sh
+[2026-03-09 14:36:47] [ANTIAMNESIA]         HASH previo:  4118b7a1b5decd1448a8e77b6942e2fd3f115f9776cacdd4fdc99175ca4ea68f
+[2026-03-09 14:36:47] [ANTIAMNESIA]         HASH actual: a3b9fefcbe16f4a47dc88e82f27596e554b881b5e1948e307e48cb160965d202
+[2026-03-09 14:36:47] [ANTIAMNESIA] ALERTA: INTEGRIDAD VIOLADA: /data/data/com.termux/files/home/soda/03-OPERACIONES/snx_ia_operaciones.sh
+[2026-03-09 14:36:47] [ANTIAMNESIA]         HASH previo:  8822ffd5dcb3dded05f6cbdda01c2df4ab8fe32baf716602d78c3830df729bd5
+[2026-03-09 14:36:47] [ANTIAMNESIA]         HASH actual: 92547f7207fb052c549e18cb578b14959c6f2e5793acc34e001d442a200c54a3
+[2026-03-09 14:36:47] [ANTIAMNESIA] ALERTA: INTEGRIDAD VIOLADA: /data/data/com.termux/files/home/soda/04-REGISTROS/snx_ia_registros.sh
+[2026-03-09 14:36:47] [ANTIAMNESIA]         HASH previo:  7f722a248b8cd6f64a8cda1a261534997dde270b3916e76584ae10d60a1dfb98
+[2026-03-09 14:36:47] [ANTIAMNESIA]         HASH actual: 25c3175f495a0bd8b6db262dac804ada17fdb9ab99f158f16f435761cd94d375
+[2026-03-09 14:36:47] [ANTIAMNESIA] ALERTA: INTEGRIDAD VIOLADA: /data/data/com.termux/files/home/soda/05-DOCUMENTACION/snx_ia_documentacion.sh
+[2026-03-09 14:36:47] [ANTIAMNESIA]         HASH previo:  fe64465f41c714073f7e8e602216d9733c2a8381820b0deae43bd15fcac3e8f0
+[2026-03-09 14:36:47] [ANTIAMNESIA]         HASH actual: 8d0fdc63ed32b8649ff198146a7e82b2b3f763fd1964175d55a89b7ad4562a35
+[2026-03-09 14:36:48] [ANTIAMNESIA] ALERTA: INTEGRIDAD VIOLADA: /data/data/com.termux/files/home/soda/06-MONITOR/snx_ia_monitor.sh
+[2026-03-09 14:36:48] [ANTIAMNESIA]         HASH previo:  26e6edaaab36d5118da14b30d2610205c7f1dccbf97a3bee62fc36331c2c2ec6
+[2026-03-09 14:36:48] [ANTIAMNESIA]         HASH actual: a5051c414d3c85a8d7c1c888ede12ea81f2eb4c2da637c7718e73c26f17a9c9e
+[2026-03-09 14:36:48] [ANTIAMNESIA] FIN: verificación de integridad por HASHES existentes
+[2026-03-09 14:36:48] [ANTIAMNESIA] INICIO: revisión de MEMORIA/ACTUAL por ministerio
+[2026-03-09 14:36:48] [ANTIAMNESIA] MINISTERIO: 00-GOBIERNO
+[2026-03-09 14:36:48] [ANTIAMNESIA]   OK estado:    estado_00-GOBIERNO.json
+[2026-03-09 14:36:48] [ANTIAMNESIA]   OK engranaje: engranaje_00-GOBIERNO.json
+[2026-03-09 14:36:48] [ANTIAMNESIA]   OK sync:      sync_00-GOBIERNO.json
+[2026-03-09 14:36:48] [ANTIAMNESIA] MINISTERIO: 01-MEMORIA
+[2026-03-09 14:36:48] [ANTIAMNESIA]   OK estado:    estado_01-MEMORIA.json
+[2026-03-09 14:36:48] [ANTIAMNESIA]   OK engranaje: engranaje_01-MEMORIA.json
+[2026-03-09 14:36:48] [ANTIAMNESIA]   OK sync:      sync_01-MEMORIA.json
+[2026-03-09 14:36:48] [ANTIAMNESIA] MINISTERIO: 02-SISTEMA
+[2026-03-09 14:36:48] [ANTIAMNESIA]   OK estado:    estado_02-SISTEMA.json
+[2026-03-09 14:36:48] [ANTIAMNESIA]   OK engranaje: engranaje_02-SISTEMA.json
+[2026-03-09 14:36:48] [ANTIAMNESIA]   OK sync:      sync_02-SISTEMA.json
+[2026-03-09 14:36:48] [ANTIAMNESIA] MINISTERIO: 03-OPERACIONES
+[2026-03-09 14:36:48] [ANTIAMNESIA]   OK estado:    estado_03-OPERACIONES.json
+[2026-03-09 14:36:48] [ANTIAMNESIA]   OK engranaje: engranaje_03-OPERACIONES.json
+[2026-03-09 14:36:48] [ANTIAMNESIA]   OK sync:      sync_03-OPERACIONES.json
+[2026-03-09 14:36:48] [ANTIAMNESIA] MINISTERIO: 04-REGISTROS
+[2026-03-09 14:36:48] [ANTIAMNESIA]   OK estado:    estado_04-REGISTROS.json
+[2026-03-09 14:36:48] [ANTIAMNESIA]   OK engranaje: engranaje_04-REGISTROS.json
+[2026-03-09 14:36:48] [ANTIAMNESIA]   OK sync:      sync_04-REGISTROS.json
+[2026-03-09 14:36:48] [ANTIAMNESIA] MINISTERIO: 05-DOCUMENTACION
+[2026-03-09 14:36:48] [ANTIAMNESIA]   OK estado:    estado_05-DOCUMENTACION.json
+[2026-03-09 14:36:48] [ANTIAMNESIA]   OK engranaje: engranaje_05-DOCUMENTACION.json
+[2026-03-09 14:36:48] [ANTIAMNESIA]   OK sync:      sync_05-DOCUMENTACION.json
+[2026-03-09 14:36:48] [ANTIAMNESIA] MINISTERIO: 06-MONITOR
+[2026-03-09 14:36:49] [ANTIAMNESIA]   OK estado:    estado_06-MONITOR.json
+[2026-03-09 14:36:49] [ANTIAMNESIA]   OK engranaje: engranaje_06-MONITOR.json
+[2026-03-09 14:36:49] [ANTIAMNESIA]   OK sync:      sync_06-MONITOR.json
+[2026-03-09 14:36:49] [ANTIAMNESIA] FIN: revisión de MEMORIA/ACTUAL por ministerio
+[2026-03-09 14:36:49] [ANTIAMNESIA] INICIO: versionado de estado global
+[2026-03-09 14:36:49] [ANTIAMNESIA] Estado global versionado: snx_state_20260309-143649.json
+[2026-03-09 14:36:49] [ANTIAMNESIA] FIN: versionado de estado global
+[2026-03-09 14:36:49] [ANTIAMNESIA] Generando snapshot antiamnesia en /data/data/com.termux/files/home/soda/01-MEMORIA/ACTUAL/antiamnesia_snapshot.txt
+[2026-03-09 14:36:49] [ANTIAMNESIA] Snapshot antiamnesia actualizado: /data/data/com.termux/files/home/soda/01-MEMORIA/ACTUAL/antiamnesia_snapshot.txt
+[2026-03-09 14:36:49] [ANTIAMNESIA] FIN EJECUCION SNX-ANTIAMNESIA-SOBERANO-V3
+[2026-03-13 12:53:49] [MONITOR] Latido del sistema
+[2026-03-13 12:53:49] [ANTIAMNESIA] INICIO EJECUCION SNX-ANTIAMNESIA-SOBERANO-V3
+[2026-03-13 12:53:49] [ANTIAMNESIA] INICIO: verificación de integridad por HASHES existentes
+[2026-03-13 12:53:49] [ANTIAMNESIA] ALERTA: INTEGRIDAD VIOLADA: /data/data/com.termux/files/home/soda/00-GOBIERNO/snx_ia_gobierno.sh
+[2026-03-13 12:53:49] [ANTIAMNESIA]         HASH previo:  07c64d29d7c59fb275bd25a23bbfa7d65bfc8a6e6d609f1881bfc2e64b2cad6c  /data/data/com.termux/files/home/soda/00-GOBIERNO/snx_ia_gobierno.sh
+[2026-03-13 12:53:49] [ANTIAMNESIA]         HASH actual: 07c64d29d7c59fb275bd25a23bbfa7d65bfc8a6e6d609f1881bfc2e64b2cad6c
+[2026-03-13 12:53:49] [ANTIAMNESIA] ALERTA: INTEGRIDAD VIOLADA: /data/data/com.termux/files/home/soda/01-MEMORIA/snx_ia_memoria.sh
+[2026-03-13 12:53:49] [ANTIAMNESIA]         HASH previo:  7fa60816eebca455ec08307c779a368cdb129bd176cff2842a6f2fe53f69ca14
+[2026-03-13 12:53:49] [ANTIAMNESIA]         HASH actual: f01dd39e56f230731180aac636f59685b742763c767b5c31da4bffbe3c8c4d06
+[2026-03-13 12:53:50] [ANTIAMNESIA] OK HASH: /data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_ia_central.sh
+[2026-03-13 12:53:50] [ANTIAMNESIA] ALERTA: INTEGRIDAD VIOLADA: /data/data/com.termux/files/home/soda/02-SISTEMA/snx_ia_sistema.sh
+[2026-03-13 12:53:50] [ANTIAMNESIA]         HASH previo:  4118b7a1b5decd1448a8e77b6942e2fd3f115f9776cacdd4fdc99175ca4ea68f
+[2026-03-13 12:53:50] [ANTIAMNESIA]         HASH actual: a3b9fefcbe16f4a47dc88e82f27596e554b881b5e1948e307e48cb160965d202
+[2026-03-13 12:53:50] [ANTIAMNESIA] ALERTA: INTEGRIDAD VIOLADA: /data/data/com.termux/files/home/soda/03-OPERACIONES/snx_ia_operaciones.sh
+[2026-03-13 12:53:50] [ANTIAMNESIA]         HASH previo:  8822ffd5dcb3dded05f6cbdda01c2df4ab8fe32baf716602d78c3830df729bd5
+[2026-03-13 12:53:50] [ANTIAMNESIA]         HASH actual: 92547f7207fb052c549e18cb578b14959c6f2e5793acc34e001d442a200c54a3
+[2026-03-13 12:53:50] [ANTIAMNESIA] ALERTA: archivo objetivo desaparecido: /data/data/com.termux/files/home/soda/04-REGISTROS/snx_ia_registros.sh (hash: 04_REGISTROS_snx_ia_registros.sh.sha)
+[2026-03-13 12:53:50] [ANTIAMNESIA] ALERTA: INTEGRIDAD VIOLADA: /data/data/com.termux/files/home/soda/05-DOCUMENTACION/snx_ia_documentacion.sh
+[2026-03-13 12:53:50] [ANTIAMNESIA]         HASH previo:  fe64465f41c714073f7e8e602216d9733c2a8381820b0deae43bd15fcac3e8f0
+[2026-03-13 12:53:50] [ANTIAMNESIA]         HASH actual: 8d0fdc63ed32b8649ff198146a7e82b2b3f763fd1964175d55a89b7ad4562a35
+[2026-03-13 12:53:50] [ANTIAMNESIA] ALERTA: INTEGRIDAD VIOLADA: /data/data/com.termux/files/home/soda/06-MONITOR/snx_ia_monitor.sh
+[2026-03-13 12:53:50] [ANTIAMNESIA]         HASH previo:  26e6edaaab36d5118da14b30d2610205c7f1dccbf97a3bee62fc36331c2c2ec6
+[2026-03-13 12:53:50] [ANTIAMNESIA]         HASH actual: a5051c414d3c85a8d7c1c888ede12ea81f2eb4c2da637c7718e73c26f17a9c9e
+[2026-03-13 12:53:50] [ANTIAMNESIA] FIN: verificación de integridad por HASHES existentes
+[2026-03-13 12:53:50] [ANTIAMNESIA] INICIO: revisión de MEMORIA/ACTUAL por ministerio
+[2026-03-13 12:53:50] [ANTIAMNESIA] MINISTERIO: 00-GOBIERNO
+[2026-03-13 12:53:50] [ANTIAMNESIA]   OK estado:    estado_00-GOBIERNO.json
+[2026-03-13 12:53:50] [ANTIAMNESIA]   FALTA engranaje: engranaje_00-GOBIERNO.json
+[2026-03-13 12:53:50] [ANTIAMNESIA]   FALTA sync:      sync_00-GOBIERNO.json
+[2026-03-13 12:53:50] [ANTIAMNESIA] MINISTERIO: 01-MEMORIA
+[2026-03-13 12:53:50] [ANTIAMNESIA]   OK estado:    estado_01-MEMORIA.json
+[2026-03-13 12:53:50] [ANTIAMNESIA]   FALTA engranaje: engranaje_01-MEMORIA.json
+[2026-03-13 12:53:50] [ANTIAMNESIA]   FALTA sync:      sync_01-MEMORIA.json
+[2026-03-13 12:53:50] [ANTIAMNESIA] MINISTERIO: 02-SISTEMA
+[2026-03-13 12:53:50] [ANTIAMNESIA]   OK estado:    estado_02-SISTEMA.json
+[2026-03-13 12:53:50] [ANTIAMNESIA]   FALTA engranaje: engranaje_02-SISTEMA.json
+[2026-03-13 12:53:50] [ANTIAMNESIA]   FALTA sync:      sync_02-SISTEMA.json
+[2026-03-13 12:53:51] [ANTIAMNESIA] MINISTERIO: 03-OPERACIONES
+[2026-03-13 12:53:51] [ANTIAMNESIA]   OK estado:    estado_03-OPERACIONES.json
+[2026-03-13 12:53:51] [ANTIAMNESIA]   FALTA engranaje: engranaje_03-OPERACIONES.json
+[2026-03-13 12:53:51] [ANTIAMNESIA]   FALTA sync:      sync_03-OPERACIONES.json
+[2026-03-13 12:53:51] [ANTIAMNESIA] MINISTERIO: 04-REGISTROS
+[2026-03-13 12:53:51] [ANTIAMNESIA]   OK estado:    estado_04-REGISTROS.json
+[2026-03-13 12:53:51] [ANTIAMNESIA]   OK engranaje: engranaje_04-REGISTROS.json
+[2026-03-13 12:53:51] [ANTIAMNESIA]   OK sync:      sync_04-REGISTROS.json
+[2026-03-13 12:53:51] [ANTIAMNESIA] MINISTERIO: 05-DOCUMENTACION
+[2026-03-13 12:53:51] [ANTIAMNESIA]   OK estado:    estado_05-DOCUMENTACION.json
+[2026-03-13 12:53:51] [ANTIAMNESIA]   OK engranaje: engranaje_05-DOCUMENTACION.json
+[2026-03-13 12:53:51] [ANTIAMNESIA]   OK sync:      sync_05-DOCUMENTACION.json
+[2026-03-13 12:53:51] [ANTIAMNESIA] MINISTERIO: 06-MONITOR
+[2026-03-13 12:53:51] [ANTIAMNESIA]   OK estado:    estado_06-MONITOR.json
+[2026-03-13 12:53:51] [ANTIAMNESIA]   FALTA engranaje: engranaje_06-MONITOR.json
+[2026-03-13 12:53:51] [ANTIAMNESIA]   FALTA sync:      sync_06-MONITOR.json
+[2026-03-13 12:53:51] [ANTIAMNESIA] FIN: revisión de MEMORIA/ACTUAL por ministerio
+[2026-03-13 12:53:51] [ANTIAMNESIA] INICIO: versionado de estado global
+[2026-03-13 12:53:51] [ANTIAMNESIA] Estado global versionado: snx_state_20260313-125351.json
+[2026-03-13 12:53:51] [ANTIAMNESIA] FIN: versionado de estado global
+[2026-03-13 12:53:51] [ANTIAMNESIA] Generando snapshot antiamnesia en /data/data/com.termux/files/home/soda/01-MEMORIA/ACTUAL/antiamnesia_snapshot.txt
+[2026-03-13 12:53:51] [ANTIAMNESIA] Snapshot antiamnesia actualizado: /data/data/com.termux/files/home/soda/01-MEMORIA/ACTUAL/antiamnesia_snapshot.txt
+[2026-03-13 12:53:51] [ANTIAMNESIA] FIN EJECUCION SNX-ANTIAMNESIA-SOBERANO-V3
+[2026-03-13 12:54:51] [MONITOR] Latido del sistema
+[2026-03-13 12:54:51] [ANTIAMNESIA] INICIO EJECUCION SNX-ANTIAMNESIA-SOBERANO-V3
+[2026-03-13 12:54:51] [ANTIAMNESIA] INICIO: verificación de integridad por HASHES existentes
+[2026-03-13 12:54:52] [ANTIAMNESIA] ALERTA: INTEGRIDAD VIOLADA: /data/data/com.termux/files/home/soda/00-GOBIERNO/snx_ia_gobierno.sh
+[2026-03-13 12:54:52] [ANTIAMNESIA]         HASH previo:  07c64d29d7c59fb275bd25a23bbfa7d65bfc8a6e6d609f1881bfc2e64b2cad6c  /data/data/com.termux/files/home/soda/00-GOBIERNO/snx_ia_gobierno.sh
+[2026-03-13 12:54:52] [ANTIAMNESIA]         HASH actual: 07c64d29d7c59fb275bd25a23bbfa7d65bfc8a6e6d609f1881bfc2e64b2cad6c
+[2026-03-13 12:54:52] [ANTIAMNESIA] ALERTA: INTEGRIDAD VIOLADA: /data/data/com.termux/files/home/soda/01-MEMORIA/snx_ia_memoria.sh
+[2026-03-13 12:54:52] [ANTIAMNESIA]         HASH previo:  7fa60816eebca455ec08307c779a368cdb129bd176cff2842a6f2fe53f69ca14
+[2026-03-13 12:54:52] [ANTIAMNESIA]         HASH actual: f01dd39e56f230731180aac636f59685b742763c767b5c31da4bffbe3c8c4d06
+[2026-03-13 12:54:52] [ANTIAMNESIA] OK HASH: /data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_ia_central.sh
+[2026-03-13 12:54:52] [ANTIAMNESIA] ALERTA: INTEGRIDAD VIOLADA: /data/data/com.termux/files/home/soda/02-SISTEMA/snx_ia_sistema.sh
+[2026-03-13 12:54:52] [ANTIAMNESIA]         HASH previo:  4118b7a1b5decd1448a8e77b6942e2fd3f115f9776cacdd4fdc99175ca4ea68f
+[2026-03-13 12:54:52] [ANTIAMNESIA]         HASH actual: a3b9fefcbe16f4a47dc88e82f27596e554b881b5e1948e307e48cb160965d202
+[2026-03-13 12:54:52] [ANTIAMNESIA] ALERTA: INTEGRIDAD VIOLADA: /data/data/com.termux/files/home/soda/03-OPERACIONES/snx_ia_operaciones.sh
+[2026-03-13 12:54:52] [ANTIAMNESIA]         HASH previo:  8822ffd5dcb3dded05f6cbdda01c2df4ab8fe32baf716602d78c3830df729bd5
+[2026-03-13 12:54:52] [ANTIAMNESIA]         HASH actual: 92547f7207fb052c549e18cb578b14959c6f2e5793acc34e001d442a200c54a3
+[2026-03-13 12:54:52] [ANTIAMNESIA] ALERTA: archivo objetivo desaparecido: /data/data/com.termux/files/home/soda/04-REGISTROS/snx_ia_registros.sh (hash: 04_REGISTROS_snx_ia_registros.sh.sha)
+[2026-03-13 12:54:52] [ANTIAMNESIA] ALERTA: INTEGRIDAD VIOLADA: /data/data/com.termux/files/home/soda/05-DOCUMENTACION/snx_ia_documentacion.sh
+[2026-03-13 12:54:52] [ANTIAMNESIA]         HASH previo:  fe64465f41c714073f7e8e602216d9733c2a8381820b0deae43bd15fcac3e8f0
+[2026-03-13 12:54:52] [ANTIAMNESIA]         HASH actual: 8d0fdc63ed32b8649ff198146a7e82b2b3f763fd1964175d55a89b7ad4562a35
+[2026-03-13 12:54:52] [ANTIAMNESIA] ALERTA: INTEGRIDAD VIOLADA: /data/data/com.termux/files/home/soda/06-MONITOR/snx_ia_monitor.sh
+[2026-03-13 12:54:52] [ANTIAMNESIA]         HASH previo:  26e6edaaab36d5118da14b30d2610205c7f1dccbf97a3bee62fc36331c2c2ec6
+[2026-03-13 12:54:52] [ANTIAMNESIA]         HASH actual: a5051c414d3c85a8d7c1c888ede12ea81f2eb4c2da637c7718e73c26f17a9c9e
+[2026-03-13 12:54:52] [ANTIAMNESIA] FIN: verificación de integridad por HASHES existentes
+[2026-03-13 12:54:52] [ANTIAMNESIA] INICIO: revisión de MEMORIA/ACTUAL por ministerio
+[2026-03-13 12:54:52] [ANTIAMNESIA] MINISTERIO: 00-GOBIERNO
+[2026-03-13 12:54:52] [ANTIAMNESIA]   OK estado:    estado_00-GOBIERNO.json
+[2026-03-13 12:54:53] [ANTIAMNESIA]   FALTA engranaje: engranaje_00-GOBIERNO.json
+[2026-03-13 12:54:53] [ANTIAMNESIA]   FALTA sync:      sync_00-GOBIERNO.json
+[2026-03-13 12:54:53] [ANTIAMNESIA] MINISTERIO: 01-MEMORIA
+[2026-03-13 12:54:53] [ANTIAMNESIA]   OK estado:    estado_01-MEMORIA.json
+[2026-03-13 12:54:53] [ANTIAMNESIA]   FALTA engranaje: engranaje_01-MEMORIA.json
+[2026-03-13 12:54:53] [ANTIAMNESIA]   FALTA sync:      sync_01-MEMORIA.json
+[2026-03-13 12:54:53] [ANTIAMNESIA] MINISTERIO: 02-SISTEMA
+[2026-03-13 12:54:53] [ANTIAMNESIA]   OK estado:    estado_02-SISTEMA.json
+[2026-03-13 12:54:53] [ANTIAMNESIA]   FALTA engranaje: engranaje_02-SISTEMA.json
+[2026-03-13 12:54:53] [ANTIAMNESIA]   FALTA sync:      sync_02-SISTEMA.json
+[2026-03-13 12:54:53] [ANTIAMNESIA] MINISTERIO: 03-OPERACIONES
+[2026-03-13 12:54:53] [ANTIAMNESIA]   OK estado:    estado_03-OPERACIONES.json
+[2026-03-13 12:54:53] [ANTIAMNESIA]   FALTA engranaje: engranaje_03-OPERACIONES.json
+[2026-03-13 12:54:53] [ANTIAMNESIA]   FALTA sync:      sync_03-OPERACIONES.json
+[2026-03-13 12:54:53] [ANTIAMNESIA] MINISTERIO: 04-REGISTROS
+[2026-03-13 12:54:53] [ANTIAMNESIA]   OK estado:    estado_04-REGISTROS.json
+[2026-03-13 12:54:53] [ANTIAMNESIA]   OK engranaje: engranaje_04-REGISTROS.json
+[2026-03-13 12:54:53] [ANTIAMNESIA]   OK sync:      sync_04-REGISTROS.json
+[2026-03-13 12:54:53] [ANTIAMNESIA] MINISTERIO: 05-DOCUMENTACION
+[2026-03-13 12:54:53] [ANTIAMNESIA]   OK estado:    estado_05-DOCUMENTACION.json
+[2026-03-13 12:54:53] [ANTIAMNESIA]   OK engranaje: engranaje_05-DOCUMENTACION.json
+[2026-03-13 12:54:53] [ANTIAMNESIA]   OK sync:      sync_05-DOCUMENTACION.json
+[2026-03-13 12:54:53] [ANTIAMNESIA] MINISTERIO: 06-MONITOR
+[2026-03-13 12:54:53] [ANTIAMNESIA]   OK estado:    estado_06-MONITOR.json
+[2026-03-13 12:54:53] [ANTIAMNESIA]   FALTA engranaje: engranaje_06-MONITOR.json
+[2026-03-13 12:54:53] [ANTIAMNESIA]   FALTA sync:      sync_06-MONITOR.json
+[2026-03-13 12:54:53] [ANTIAMNESIA] FIN: revisión de MEMORIA/ACTUAL por ministerio
+[2026-03-13 12:54:53] [ANTIAMNESIA] INICIO: versionado de estado global
+[2026-03-13 12:54:53] [ANTIAMNESIA] Estado global versionado: snx_state_20260313-125453.json
+[2026-03-13 12:54:53] [ANTIAMNESIA] FIN: versionado de estado global
+[2026-03-13 12:54:53] [ANTIAMNESIA] Generando snapshot antiamnesia en /data/data/com.termux/files/home/soda/01-MEMORIA/ACTUAL/antiamnesia_snapshot.txt
+[2026-03-13 12:54:54] [ANTIAMNESIA] Snapshot antiamnesia actualizado: /data/data/com.termux/files/home/soda/01-MEMORIA/ACTUAL/antiamnesia_snapshot.txt
+[2026-03-13 12:54:54] [ANTIAMNESIA] FIN EJECUCION SNX-ANTIAMNESIA-SOBERANO-V3
+[2026-03-13 12:55:54] [MONITOR] Latido del sistema
+[2026-03-13 12:55:54] [ANTIAMNESIA] INICIO EJECUCION SNX-ANTIAMNESIA-SOBERANO-V3
+[2026-03-13 12:55:54] [ANTIAMNESIA] INICIO: verificación de integridad por HASHES existentes
+[2026-03-13 12:55:54] [ANTIAMNESIA] ALERTA: INTEGRIDAD VIOLADA: /data/data/com.termux/files/home/soda/00-GOBIERNO/snx_ia_gobierno.sh
+[2026-03-13 12:55:54] [ANTIAMNESIA]         HASH previo:  07c64d29d7c59fb275bd25a23bbfa7d65bfc8a6e6d609f1881bfc2e64b2cad6c  /data/data/com.termux/files/home/soda/00-GOBIERNO/snx_ia_gobierno.sh
+[2026-03-13 12:55:54] [ANTIAMNESIA]         HASH actual: 07c64d29d7c59fb275bd25a23bbfa7d65bfc8a6e6d609f1881bfc2e64b2cad6c
+[2026-03-13 12:55:54] [ANTIAMNESIA] ALERTA: INTEGRIDAD VIOLADA: /data/data/com.termux/files/home/soda/01-MEMORIA/snx_ia_memoria.sh
+[2026-03-13 12:55:54] [ANTIAMNESIA]         HASH previo:  7fa60816eebca455ec08307c779a368cdb129bd176cff2842a6f2fe53f69ca14
+[2026-03-13 12:55:54] [ANTIAMNESIA]         HASH actual: f01dd39e56f230731180aac636f59685b742763c767b5c31da4bffbe3c8c4d06
+[2026-03-13 12:55:54] [ANTIAMNESIA] OK HASH: /data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_ia_central.sh
+[2026-03-13 12:55:54] [ANTIAMNESIA] ALERTA: INTEGRIDAD VIOLADA: /data/data/com.termux/files/home/soda/02-SISTEMA/snx_ia_sistema.sh
+[2026-03-13 12:55:54] [ANTIAMNESIA]         HASH previo:  4118b7a1b5decd1448a8e77b6942e2fd3f115f9776cacdd4fdc99175ca4ea68f
+[2026-03-13 12:55:54] [ANTIAMNESIA]         HASH actual: a3b9fefcbe16f4a47dc88e82f27596e554b881b5e1948e307e48cb160965d202
+[2026-03-13 12:55:54] [ANTIAMNESIA] ALERTA: INTEGRIDAD VIOLADA: /data/data/com.termux/files/home/soda/03-OPERACIONES/snx_ia_operaciones.sh
+[2026-03-13 12:55:54] [ANTIAMNESIA]         HASH previo:  8822ffd5dcb3dded05f6cbdda01c2df4ab8fe32baf716602d78c3830df729bd5
+[2026-03-13 12:55:54] [ANTIAMNESIA]         HASH actual: 92547f7207fb052c549e18cb578b14959c6f2e5793acc34e001d442a200c54a3
+[2026-03-13 12:55:54] [ANTIAMNESIA] ALERTA: archivo objetivo desaparecido: /data/data/com.termux/files/home/soda/04-REGISTROS/snx_ia_registros.sh (hash: 04_REGISTROS_snx_ia_registros.sh.sha)
+[2026-03-13 12:55:54] [ANTIAMNESIA] ALERTA: INTEGRIDAD VIOLADA: /data/data/com.termux/files/home/soda/05-DOCUMENTACION/snx_ia_documentacion.sh
+[2026-03-13 12:55:54] [ANTIAMNESIA]         HASH previo:  fe64465f41c714073f7e8e602216d9733c2a8381820b0deae43bd15fcac3e8f0
+[2026-03-13 12:55:54] [ANTIAMNESIA]         HASH actual: 8d0fdc63ed32b8649ff198146a7e82b2b3f763fd1964175d55a89b7ad4562a35
+[2026-03-13 12:55:55] [ANTIAMNESIA] ALERTA: INTEGRIDAD VIOLADA: /data/data/com.termux/files/home/soda/06-MONITOR/snx_ia_monitor.sh
+[2026-03-13 12:55:55] [ANTIAMNESIA]         HASH previo:  26e6edaaab36d5118da14b30d2610205c7f1dccbf97a3bee62fc36331c2c2ec6
+[2026-03-13 12:55:55] [ANTIAMNESIA]         HASH actual: a5051c414d3c85a8d7c1c888ede12ea81f2eb4c2da637c7718e73c26f17a9c9e
+[2026-03-13 12:55:55] [ANTIAMNESIA] FIN: verificación de integridad por HASHES existentes
+[2026-03-13 12:55:55] [ANTIAMNESIA] INICIO: revisión de MEMORIA/ACTUAL por ministerio
+[2026-03-13 12:55:55] [ANTIAMNESIA] MINISTERIO: 00-GOBIERNO
+[2026-03-13 12:55:55] [ANTIAMNESIA]   OK estado:    estado_00-GOBIERNO.json
+[2026-03-13 12:55:55] [ANTIAMNESIA]   FALTA engranaje: engranaje_00-GOBIERNO.json
+[2026-03-13 12:55:55] [ANTIAMNESIA]   FALTA sync:      sync_00-GOBIERNO.json
+[2026-03-13 12:55:55] [ANTIAMNESIA] MINISTERIO: 01-MEMORIA
+[2026-03-13 12:55:55] [ANTIAMNESIA]   OK estado:    estado_01-MEMORIA.json
+[2026-03-13 12:55:55] [ANTIAMNESIA]   FALTA engranaje: engranaje_01-MEMORIA.json
+[2026-03-13 12:55:55] [ANTIAMNESIA]   FALTA sync:      sync_01-MEMORIA.json
+[2026-03-13 12:55:55] [ANTIAMNESIA] MINISTERIO: 02-SISTEMA
+[2026-03-13 12:55:55] [ANTIAMNESIA]   OK estado:    estado_02-SISTEMA.json
+[2026-03-13 12:55:55] [ANTIAMNESIA]   FALTA engranaje: engranaje_02-SISTEMA.json
+[2026-03-13 12:55:55] [ANTIAMNESIA]   FALTA sync:      sync_02-SISTEMA.json
+[2026-03-13 12:55:55] [ANTIAMNESIA] MINISTERIO: 03-OPERACIONES
+[2026-03-13 12:55:55] [ANTIAMNESIA]   OK estado:    estado_03-OPERACIONES.json
+[2026-03-13 12:55:55] [ANTIAMNESIA]   FALTA engranaje: engranaje_03-OPERACIONES.json
+[2026-03-13 12:55:55] [ANTIAMNESIA]   FALTA sync:      sync_03-OPERACIONES.json
+[2026-03-13 12:55:55] [ANTIAMNESIA] MINISTERIO: 04-REGISTROS
+[2026-03-13 12:55:55] [ANTIAMNESIA]   OK estado:    estado_04-REGISTROS.json
+[2026-03-13 12:55:55] [ANTIAMNESIA]   OK engranaje: engranaje_04-REGISTROS.json
+[2026-03-13 12:55:55] [ANTIAMNESIA]   OK sync:      sync_04-REGISTROS.json
+[2026-03-13 12:55:55] [ANTIAMNESIA] MINISTERIO: 05-DOCUMENTACION
+[2026-03-13 12:55:55] [ANTIAMNESIA]   OK estado:    estado_05-DOCUMENTACION.json
+[2026-03-13 12:55:55] [ANTIAMNESIA]   OK engranaje: engranaje_05-DOCUMENTACION.json
+[2026-03-13 12:55:55] [ANTIAMNESIA]   OK sync:      sync_05-DOCUMENTACION.json
+[2026-03-13 12:55:55] [ANTIAMNESIA] MINISTERIO: 06-MONITOR
+[2026-03-13 12:55:55] [ANTIAMNESIA]   OK estado:    estado_06-MONITOR.json
+[2026-03-13 12:55:55] [ANTIAMNESIA]   FALTA engranaje: engranaje_06-MONITOR.json
+[2026-03-13 12:55:55] [ANTIAMNESIA]   FALTA sync:      sync_06-MONITOR.json
+[2026-03-13 12:55:56] [ANTIAMNESIA] FIN: revisión de MEMORIA/ACTUAL por ministerio
+[2026-03-13 12:55:56] [ANTIAMNESIA] INICIO: versionado de estado global
+[2026-03-13 12:55:56] [ANTIAMNESIA] Estado global versionado: snx_state_20260313-125556.json
+[2026-03-13 12:55:56] [ANTIAMNESIA] FIN: versionado de estado global
+[2026-03-13 12:55:56] [ANTIAMNESIA] Generando snapshot antiamnesia en /data/data/com.termux/files/home/soda/01-MEMORIA/ACTUAL/antiamnesia_snapshot.txt
+[2026-03-13 12:55:56] [ANTIAMNESIA] Snapshot antiamnesia actualizado: /data/data/com.termux/files/home/soda/01-MEMORIA/ACTUAL/antiamnesia_snapshot.txt
+[2026-03-13 12:55:56] [ANTIAMNESIA] FIN EJECUCION SNX-ANTIAMNESIA-SOBERANO-V3
