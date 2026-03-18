@@ -1,8 +1,0 @@
-=== ÍNDICE CRONOLÓGICO DE SESIONES SODA-NEXUS ===
-total 24
--rw-------. 1 u0_a287 u0_a287 554 Mar 11 13:41 2026-03-11_174125_ia_sesion.json
--rw-------. 1 u0_a287 u0_a287 335 Mar 11 11:35 2026-03-11_153556_ia_sesion.json
--rw-------. 1 u0_a287 u0_a287 342 Mar 11 09:15 2026-03-11_131524_ia_sesion.json
--rw-------. 1 u0_a287 u0_a287 342 Mar 11 09:15 2026-03-11_131510_ia_sesion.json
--rw-------. 1 u0_a287 u0_a287 208 Mar 10 16:53 2026-03-10_205314_ia_sesion.json
--rw-------. 1 u0_a287 u0_a287 330 Mar  9 20:49 2026-03-10_004954_ia_sesion.json
