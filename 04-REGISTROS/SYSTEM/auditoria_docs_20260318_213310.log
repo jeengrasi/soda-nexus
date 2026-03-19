@@ -1,0 +1,291 @@
+=== SNX — AUDITORÍA PROFUNDA DE /docs V1 ===
+Fecha: Wed Mar 18 21:33:10 EDT 2026
+
+============================================================
+🔍 [1] Listado completo de archivos en /docs...
+/data/data/com.termux/files/home/soda/docs/index.html
+/data/data/com.termux/files/home/soda/docs/config-v4.js
+/data/data/com.termux/files/home/soda/docs/.nojekyll
+/data/data/com.termux/files/home/soda/docs/monitor_data.json
+/data/data/com.termux/files/home/soda/docs/snx_monitor_backend.js
+/data/data/com.termux/files/home/soda/docs/ia.js
+/data/data/com.termux/files/home/soda/docs/monitor.js
+/data/data/com.termux/files/home/soda/docs/config.js
+/data/data/com.termux/files/home/soda/docs/panel-institucional.js
+/data/data/com.termux/files/home/soda/docs/snx-logs.js
+/data/data/com.termux/files/home/soda/docs/monitor-v4.js
+/data/data/com.termux/files/home/soda/docs/panel-institucional-v4.js
+/data/data/com.termux/files/home/soda/docs/snx-logs-v4.js
+/data/data/com.termux/files/home/soda/docs/api.js
+/data/data/com.termux/files/home/soda/docs/svelte.config.js
+/data/data/com.termux/files/home/soda/docs/vite.config.js
+/data/data/com.termux/files/home/soda/docs/monitor-2.js
+/data/data/com.termux/files/home/soda/docs/snx-logs-2.js
+/data/data/com.termux/files/home/soda/docs/panel_institucional_v1.js
+/data/data/com.termux/files/home/soda/docs/extensiones_monitor_v1.js
+/data/data/com.termux/files/home/soda/docs/MAPA_SOBERANO.json
+/data/data/com.termux/files/home/soda/docs/snx_state.json
+/data/data/com.termux/files/home/soda/docs/snx_contexto_soberano.json
+/data/data/com.termux/files/home/soda/docs/estado_central_V4.json
+/data/data/com.termux/files/home/soda/docs/MONITOR-OFICIAL_V4.json
+/data/data/com.termux/files/home/soda/docs/monitor_estado_V4.json
+/data/data/com.termux/files/home/soda/docs/MANIFIESTO_SOBERANO_V4.json
+/data/data/com.termux/files/home/soda/docs/CURRENT_MOTOR.json
+/data/data/com.termux/files/home/soda/docs/status.json
+/data/data/com.termux/files/home/soda/docs/allowed_scripts.json
+/data/data/com.termux/files/home/soda/docs/allowed_scripts_v1.json
+/data/data/com.termux/files/home/soda/docs/BACKEND-MONITOR-REGISTRO.json
+/data/data/com.termux/files/home/soda/docs/hashes_baseline.json
+/data/data/com.termux/files/home/soda/docs/diff_2026-03-04_20-54-00.json
+/data/data/com.termux/files/home/soda/docs/diff_2026-03-04_20-56-06.json
+/data/data/com.termux/files/home/soda/docs/2026-03-10_004954_ia_sesion.json
+/data/data/com.termux/files/home/soda/docs/2026-03-10_205314_ia_sesion.json
+/data/data/com.termux/files/home/soda/docs/2026-03-11_131510_ia_sesion.json
+/data/data/com.termux/files/home/soda/docs/2026-03-11_131524_ia_sesion.json
+/data/data/com.termux/files/home/soda/docs/2026-03-11_153556_ia_sesion.json
+/data/data/com.termux/files/home/soda/docs/2026-03-11_174125_ia_sesion.json
+/data/data/com.termux/files/home/soda/docs/extensions.json
+/data/data/com.termux/files/home/soda/docs/jsconfig.json
+/data/data/com.termux/files/home/soda/docs/package.json
+/data/data/com.termux/files/home/soda/docs/package-lock.json
+/data/data/com.termux/files/home/soda/docs/estado_version.json
+/data/data/com.termux/files/home/soda/docs/snx_state_20260309-133638.json
+/data/data/com.termux/files/home/soda/docs/snx_state_20260309-143034.json
+/data/data/com.termux/files/home/soda/docs/snx_state_20260309-143136.json
+/data/data/com.termux/files/home/soda/docs/snx_state_20260309-143239.json
+/data/data/com.termux/files/home/soda/docs/snx_state_20260309-143341.json
+/data/data/com.termux/files/home/soda/docs/snx_state_20260309-143444.json
+/data/data/com.termux/files/home/soda/docs/snx_state_20260309-143546.json
+/data/data/com.termux/files/home/soda/docs/snx_state_20260309-143649.json
+/data/data/com.termux/files/home/soda/docs/snx_state_20260309-143851.json
+/data/data/com.termux/files/home/soda/docs/snx_state_20260309-144136.json
+/data/data/com.termux/files/home/soda/docs/snx_state_20260309-145315.json
+/data/data/com.termux/files/home/soda/docs/snx_state_20260309-145349.json
+/data/data/com.termux/files/home/soda/docs/snx_state_20260313-125351.json
+/data/data/com.termux/files/home/soda/docs/snx_state_20260313-125453.json
+/data/data/com.termux/files/home/soda/docs/snx_state_20260313-125556.json
+/data/data/com.termux/files/home/soda/docs/estado_00-GOBIERNO.json
+/data/data/com.termux/files/home/soda/docs/estado_01-MEMORIA.json
+/data/data/com.termux/files/home/soda/docs/estado_02-SISTEMA.json
+/data/data/com.termux/files/home/soda/docs/estado_03-OPERACIONES.json
+/data/data/com.termux/files/home/soda/docs/estado_04-REGISTROS.json
+/data/data/com.termux/files/home/soda/docs/estado_05-DOCUMENTACION.json
+/data/data/com.termux/files/home/soda/docs/paquete_contexto_ia.json
+/data/data/com.termux/files/home/soda/docs/sync_04-REGISTROS.json
+/data/data/com.termux/files/home/soda/docs/monitor_data_snapshot.json
+/data/data/com.termux/files/home/soda/docs/estado_06-MONITOR.json
+/data/data/com.termux/files/home/soda/docs/ENGRANAJE-MAESTRO-V4.json
+/data/data/com.termux/files/home/soda/docs/engranaje_04-REGISTROS.json
+/data/data/com.termux/files/home/soda/docs/engranaje_05-DOCUMENTACION.json
+/data/data/com.termux/files/home/soda/docs/sync_05-DOCUMENTACION.json
+
+============================================================
+🔍 [2] Duplicados por nombre...
+
+============================================================
+🔍 [3] Archivos sospechosos para GitHub Pages...
+/data/data/com.termux/files/home/soda/docs/index.html
+/data/data/com.termux/files/home/soda/docs/config-v4.js
+/data/data/com.termux/files/home/soda/docs/.nojekyll
+/data/data/com.termux/files/home/soda/docs/monitor_data.json
+/data/data/com.termux/files/home/soda/docs/snx_monitor_backend.js
+/data/data/com.termux/files/home/soda/docs/ia.js
+/data/data/com.termux/files/home/soda/docs/monitor.js
+/data/data/com.termux/files/home/soda/docs/config.js
+/data/data/com.termux/files/home/soda/docs/panel-institucional.js
+/data/data/com.termux/files/home/soda/docs/snx-logs.js
+/data/data/com.termux/files/home/soda/docs/monitor-v4.js
+/data/data/com.termux/files/home/soda/docs/panel-institucional-v4.js
+/data/data/com.termux/files/home/soda/docs/snx-logs-v4.js
+/data/data/com.termux/files/home/soda/docs/api.js
+/data/data/com.termux/files/home/soda/docs/svelte.config.js
+/data/data/com.termux/files/home/soda/docs/vite.config.js
+/data/data/com.termux/files/home/soda/docs/monitor-2.js
+/data/data/com.termux/files/home/soda/docs/snx-logs-2.js
+/data/data/com.termux/files/home/soda/docs/panel_institucional_v1.js
+/data/data/com.termux/files/home/soda/docs/extensiones_monitor_v1.js
+/data/data/com.termux/files/home/soda/docs/MAPA_SOBERANO.json
+/data/data/com.termux/files/home/soda/docs/snx_state.json
+/data/data/com.termux/files/home/soda/docs/snx_contexto_soberano.json
+/data/data/com.termux/files/home/soda/docs/estado_central_V4.json
+/data/data/com.termux/files/home/soda/docs/MONITOR-OFICIAL_V4.json
+/data/data/com.termux/files/home/soda/docs/monitor_estado_V4.json
+/data/data/com.termux/files/home/soda/docs/MANIFIESTO_SOBERANO_V4.json
+/data/data/com.termux/files/home/soda/docs/CURRENT_MOTOR.json
+/data/data/com.termux/files/home/soda/docs/status.json
+/data/data/com.termux/files/home/soda/docs/allowed_scripts.json
+/data/data/com.termux/files/home/soda/docs/allowed_scripts_v1.json
+/data/data/com.termux/files/home/soda/docs/BACKEND-MONITOR-REGISTRO.json
+/data/data/com.termux/files/home/soda/docs/hashes_baseline.json
+/data/data/com.termux/files/home/soda/docs/diff_2026-03-04_20-54-00.json
+/data/data/com.termux/files/home/soda/docs/diff_2026-03-04_20-56-06.json
+/data/data/com.termux/files/home/soda/docs/2026-03-10_004954_ia_sesion.json
+/data/data/com.termux/files/home/soda/docs/2026-03-10_205314_ia_sesion.json
+/data/data/com.termux/files/home/soda/docs/2026-03-11_131510_ia_sesion.json
+/data/data/com.termux/files/home/soda/docs/2026-03-11_131524_ia_sesion.json
+/data/data/com.termux/files/home/soda/docs/2026-03-11_153556_ia_sesion.json
+/data/data/com.termux/files/home/soda/docs/2026-03-11_174125_ia_sesion.json
+/data/data/com.termux/files/home/soda/docs/extensions.json
+/data/data/com.termux/files/home/soda/docs/jsconfig.json
+/data/data/com.termux/files/home/soda/docs/package.json
+/data/data/com.termux/files/home/soda/docs/package-lock.json
+/data/data/com.termux/files/home/soda/docs/estado_version.json
+/data/data/com.termux/files/home/soda/docs/snx_state_20260309-133638.json
+/data/data/com.termux/files/home/soda/docs/snx_state_20260309-143034.json
+/data/data/com.termux/files/home/soda/docs/snx_state_20260309-143136.json
+/data/data/com.termux/files/home/soda/docs/snx_state_20260309-143239.json
+/data/data/com.termux/files/home/soda/docs/snx_state_20260309-143341.json
+/data/data/com.termux/files/home/soda/docs/snx_state_20260309-143444.json
+/data/data/com.termux/files/home/soda/docs/snx_state_20260309-143546.json
+/data/data/com.termux/files/home/soda/docs/snx_state_20260309-143649.json
+/data/data/com.termux/files/home/soda/docs/snx_state_20260309-143851.json
+/data/data/com.termux/files/home/soda/docs/snx_state_20260309-144136.json
+/data/data/com.termux/files/home/soda/docs/snx_state_20260309-145315.json
+/data/data/com.termux/files/home/soda/docs/snx_state_20260309-145349.json
+/data/data/com.termux/files/home/soda/docs/snx_state_20260313-125351.json
+/data/data/com.termux/files/home/soda/docs/snx_state_20260313-125453.json
+/data/data/com.termux/files/home/soda/docs/snx_state_20260313-125556.json
+/data/data/com.termux/files/home/soda/docs/estado_00-GOBIERNO.json
+/data/data/com.termux/files/home/soda/docs/estado_01-MEMORIA.json
+/data/data/com.termux/files/home/soda/docs/estado_02-SISTEMA.json
+/data/data/com.termux/files/home/soda/docs/estado_03-OPERACIONES.json
+/data/data/com.termux/files/home/soda/docs/estado_04-REGISTROS.json
+/data/data/com.termux/files/home/soda/docs/estado_05-DOCUMENTACION.json
+/data/data/com.termux/files/home/soda/docs/paquete_contexto_ia.json
+/data/data/com.termux/files/home/soda/docs/sync_04-REGISTROS.json
+/data/data/com.termux/files/home/soda/docs/monitor_data_snapshot.json
+/data/data/com.termux/files/home/soda/docs/estado_06-MONITOR.json
+/data/data/com.termux/files/home/soda/docs/ENGRANAJE-MAESTRO-V4.json
+/data/data/com.termux/files/home/soda/docs/engranaje_04-REGISTROS.json
+/data/data/com.termux/files/home/soda/docs/engranaje_05-DOCUMENTACION.json
+/data/data/com.termux/files/home/soda/docs/sync_05-DOCUMENTACION.json
+
+============================================================
+🔍 [4] Archivos que podrían activar Jekyll...
+
+============================================================
+🔍 [5] Archivos mayores a 1MB...
+
+============================================================
+🔍 [6] Archivos con BOM UTF-8...
+
+============================================================
+🔍 [7] Archivos con permisos incorrectos...
+-rw-------. 1 u0_a287 u0_a287 10198 Mar 18 12:49 /data/data/com.termux/files/home/soda/docs/index.html
+-rw-------. 1 u0_a287 u0_a287 1499 Mar 18 20:16 /data/data/com.termux/files/home/soda/docs/config-v4.js
+-rw-------. 1 u0_a287 u0_a287 0 Mar 18 12:28 /data/data/com.termux/files/home/soda/docs/.nojekyll
+-rw-------. 1 u0_a287 u0_a287 185 Mar 18 20:16 /data/data/com.termux/files/home/soda/docs/monitor_data.json
+-rwx------. 1 u0_a287 u0_a287 830 Mar 18 20:16 /data/data/com.termux/files/home/soda/docs/snx_monitor_backend.js
+-rw-------. 1 u0_a287 u0_a287 834 Mar 18 20:16 /data/data/com.termux/files/home/soda/docs/ia.js
+-rw-------. 1 u0_a287 u0_a287 3383 Mar 18 20:16 /data/data/com.termux/files/home/soda/docs/monitor.js
+-rw-------. 1 u0_a287 u0_a287 1498 Mar 18 20:16 /data/data/com.termux/files/home/soda/docs/config.js
+-rw-------. 1 u0_a287 u0_a287 2547 Mar 18 20:16 /data/data/com.termux/files/home/soda/docs/panel-institucional.js
+-rw-------. 1 u0_a287 u0_a287 2148 Mar 18 20:16 /data/data/com.termux/files/home/soda/docs/snx-logs.js
+-rw-------. 1 u0_a287 u0_a287 8720 Mar 18 20:16 /data/data/com.termux/files/home/soda/docs/monitor-v4.js
+-rw-------. 1 u0_a287 u0_a287 2547 Mar 18 20:16 /data/data/com.termux/files/home/soda/docs/panel-institucional-v4.js
+-rw-------. 1 u0_a287 u0_a287 2754 Mar 18 20:16 /data/data/com.termux/files/home/soda/docs/snx-logs-v4.js
+-rw-------. 1 u0_a287 u0_a287 617 Mar 18 20:16 /data/data/com.termux/files/home/soda/docs/api.js
+-rw-------. 1 u0_a287 u0_a287 295 Mar 18 20:16 /data/data/com.termux/files/home/soda/docs/svelte.config.js
+-rw-------. 1 u0_a287 u0_a287 175 Mar 18 20:16 /data/data/com.termux/files/home/soda/docs/vite.config.js
+-rw-------. 1 u0_a287 u0_a287 1078 Mar 18 20:16 /data/data/com.termux/files/home/soda/docs/monitor-2.js
+-rw-------. 1 u0_a287 u0_a287 1021 Mar 18 20:16 /data/data/com.termux/files/home/soda/docs/snx-logs-2.js
+-rw-------. 1 u0_a287 u0_a287 1944 Mar 18 20:16 /data/data/com.termux/files/home/soda/docs/panel_institucional_v1.js
+-rw-------. 1 u0_a287 u0_a287 789 Mar 18 20:16 /data/data/com.termux/files/home/soda/docs/extensiones_monitor_v1.js
+-rw-------. 1 u0_a287 u0_a287 423 Mar 18 20:16 /data/data/com.termux/files/home/soda/docs/MAPA_SOBERANO.json
+-rw-------. 1 u0_a287 u0_a287 326 Mar 18 20:16 /data/data/com.termux/files/home/soda/docs/snx_state.json
+-rw-------. 1 u0_a287 u0_a287 250 Mar 18 20:16 /data/data/com.termux/files/home/soda/docs/snx_contexto_soberano.json
+-rw-------. 1 u0_a287 u0_a287 341 Mar 18 20:16 /data/data/com.termux/files/home/soda/docs/estado_central_V4.json
+-rw-------. 1 u0_a287 u0_a287 243 Mar 18 20:16 /data/data/com.termux/files/home/soda/docs/MONITOR-OFICIAL_V4.json
+-rw-------. 1 u0_a287 u0_a287 107 Mar 18 20:16 /data/data/com.termux/files/home/soda/docs/monitor_estado_V4.json
+-rw-------. 1 u0_a287 u0_a287 216 Mar 18 20:16 /data/data/com.termux/files/home/soda/docs/MANIFIESTO_SOBERANO_V4.json
+-rw-------. 1 u0_a287 u0_a287 98 Mar 18 20:16 /data/data/com.termux/files/home/soda/docs/CURRENT_MOTOR.json
+-rw-------. 1 u0_a287 u0_a287 132 Mar 18 20:16 /data/data/com.termux/files/home/soda/docs/status.json
+-rw-------. 1 u0_a287 u0_a287 915 Mar 18 20:16 /data/data/com.termux/files/home/soda/docs/allowed_scripts.json
+-rw-------. 1 u0_a287 u0_a287 702 Mar 18 20:16 /data/data/com.termux/files/home/soda/docs/allowed_scripts_v1.json
+-rw-------. 1 u0_a287 u0_a287 856 Mar 18 20:16 /data/data/com.termux/files/home/soda/docs/BACKEND-MONITOR-REGISTRO.json
+-rw-------. 1 u0_a287 u0_a287 8363 Mar 18 20:16 /data/data/com.termux/files/home/soda/docs/hashes_baseline.json
+-rw-------. 1 u0_a287 u0_a287 3738 Mar 18 20:16 /data/data/com.termux/files/home/soda/docs/diff_2026-03-04_20-54-00.json
+-rw-------. 1 u0_a287 u0_a287 4154 Mar 18 20:16 /data/data/com.termux/files/home/soda/docs/diff_2026-03-04_20-56-06.json
+-rw-------. 1 u0_a287 u0_a287 330 Mar 18 20:16 /data/data/com.termux/files/home/soda/docs/2026-03-10_004954_ia_sesion.json
+-rw-------. 1 u0_a287 u0_a287 208 Mar 18 20:16 /data/data/com.termux/files/home/soda/docs/2026-03-10_205314_ia_sesion.json
+-rw-------. 1 u0_a287 u0_a287 342 Mar 18 20:16 /data/data/com.termux/files/home/soda/docs/2026-03-11_131510_ia_sesion.json
+-rw-------. 1 u0_a287 u0_a287 342 Mar 18 20:16 /data/data/com.termux/files/home/soda/docs/2026-03-11_131524_ia_sesion.json
+-rw-------. 1 u0_a287 u0_a287 335 Mar 18 20:16 /data/data/com.termux/files/home/soda/docs/2026-03-11_153556_ia_sesion.json
+-rw-------. 1 u0_a287 u0_a287 554 Mar 18 20:16 /data/data/com.termux/files/home/soda/docs/2026-03-11_174125_ia_sesion.json
+-rw-------. 1 u0_a287 u0_a287 50 Mar 18 20:16 /data/data/com.termux/files/home/soda/docs/extensions.json
+-rw-------. 1 u0_a287 u0_a287 968 Mar 18 20:16 /data/data/com.termux/files/home/soda/docs/jsconfig.json
+-rw-------. 1 u0_a287 u0_a287 300 Mar 18 20:16 /data/data/com.termux/files/home/soda/docs/package.json
+-rw-------. 1 u0_a287 u0_a287 44762 Mar 18 20:16 /data/data/com.termux/files/home/soda/docs/package-lock.json
+-rw-------. 1 u0_a287 u0_a287 237 Mar 18 20:16 /data/data/com.termux/files/home/soda/docs/estado_version.json
+-rw-------. 1 u0_a287 u0_a287 144 Mar 18 20:16 /data/data/com.termux/files/home/soda/docs/snx_state_20260309-133638.json
+-rw-------. 1 u0_a287 u0_a287 2029 Mar 18 20:16 /data/data/com.termux/files/home/soda/docs/snx_state_20260309-143034.json
+-rw-------. 1 u0_a287 u0_a287 2029 Mar 18 20:16 /data/data/com.termux/files/home/soda/docs/snx_state_20260309-143136.json
+-rw-------. 1 u0_a287 u0_a287 2029 Mar 18 20:16 /data/data/com.termux/files/home/soda/docs/snx_state_20260309-143239.json
+-rw-------. 1 u0_a287 u0_a287 2029 Mar 18 20:16 /data/data/com.termux/files/home/soda/docs/snx_state_20260309-143341.json
+-rw-------. 1 u0_a287 u0_a287 2029 Mar 18 20:16 /data/data/com.termux/files/home/soda/docs/snx_state_20260309-143444.json
+-rw-------. 1 u0_a287 u0_a287 2029 Mar 18 20:16 /data/data/com.termux/files/home/soda/docs/snx_state_20260309-143546.json
+-rw-------. 1 u0_a287 u0_a287 2029 Mar 18 20:16 /data/data/com.termux/files/home/soda/docs/snx_state_20260309-143649.json
+-rw-------. 1 u0_a287 u0_a287 2029 Mar 18 20:16 /data/data/com.termux/files/home/soda/docs/snx_state_20260309-143851.json
+-rw-------. 1 u0_a287 u0_a287 2029 Mar 18 20:16 /data/data/com.termux/files/home/soda/docs/snx_state_20260309-144136.json
+-rw-------. 1 u0_a287 u0_a287 2029 Mar 18 20:16 /data/data/com.termux/files/home/soda/docs/snx_state_20260309-145315.json
+-rw-------. 1 u0_a287 u0_a287 2029 Mar 18 20:16 /data/data/com.termux/files/home/soda/docs/snx_state_20260309-145349.json
+-rw-------. 1 u0_a287 u0_a287 178 Mar 18 20:16 /data/data/com.termux/files/home/soda/docs/snx_state_20260313-125351.json
+-rw-------. 1 u0_a287 u0_a287 178 Mar 18 20:16 /data/data/com.termux/files/home/soda/docs/snx_state_20260313-125453.json
+-rw-------. 1 u0_a287 u0_a287 178 Mar 18 20:16 /data/data/com.termux/files/home/soda/docs/snx_state_20260313-125556.json
+-rw-------. 1 u0_a287 u0_a287 63 Mar 18 20:16 /data/data/com.termux/files/home/soda/docs/estado_00-GOBIERNO.json
+-rw-------. 1 u0_a287 u0_a287 294 Mar 18 20:16 /data/data/com.termux/files/home/soda/docs/estado_01-MEMORIA.json
+-rw-------. 1 u0_a287 u0_a287 294 Mar 18 20:16 /data/data/com.termux/files/home/soda/docs/estado_02-SISTEMA.json
+-rw-------. 1 u0_a287 u0_a287 306 Mar 18 20:16 /data/data/com.termux/files/home/soda/docs/estado_03-OPERACIONES.json
+-rw-------. 1 u0_a287 u0_a287 290 Mar 18 20:16 /data/data/com.termux/files/home/soda/docs/estado_04-REGISTROS.json
+-rw-------. 1 u0_a287 u0_a287 294 Mar 18 20:16 /data/data/com.termux/files/home/soda/docs/estado_05-DOCUMENTACION.json
+-rw-------. 1 u0_a287 u0_a287 534 Mar 18 20:16 /data/data/com.termux/files/home/soda/docs/paquete_contexto_ia.json
+-rw-------. 1 u0_a287 u0_a287 31 Mar 18 20:16 /data/data/com.termux/files/home/soda/docs/sync_04-REGISTROS.json
+-rw-------. 1 u0_a287 u0_a287 370880 Mar 18 20:16 /data/data/com.termux/files/home/soda/docs/monitor_data_snapshot.json
+-rw-------. 1 u0_a287 u0_a287 299 Mar 18 20:16 /data/data/com.termux/files/home/soda/docs/estado_06-MONITOR.json
+-rw-------. 1 u0_a287 u0_a287 184 Mar 18 20:16 /data/data/com.termux/files/home/soda/docs/ENGRANAJE-MAESTRO-V4.json
+-rw-------. 1 u0_a287 u0_a287 43 Mar 18 20:16 /data/data/com.termux/files/home/soda/docs/engranaje_04-REGISTROS.json
+-rw-------. 1 u0_a287 u0_a287 43 Mar 18 20:16 /data/data/com.termux/files/home/soda/docs/engranaje_05-DOCUMENTACION.json
+-rw-------. 1 u0_a287 u0_a287 31 Mar 18 20:16 /data/data/com.termux/files/home/soda/docs/sync_05-DOCUMENTACION.json
+
+============================================================
+🔍 [8] Archivos con rutas profundas...
+
+============================================================
+🔍 [9] Archivos con caracteres especiales...
+
+============================================================
+📋 RESUMEN FINAL DE AUDITORÍA /docs
+✔ Archivos listados
+✔ Duplicados detectados
+✔ Archivos sospechosos detectados
+✔ Archivos que activan Jekyll detectados
+✔ Archivos grandes detectados
+✔ Archivos con BOM detectados
+✔ Permisos incorrectos detectados
+✔ Rutas profundas detectadas
+✔ Caracteres especiales detectados
+📄 Log completo: /data/data/com.termux/files/home/soda/04-REGISTROS/SYSTEM/auditoria_docs_20260318_213310.log
+
+============================================================
+=== PIE DE PÁGINA SOBERANO — CONTEXTUALIZACIÓN ACTIVA ===
+1. Nada se borra, todo es útil.
+2. Termux es la memoria y la verdad.
+3. Validar scripts antes de modificar.
+4. Sistema ligero pero potente.
+5. Todo auditado y certificado.
+6. Consultar Termux antes de actuar.
+7. Todo es real.
+8. Varias tareas por chat.
+9. Identidad: jeengrasi/soda-nexus.
+10. Escudo GitHub activo.
+11. GitHub cerebro, Termux puente.
+12. ADN en Vault, resto en nube.
+13. Investigación obligatoria.
+14. El Director decide; la IA ejecuta.
+15. Reporte Antes/Después.
+16. Prioridad: evitar Signal 9.
+17. Nada se asume; todo se verifica.
+18. IA evita antiamnesia.
+19. GitHub es la Fuente de Verdad.
+20. Scripts los modifica la IA.
+21. No se pregunta; se trabaja.

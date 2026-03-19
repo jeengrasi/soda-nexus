@@ -1,9 +1,0 @@
-{
-  "timestamp": "2026-03-11_153556",
-  "instruccion": "Prueba del Orquestador V4",
-  "contexto": {
-    "origen": "termux"
-  },
-  "motor_elegido": "local",
-  "respuesta": "No se pudo usar ni IA local ni IA remota.\nDetalle: [Fallo IA local: Modelo local no configurado en VAULT]\n[Fallo IA remota: IA remota no configurada en VAULT]"
-}

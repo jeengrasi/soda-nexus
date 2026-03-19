@@ -1,8 +1,0 @@
-{
-  "timestamp": "2026-03-11_131524",
-  "instruccion": "Prueba IA local",
-  "contexto": {
-    "origen": "termux"
-  },
-  "respuesta": "No se pudo usar la IA local.\nDetalle: Modelo local no configurado en VAULT\n\nVerifica que el servidor de IA local (tipo Ollama/llama.cpp) esté corriendo en http://127.0.0.1:11434 y que el modelo exista."
-}

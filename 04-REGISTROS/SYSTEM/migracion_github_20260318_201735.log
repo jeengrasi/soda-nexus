@@ -1,3 +1,198 @@
 === SNX — MIGRACIÓN TOTAL A GITHUB V1 ===
 Fecha: Wed Mar 18 20:17:35 EDT 2026
 🔍 Añadiendo cambios...
+🔍 Commit...
+[master 321c899] Migración total del sistema unificado — 20260318_201735
+ 167 files changed, 29571 insertions(+)
+ create mode 100644 04-REGISTROS/SILO_HISTORICO/VERSIONES/2026-03-10_004954_ia_sesion.json_20260318_201634
+ create mode 100644 04-REGISTROS/SILO_HISTORICO/VERSIONES/2026-03-10_205314_ia_sesion.json_20260318_201635
+ create mode 100644 04-REGISTROS/SILO_HISTORICO/VERSIONES/2026-03-11_131510_ia_sesion.json_20260318_201635
+ create mode 100644 04-REGISTROS/SILO_HISTORICO/VERSIONES/2026-03-11_131524_ia_sesion.json_20260318_201635
+ create mode 100644 04-REGISTROS/SILO_HISTORICO/VERSIONES/2026-03-11_153556_ia_sesion.json_20260318_201635
+ create mode 100644 04-REGISTROS/SILO_HISTORICO/VERSIONES/2026-03-11_174125_ia_sesion.json_20260318_201635
+ create mode 100644 04-REGISTROS/SILO_HISTORICO/VERSIONES/BACKEND-MONITOR-REGISTRO.json_20260318_201634
+ create mode 100644 04-REGISTROS/SILO_HISTORICO/VERSIONES/CURRENT_MOTOR.json_20260318_201634
+ create mode 100644 04-REGISTROS/SILO_HISTORICO/VERSIONES/ENGRANAJE-MAESTRO-V4.json_20260318_201637
+ create mode 100644 04-REGISTROS/SILO_HISTORICO/VERSIONES/MANIFIESTO_SOBERANO_V4.json_20260318_201634
+ create mode 100644 04-REGISTROS/SILO_HISTORICO/VERSIONES/MAPA_SOBERANO.json_20260318_201634
+ create mode 100644 04-REGISTROS/SILO_HISTORICO/VERSIONES/MONITOR-OFICIAL_V4.json_20260318_201634
+ create mode 100644 04-REGISTROS/SILO_HISTORICO/VERSIONES/allowed_scripts.json_20260318_201634
+ create mode 100644 04-REGISTROS/SILO_HISTORICO/VERSIONES/allowed_scripts_v1.json_20260318_201634
+ create mode 100644 04-REGISTROS/SILO_HISTORICO/VERSIONES/api.js_20260318_201632
+ create mode 100644 04-REGISTROS/SILO_HISTORICO/VERSIONES/api.js_20260318_201633
+ create mode 100644 04-REGISTROS/SILO_HISTORICO/VERSIONES/config-v4.js_20260318_201631
+ create mode 100644 04-REGISTROS/SILO_HISTORICO/VERSIONES/config-v4.js_20260318_201632
+ create mode 100644 04-REGISTROS/SILO_HISTORICO/VERSIONES/config-v4.js_20260318_201633
+ create mode 100644 04-REGISTROS/SILO_HISTORICO/VERSIONES/config.js_20260318_201632
+ create mode 100644 04-REGISTROS/SILO_HISTORICO/VERSIONES/config.js_20260318_201633
+ create mode 100644 04-REGISTROS/SILO_HISTORICO/VERSIONES/diff_2026-03-04_20-54-00.json_20260318_201634
+ create mode 100644 04-REGISTROS/SILO_HISTORICO/VERSIONES/diff_2026-03-04_20-56-06.json_20260318_201634
+ create mode 100644 04-REGISTROS/SILO_HISTORICO/VERSIONES/engranaje_04-REGISTROS.json_20260318_201637
+ create mode 100644 04-REGISTROS/SILO_HISTORICO/VERSIONES/engranaje_05-DOCUMENTACION.json_20260318_201637
+ create mode 100644 04-REGISTROS/SILO_HISTORICO/VERSIONES/estado_00-GOBIERNO.json_20260318_201636
+ create mode 100644 04-REGISTROS/SILO_HISTORICO/VERSIONES/estado_01-MEMORIA.json_20260318_201636
+ create mode 100644 04-REGISTROS/SILO_HISTORICO/VERSIONES/estado_02-SISTEMA.json_20260318_201636
+ create mode 100644 04-REGISTROS/SILO_HISTORICO/VERSIONES/estado_03-OPERACIONES.json_20260318_201636
+ create mode 100644 04-REGISTROS/SILO_HISTORICO/VERSIONES/estado_04-REGISTROS.json_20260318_201636
+ create mode 100644 04-REGISTROS/SILO_HISTORICO/VERSIONES/estado_05-DOCUMENTACION.json_20260318_201637
+ create mode 100644 04-REGISTROS/SILO_HISTORICO/VERSIONES/estado_06-MONITOR.json_20260318_201637
+ create mode 100644 04-REGISTROS/SILO_HISTORICO/VERSIONES/estado_central_V4.json_20260318_201634
+ create mode 100644 04-REGISTROS/SILO_HISTORICO/VERSIONES/estado_version.json_20260318_201635
+ create mode 100644 04-REGISTROS/SILO_HISTORICO/VERSIONES/extensiones_monitor_v1.js_20260318_201632
+ create mode 100644 04-REGISTROS/SILO_HISTORICO/VERSIONES/extensiones_monitor_v1.js_20260318_201633
+ create mode 100644 04-REGISTROS/SILO_HISTORICO/VERSIONES/extensions.json_20260318_201635
+ create mode 100644 04-REGISTROS/SILO_HISTORICO/VERSIONES/hashes_baseline.json_20260318_201634
+ create mode 100644 04-REGISTROS/SILO_HISTORICO/VERSIONES/ia.js_20260318_201631
+ create mode 100644 04-REGISTROS/SILO_HISTORICO/VERSIONES/ia.js_20260318_201632
+ create mode 100644 04-REGISTROS/SILO_HISTORICO/VERSIONES/index-2.html_20260318_201631
+ create mode 100644 04-REGISTROS/SILO_HISTORICO/VERSIONES/index-3.html_20260318_201631
+ create mode 100644 04-REGISTROS/SILO_HISTORICO/VERSIONES/index-v4.html_20260318_201631
+ create mode 100644 04-REGISTROS/SILO_HISTORICO/VERSIONES/index.html_20260318_201631
+ create mode 100644 04-REGISTROS/SILO_HISTORICO/VERSIONES/jsconfig.json_20260318_201635
+ create mode 100644 04-REGISTROS/SILO_HISTORICO/VERSIONES/monitor-2.js_20260318_201632
+ create mode 100644 04-REGISTROS/SILO_HISTORICO/VERSIONES/monitor-2.js_20260318_201633
+ create mode 100644 04-REGISTROS/SILO_HISTORICO/VERSIONES/monitor-v4.js_20260318_201632
+ create mode 100644 04-REGISTROS/SILO_HISTORICO/VERSIONES/monitor-v4.js_20260318_201633
+ create mode 100644 04-REGISTROS/SILO_HISTORICO/VERSIONES/monitor.js_20260318_201632
+ create mode 100644 04-REGISTROS/SILO_HISTORICO/VERSIONES/monitor.js_20260318_201633
+ create mode 100644 04-REGISTROS/SILO_HISTORICO/VERSIONES/monitor_data.json_20260318_201634
+ create mode 100644 04-REGISTROS/SILO_HISTORICO/VERSIONES/monitor_data.json_20260318_201635
+ create mode 100644 04-REGISTROS/SILO_HISTORICO/VERSIONES/monitor_data_snapshot.json_20260318_201637
+ create mode 100644 04-REGISTROS/SILO_HISTORICO/VERSIONES/monitor_estado_V4.json_20260318_201634
+ create mode 100644 04-REGISTROS/SILO_HISTORICO/VERSIONES/package-lock.json_20260318_201635
+ create mode 100644 04-REGISTROS/SILO_HISTORICO/VERSIONES/package.json_20260318_201635
+ create mode 100644 04-REGISTROS/SILO_HISTORICO/VERSIONES/panel-institucional-v4.js_20260318_201632
+ create mode 100644 04-REGISTROS/SILO_HISTORICO/VERSIONES/panel-institucional-v4.js_20260318_201633
+ create mode 100644 04-REGISTROS/SILO_HISTORICO/VERSIONES/panel-institucional-v4.js_20260318_201634
+ create mode 100644 04-REGISTROS/SILO_HISTORICO/VERSIONES/panel-institucional.js_20260318_201632
+ create mode 100644 04-REGISTROS/SILO_HISTORICO/VERSIONES/panel-institucional.js_20260318_201633
+ create mode 100644 04-REGISTROS/SILO_HISTORICO/VERSIONES/panel_institucional_v1.js_20260318_201632
+ create mode 100644 04-REGISTROS/SILO_HISTORICO/VERSIONES/panel_institucional_v1.js_20260318_201633
+ create mode 100644 04-REGISTROS/SILO_HISTORICO/VERSIONES/paquete_contexto_ia.json_20260318_201637
+ create mode 100644 04-REGISTROS/SILO_HISTORICO/VERSIONES/snx-logs-2.js_20260318_201632
+ create mode 100644 04-REGISTROS/SILO_HISTORICO/VERSIONES/snx-logs-2.js_20260318_201633
+ create mode 100644 04-REGISTROS/SILO_HISTORICO/VERSIONES/snx-logs-v4.js_20260318_201632
+ create mode 100644 04-REGISTROS/SILO_HISTORICO/VERSIONES/snx-logs-v4.js_20260318_201633
+ create mode 100644 04-REGISTROS/SILO_HISTORICO/VERSIONES/snx-logs.js_20260318_201632
+ create mode 100644 04-REGISTROS/SILO_HISTORICO/VERSIONES/snx-logs.js_20260318_201633
+ create mode 100644 04-REGISTROS/SILO_HISTORICO/VERSIONES/snx_contexto_soberano.json_20260318_201634
+ create mode 100755 04-REGISTROS/SILO_HISTORICO/VERSIONES/snx_monitor_backend.js_20260318_201631
+ create mode 100755 04-REGISTROS/SILO_HISTORICO/VERSIONES/snx_monitor_backend.js_20260318_201632
+ create mode 100644 04-REGISTROS/SILO_HISTORICO/VERSIONES/snx_state.json_20260318_201634
+ create mode 100644 04-REGISTROS/SILO_HISTORICO/VERSIONES/snx_state_20260309-133638.json_20260318_201635
+ create mode 100644 04-REGISTROS/SILO_HISTORICO/VERSIONES/snx_state_20260309-143034.json_20260318_201635
+ create mode 100644 04-REGISTROS/SILO_HISTORICO/VERSIONES/snx_state_20260309-143136.json_20260318_201635
+ create mode 100644 04-REGISTROS/SILO_HISTORICO/VERSIONES/snx_state_20260309-143239.json_20260318_201635
+ create mode 100644 04-REGISTROS/SILO_HISTORICO/VERSIONES/snx_state_20260309-143341.json_20260318_201635
+ create mode 100644 04-REGISTROS/SILO_HISTORICO/VERSIONES/snx_state_20260309-143444.json_20260318_201635
+ create mode 100644 04-REGISTROS/SILO_HISTORICO/VERSIONES/snx_state_20260309-143546.json_20260318_201636
+ create mode 100644 04-REGISTROS/SILO_HISTORICO/VERSIONES/snx_state_20260309-143649.json_20260318_201636
+ create mode 100644 04-REGISTROS/SILO_HISTORICO/VERSIONES/snx_state_20260309-143851.json_20260318_201636
+ create mode 100644 04-REGISTROS/SILO_HISTORICO/VERSIONES/snx_state_20260309-144136.json_20260318_201636
+ create mode 100644 04-REGISTROS/SILO_HISTORICO/VERSIONES/snx_state_20260309-145315.json_20260318_201636
+ create mode 100644 04-REGISTROS/SILO_HISTORICO/VERSIONES/snx_state_20260309-145349.json_20260318_201636
+ create mode 100644 04-REGISTROS/SILO_HISTORICO/VERSIONES/snx_state_20260313-125351.json_20260318_201636
+ create mode 100644 04-REGISTROS/SILO_HISTORICO/VERSIONES/snx_state_20260313-125453.json_20260318_201636
+ create mode 100644 04-REGISTROS/SILO_HISTORICO/VERSIONES/snx_state_20260313-125556.json_20260318_201636
+ create mode 100644 04-REGISTROS/SILO_HISTORICO/VERSIONES/status.json_20260318_201634
+ create mode 100644 04-REGISTROS/SILO_HISTORICO/VERSIONES/svelte.config.js_20260318_201632
+ create mode 100644 04-REGISTROS/SILO_HISTORICO/VERSIONES/svelte.config.js_20260318_201633
+ create mode 100644 04-REGISTROS/SILO_HISTORICO/VERSIONES/sync_04-REGISTROS.json_20260318_201637
+ create mode 100644 04-REGISTROS/SILO_HISTORICO/VERSIONES/sync_05-DOCUMENTACION.json_20260318_201637
+ create mode 100644 04-REGISTROS/SILO_HISTORICO/VERSIONES/vite.config.js_20260318_201632
+ create mode 100644 04-REGISTROS/SILO_HISTORICO/VERSIONES/vite.config.js_20260318_201633
+ create mode 100644 04-REGISTROS/SYSTEM/auditoria_binaria_20260318_160632.log
+ create mode 100644 04-REGISTROS/SYSTEM/auditoria_binaria_v3_20260318_161702.log
+ create mode 100644 04-REGISTROS/SYSTEM/auditoria_binaria_v3_20260318_162005.log
+ create mode 100644 04-REGISTROS/SYSTEM/auditoria_monitor_20260318_152824.log
+ create mode 100644 04-REGISTROS/SYSTEM/auditoria_total_termux_20260318_200348.log
+ create mode 100644 04-REGISTROS/SYSTEM/migracion_github_20260318_201735.log
+ create mode 100644 04-REGISTROS/SYSTEM/unificador_soberano_20260318_201630.log
+ create mode 100644 docs/2026-03-10_004954_ia_sesion.json
+ create mode 100644 docs/2026-03-10_205314_ia_sesion.json
+ create mode 100644 docs/2026-03-11_131510_ia_sesion.json
+ create mode 100644 docs/2026-03-11_131524_ia_sesion.json
+ create mode 100644 docs/2026-03-11_153556_ia_sesion.json
+ create mode 100644 docs/2026-03-11_174125_ia_sesion.json
+ create mode 100644 docs/BACKEND-MONITOR-REGISTRO.json
+ create mode 100644 docs/CURRENT_MOTOR.json
+ create mode 100644 docs/ENGRANAJE-MAESTRO-V4.json
+ create mode 100644 docs/MANIFIESTO_SOBERANO_V4.json
+ create mode 100644 docs/MAPA_SOBERANO.json
+ create mode 100644 docs/MONITOR-OFICIAL_V4.json
+ create mode 100644 docs/allowed_scripts.json
+ create mode 100644 docs/allowed_scripts_v1.json
+ create mode 100644 docs/diff_2026-03-04_20-54-00.json
+ create mode 100644 docs/diff_2026-03-04_20-56-06.json
+ create mode 100644 docs/engranaje_04-REGISTROS.json
+ create mode 100644 docs/engranaje_05-DOCUMENTACION.json
+ create mode 100644 docs/estado_00-GOBIERNO.json
+ create mode 100644 docs/estado_01-MEMORIA.json
+ create mode 100644 docs/estado_02-SISTEMA.json
+ create mode 100644 docs/estado_03-OPERACIONES.json
+ create mode 100644 docs/estado_04-REGISTROS.json
+ create mode 100644 docs/estado_05-DOCUMENTACION.json
+ create mode 100644 docs/estado_06-MONITOR.json
+ create mode 100644 docs/estado_central_V4.json
+ create mode 100644 docs/estado_version.json
+ create mode 100644 docs/extensions.json
+ create mode 100644 docs/hashes_baseline.json
+ create mode 100644 docs/jsconfig.json
+ create mode 100644 docs/monitor_data_snapshot.json
+ create mode 100644 docs/monitor_estado_V4.json
+ create mode 100644 docs/package-lock.json
+ create mode 100644 docs/package.json
+ create mode 100644 docs/paquete_contexto_ia.json
+ create mode 100644 docs/snx_contexto_soberano.json
+ create mode 100644 docs/snx_state.json
+ create mode 100644 docs/snx_state_20260309-133638.json
+ create mode 100644 docs/snx_state_20260309-143034.json
+ create mode 100644 docs/snx_state_20260309-143136.json
+ create mode 100644 docs/snx_state_20260309-143239.json
+ create mode 100644 docs/snx_state_20260309-143341.json
+ create mode 100644 docs/snx_state_20260309-143444.json
+ create mode 100644 docs/snx_state_20260309-143546.json
+ create mode 100644 docs/snx_state_20260309-143649.json
+ create mode 100644 docs/snx_state_20260309-143851.json
+ create mode 100644 docs/snx_state_20260309-144136.json
+ create mode 100644 docs/snx_state_20260309-145315.json
+ create mode 100644 docs/snx_state_20260309-145349.json
+ create mode 100644 docs/snx_state_20260313-125351.json
+ create mode 100644 docs/snx_state_20260313-125453.json
+ create mode 100644 docs/snx_state_20260313-125556.json
+ create mode 100644 docs/status.json
+ create mode 100644 docs/sync_04-REGISTROS.json
+ create mode 100644 docs/sync_05-DOCUMENTACION.json
+ create mode 100755 snx_auditor_binario_v2.sh
+ create mode 100755 snx_auditor_binario_v3.sh
+ create mode 100755 snx_auditor_total_termux_v1.sh
+ create mode 100755 snx_auditoria_monitor_v7.sh
+ create mode 100755 snx_migracion_github_v1.sh
+ create mode 100755 snx_restaurar_monitor_github_v1.sh
+ create mode 100755 snx_unificador_soberano_v1.sh
+🔍 Push...
+branch 'master' set up to track 'origin/master'.
+✔ Migración completada
+📄 Log: /data/data/com.termux/files/home/soda/04-REGISTROS/SYSTEM/migracion_github_20260318_201735.log
+=== PIE DE PÁGINA SOBERANO ===
+1. Nada se borra, todo es útil.
+2. Termux es la memoria y la verdad.
+3. Validar scripts antes de modificar.
+4. Sistema ligero pero potente.
+5. Todo auditado y certificado.
+6. Consultar Termux antes de actuar.
+7. Todo es real.
+8. Varias tareas por chat.
+9. Identidad: jeengrasi/soda-nexus.
+10. Escudo GitHub activo.
+11. GitHub cerebro, Termux puente.
+12. ADN en Vault, resto en nube.
+13. Investigación obligatoria.
+14. Director decide; IA ejecuta.
+15. Reporte Antes/Después.
+16. Prioridad: evitar Signal 9.
+17. Nada se asume; todo se verifica.
+18. IA evita antiamnesia.
+19. GitHub es la Fuente de Verdad.
+20. Scripts los modifica la IA.
+21. No se pregunta; se trabaja.
