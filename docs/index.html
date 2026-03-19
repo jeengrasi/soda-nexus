@@ -1,28 +1,24 @@
 <!-- ============================================================
-     SODA-NEXUS — Monitor Soberano V4
-     Versión institucional de referencia, limpia y unificada.
-     No modifica ni reemplaza versiones previas (V1/V2/V3).
+     SODA-NEXUS — Monitor Soberano V1 OFICIAL
+     Versión unificada y estable. Creada el 2026-03-18.
+     Basada en la fusión de versiones previas (V1, V2, V3, V4).
      ============================================================ -->
 
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <!-- OBS: Codificación y viewport. -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- OBS: Título institucional. -->
-    <title>Monitor Soberano V4 — SODA-NEXUS</title>
-
-    <!-- OBS: Configuración soberana (URL backend). -->
+    <title>Monitor Soberano — SODA-NEXUS</title>
+    
+    <!-- Configuración (única) -->
     <script src="./config-v4.js"></script>
+    
+    <!-- Módulos oficiales V1 (unificados) -->
+    <script src="./monitor.js" defer></script>
+    <script src="./snx-logs.js" defer></script>
+    <script src="./panel-institucional.js" defer></script>
 
-    <!-- OBS: Módulos de lógica del monitor. -->
-    <script src="./monitor-v4.js" defer></script>
-    <script src="./snx-logs-v4.js" defer></script>
-    <script src="./panel-institucional-v4.js" defer></script>
-
-    <!-- OBS: Estilos institucionales mínimos. -->
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -33,6 +29,7 @@
         h1 {
             color: #58a6ff;
             margin-bottom: 4px;
+            font-size: 24px;
         }
         h2 {
             color: #8b949e;
@@ -95,35 +92,12 @@
             text-align: left;
             font-size: 12px;
         }
-        .btn-ok { border-color: #238636; box-shadow: 0 0 0 1px rgba(35,134,54,0.4); }
-        .btn-warn { border-color: #d29922; box-shadow: 0 0 0 1px rgba(210,153,34,0.4); }
-        .btn-error { border-color: #f85149; box-shadow: 0 0 0 1px rgba(248,81,73,0.4); }
-        .btn-unknown { border-color: #30363d; }
+        .btn-ok { border-color: #238636; }
+        .btn-warn { border-color: #d29922; }
+        .btn-error { border-color: #f85149; }
 
-        .min-title {
-            font-weight: bold;
-            margin-bottom: 2px;
-        }
-        .min-state {
-            font-size: 11px;
-            color: #8b949e;
-        }
-        .min-meta {
-            font-size: 10px;
-            color: #8b949e;
-            margin-top: 4px;
-        }
-
-        .desviacion {
-            font-size: 12px;
-            margin-bottom: 4px;
-        }
-        .desv-error { color: #f85149; }
-        .desv-warn { color: #e3b341; }
-        .desv-info { color: #8b949e; }
-
-        .logs {
-            font-family: "SF Mono", Menlo, monospace;
+        .logs, .estructura, .estado-json {
+            font-family: "SF Mono", monospace;
             font-size: 11px;
             max-height: 220px;
             overflow-y: auto;
@@ -132,40 +106,9 @@
             border-radius: 6px;
             border: 1px solid #30363d;
         }
-        .log-line {
-            margin-bottom: 2px;
-        }
         .log-info { color: #8b949e; }
         .log-warn { color: #e3b341; }
         .log-error { color: #f85149; }
-
-        .estructura {
-            font-family: "SF Mono", Menlo, monospace;
-            font-size: 11px;
-            max-height: 180px;
-            overflow-y: auto;
-            background: #0d1117;
-            padding: 8px;
-            border-radius: 6px;
-            border: 1px solid #30363d;
-        }
-
-        .estado-json {
-            font-family: "SF Mono", Menlo, monospace;
-            font-size: 11px;
-            max-height: 180px;
-            overflow-y: auto;
-            background: #0d1117;
-            padding: 8px;
-            border-radius: 6px;
-            border: 1px solid #30363d;
-            white-space: pre;
-        }
-
-        .meta-line {
-            font-size: 11px;
-            color: #8b949e;
-        }
 
         .toolbar {
             margin-bottom: 12px;
@@ -187,108 +130,67 @@
 </head>
 
 <body>
-    <!-- OBS: Encabezado principal. -->
-    <h1>Monitor Soberano V4</h1>
-    <h2>Versión institucional unificada del sistema SODA-NEXUS</h2>
+    <h1>Monitor Soberano</h1>
+    <h2>Versión oficial V1 · 2026-03-18</h2>
 
-    <!-- OBS: Barra de herramientas para extensiones (panel institucional, etc.). -->
-    <div class="toolbar" id="snx-toolbar">
-        <!-- Se llena desde panel-institucional-v4.js -->
-    </div>
+    <div class="toolbar" id="snx-toolbar"></div>
 
     <div class="layout">
-        <!-- COLUMNA IZQUIERDA: Estado global, ministerios, desviaciones -->
+        <!-- Columna izquierda -->
         <div class="column">
-            <!-- PANEL: Estado global -->
             <div class="card">
                 <div class="card-header">
-                    <div>
-                        <span class="label">Estado global del sistema</span><br>
-                        <span class="sub">Central, antiamnesia, validación y latido del backend</span>
-                    </div>
-                    <div id="snx-status-pill" class="status-pill status-unknown">SIN_DATOS</div>
+                    <span class="label">Estado global</span>
+                    <div id="snx-status-pill" class="status-pill status-unknown">SIN DATOS</div>
                 </div>
-                <div class="meta-line" id="snx-meta-central">CENTRAL: —</div>
-                <div class="meta-line" id="snx-meta-antiamnesia">ANTIAMNESIA: —</div>
-                <div class="meta-line" id="snx-meta-validacion">VALIDACIÓN: —</div>
-                <div class="meta-line" id="snx-meta-latido">LATIDO: —</div>
-                <div class="meta-line" id="snx-meta-timestamp">BACKEND: —</div>
+                <div id="snx-meta-central">CENTRAL: —</div>
+                <div id="snx-meta-antiamnesia">ANTIAMNESIA: —</div>
+                <div id="snx-meta-validacion">VALIDACIÓN: —</div>
             </div>
 
-            <!-- PANEL: Ministerios -->
             <div class="card">
                 <div class="card-header">
-                    <span class="label">Ministerios 00–06</span>
-                    <span class="sub">Estados, hashes, engranajes y sync</span>
+                    <span class="label">Ministerios</span>
                 </div>
                 <div class="grid-ministerios" id="snx-ministerios"></div>
             </div>
 
-            <!-- PANEL: Desviaciones -->
             <div class="card">
                 <div class="card-header">
                     <span class="label">Desviaciones</span>
-                    <span class="sub">Hashes rotos, archivos faltantes, permisos, JSON malformados</span>
                 </div>
-                <div id="snx-desviaciones">
-                    <div class="desviacion desv-info">Sin datos aún…</div>
-                </div>
+                <div id="snx-desviaciones"></div>
             </div>
         </div>
 
-        <!-- COLUMNA DERECHA: Logs, estructura, estado global versionado -->
+        <!-- Columna derecha -->
         <div class="column">
-            <!-- PANEL: Logs -->
             <div class="card">
                 <div class="card-header">
-                    <span class="label">Logs del sistema</span>
-                    <span class="sub">CENTRAL, ANTIAMNESIA, VALIDACIÓN, MONITOR</span>
+                    <span class="label">Logs</span>
                 </div>
-                <div class="logs" id="snx-logs-v4">
-                    Cargando logs…
-                </div>
+                <div class="logs" id="snx-logs">Cargando logs…</div>
             </div>
 
-            <!-- PANEL: Estructura del sistema -->
             <div class="card">
                 <div class="card-header">
-                    <span class="label">Estructura del sistema</span>
-                    <span class="sub">Carpetas y archivos por ministerio</span>
+                    <span class="label">Estructura</span>
                 </div>
-                <div class="estructura" id="snx-estructura-v4">
-                    Cargando estructura…
-                </div>
+                <div class="estructura" id="snx-estructura">Cargando estructura…</div>
             </div>
 
-            <!-- PANEL: Estado global versionado -->
             <div class="card">
                 <div class="card-header">
-                    <span class="label">Estado global versionado</span>
-                    <span class="sub">Contenido de snx_state.json</span>
+                    <span class="label">Estado global</span>
                 </div>
-                <div class="estado-json" id="snx-estado-global-v4">
-                    Cargando estado global…
-                </div>
+                <div class="estado-json" id="snx-estado-global">Cargando…</div>
             </div>
         </div>
     </div>
 </body>
 
 <!-- ============================================================
-     PIE DE PÁGINA INSTITUCIONAL — SODA-NEXUS
-     Este archivo pertenece al sistema soberano SODA-NEXUS.
-     REGLAS INSTITUCIONALES:
-     1. Las instrucciones deben darse SIEMPRE en orden y completas.
-     2. No se deben modificar líneas sin aprobación institucional.
-     3. Si un script existe en el sistema, debe solicitarse, leerse
-        y modificarse únicamente sobre su contenido real.
-     4. No mover, eliminar o sobrescribir archivos sin inspección
-        previa del filesystem para evitar pérdida de memoria.
-     5. Cada script o documento debe incluir encabezado, observaciones
-        por línea y este pie de página institucional.
-     6. Mantener coherencia con la estructura soberana del Estado.
-     7. Garantizar anti-amnesia y auditabilidad total.
-     8. Realizar la mayoría de tareas en un solo chat para preservar
-        el contexto operativo y la memoria institucional.
+     PIE INSTITUCIONAL — SODA-NEXUS
+     Versión oficial V1. Nada se borra, todo se transforma.
      ============================================================ -->
 </html>
