@@ -1,0 +1,12 @@
+# ============================================================
+# torrc_snx_v1 — Configuración Tor para SODA‑NEXUS
+# Hidden Service apuntando a backend v1 (127.0.0.1:5051)
+# ============================================================
+
+DataDirectory /data/data/com.termux/files/home/.tor
+
+HiddenServiceDir /data/data/com.termux/files/home/.tor/snx_hidden_service_v1/
+HiddenServicePort 80 127.0.0.1:5051
+HiddenServiceVersion 3
+
+Log notice file /data/data/com.termux/files/home/soda/05-LOGS/TUNNEL/tor_snx_v1_runtime.log

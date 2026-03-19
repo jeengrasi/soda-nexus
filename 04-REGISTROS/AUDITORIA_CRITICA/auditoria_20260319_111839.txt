@@ -1,0 +1,95 @@
+=== AUDITORÍA CRÍTICA DEL SISTEMA ===
+Fecha: Thu Mar 19 11:18:39 EDT 2026
+------------------------------------
+
+=== PROCESOS ACTIVOS ===
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+u0_a287  11808  0.4  0.0 2194452 3184 ?        S<    1970   0:00 runsv snx-cloudflare
+u0_a287  11809  0.5  0.0 2151160 3328 ?        S<    1970   0:00 runsv monitor
+u0_a287  11823  0.0  0.0 2161408 3288 ?        S<    1970   0:00 svlogd -tt .
+u0_a287  11879  0.0  0.0 2134776 3096 ?        S<    1970   0:00 runsv tor
+u0_a287  11880  0.0  0.0 2169592 3236 ?        S<    1970   0:00 runsv snx_termux_blindaje
+u0_a287  11881  0.0  0.0 2147064 3172 ?        S<    1970   0:00 runsv snx_backend_monitor
+u0_a287  11882  0.4  0.0 2136824 3364 ?        S<    1970   0:00 runsv orq_v4
+u0_a287  11883  0.0  0.0 2147064 3156 ?        S<    1970   0:00 runsv monitor_backend
+u0_a287  11884  0.4  0.0 2181880 3324 ?        S<    1970   0:00 runsv monitor_bridge
+u0_a287  11885  0.0  0.0 2159352 3256 ?        S<    1970   0:00 runsv snx-monitor
+u0_a287  11887  0.9  1.3 2250616 51092 ?       S<    1970   0:01 /data/data/com.termux/files/usr/bin/python3 snx_monitor_unificado_v2.py
+u0_a287  11888  0.0  0.1 2254244 4640 ?        S<    1970   0:00 /data/data/com.termux/files/usr/bin/bash /data/data/com.termux/files/home/soda/02-SISTEMA/SERVICIOS/snx_termux_blindaje.sh
+u0_a287  11889  0.0  0.0 2185984 3240 ?        S<    1970   0:00 svlogd -tt /data/data/com.termux/files/usr/var/log/sv/tor
+u0_a287  11890  0.0  0.1 2192804 4608 ?        S<    1970   0:00 bash /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_backend_run.sh
+u0_a287  11894  0.8  1.3 2303864 51072 ?       S<    1970   0:01 python snx_monitor_backend_loader.py
+u0_a287  11912  0.3  0.5 2286504 19756 ?       S<    1970   0:00 python3 -m http.server 8080 --directory /data/data/com.termux/files/home/soda/06-MONITOR/V3/
+u0_a287  11937  0.4  0.9 2454624 34736 ?       S<l   1970   0:00 python3 /data/data/com.termux/files/home/soda/02-SISTEMA/API/ORQUESTADOR_V6.py
+u0_a287  11938  0.0  0.1 2209620 5116 ?        S<    1970   0:00 sleep 300
+u0_a287  13599  0.2  0.1 2166372 5304 pts/0    S<s+  1970   0:00 /data/data/com.termux/files/usr/bin/bash -l
+u0_a287  13616  0.4  0.0 2151180 3184 ?        S<    1970   0:00 /data/data/com.termux/files/usr/bin/runsvdir /data/data/com.termux/files/usr/var/service
+u0_a287  13618  0.0  0.0 2145016 3204 ?        S<    1970   0:00 runsv busybox-httpd
+u0_a287  13619  0.0  0.0 2192120 3124 ?        S<    1970   0:00 runsv sshd
+u0_a287  13620  0.0  0.0 2163448 3160 ?        S<    1970   0:00 runsv ssh-agent
+u0_a287  13636  0.0  0.0 2151168 3132 ?        S<    1970   0:00 svlogd -tt /data/data/com.termux/files/usr/var/log/sv/busybox-httpd
+u0_a287  13637  0.1  0.0 2159360 3280 ?        S<    1970   0:00 svlogd -tt /data/data/com.termux/files/usr/var/log/sv/sshd
+u0_a287  13638  0.0  0.0 2167552 3172 ?        S<    1970   0:00 svlogd -tt /data/data/com.termux/files/usr/var/log/sv/ssh-agent
+u0_a287  13704  0.0  0.1 2184952 4996 ?        S<s   1970   0:00 sshd
+u0_a287  13821  2.0  0.2 2198032 8832 ?        S<s   1970   0:00 /data/data/com.termux/files/usr/libexec/sshd-session -R
+u0_a287  13823  0.3  0.0 2151160 3208 ?        S<    1970   0:00 runsv crond
+u0_a287  13824  0.6  0.0 2196216 3160 ?        S<    1970   0:00 runsv snx-tunnel
+u0_a287  13825  0.0  0.0 2190072 3272 ?        S<    1970   0:00 runsv ftpd
+u0_a287  13826  0.3  0.0 2153208 3108 ?        S<    1970   0:00 runsv telnetd
+u0_a287  13827  0.3  0.0 2157304 3092 ?        S<    1970   0:00 runsv snx-backend
+u0_a287  13828  0.3  0.0      0     0 ?        Z<    1970   0:00 [runsv] <defunct>
+u0_a287  13829  0.0  0.0      0     0 ?        Z<    1970   0:00 [runsv] <defunct>
+u0_a287  13830  0.3  0.0      0     0 ?        Z<    1970   0:00 [runsv] <defunct>
+u0_a287  13831  0.3  0.0      0     0 ?        Z<    1970   0:00 [runsv] <defunct>
+u0_a287  13832  0.0  0.0      0     0 ?        Z<    1970   0:00 [runsv] <defunct>
+u0_a287  13833  0.0  0.0      0     0 ?        Z<    1970   0:00 [runsv] <defunct>
+u0_a287  13834  0.0  0.0      0     0 ?        Z<    1970   0:00 [runsv] <defunct>
+u0_a287  13835  0.0  0.0      0     0 ?        Z<    1970   0:00 [runsv] <defunct>
+u0_a287  13836  0.3  0.0      0     0 ?        Z<    1970   0:00 [runsv] <defunct>
+u0_a287  13837  0.6  0.0 2185984 3128 ?        S<    1970   0:00 svlogd -tt .
+u0_a287  13838  1.0  0.0 2149120 3124 ?        S<    1970   0:00 svlogd -tt /data/data/com.termux/files/usr/var/log/sv/telnetd
+u0_a287  13839  0.6  0.0 2138880 3216 ?        S<    1970   0:00 svlogd -tt /data/data/com.termux/files/usr/var/log/sv/crond
+u0_a287  13841  1.0  0.0 2157312 3116 ?        S<    1970   0:00 svlogd -tt /data/data/com.termux/files/usr/var/log/sv/ftpd
+u0_a287  13842  0.3  0.0 2134784 3120 ?        S<    1970   0:00 svlogd -tt ./
+u0_a287  13843  0.3  0.1 2197836 5812 ?        S<    1970   0:00 /data/data/com.termux/files/usr/libexec/sshd-session -R
+u0_a287  13847  2.3  0.1 2195048 5248 pts/1    S<s   1970   0:00 /data/data/com.termux/files/usr/bin/bash -l
+u0_a287  13890  2.0  0.0 2176452 3564 pts/1    R<+   1970   0:00 ps aux
+
+=== BACKENDS PYTHON ===
+11887 /data/data/com.termux/files/usr/bin/python3 snx_monitor_unificado_v2.py
+11894 python snx_monitor_backend_loader.py
+11912 python3 -m http.server 8080 --directory /data/data/com.termux/files/home/soda/06-MONITOR/V3/
+11937 python3 /data/data/com.termux/files/home/soda/02-SISTEMA/API/ORQUESTADOR_V6.py
+
+=== PUERTOS ESCUCHANDO ===
+
+=== LOGS DE SIGNAL 9 ===
+/data/data/com.termux/files/home/soda/04-REGISTROS/SYSTEM/auditoria_signal9_20260316.log:# INFORME DE FALLO: SIGNAL 9 & SSHD DROP
+/data/data/com.termux/files/home/soda/04-REGISTROS/SYSTEM/auditoria_binaria_v3_20260318_161702.log:16. Prioridad: evitar Signal 9.
+/data/data/com.termux/files/home/soda/04-REGISTROS/SYSTEM/auditoria_binaria_v3_20260318_162005.log:16. Prioridad: evitar Signal 9.
+/data/data/com.termux/files/home/soda/04-REGISTROS/SYSTEM/auditoria_total_termux_20260318_200348.log:16. Prioridad: evitar Signal 9.
+/data/data/com.termux/files/home/soda/04-REGISTROS/SYSTEM/unificador_soberano_20260318_201630.log:16. Prioridad: evitar Signal 9.
+/data/data/com.termux/files/home/soda/04-REGISTROS/SYSTEM/migracion_github_20260318_201735.log:16. Prioridad: evitar Signal 9.
+/data/data/com.termux/files/home/soda/04-REGISTROS/SYSTEM/auditoria_binaria_v3_20260318_201741.log:16. Prioridad: evitar Signal 9.
+/data/data/com.termux/files/home/soda/04-REGISTROS/SYSTEM/auditoria_docs_20260318_213310.log:16. Prioridad: evitar Signal 9.
+/data/data/com.termux/files/home/soda/04-REGISTROS/AUDITORIA_CRITICA/auditoria_20260319_111839.txt:=== LOGS DE SIGNAL 9 ===
+/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/fix_index_final_V4.log:Incidente: GET / retorna 404 y Termux recibe Signal 9.
+
+=== ERRORES BACKEND RECIENTES ===
+nohup: ignoring input
+ * Serving Flask app 'snx_monitor_backend'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.12.114:5000
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [19/Mar/2026 11:13:22] "GET /status HTTP/1.1" 200 -
+127.0.0.1 - - [19/Mar/2026 11:13:22] "GET /status HTTP/1.1" 200 -
+
+=== WAKE-LOCK ===
+
+=== MEMORIA ===
+               total        used        free      shared  buff/cache   available
+Mem:           3.6Gi       2.0Gi       211Mi        10Mi       1.4Gi       1.4Gi
+Swap:          4.0Gi       1.0Gi       3.0Gi

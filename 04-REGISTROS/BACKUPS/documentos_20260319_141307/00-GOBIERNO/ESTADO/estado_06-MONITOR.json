@@ -1,0 +1,12 @@
+{
+  "ministerio": "06-MONITOR",
+  "timestamp": "2026-03-09T14:53:45",
+  "monitor_index": "5 entradas",
+  "engranaje": {"relaciones":["02-SISTEMA","05-DOCUMENTACION"]},
+  "sync": {"sync":"2026-03-09T14:53:45"},
+  "archivos": {
+    "monitor_index": "ok",
+    "engranaje": "ok",
+    "sync": "ok"
+  }
+}

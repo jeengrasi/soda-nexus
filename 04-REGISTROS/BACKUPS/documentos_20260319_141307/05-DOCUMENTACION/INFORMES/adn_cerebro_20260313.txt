@@ -1,0 +1,53 @@
+=== REPORTE DE ADN DEL CEREBRO SODA-NEXUS ===
+--- LOGICA API V1-V3 ---
+/data/data/com.termux/files/home/soda/02-SISTEMA/API/api.py:def read_json(path, default=None):
+/data/data/com.termux/files/home/soda/02-SISTEMA/API/api.py:def read_text(path):
+/data/data/com.termux/files/home/soda/02-SISTEMA/API/api.py:def list_dir(path):
+/data/data/com.termux/files/home/soda/02-SISTEMA/API/api.py:def ping():
+/data/data/com.termux/files/home/soda/02-SISTEMA/API/api.py:def estado():
+/data/data/com.termux/files/home/soda/02-SISTEMA/API/api.py:def proposito():
+/data/data/com.termux/files/home/soda/02-SISTEMA/API/api.py:def monitor_estado():
+/data/data/com.termux/files/home/soda/02-SISTEMA/API/api.py:def ministerios():
+/data/data/com.termux/files/home/soda/02-SISTEMA/API/api.py:def logs():
+/data/data/com.termux/files/home/soda/02-SISTEMA/API/api.py:def ia_contexto():
+/data/data/com.termux/files/home/soda/02-SISTEMA/API/api.py:def scripts():
+/data/data/com.termux/files/home/soda/02-SISTEMA/API/api.py:def motores():
+/data/data/com.termux/files/home/soda/02-SISTEMA/API/api.py:def desviaciones():
+/data/data/com.termux/files/home/soda/02-SISTEMA/API/api_v3.py:def load_key():
+/data/data/com.termux/files/home/soda/02-SISTEMA/API/api_v3.py:def load_local_model():
+/data/data/com.termux/files/home/soda/02-SISTEMA/API/api_v3.py:def read_text(path):
+/data/data/com.termux/files/home/soda/02-SISTEMA/API/api_v3.py:def list_dir(path):
+/data/data/com.termux/files/home/soda/02-SISTEMA/API/api_v3.py:def ping_v3():
+/data/data/com.termux/files/home/soda/02-SISTEMA/API/api_v3.py:def archivo():
+/data/data/com.termux/files/home/soda/02-SISTEMA/API/api_v3.py:def carpeta():
+/data/data/com.termux/files/home/soda/02-SISTEMA/API/api_v3.py:def arbol():
+/data/data/com.termux/files/home/soda/02-SISTEMA/API/api_v3.py:def buscar():
+/data/data/com.termux/files/home/soda/02-SISTEMA/API/api_v3.py:def llamar_ia_local(instruccion, contexto):
+/data/data/com.termux/files/home/soda/02-SISTEMA/API/api_v3.py:def ia_ejecutar():
+/data/data/com.termux/files/home/soda/02-SISTEMA/API/api_v4.py:def index(): return app.send_static_file('index.html')
+/data/data/com.termux/files/home/soda/02-SISTEMA/API/api_v4.py:def load_text(path):
+/data/data/com.termux/files/home/soda/02-SISTEMA/API/api_v4.py:def save_text(path, content):
+/data/data/com.termux/files/home/soda/02-SISTEMA/API/api_v4.py:def load_json(path, default=None):
+/data/data/com.termux/files/home/soda/02-SISTEMA/API/api_v4.py:def save_json(path, data):
+/data/data/com.termux/files/home/soda/02-SISTEMA/API/api_v4.py:def safe_path_soda(rel_path):
+/data/data/com.termux/files/home/soda/02-SISTEMA/API/api_v4.py:def get_local_model():
+/data/data/com.termux/files/home/soda/02-SISTEMA/API/api_v4.py:def get_remote_config():
+/data/data/com.termux/files/home/soda/02-SISTEMA/API/api_v4.py:def update_current_motor(motor, modelo):
+/data/data/com.termux/files/home/soda/02-SISTEMA/API/api_v4.py:def ping_v4():
+/data/data/com.termux/files/home/soda/02-SISTEMA/API/api_v4.py:def health():
+/data/data/com.termux/files/home/soda/02-SISTEMA/API/api_v4.py:def archivo():
+/data/data/com.termux/files/home/soda/02-SISTEMA/API/api_v4.py:def carpeta():
+/data/data/com.termux/files/home/soda/02-SISTEMA/API/api_v4.py:def arbol():
+/data/data/com.termux/files/home/soda/02-SISTEMA/API/api_v4.py:def buscar():
+/data/data/com.termux/files/home/soda/02-SISTEMA/API/api_v4.py:def herramienta_leer_archivo(params):
+/data/data/com.termux/files/home/soda/02-SISTEMA/API/api_v4.py:def herramienta_listar_carpeta(params):
+/data/data/com.termux/files/home/soda/02-SISTEMA/API/api_v4.py:def herramienta_arbol(params):
+/data/data/com.termux/files/home/soda/02-SISTEMA/API/api_v4.py:def herramienta_buscar_archivo(params):
+/data/data/com.termux/files/home/soda/02-SISTEMA/API/api_v4.py:def herramienta_leer_log(params):
+/data/data/com.termux/files/home/soda/02-SISTEMA/API/api_v4.py:def herramienta_buscar_web(params):
+/data/data/com.termux/files/home/soda/02-SISTEMA/API/api_v4.py:def herramienta_consultar_api(params):
+/data/data/com.termux/files/home/soda/02-SISTEMA/API/api_v4.py:def herramienta():
+/data/data/com.termux/files/home/soda/02-SISTEMA/API/api_v4.py:def llamar_ia_local(instruccion, contexto):
+/data/data/com.termux/files/home/soda/02-SISTEMA/API/api_v4.py:def llamar_ia_remota(instruccion, contexto):
+/data/data/com.termux/files/home/soda/02-SISTEMA/API/api_v4.py:def elegir_motor(instruccion, contexto):
+/data/data/com.termux/files/home/soda/02-SISTEMA/API/api_v4.py:def ia_ejecutar():

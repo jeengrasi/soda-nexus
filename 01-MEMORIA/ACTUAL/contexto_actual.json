@@ -1,0 +1,14 @@
+{
+    "timestamp": "2026-03-19_14:06:07",
+    "backend": "INACTIVO",
+    "ip_local": "",
+    "ministerios": {
+        "00-GOBIERNO": 75,
+        "01-MEMORIA": 21,
+        "02-SISTEMA": 65,
+        "03-OPERACIONES": 12,
+        "04-REGISTROS": 817,
+        "05-DOCUMENTACION": 32,
+        "docs": 10
+    }
+}

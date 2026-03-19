@@ -1,0 +1,196 @@
+<!-- ============================================================
+     SODA-NEXUS — Monitor Soberano V1 OFICIAL
+     Versión unificada y estable. Creada el 2026-03-18.
+     Basada en la fusión de versiones previas (V1, V2, V3, V4).
+     ============================================================ -->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monitor Soberano — SODA-NEXUS</title>
+    
+    <!-- Configuración (única) -->
+    <script src="./config-v4.js"></script>
+    
+    <!-- Módulos oficiales V1 (unificados) -->
+    <script src="./monitor.js" defer></script>
+    <script src="./snx-logs.js" defer></script>
+    <script src="./panel-institucional.js" defer></script>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #0d1117;
+            color: #e6edf3;
+            padding: 20px;
+        }
+        h1 {
+            color: #58a6ff;
+            margin-bottom: 4px;
+            font-size: 24px;
+        }
+        h2 {
+            color: #8b949e;
+            font-size: 13px;
+            margin-top: 0;
+            margin-bottom: 16px;
+        }
+        .layout {
+            display: grid;
+            grid-template-columns: 2fr 1.5fr;
+            gap: 16px;
+        }
+        .column {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+        .card {
+            background: #161b22;
+            padding: 14px 16px;
+            border-radius: 8px;
+            border: 1px solid #30363d;
+        }
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 8px;
+        }
+        .label {
+            font-weight: bold;
+            color: #79c0ff;
+        }
+        .sub {
+            font-size: 11px;
+            color: #8b949e;
+        }
+        .status-pill {
+            display: inline-block;
+            padding: 2px 8px;
+            border-radius: 999px;
+            font-size: 11px;
+            font-weight: bold;
+        }
+        .status-ok { background: rgba(35,134,54,0.2); color: #3fb950; }
+        .status-warn { background: rgba(210,153,34,0.2); color: #e3b341; }
+        .status-error { background: rgba(248,81,73,0.2); color: #f85149; }
+        .status-unknown { background: rgba(110,118,129,0.2); color: #8b949e; }
+
+        .grid-ministerios {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+            gap: 10px;
+        }
+        .btn-ministerio {
+            padding: 10px;
+            border-radius: 8px;
+            border: 1px solid #30363d;
+            background: #0d1117;
+            text-align: left;
+            font-size: 12px;
+        }
+        .btn-ok { border-color: #238636; }
+        .btn-warn { border-color: #d29922; }
+        .btn-error { border-color: #f85149; }
+
+        .logs, .estructura, .estado-json {
+            font-family: "SF Mono", monospace;
+            font-size: 11px;
+            max-height: 220px;
+            overflow-y: auto;
+            background: #0d1117;
+            padding: 8px;
+            border-radius: 6px;
+            border: 1px solid #30363d;
+        }
+        .log-info { color: #8b949e; }
+        .log-warn { color: #e3b341; }
+        .log-error { color: #f85149; }
+
+        .toolbar {
+            margin-bottom: 12px;
+        }
+        .toolbar button {
+            background: #21262d;
+            color: #e6edf3;
+            border: 1px solid #30363d;
+            border-radius: 6px;
+            padding: 6px 10px;
+            font-size: 11px;
+            cursor: pointer;
+            margin-right: 6px;
+        }
+        .toolbar button:hover {
+            background: #30363d;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Monitor Soberano</h1>
+    <h2>Versión oficial V1 · 2026-03-18</h2>
+
+    <div class="toolbar" id="snx-toolbar"></div>
+
+    <div class="layout">
+        <!-- Columna izquierda -->
+        <div class="column">
+            <div class="card">
+                <div class="card-header">
+                    <span class="label">Estado global</span>
+                    <div id="snx-status-pill" class="status-pill status-unknown">SIN DATOS</div>
+                </div>
+                <div id="snx-meta-central">CENTRAL: —</div>
+                <div id="snx-meta-antiamnesia">ANTIAMNESIA: —</div>
+                <div id="snx-meta-validacion">VALIDACIÓN: —</div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <span class="label">Ministerios</span>
+                </div>
+                <div class="grid-ministerios" id="snx-ministerios"></div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <span class="label">Desviaciones</span>
+                </div>
+                <div id="snx-desviaciones"></div>
+            </div>
+        </div>
+
+        <!-- Columna derecha -->
+        <div class="column">
+            <div class="card">
+                <div class="card-header">
+                    <span class="label">Logs</span>
+                </div>
+                <div class="logs" id="snx-logs">Cargando logs…</div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <span class="label">Estructura</span>
+                </div>
+                <div class="estructura" id="snx-estructura">Cargando estructura…</div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <span class="label">Estado global</span>
+                </div>
+                <div class="estado-json" id="snx-estado-global">Cargando…</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<!-- ============================================================
+     PIE INSTITUCIONAL — SODA-NEXUS
+     Versión oficial V1. Nada se borra, todo se transforma.
+     ============================================================ -->
+</html>

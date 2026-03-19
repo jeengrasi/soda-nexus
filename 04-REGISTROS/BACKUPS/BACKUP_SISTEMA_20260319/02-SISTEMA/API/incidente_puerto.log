@@ -1,0 +1,8 @@
+=== INFORME DE INCIDENTE CRÍTICO ===
+Fecha: 2026-03-13 12:54:47
+Ministerio: 02-SISTEMA
+Incidente: Address already in use (Port 15051).
+Diagnóstico: Proceso huérfano (posiblemente Gunicorn o Flask previo) bloqueando el socket.
+
+ACCIÓN REQUERIDA: Limpieza de sockets mediante fuser o lsof y re-ejecución.
+Estado: BLOQUEADO TEMPORALMENTE.

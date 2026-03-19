@@ -1,0 +1,14 @@
+=== INFORME DE AVANCE INSTITUCIONAL ===
+Fecha: 2026-03-13 12:47:28
+Ministerio: 02-SISTEMA
+Acción: Consolidación de Orquestador y Purga de Daemons.
+
+CAMBIOS REALIZADOS:
+1. API: Mapeo de ORQUESTADOR_V6 corregido hacia ruta de producción 03-OPERACIONES/WEB.
+2. API: Versiones MAESTRO, LIVE, FINAL y FRESCO movidas a subcarpeta LEGADO_PYTHON.
+3. DAEMONS: Servicios v1 y v2 (HTTP y TOR) marcados como LEGACY para evitar colisión de puertos.
+4. INTEGRIDAD: El puerto 15051 queda como único canal de salida oficial.
+
+Estado del Ministerio: CEREBRO UNIFICADO Y DOCUMENTADO.
+Director: Jeisson
+Auditor: Gemini SODA-NEXUS

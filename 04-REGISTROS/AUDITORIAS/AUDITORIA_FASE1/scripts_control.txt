@@ -1,0 +1,73 @@
+=== SCRIPTS MAESTROS Y DAEMONS ===
+Fecha: Thu Mar 19 11:25:34 EDT 2026
+--------------------------------
+-rw-------. 1 u0_a287 u0_a287 65 Mar 18 14:42 /data/data/com.termux/files/home/soda/01-MEMORIA/ACTUAL/HASHES/02_SISTEMA_GLOBAL_snx_ia_central.sh.sha
+-rw-------. 1 u0_a287 u0_a287 341 Mar 18 20:16 /data/data/com.termux/files/home/soda/00-GOBIERNO/ESTADO/estado_central_V4.json
+-rwx------. 1 u0_a287 u0_a287 4360 Feb 28 14:42 /data/data/com.termux/files/home/soda/00-GOBIERNO/VAULT/central.backup
+-rwx------. 1 u0_a287 u0_a287 225 Mar 12 21:57 /data/data/com.termux/files/home/soda/02-SISTEMA/API/guardian_api.sh
+-rwx------. 1 u0_a287 u0_a287 3151 Mar  1 23:56 /data/data/com.termux/files/home/soda/02-SISTEMA/snx_daemon.sh
+-rwx------. 1 u0_a287 u0_a287 1207 Mar 16 18:31 /data/data/com.termux/files/home/soda/02-SISTEMA/DAEMONS/snx_controlador_procesos_v6.sh
+-rwx------. 1 u0_a287 u0_a287 377 Feb 24 23:22 /data/data/com.termux/files/home/soda/02-SISTEMA/DAEMONS/snx_daemon.sh
+-rwx------. 1 u0_a287 u0_a287 724 Mar  9 17:27 /data/data/com.termux/files/home/soda/02-SISTEMA/DAEMONS/daemon_continuidad.sh
+-rwx------. 1 u0_a287 u0_a287 1084 Mar 16 18:55 /data/data/com.termux/files/home/soda/02-SISTEMA/DAEMONS/snx_auditor_controlador_v6.sh
+-rwx------. 1 u0_a287 u0_a287 1017 Mar 16 17:00 /data/data/com.termux/files/home/soda/02-SISTEMA/DAEMONS/snx_watchdog_v6_soberano.sh
+-rwx------. 1 u0_a287 u0_a287 5188 Feb 27 15:20 /data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_guardian_central.sh
+-rwx------. 1 u0_a287 u0_a287 2895 Mar  9 12:43 /data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_ia_central.sh
+-rwx------. 1 u0_a287 u0_a287 1181 Mar  9 17:34 /data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_update_estado_central_ip.sh
+-rwx------. 1 u0_a287 u0_a287 1426 Mar  6 13:14 /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_allowlist_add_central_backend.sh
+-rwx------. 1 u0_a287 u0_a287 937 Mar  6 13:26 /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_allowlist_add_central_backend_v2.sh
+-rwx------. 1 u0_a287 u0_a287 937 Mar  6 13:28 /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_allowlist_add_central_backend_v3.sh
+-rwx------. 1 u0_a287 u0_a287 2934 Mar  4 14:42 /data/data/com.termux/files/home/soda/02-SISTEMA/GUARDIAN/snx_guardian_soberano.sh
+-rwx------. 1 u0_a287 u0_a287 3487 Mar  6 22:45 /data/data/com.termux/files/home/soda/02-SISTEMA/SERVICIOS/snx_lanzador_maestro_v1.sh
+-rwx------. 1 u0_a287 u0_a287 4792 Mar  6 14:48 /data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA/snx_memoria_central_v1.sh
+-rwx------. 1 u0_a287 u0_a287 6480 Mar  6 14:50 /data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA/snx_memoria_central_v2.sh
+-rwx------. 1 u0_a287 u0_a287 722 Mar  6 14:50 /data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA/snx_antiamnesia_watchdog_v1.sh
+-rwx------. 1 u0_a287 u0_a287 2359 Mar  6 17:58 /data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA/snx_antiamnesia_watchdog_v2.sh
+-rw-------. 1 u0_a287 u0_a287 635 Mar  6 22:44 /data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA/snx_watchdog_sagrados_v1.sh
+-rwx------. 1 u0_a287 u0_a287 2665 Feb 27 15:43 /data/data/com.termux/files/home/soda/02-SISTEMA/HERRAMIENTAS/snx_guardian_gobierno.sh
+-rwx------. 1 u0_a287 u0_a287 155 Mar 15 23:05 /data/data/com.termux/files/home/soda/02-SISTEMA/guardian_proceso.sh
+-rw-------. 1 u0_a287 u0_a287 89 Mar 16 17:00 /data/data/com.termux/files/home/soda/04-REGISTROS/SYSTEM/daemon_monitor_watchdog_v6.log
+-rw-------. 1 u0_a287 u0_a287 76 Mar 16 20:34 /data/data/com.termux/files/home/soda/04-REGISTROS/SYSTEM/reporte_controlador_v6.log
+-rw-------. 1 u0_a287 u0_a287 62 Mar 13 12:34 /data/data/com.termux/files/home/soda/04-REGISTROS/central.log
+-rw-------. 1 u0_a287 u0_a287 827 Mar  4 14:42 /data/data/com.termux/files/home/soda/04-REGISTROS/AUDITORIA_HISTORICA/snx_guardian_sesion_2026-03-04_14-42-34.log
+-rw-------. 1 u0_a287 u0_a287 934 Mar  4 20:54 /data/data/com.termux/files/home/soda/04-REGISTROS/AUDITORIA_HISTORICA/snx_guardian_sesion_2026-03-04_20-54-00.log
+-rw-------. 1 u0_a287 u0_a287 934 Mar  4 20:56 /data/data/com.termux/files/home/soda/04-REGISTROS/AUDITORIA_HISTORICA/snx_guardian_sesion_2026-03-04_20-56-06.log
+-rwx------. 1 u0_a287 u0_a287 515 Feb 28 14:45 /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/snx_daemon.sh
+-rwx------. 1 u0_a287 u0_a287 4360 Feb 28 14:36 /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/snx_ia_central.sh
+-rwx------. 1 u0_a287 u0_a287 3396 Mar  4 15:39 /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/SCRIPTS-LEGACY/GLOBAL/snx_central.sh
+-rwx------. 1 u0_a287 u0_a287 1867 Mar  6 13:09 /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/SCRIPTS-LEGACY/GLOBAL/snx_central_backend.sh
+-rwx------. 1 u0_a287 u0_a287 3107 Mar  6 13:26 /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/SCRIPTS-LEGACY/GLOBAL/snx_central_backend_v2.sh
+-rwx------. 1 u0_a287 u0_a287 3143 Mar  6 13:28 /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/SCRIPTS-LEGACY/GLOBAL/snx_central_backend_v3.sh
+-rw-------. 1 u0_a287 u0_a287 40879 Mar  9 14:53 /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/central_ia.log
+-rw-------. 1 u0_a287 u0_a287 70 Feb 28 14:42 /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/central.meta
+-rw-------. 1 u0_a287 u0_a287 335 Mar  7 22:35 /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/daemons_02-SISTEMA.txt
+-rwx------. 1 u0_a287 u0_a287 278 Mar  9 22:41 /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/daemon_monitor_watchdog.sh
+-rw-------. 1 u0_a287 u0_a287 577230 Mar  7 12:03 /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/watchdog.log
+-rwx------. 1 u0_a287 u0_a287 936 Mar  9 17:34 /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/daemon_antiamnesia.sh.bak
+-rw-------. 1 u0_a287 u0_a287 341 Mar 18 20:16 /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/estado_central_V4.json_20260318_201634
+-rwx------. 1 u0_a287 u0_a287 422 Mar  9 17:36 /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/daemon_antiamnesia.sh
+-rw-------. 1 u0_a287 u0_a287 144 Feb 28 14:46 /data/data/com.termux/files/home/soda/04-REGISTROS/daemon.log
+-rw-------. 1 u0_a287 u0_a287 378 Mar  9 22:49 /data/data/com.termux/files/home/soda/04-REGISTROS/daemon_monitor_watchdog.log
+-rw-------. 1 u0_a287 u0_a287 6500 Mar 19 11:25 /data/data/com.termux/files/home/soda/AUDITORIA_FASE1/scripts_control.txt
+
+=== SCRIPTS CON COMANDOS DE CONTROL ===
+/data/data/com.termux/files/home/soda/02-SISTEMA/snx_daemon.sh
+/data/data/com.termux/files/home/soda/02-SISTEMA/snx_tunnel.sh
+/data/data/com.termux/files/home/soda/02-SISTEMA/DAEMONS/snx_tor_persistent_v1.sh
+/data/data/com.termux/files/home/soda/02-SISTEMA/DAEMONS/snx_tunnel_persistent.sh
+/data/data/com.termux/files/home/soda/02-SISTEMA/DAEMONS/snx_auditor_controlador_v6.sh
+/data/data/com.termux/files/home/soda/02-SISTEMA/DAEMONS/snx_watchdog_v6_soberano.sh
+/data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_monitor_fix_auditoria.sh
+/data/data/com.termux/files/home/soda/02-SISTEMA/SERVICIOS/snx_termux_blindaje.sh
+/data/data/com.termux/files/home/soda/02-SISTEMA/SERVICIOS/snx_fase3_services_boot_v1.sh
+/data/data/com.termux/files/home/soda/02-SISTEMA/SERVICIOS/snx_lanzador_maestro_v1.sh
+/data/data/com.termux/files/home/soda/02-SISTEMA/AUDITORIA/snx_correcion_total_v1.sh
+/data/data/com.termux/files/home/soda/02-SISTEMA/AUDITORIA/snx_correcion_stack_monitor_v1.sh
+/data/data/com.termux/files/home/soda/02-SISTEMA/guardian_proceso.sh
+/data/data/com.termux/files/home/soda/snx_unificador_soberano_v1.sh
+/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/snx_create_monitor_v4_oficial.sh
+/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/snx_fix_serve_monitor_v1.sh
+/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/snx_patch_serve_monitor_final.sh
+/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/iniciar_orquestador_v4.sh
+/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/snx_termux_blindaje.v_anterior.sh
+/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/SNX-FASE2-TOR.sh

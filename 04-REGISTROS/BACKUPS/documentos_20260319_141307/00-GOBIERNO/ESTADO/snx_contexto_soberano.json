@@ -1,0 +1,9 @@
+{
+  "monitor_oficial": "/soda/06-MONITOR/V3",
+  "backend_oficial": "http://192.168.12.183:15051",
+  "estado_backend": "ok",
+  "estado_monitor": "ok",
+  "estado_ia": "ok",
+  "estado_tunel": "inactivo",
+  "ultima_verificacion": "2026-03-12 14:16:31"
+}

@@ -1,0 +1,59 @@
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+u0_a287   4172  0.0  0.1 2282916 4612 ?        S<    1970   0:00 /data/data/com.termux/files/usr/bin/bash /data/data/com.termux/files/home/soda/02-SISTEMA/SERVICIOS/snx_termux_blindaje.sh
+u0_a287   8097  0.1  0.9 2466912 34708 ?       S<l   1970   0:00 python3 /data/data/com.termux/files/home/soda/02-SISTEMA/API/ORQUESTADOR_V6.py
+u0_a287   8559  0.0  0.1 2178660 5280 pts/0    S<s+  1970   0:00 /data/data/com.termux/files/usr/bin/bash -l
+u0_a287   8578  0.1  0.0 2185996 3292 ?        S<    1970   0:00 /data/data/com.termux/files/usr/bin/runsvdir /data/data/com.termux/files/usr/var/service
+u0_a287   8581  0.0  0.0 2163448 3144 ?        S<    1970   0:00 runsv busybox-httpd
+u0_a287   8582  0.0  0.0 2171640 3244 ?        S<    1970   0:00 runsv sshd
+u0_a287   8595  0.4  0.0 2151160 3248 ?        S<    1970   0:01 runsv orq_v4
+u0_a287   8598  0.0  0.0 2136824 3224 ?        S<    1970   0:00 runsv snx-monitor
+u0_a287   8599  0.0  0.0 2159360 3148 ?        S<    1970   0:00 svlogd -tt /data/data/com.termux/files/usr/var/log/sv/sshd
+u0_a287   8600  0.0  0.0 2140928 3148 ?        S<    1970   0:00 svlogd -tt /data/data/com.termux/files/usr/var/log/sv/busybox-httpd
+u0_a287   8656  0.0  0.1 2262776 5144 ?        S<s   1970   0:00 sshd
+u0_a287  11569  0.0  0.0 2151160 3140 ?        S<    1970   0:00 runsv ssh-agent
+u0_a287  11570  0.0  0.0 2188024 3220 ?        S<    1970   0:00 runsv crond
+u0_a287  11571  0.5  0.0 2134776 3172 ?        S<    1970   0:01 runsv snx-tunnel
+u0_a287  11572  0.0  0.0 2175736 3120 ?        S<    1970   0:00 runsv ftpd
+u0_a287  11573  0.0  0.0 2185976 3308 ?        S<    1970   0:00 runsv telnetd
+u0_a287  11575  0.4  0.0 2134776 3196 ?        S<    1970   0:00 runsv snx-cloudflare
+u0_a287  11582  0.0  0.0 2179840 3116 ?        S<    1970   0:00 svlogd -tt .
+u0_a287  11583  0.0  0.0 2171648 3188 ?        S<    1970   0:00 svlogd -tt /data/data/com.termux/files/usr/var/log/sv/crond
+u0_a287  11584  0.0  0.0 2173696 3216 ?        S<    1970   0:00 svlogd -tt .
+u0_a287  11585  0.0  0.0 2136832 3168 ?        S<    1970   0:00 svlogd -tt /data/data/com.termux/files/usr/var/log/sv/telnetd
+u0_a287  11588  0.0  0.0 2136832 3204 ?        S<    1970   0:00 svlogd -tt /data/data/com.termux/files/usr/var/log/sv/ssh-agent
+u0_a287  11589  0.0  0.0 2188032 3188 ?        S<    1970   0:00 svlogd -tt /data/data/com.termux/files/usr/var/log/sv/ftpd
+u0_a287  12240  0.4  0.0 2157304 3220 ?        S<    1970   0:00 runsv snx-backend
+u0_a287  12241  0.5  0.0 2134776 3128 ?        S<    1970   0:00 runsv monitor
+u0_a287  12242  0.0  0.0 2183928 3208 ?        S<    1970   0:00 runsv tor
+u0_a287  12243  0.0  0.0 2167544 3260 ?        S<    1970   0:00 runsv snx_termux_blindaje
+u0_a287  12244  0.0  0.0 2159352 3228 ?        S<    1970   0:00 runsv snx_backend_monitor
+u0_a287  12245  0.0  0.0 2138872 3084 ?        S<    1970   0:00 runsv monitor_backend
+u0_a287  12246  0.4  0.0 2134776 3148 ?        S<    1970   0:00 runsv monitor_bridge
+u0_a287  12251  0.0  0.0 2188032 3172 ?        S<    1970   0:00 svlogd -tt ./
+u0_a287  12252  0.0  0.1 2231716 4492 ?        S<    1970   0:00 /data/data/com.termux/files/usr/bin/bash /data/data/com.termux/files/home/soda/02-SISTEMA/SERVICIOS/snx_termux_blindaje.sh
+u0_a287  12254  0.0  0.0 2151168 3192 ?        S<    1970   0:00 svlogd -tt /data/data/com.termux/files/usr/var/log/sv/tor
+u0_a287  12318  0.0  0.1 2139556 4468 ?        S<    1970   0:00 bash /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_backend_run.sh
+u0_a287  12319  0.7  1.3 2312056 50952 ?       S<    1970   0:01 /data/data/com.termux/files/usr/bin/python3 snx_monitor_unificado_v2.py
+u0_a287  12320  0.0  0.1 2221908 5068 ?        S<    1970   0:00 sleep 300
+u0_a287  12321  0.8  1.3 2373496 51036 ?       S<    1970   0:01 python snx_monitor_backend_loader.py
+u0_a287  12323  0.2  0.5 2309032 19868 ?       S<    1970   0:00 python3 -m http.server 8080 --directory /data/data/com.termux/files/home/soda/06-MONITOR/V3/
+u0_a287  12503  0.0  0.1 2234196 5172 ?        S<    1970   0:00 sleep 300
+u0_a287  14205  2.0  0.2 2238992 8748 ?        S<s   1970   0:00 /data/data/com.termux/files/usr/libexec/sshd-session -R
+u0_a287  14207  0.6  0.1 2238796 5580 ?        S<    1970   0:00 /data/data/com.termux/files/usr/libexec/sshd-session -R
+u0_a287  14208  1.0  0.1 2219624 5244 pts/1    S<s   1970   0:00 /data/data/com.termux/files/usr/bin/bash -l
+u0_a287  14255  2.0  0.0 2168260 3448 pts/1    R<+   1970   0:00 ps aux
+8097 python3 /data/data/com.termux/files/home/soda/02-SISTEMA/API/ORQUESTADOR_V6.py
+12319 /data/data/com.termux/files/usr/bin/python3 snx_monitor_unificado_v2.py
+12321 python snx_monitor_backend_loader.py
+12323 python3 -m http.server 8080 --directory /data/data/com.termux/files/home/soda/06-MONITOR/V3/
+=== LOGS DE SIGNAL 9 ===
+/data/data/com.termux/files/home/soda/04-REGISTROS/SYSTEM/auditoria_signal9_20260316.log:# INFORME DE FALLO: SIGNAL 9 & SSHD DROP
+/data/data/com.termux/files/home/soda/04-REGISTROS/SYSTEM/auditoria_binaria_v3_20260318_161702.log:16. Prioridad: evitar Signal 9.
+/data/data/com.termux/files/home/soda/04-REGISTROS/SYSTEM/auditoria_binaria_v3_20260318_162005.log:16. Prioridad: evitar Signal 9.
+/data/data/com.termux/files/home/soda/04-REGISTROS/SYSTEM/auditoria_total_termux_20260318_200348.log:16. Prioridad: evitar Signal 9.
+/data/data/com.termux/files/home/soda/04-REGISTROS/SYSTEM/unificador_soberano_20260318_201630.log:16. Prioridad: evitar Signal 9.
+/data/data/com.termux/files/home/soda/04-REGISTROS/SYSTEM/migracion_github_20260318_201735.log:16. Prioridad: evitar Signal 9.
+/data/data/com.termux/files/home/soda/04-REGISTROS/SYSTEM/auditoria_binaria_v3_20260318_201741.log:16. Prioridad: evitar Signal 9.
+/data/data/com.termux/files/home/soda/04-REGISTROS/SYSTEM/auditoria_docs_20260318_213310.log:16. Prioridad: evitar Signal 9.
+/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/fix_index_final_V4.log:Incidente: GET / retorna 404 y Termux recibe Signal 9.
+=== ERRORES BACKEND ===

@@ -1,0 +1,152 @@
+=== CLASIFICACIÓN DE SCRIPTS EN 02-SISTEMA ===
+
+--- POSIBLES DAEMONS/CONTROLADORES ---
+/data/data/com.termux/files/home/soda/02-SISTEMA/API/guardian_api.sh
+#!/data/data/com.termux/files/usr/bin/bash
+---
+/data/data/com.termux/files/home/soda/02-SISTEMA/snx_daemon.sh
+#!/usr/bin/env bash
+# SNX — DAEMON INSTITUCIONAL 2026  # OBS: Encabezado institucional del daemon.
+---
+/data/data/com.termux/files/home/soda/02-SISTEMA/DAEMONS/snx_controlador_procesos_v6.sh
+#!/data/data/com.termux/files/usr/bin/bash
+# SNX — CONTROLADOR DE PROCESOS V6 # [OBS] Auditoría y Veeduría activa.
+---
+/data/data/com.termux/files/home/soda/02-SISTEMA/DAEMONS/snx_daemon.sh
+#!/data/data/com.termux/files/usr/bin/bash
+---
+/data/data/com.termux/files/home/soda/02-SISTEMA/DAEMONS/daemon_continuidad.sh
+#!/data/data/com.termux/files/usr/bin/bash
+# ============================================================
+---
+/data/data/com.termux/files/home/soda/02-SISTEMA/DAEMONS/snx_auditor_controlador_v6.sh
+#!/data/data/com.termux/files/usr/bin/bash
+# SNX — AUDITOR & CONTROLADOR V6.2 # [OBS] Letra auditada: Blindaje de Prioridad CPU.
+---
+/data/data/com.termux/files/home/soda/02-SISTEMA/DAEMONS/snx_watchdog_v6_soberano.sh
+#!/data/data/com.termux/files/usr/bin/bash
+# SNX — WATCHDOG SOBERANO V6  # [OBS] Encabezado institucional: Protege el mando único.
+---
+/data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_guardian_central.sh
+#!/bin/bash
+# [OBS 1.1] Shebang: define que este script se ejecuta con Bash en Termux.
+---
+/data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_ia_central.sh
+#!/data/data/com.termux/files/usr/bin/bash
+---
+/data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_update_estado_central_ip.sh
+#!/data/data/com.termux/files/usr/bin/bash
+# SNX — ACTUALIZAR ESTADO CENTRAL CON IP LAN Y URL DEL MONITOR
+---
+/data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_allowlist_add_central_backend.sh
+#!/data/data/com.termux/files/usr/bin/bash
+# ============================================================================
+---
+/data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_allowlist_add_central_backend_v2.sh
+#!/data/data/com.termux/files/usr/bin/bash
+# ============================================================================
+---
+/data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_allowlist_add_central_backend_v3.sh
+#!/data/data/com.termux/files/usr/bin/bash
+# ============================================================================
+---
+/data/data/com.termux/files/home/soda/02-SISTEMA/GUARDIAN/snx_guardian_soberano.sh
+#!/data/data/com.termux/files/usr/bin/bash
+# ============================================================================
+---
+/data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA/snx_memoria_central_v1.sh
+#!/data/data/com.termux/files/usr/bin/bash
+# ============================================================================
+---
+/data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA/snx_memoria_central_v2.sh
+#!/data/data/com.termux/files/usr/bin/bash
+# ============================================================================
+---
+/data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA/snx_antiamnesia_watchdog_v1.sh
+#!/data/data/com.termux/files/usr/bin/bash
+# ============================================================================
+---
+/data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA/snx_antiamnesia_watchdog_v2.sh
+#!/data/data/com.termux/files/usr/bin/bash
+# ============================================================================
+---
+/data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA/snx_watchdog_sagrados_v1.sh
+#!/data/data/com.termux/files/usr/bin/bash
+# ============================================================================
+---
+/data/data/com.termux/files/home/soda/02-SISTEMA/HERRAMIENTAS/snx_guardian_gobierno.sh
+#!/bin/bash
+# [OBS 1.1] IA-SCRIPT DERIVADO: Guardián de 00-GOBIERNO.
+---
+/data/data/com.termux/files/home/soda/02-SISTEMA/guardian_proceso.sh
+#!/bin/bash
+---
+
+--- BACKENDS PYTHON ---
+/data/data/com.termux/files/home/soda/02-SISTEMA/API/snx_bridge.py
+# (archivo completo que ya te di)
+---
+/data/data/com.termux/files/home/soda/02-SISTEMA/API/ORQUESTADOR_V6.py
+---
+/data/data/com.termux/files/home/soda/02-SISTEMA/API/ORQUESTADOR_V6_HTTPS.py
+---
+/data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/snx_monitor_backend.py
+# SNX — BACKEND INSTITUCIONAL DEL MONITOR 2026  # OBS: Encabezado institucional obligatorio.
+from flask import Flask, jsonify  # OBS: Importa Flask para crear API HTTP.
+---
+/data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/path_security.py
+---
+/data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/audit_logger.py
+---
+/data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_backend.py
+# ============================================================================
+# SNX — BACKEND MONITOR SOBERANO V3
+---
+/data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/ia_engine.py
+---
+/data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/integridad_engine.py
+---
+/data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/deploy_engine.py
+---
+/data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_endpoint_data_v1.py
+#!/data/data/com.termux/files/usr/bin/python3
+# ============================================================================
+---
+/data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_memoria_endpoint_resumen_v1.py
+#!/data/data/com.termux/files/usr/bin/python3
+# ============================================================================
+---
+/data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_antiamnesia_endpoint_v1.py
+#!/data/data/com.termux/files/usr/bin/python3
+# ============================================================================
+---
+/data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/__init__.py
+---
+/data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_backend_loader.py
+---
+/data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/monitor_soberano.py
+#!/usr/bin/env python3
+---
+/data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/snx_backend_monitor.py
+#!/data/data/com.termux/files/usr/bin/python
+# ============================================================================
+---
+/data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/monitor_bridge_v1.py
+---
+/data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/snx_monitor_unificado.py
+#!/data/data/com.termux/files/usr/bin/python3
+---
+/data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/snx_monitor_unificado_v2.py
+#!/data/data/com.termux/files/usr/bin/python3
+---
+/data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/snx_monitor_backend_unificado_v4.py
+---
+/data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/snx_backend_monitor_v2.py
+---
+/data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/snx_monitor_v2_backend_unificado.py
+# Ruta del monitor que ya estás usando
+---
+/data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/snx_monitor_backend_oficial_v2.py
+---
+/data/data/com.termux/files/home/soda/02-SISTEMA/ORQUESTADOR_MAESTRO.py
+---

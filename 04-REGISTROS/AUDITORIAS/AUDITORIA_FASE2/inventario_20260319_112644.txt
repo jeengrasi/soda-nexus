@@ -1,0 +1,104 @@
+=== MINISTERIO 00-GOBIERNO ===
+Cantidad total de archivos:
+75
+
+Archivos .sh:
+5
+Archivos .py:
+0
+Archivos .js:
+3
+Archivos .json:
+47
+----------------------------------------
+=== MINISTERIO 01-MEMORIA ===
+Cantidad total de archivos:
+20
+
+Archivos .sh:
+0
+Archivos .py:
+0
+Archivos .js:
+0
+Archivos .json:
+1
+----------------------------------------
+=== MINISTERIO 02-SISTEMA ===
+Cantidad total de archivos:
+136
+
+Archivos .sh:
+88
+Archivos .py:
+25
+Archivos .js:
+1
+Archivos .json:
+4
+----------------------------------------
+=== MINISTERIO 03-OPERACIONES ===
+Cantidad total de archivos:
+12
+
+Archivos .sh:
+2
+Archivos .py:
+0
+Archivos .js:
+9
+Archivos .json:
+0
+----------------------------------------
+=== MINISTERIO 04-REGISTROS ===
+Cantidad total de archivos:
+477
+
+Archivos .sh:
+47
+Archivos .py:
+9
+Archivos .js:
+24
+Archivos .json:
+46
+----------------------------------------
+=== MINISTERIO 05-DOCUMENTACION ===
+Cantidad total de archivos:
+32
+
+Archivos .sh:
+1
+Archivos .py:
+0
+Archivos .js:
+0
+Archivos .json:
+0
+----------------------------------------
+=== MINISTERIO 06-MONITOR ===
+Cantidad total de archivos:
+0
+
+Archivos .sh:
+0
+Archivos .py:
+0
+Archivos .js:
+0
+Archivos .json:
+0
+----------------------------------------
+=== MINISTERIO docs ===
+Cantidad total de archivos:
+10
+
+Archivos .sh:
+0
+Archivos .py:
+0
+Archivos .js:
+8
+Archivos .json:
+0
+----------------------------------------

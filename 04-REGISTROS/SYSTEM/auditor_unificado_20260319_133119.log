@@ -1,0 +1,33 @@
+=== AUDITOR UNIFICADO ===
+Fecha: Thu Mar 19 13:31:19 EDT 2026
+=============================================
+
+--- MINISTERIOS ---
+[OK] 00-GOBIERNO existe
+      75 archivos
+[OK] 01-MEMORIA existe
+      20 archivos
+[OK] 02-SISTEMA existe
+      61 archivos
+[OK] 03-OPERACIONES existe
+      12 archivos
+[OK] 04-REGISTROS existe
+      558 archivos
+[OK] 05-DOCUMENTACION existe
+      32 archivos
+[OK] 06-MONITOR existe
+      0 archivos
+[OK] docs existe
+      10 archivos
+
+--- COHERENCIA ESTRUCTURAL ---
+Comparando estructura esperada vs real...
+
+--- VALIDACIÓN CERTIFICADA ---
+Estado general: En revisión
+
+--- MONITOR Y FRONTEND ---
+[OK] index.html existe
+
+--- VALIDACIÓN TOTAL ---
+Auditoría completada. Revisar /data/data/com.termux/files/home/soda/04-REGISTROS/SYSTEM/auditor_unificado_20260319_133119.log para más detalles.
