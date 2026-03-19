@@ -1,0 +1,1753 @@
+=== INVENTARIO COMPLETO DEL SISTEMA ===
+Fecha: Wed Mar 18 22:35:26 EDT 2026
+----------------------------------------
+
+=== 00-GOBIERNO ===
+/data/data/com.termux/files/home/soda/00-GOBIERNO:
+total 37
+drwx------.  7 u0_a287 u0_a287 3452 Mar 18 22:32 .
+drwx------. 14 u0_a287 u0_a287 3452 Mar 18 22:34 ..
+drwx------.  2 u0_a287 u0_a287 3452 Mar  9 17:27 DECISIONES
+drwx------.  3 u0_a287 u0_a287 3452 Mar 18 22:15 ESTADO
+-rw-------.  1 u0_a287 u0_a287  806 Mar 16 17:12 HOJA_DE_RUTA_BACKEND.md
+drwx------.  2 u0_a287 u0_a287 3452 Mar 16 12:14 META
+drwx------.  3 u0_a287 u0_a287 3452 Mar 18 22:32 OFICIAL
+-rw-------.  1 u0_a287 u0_a287 1359 Mar 16 12:33 SNX-CONSTITUCION-V4.md
+-rw-------.  1 u0_a287 u0_a287  241 Mar 16 11:47 SNX-MEMORIA-SESION.md
+drwx------.  2 u0_a287 u0_a287 3452 Mar 16 21:33 VAULT
+
+/data/data/com.termux/files/home/soda/00-GOBIERNO/DECISIONES:
+total 11
+drwx------. 2 u0_a287 u0_a287 3452 Mar  9 17:27 .
+drwx------. 7 u0_a287 u0_a287 3452 Mar 18 22:32 ..
+-rw-------. 1 u0_a287 u0_a287  321 Mar 13 12:34 decisiones.log
+
+/data/data/com.termux/files/home/soda/00-GOBIERNO/ESTADO:
+total 131
+drwx------. 3 u0_a287 u0_a287 3452 Mar 18 22:15 .
+drwx------. 7 u0_a287 u0_a287 3452 Mar 18 22:32 ..
+drwx------. 2 u0_a287 u0_a287 3452 Mar 18 22:15 CONFIG
+-rw-------. 1 u0_a287 u0_a287  216 Mar 18 20:16 MANIFIESTO_SOBERANO_V4.json
+-rw-------. 1 u0_a287 u0_a287  243 Mar 18 20:16 MONITOR-OFICIAL_V4.json
+-rw-------. 1 u0_a287 u0_a287  387 Mar 16 17:33 REGLA_PIE_DE_PAGINA.md
+-rw-------. 1 u0_a287 u0_a287   63 Mar 18 20:16 estado_00-GOBIERNO.json
+-rw-------. 1 u0_a287 u0_a287  294 Mar 18 20:16 estado_01-MEMORIA.json
+-rw-------. 1 u0_a287 u0_a287  294 Mar 18 20:16 estado_02-SISTEMA.json
+-rw-------. 1 u0_a287 u0_a287  306 Mar 18 20:16 estado_03-OPERACIONES.json
+-rw-------. 1 u0_a287 u0_a287  290 Mar 18 20:16 estado_04-REGISTROS.json
+-rw-------. 1 u0_a287 u0_a287  294 Mar 18 20:16 estado_05-DOCUMENTACION.json
+-rw-------. 1 u0_a287 u0_a287  299 Mar 18 20:16 estado_06-MONITOR.json
+-rw-------. 1 u0_a287 u0_a287  341 Mar 18 20:16 estado_central_V4.json
+-rw-------. 1 u0_a287 u0_a287  237 Mar 18 20:16 estado_version.json
+-rw-------. 1 u0_a287 u0_a287  107 Mar 13 12:34 monitor_estado_V4.json
+-rw-------. 1 u0_a287 u0_a287  250 Mar 13 12:34 snx_contexto_soberano.json
+-rw-------. 1 u0_a287 u0_a287  326 Mar 18 20:16 snx_state.json
+-rw-------. 1 u0_a287 u0_a287  144 Mar 18 20:16 snx_state_20260309-133638.json
+-rw-------. 1 u0_a287 u0_a287 2029 Mar 18 20:16 snx_state_20260309-143034.json
+-rw-------. 1 u0_a287 u0_a287 2029 Mar 18 20:16 snx_state_20260309-143136.json
+-rw-------. 1 u0_a287 u0_a287 2029 Mar 18 20:16 snx_state_20260309-143239.json
+-rw-------. 1 u0_a287 u0_a287 2029 Mar 18 20:16 snx_state_20260309-143341.json
+-rw-------. 1 u0_a287 u0_a287 2029 Mar 18 20:16 snx_state_20260309-143444.json
+-rw-------. 1 u0_a287 u0_a287 2029 Mar 18 20:16 snx_state_20260309-143546.json
+-rw-------. 1 u0_a287 u0_a287 2029 Mar 18 20:16 snx_state_20260309-143649.json
+-rw-------. 1 u0_a287 u0_a287 2029 Mar 18 20:16 snx_state_20260309-143851.json
+-rw-------. 1 u0_a287 u0_a287 2029 Mar 18 20:16 snx_state_20260309-144136.json
+-rw-------. 1 u0_a287 u0_a287 2029 Mar 18 20:16 snx_state_20260309-145315.json
+
+=== 01-MEMORIA ===
+/data/data/com.termux/files/home/soda/01-MEMORIA:
+total 14
+drwx------.  4 u0_a287 u0_a287 3452 Mar 18 14:42 .
+drwx------. 14 u0_a287 u0_a287 3452 Mar 18 22:34 ..
+drwx------.  3 u0_a287 u0_a287 3452 Mar 18 14:42 ACTUAL
+drwx------.  3 u0_a287 u0_a287 3452 Mar 18 14:42 BACKUPS
+
+/data/data/com.termux/files/home/soda/01-MEMORIA/ACTUAL:
+total 19
+drwx------. 3 u0_a287 u0_a287 3452 Mar 18 14:42 .
+drwx------. 4 u0_a287 u0_a287 3452 Mar 18 14:42 ..
+-rw-------. 1 u0_a287 u0_a287  462 Mar 18 14:42 ESTADO_SISTEMA_V6.md
+drwx------. 2 u0_a287 u0_a287 3452 Mar 18 14:42 HASHES
+-rw-------. 1 u0_a287 u0_a287  423 Mar 18 14:42 MAPA_SOBERANO.json
+
+/data/data/com.termux/files/home/soda/01-MEMORIA/ACTUAL/HASHES:
+total 39
+drwx------. 2 u0_a287 u0_a287 3452 Mar 18 14:42 .
+drwx------. 3 u0_a287 u0_a287 3452 Mar 18 14:42 ..
+-rw-------. 1 u0_a287 u0_a287  135 Mar 18 14:42 00_GOBIERNO_snx_ia_gobierno.sh.sha
+-rw-------. 1 u0_a287 u0_a287   65 Mar 18 14:42 01_MEMORIA_snx_ia_memoria.sh.sha
+-rw-------. 1 u0_a287 u0_a287   65 Mar 18 14:42 02_SISTEMA_GLOBAL_snx_ia_central.sh.sha
+-rw-------. 1 u0_a287 u0_a287   65 Mar 18 14:42 02_SISTEMA_snx_ia_sistema.sh.sha
+-rw-------. 1 u0_a287 u0_a287   65 Mar 18 14:42 03_OPERACIONES_snx_ia_operaciones.sh.sha
+-rw-------. 1 u0_a287 u0_a287   65 Mar 18 14:42 04_REGISTROS_snx_ia_registros.sh.sha
+-rw-------. 1 u0_a287 u0_a287   65 Mar 18 14:42 05_DOCUMENTACION_snx_ia_documentacion.sh.sha
+-rw-------. 1 u0_a287 u0_a287   65 Mar 18 14:42 06_MONITOR_snx_ia_monitor.sh.sha
+
+/data/data/com.termux/files/home/soda/01-MEMORIA/BACKUPS:
+total 15
+drwx------. 3 u0_a287 u0_a287 3452 Mar 18 14:42 .
+drwx------. 4 u0_a287 u0_a287 3452 Mar 18 14:42 ..
+drwx------. 2 u0_a287 u0_a287 3452 Mar 18 14:42 LEGACY_TEXT
+-rw-------. 1 u0_a287 u0_a287 1884 Mar 18 14:42 snx_backup_20260224_1545.tar.gz
+
+/data/data/com.termux/files/home/soda/01-MEMORIA/BACKUPS/LEGACY_TEXT:
+total 43
+drwx------. 2 u0_a287 u0_a287 3452 Mar 18 14:42 .
+drwx------. 3 u0_a287 u0_a287 3452 Mar 18 14:42 ..
+-rw-------. 1 u0_a287 u0_a287  585 Mar 18 14:42 memoria_tree_20260307_222202.log
+-rw-------. 1 u0_a287 u0_a287 1428 Mar 18 14:42 memoria_tree_20260307_223513.log
+-rw-------. 1 u0_a287 u0_a287 1585 Mar 18 14:42 memoria_tree_20260307_223637.log
+-rw-------. 1 u0_a287 u0_a287  475 Mar 18 14:42 monitor_tree_20260307_222204.log
+-rw-------. 1 u0_a287 u0_a287  475 Mar 18 14:42 monitor_tree_20260307_223515.log
+-rw-------. 1 u0_a287 u0_a287  475 Mar 18 14:42 monitor_tree_20260307_223638.log
+-rw-------. 1 u0_a287 u0_a287 2508 Mar 18 14:42 operaciones_tree_20260307_222203.log
+-rw-------. 1 u0_a287 u0_a287 2508 Mar 18 14:42 operaciones_tree_20260307_223514.log
+-rw-------. 1 u0_a287 u0_a287 2508 Mar 18 14:42 operaciones_tree_20260307_223638.log
+
+=== 02-SISTEMA ===
+/data/data/com.termux/files/home/soda/02-SISTEMA:
+total 107
+drwx------. 18 u0_a287 u0_a287 3452 Mar 16 21:33 .
+drwx------. 14 u0_a287 u0_a287 3452 Mar 18 22:34 ..
+drwx------.  2 u0_a287 u0_a287 3452 Mar 16 12:39 ANTIAMNESIA
+drwx------.  4 u0_a287 u0_a287 3452 Mar 16 21:33 API
+drwx------.  2 u0_a287 u0_a287 3452 Mar 16 12:43 AUDITORIA
+drwx------.  3 u0_a287 u0_a287 3452 Mar 16 21:37 BACKEND
+drwx------.  2 u0_a287 u0_a287 3452 Mar  9 14:41 CERTIFICACION
+-rw-------.  1 u0_a287 u0_a287  570 Mar 16 17:24 CERTIFICADO_SOBERANO.md
+drwx------.  2 u0_a287 u0_a287 3452 Feb 24 15:44 CORE
+drwx------.  2 u0_a287 u0_a287 3452 Mar 16 18:36 DAEMONS
+drwx------.  2 u0_a287 u0_a287 3452 Mar 16 21:12 GLOBAL
+drwx------.  2 u0_a287 u0_a287 3452 Mar  4 14:34 GUARDIAN
+drwx------.  2 u0_a287 u0_a287 3452 Mar 16 12:47 HERRAMIENTAS
+drwx------.  2 u0_a287 u0_a287 3452 Mar  9 14:37 OPTIMIZACION
+-rw-------.  1 u0_a287 u0_a287  987 Mar 16 12:38 ORQUESTADOR_MAESTRO.py
+drwx------.  2 u0_a287 u0_a287 3452 Mar  9 14:38 PRUEBAS
+drwx------.  2 u0_a287 u0_a287 3452 Mar 16 17:18 SERVICIOS
+drwx------.  2 u0_a287 u0_a287 3452 Mar 10 12:56 SONDEOS
+drwx------.  2 u0_a287 u0_a287 3452 Mar  3 13:48 TOR
+drwx------.  2 u0_a287 u0_a287 3452 Mar  2 21:11 TUNNEL
+-rwx------.  1 u0_a287 u0_a287  155 Mar 15 23:05 guardian_proceso.sh
+-rw-------.  1 u0_a287 u0_a287  549 Mar 13 12:46 informe_saneamiento_02.log
+-rw-------.  1 u0_a287 u0_a287  616 Mar 13 12:47 informe_saneamiento_V1.log
+-rwx------.  1 u0_a287 u0_a287 1049 Mar 16 17:23 snx_auditoria_sistema_v6.sh
+-rwx------.  1 u0_a287 u0_a287 3151 Mar  1 23:56 snx_daemon.sh
+-rwx------.  1 u0_a287 u0_a287 2214 Mar  9 14:20 snx_ia_sistema.sh
+-rwx------.  1 u0_a287 u0_a287 1996 Mar 13 12:46 snx_reingenieria_sis_v1.sh
+-rwx------.  1 u0_a287 u0_a287  259 Mar 16 11:14 snx_sync_nube.sh
+-rwx------.  1 u0_a287 u0_a287 3211 Mar  2 08:29 snx_tunnel.sh
+
+/data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA:
+total 47
+drwx------.  2 u0_a287 u0_a287 3452 Mar 16 12:39 .
+drwx------. 18 u0_a287 u0_a287 3452 Mar 16 21:33 ..
+-rw-------.  1 u0_a287 u0_a287  637 Mar  6 22:43 snx_antiamnesia_integracion_sagrados_v1.sh
+-rwx------.  1 u0_a287 u0_a287  722 Mar  6 14:50 snx_antiamnesia_watchdog_v1.sh
+-rwx------.  1 u0_a287 u0_a287 2359 Mar  6 17:58 snx_antiamnesia_watchdog_v2.sh
+-rwx------.  1 u0_a287 u0_a287 1811 Mar  9 12:57 snx_integridad.sh
+-rwx------.  1 u0_a287 u0_a287 4792 Mar  6 14:48 snx_memoria_central_v1.sh
+-rwx------.  1 u0_a287 u0_a287 6480 Mar  6 14:50 snx_memoria_central_v2.sh
+-rw-------.  1 u0_a287 u0_a287 2041 Mar  6 22:43 snx_verificar_archivos_sagrados_v1.sh
+-rw-------.  1 u0_a287 u0_a287  635 Mar  6 22:44 snx_watchdog_sagrados_v1.sh
+
+/data/data/com.termux/files/home/soda/02-SISTEMA/API:
+total 38
+drwx------.  4 u0_a287 u0_a287 3452 Mar 16 21:33 .
+drwx------. 18 u0_a287 u0_a287 3452 Mar 16 21:33 ..
+-rw-------.  1 u0_a287 u0_a287 1049 Mar 16 20:17 ORQUESTADOR_V6.py
+
+=== 03-OPERACIONES ===
+/data/data/com.termux/files/home/soda/03-OPERACIONES:
+total 22
+drwx------.  5 u0_a287 u0_a287 3452 Mar 16 17:20 .
+drwx------. 14 u0_a287 u0_a287 3452 Mar 18 22:34 ..
+drwx------.  2 u0_a287 u0_a287 3452 Mar 16 11:56 BACKEND
+drwx------.  2 u0_a287 u0_a287 3452 Mar  9 17:27 MOTORES
+drwx------.  2 u0_a287 u0_a287 3452 Mar 16 22:18 WEB
+-rwx------.  1 u0_a287 u0_a287  243 Mar 16 11:25 snx_leer_oportunidades.sh
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/BACKEND:
+total 7
+drwx------. 2 u0_a287 u0_a287 3452 Mar 16 11:56 .
+drwx------. 5 u0_a287 u0_a287 3452 Mar 16 17:20 ..
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/MOTORES:
+total 11
+drwx------. 2 u0_a287 u0_a287 3452 Mar  9 17:27 .
+drwx------. 5 u0_a287 u0_a287 3452 Mar 16 17:20 ..
+-rwx------. 1 u0_a287 u0_a287  837 Mar 16 11:26 motor_ingresos_v1.sh
+
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEB:
+total 71
+drwx------. 2 u0_a287 u0_a287  3452 Mar 16 22:18 .
+drwx------. 5 u0_a287 u0_a287  3452 Mar 16 17:20 ..
+-rw-------. 1 u0_a287 u0_a287  1499 Mar 16 22:18 config-v4.js
+-rw-------. 1 u0_a287 u0_a287   106 Mar 16 11:48 config.js
+-rw-------. 1 u0_a287 u0_a287   834 Mar  4 10:25 ia.js
+-rw-------. 1 u0_a287 u0_a287 10198 Mar 16 12:45 index.html
+-rw-------. 1 u0_a287 u0_a287  8720 Mar 13 21:52 monitor-v4.js
+-rw-------. 1 u0_a287 u0_a287  8720 Mar 13 12:48 monitor.js
+-rw-------. 1 u0_a287 u0_a287  2547 Mar 13 21:52 panel-institucional-v4.js
+-rw-------. 1 u0_a287 u0_a287  2547 Mar 13 12:48 panel-institucional.js
+-rw-------. 1 u0_a287 u0_a287  2754 Mar 13 21:52 snx-logs-v4.js
+-rw-------. 1 u0_a287 u0_a287  2754 Mar 13 12:48 snx-logs.js
+
+=== 04-REGISTROS ===
+/data/data/com.termux/files/home/soda/04-REGISTROS:
+total 103
+drwx------. 13 u0_a287 u0_a287  3452 Mar 16 21:12 .
+drwx------. 14 u0_a287 u0_a287  3452 Mar 18 22:34 ..
+drwx------.  2 u0_a287 u0_a287  3452 Mar 16 12:45 ANTIAMNESIA
+drwx------.  2 u0_a287 u0_a287  3452 Mar 16 12:51 AUDITORIA_HISTORICA
+drwx------.  2 u0_a287 u0_a287  3452 Mar  7 13:21 BACKEND
+drwx------.  2 u0_a287 u0_a287  3452 Mar 16 21:12 CUARENTENA_CABOS_SUELTOS
+drwx------.  4 u0_a287 u0_a287  3452 Mar  7 13:21 GUARDIAN
+drwx------.  2 u0_a287 u0_a287  3452 Mar 18 22:14 MONITOR
+drwx------. 14 u0_a287 u0_a287 20480 Mar 18 22:32 SILO_HISTORICO
+drwx------.  2 u0_a287 u0_a287  8192 Mar 18 21:33 SYSTEM
+drwx------.  2 u0_a287 u0_a287  3452 Mar  7 13:21 SYSTEM-MAP
+drwx------.  2 u0_a287 u0_a287  3452 Mar 16 11:56 TUNNEL
+-rw-------.  1 u0_a287 u0_a287   900 Mar 16 11:49 api_runtime.log
+-rw-------.  1 u0_a287 u0_a287    62 Mar 13 12:34 central.log
+-rw-------.  1 u0_a287 u0_a287   144 Feb 28 14:46 daemon.log
+-rw-------.  1 u0_a287 u0_a287   378 Mar  9 22:49 daemon_monitor_watchdog.log
+-rw-------.  1 u0_a287 u0_a287   622 Mar  9 20:24 hitos.log
+drwx------.  2 u0_a287 u0_a287  3452 Mar 18 22:14 ia_sesiones
+-rw-------.  1 u0_a287 u0_a287   185 Mar 16 11:56 monitor_data.json
+-rw-------.  1 u0_a287 u0_a287   159 Mar 16 11:25 motor_ingresos_v1.log
+-rw-------.  1 u0_a287 u0_a287  2245 Feb 28 22:42 push_state.log
+-rwx------.  1 u0_a287 u0_a287  2107 Mar 13 00:00 snx_ia_registros_V4.sh
+-rwx------.  1 u0_a287 u0_a287  1397 Mar 13 12:51 snx_reingenieria_reg_v1.sh
+
+/data/data/com.termux/files/home/soda/04-REGISTROS/ANTIAMNESIA:
+total 15
+drwx------.  2 u0_a287 u0_a287 3452 Mar 16 12:45 .
+drwx------. 13 u0_a287 u0_a287 3452 Mar 16 21:12 ..
+-rw-------.  1 u0_a287 u0_a287  325 Mar 15 23:40 snx_antiamnesia.log
+-rw-------.  1 u0_a287 u0_a287 1030 Mar 15 23:40 snx_monitor_fix_auditoria.log
+
+/data/data/com.termux/files/home/soda/04-REGISTROS/AUDITORIA_HISTORICA:
+total 1247
+drwx------.  2 u0_a287 u0_a287   3452 Mar 16 12:51 .
+drwx------. 13 u0_a287 u0_a287   3452 Mar 16 21:12 ..
+-rw-------.  1 u0_a287 u0_a287 965123 Mar  7 22:35 SNAPSHOT_MARZO_12.txt.PROCESADO
+-rw-------.  1 u0_a287 u0_a287      0 Mar 11 14:09 monitor_backend_20260311_140947.out.PROCESADO
+-rw-------.  1 u0_a287 u0_a287      0 Mar 11 14:10 monitor_backend_20260311_141006.out.PROCESADO
+-rw-------.  1 u0_a287 u0_a287    205 Mar 11 14:09 monitor_bridge_20260311_140947.out.PROCESADO
+-rw-------.  1 u0_a287 u0_a287    205 Mar 11 14:10 monitor_bridge_20260311_141006.out.PROCESADO
+-rw-------.  1 u0_a287 u0_a287    102 Mar 11 13:15 monitor_estado.PROCESADO
+-rw-------.  1 u0_a287 u0_a287    713 Mar 11 13:17 orq_v4_20260311_131514.out.PROCESADO
+-rw-------.  1 u0_a287 u0_a287    186 Mar 11 14:09 orq_v4_20260311_140947.out.PROCESADO
+-rw-------.  1 u0_a287 u0_a287    235 Mar 11 14:10 orq_v4_20260311_141006.out.PROCESADO
+-rw-------.  1 u0_a287 u0_a287    187 Mar  6 13:27 snx_backend_v2_20260306_132737.log
+-rw-------.  1 u0_a287 u0_a287    129 Mar  6 13:28 snx_backend_v3_20260306_132840.log
+-rw-------.  1 u0_a287 u0_a287    128 Mar  6 13:28 snx_backend_v3_20260306_132841.log
+-rw-------.  1 u0_a287 u0_a287    382 Mar  4 20:02 snx_fase1_5_fix_service_20260304.log
+
+=== 05-DOCUMENTACION ===
+/data/data/com.termux/files/home/soda/05-DOCUMENTACION:
+total 121
+drwx------.  7 u0_a287 u0_a287  3452 Mar 18 14:42 .
+drwx------. 14 u0_a287 u0_a287  3452 Mar 18 22:34 ..
+drwx------.  2 u0_a287 u0_a287  3452 Mar 18 14:42 BITACORAS
+drwx------.  2 u0_a287 u0_a287  3452 Mar 18 14:42 CERTIFICACION
+drwx------.  2 u0_a287 u0_a287  3452 Mar 18 14:42 INFORMES
+-rw-------.  1 u0_a287 u0_a287 32517 Mar 18 14:42 MAPA_TOTAL_TERMUX.log
+drwx------.  2 u0_a287 u0_a287  3452 Mar 18 14:42 MONITOR
+-rw-------.  1 u0_a287 u0_a287    36 Mar 18 14:42 NOMBRE_DEL_DOCUMENTO.md
+-rw-------.  1 u0_a287 u0_a287  4161 Mar 18 14:42 PROTOCOLO_HERRAMIENTAS.md
+-rw-------.  1 u0_a287 u0_a287  3762 Mar 18 14:42 SNX-CONSULTA-IA-SCRIPT-CENTRAL-v1.0.md
+-rw-------.  1 u0_a287 u0_a287  3818 Mar 18 14:42 SNX-DEBATE-IA-SCRIPT-CENTRAL-v1.0.md
+-rw-------.  1 u0_a287 u0_a287  4283 Mar 18 14:42 SNX-HOJA-DE-RUTA-2026.md
+-rw-------.  1 u0_a287 u0_a287  4721 Mar 18 14:42 SNX-INSTRUCTIVO-GUARDADO-TERMUX.md
+-rw-------.  1 u0_a287 u0_a287  4394 Mar 18 14:42 SNX-MONITOR-PLAN-2026.md
+-rw-------.  1 u0_a287 u0_a287    63 Mar 18 14:42 SNX-TOR-MONITOR-V2.txt
+-rw-------.  1 u0_a287 u0_a287    63 Mar 18 14:42 SNX-TOR-ONION-V1.txt
+-rw-------.  1 u0_a287 u0_a287  5764 Mar 18 14:42 SNX-TUNNEL-2026.md
+drwx------.  2 u0_a287 u0_a287  3452 Mar 18 14:42 VALIDACION
+-rw-------.  1 u0_a287 u0_a287   547 Mar 18 14:42 informe_saneamiento_05.log
+
+/data/data/com.termux/files/home/soda/05-DOCUMENTACION/BITACORAS:
+total 11
+drwx------. 2 u0_a287 u0_a287 3452 Mar 18 14:42 .
+drwx------. 7 u0_a287 u0_a287 3452 Mar 18 14:42 ..
+-rw-------. 1 u0_a287 u0_a287 1446 Mar 18 14:42 BITACORA-CONVERGENCIA-V1.md
+
+/data/data/com.termux/files/home/soda/05-DOCUMENTACION/CERTIFICACION:
+total 19
+drwx------. 2 u0_a287 u0_a287 3452 Mar 18 14:42 .
+drwx------. 7 u0_a287 u0_a287 3452 Mar 18 14:42 ..
+-rw-------. 1 u0_a287 u0_a287 1745 Mar 18 14:42 DOSSIER_SOBERANO_V4_MARZO_2026.md
+-rw-------. 1 u0_a287 u0_a287 3844 Mar 18 14:42 INFORME-CERTIFICACION-SISTEMA.md
+-rw-------. 1 u0_a287 u0_a287  628 Mar 18 14:42 RESUMEN_CIERRE_SANEAMIENTO.md
+
+/data/data/com.termux/files/home/soda/05-DOCUMENTACION/INFORMES:
+total 207
+drwx------. 2 u0_a287 u0_a287   3452 Mar 18 14:42 .
+drwx------. 7 u0_a287 u0_a287   3452 Mar 18 14:42 ..
+-rw-------. 1 u0_a287 u0_a287   1818 Mar 18 14:42 INFORME-AUDITORIA-FINAL.md
+-rw-------. 1 u0_a287 u0_a287 133719 Mar 18 14:42 INFORME-CONSOLIDACION-DOCUMENTAL.md
+-rw-------. 1 u0_a287 u0_a287  14185 Mar 18 14:42 INFORME-OPTIMIZACION.md
+-rw-------. 1 u0_a287 u0_a287   4501 Mar 18 14:42 adn_cerebro_20260313.txt
+-rw-------. 1 u0_a287 u0_a287    131 Mar 18 14:42 auditoria_logs_20260313.txt
+-rw-------. 1 u0_a287 u0_a287    541 Mar 18 14:42 indice_sesiones_ia_20260313.txt
+-rw-------. 1 u0_a287 u0_a287   2519 Mar 18 14:42 inteligencia_operativa_20260313.txt
+-rw-------. 1 u0_a287 u0_a287  23116 Mar 18 14:42 linea_tiempo_estados.txt
+-rwx------. 1 u0_a287 u0_a287    691 Mar 18 14:42 snx_consolidacion_documental.sh
+
+
+=== 06-MONITOR ===
+/data/data/com.termux/files/home/soda/06-MONITOR:
+total 7
+drwx------.  2 u0_a287 u0_a287 3452 Mar 18 20:16 .
+drwx------. 14 u0_a287 u0_a287 3452 Mar 18 22:34 ..
+
+=== docs ===
+/data/data/com.termux/files/home/soda/docs:
+total 40
+drwx------.  2 u0_a287 u0_a287  8192 Mar 18 22:32 .
+drwx------. 14 u0_a287 u0_a287  3452 Mar 18 22:34 ..
+-rw-------.  1 u0_a287 u0_a287     0 Mar 18 12:28 .nojekyll
+-rw-------.  1 u0_a287 u0_a287   617 Mar 18 20:16 api.js
+-rw-------.  1 u0_a287 u0_a287  1499 Mar 18 20:16 config-v4.js
+-rw-------.  1 u0_a287 u0_a287   789 Mar 18 20:16 extensiones_monitor_v1.js
+-rw-------.  1 u0_a287 u0_a287   834 Mar 18 20:16 ia.js
+-rw-------.  1 u0_a287 u0_a287 10198 Mar 18 12:49 index.html
+-rwx------.  1 u0_a287 u0_a287   830 Mar 18 20:16 snx_monitor_backend.js
+
+=== POSIBLES DUPLICADOS (mismo nombre) ===
+.gitignore
+.nojekyll
+BACKEND-MONITOR-REGISTRO.json
+COMMIT_EDITMSG
+CURRENT_MOTOR.json
+ENGRANAJE-MAESTRO-V4.json
+HEAD
+MAPA_SOBERANO.json
+allowed_scripts.json
+allowed_scripts_v1.json
+api.js
+api_runtime.log
+applypatch-msg.sample
+commit-msg.sample
+config
+config-v4.js
+config.js
+de0c4420a814d940d49ad170e9050dbe5d1762
+description
+diff_2026-03-04_20-54-00.json
+diff_2026-03-04_20-56-06.json
+engranaje_04-REGISTROS.json
+engranaje_05-DOCUMENTACION.json
+estado_00-GOBIERNO.json
+estado_01-MEMORIA.json
+estado_02-SISTEMA.json
+estado_03-OPERACIONES.json
+estado_04-REGISTROS.json
+estado_05-DOCUMENTACION.json
+estado_06-MONITOR.json
+estado_version.json
+exclude
+extensiones_monitor_v1.js
+extensions.json
+fsmonitor-watchman.sample
+hashes_baseline.json
+ia.js
+index
+index.html
+informe_saneamiento_V1.log
+jsconfig.json
+master
+monitor-2.js
+monitor-v4.js
+monitor.js
+monitor_data.json
+monitor_data_snapshot.json
+monitor_estado_V4.json
+package-lock.json
+package.json
+panel-institucional-v4.js
+panel-institucional.js
+panel_institucional_v1.js
+paquete_contexto_ia.json
+post-update.sample
+pre-applypatch.sample
+pre-commit.sample
+pre-merge-commit.sample
+pre-push.sample
+pre-rebase.sample
+pre-receive.sample
+prepare-commit-msg.sample
+push-to-checkout.sample
+sendemail-validate.sample
+snx-logs-2.js
+snx-logs-v4.js
+snx-logs.js
+snx_antiamnesia.log
+snx_contexto_soberano.json
+snx_daemon.sh
+snx_ia_central.sh
+snx_monitor_backend.js
+snx_monitor_backend.py
+snx_monitor_fix_auditoria.log
+snx_state_20260309-133638.json
+snx_state_20260309-143034.json
+snx_state_20260309-143136.json
+snx_state_20260309-143239.json
+snx_state_20260309-143341.json
+snx_state_20260309-143444.json
+snx_state_20260309-143546.json
+snx_state_20260309-143649.json
+snx_state_20260309-143851.json
+snx_state_20260309-144136.json
+snx_state_20260309-145315.json
+snx_state_20260309-145349.json
+snx_state_20260313-125351.json
+snx_state_20260313-125453.json
+snx_state_20260313-125556.json
+snx_termux_blindaje_20260307.log
+snx_termux_blindaje_20260308.log
+snx_termux_blindaje_20260309.log
+snx_termux_blindaje_20260310.log
+snx_termux_blindaje_20260311.log
+snx_termux_blindaje_20260312.log
+snx_termux_blindaje_20260316.log
+status.json
+svelte.config.js
+sync_04-REGISTROS.json
+sync_05-DOCUMENTACION.json
+update.sample
+vite.config.js
+
+=== PROCESOS ACTIVOS EN TERMUX ===
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+u0_a287  24100  0.0  0.0 2159352 3124 ?        S<    1970   0:00 runsv ssh-agent
+u0_a287  24101  0.0  0.0 2142968 3092 ?        S<    1970   0:00 runsv crond
+u0_a287  24102  0.4  0.0 2179832 3316 ?        S<    1970   0:02 runsv snx-tunnel
+u0_a287  24103  0.0  0.0 2159352 3180 ?        S<    1970   0:00 runsv ftpd
+u0_a287  24104  0.0  0.0 2181880 3120 ?        S<    1970   0:00 runsv telnetd
+u0_a287  24106  0.4  0.0 2149112 3244 ?        S<    1970   0:02 runsv snx-cloudflare
+u0_a287  24115  0.0  0.0 2157312 3124 ?        S<    1970   0:00 svlogd -tt .
+u0_a287  24117  0.0  0.0 2159360 3116 ?        S<    1970   0:00 svlogd -tt /data/data/com.termux/files/usr/var/log/sv/crond
+u0_a287  24118  0.0  0.0 2173696 3152 ?        S<    1970   0:00 svlogd -tt .
+u0_a287  24119  0.0  0.0 2188032 3244 ?        S<    1970   0:00 svlogd -tt /data/data/com.termux/files/usr/var/log/sv/telnetd
+u0_a287  24120  0.0  0.0 2134784 3148 ?        S<    1970   0:00 svlogd -tt /data/data/com.termux/files/usr/var/log/sv/ssh-agent
+u0_a287  24122  0.0  0.0 2153216 3300 ?        S<    1970   0:00 svlogd -tt /data/data/com.termux/files/usr/var/log/sv/ftpd
+u0_a287  24169  0.1  0.9 2356320 34800 ?       S<l   1970   0:00 python3 /data/data/com.termux/files/home/soda/02-SISTEMA/API/ORQUESTADOR_V6.py
+u0_a287  24728  0.4  0.0 2179832 3264 ?        S<    1970   0:02 runsv snx-backend
+u0_a287  24729  0.4  0.0 2142968 3368 ?        S<    1970   0:02 runsv monitor
+u0_a287  24730  0.0  0.0 2134776 3104 ?        S<    1970   0:00 runsv tor
+u0_a287  24731  0.0  0.0 2167544 3168 ?        S<    1970   0:00 runsv snx_termux_blindaje
+u0_a287  24732  0.0  0.0 2167544 3164 ?        S<    1970   0:00 runsv snx_backend_monitor
+u0_a287  24734  0.0  0.0 2161400 3220 ?        S<    1970   0:00 runsv monitor_backend
+u0_a287  24735  0.4  0.0 2196216 3180 ?        S<    1970   0:02 runsv monitor_bridge
+u0_a287  24736  0.0  0.0 2145016 3132 ?        S<    1970   0:00 runsv snx-monitor
+u0_a287  24737  0.0  0.0 2136832 3072 ?        S<    1970   0:00 svlogd -tt /data/data/com.termux/files/usr/var/log/sv/tor
+u0_a287  24740  0.0  0.0 2147072 3200 ?        S<    1970   0:00 svlogd -tt ./
+u0_a287  24741  0.0  0.1 2172324 4636 ?        S<    1970   0:00 /data/data/com.termux/files/usr/bin/bash /data/data/com.termux/files/home/soda/02-SISTEMA/SERVICIOS/snx_termux_blindaje.sh
+u0_a287  24784  0.0  0.1 2168228 4472 ?        S<    1970   0:00 bash /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_backend_run.sh
+u0_a287  24785  0.2  1.3 2387832 50796 ?       S<    1970   0:01 /data/data/com.termux/files/usr/bin/python3 snx_monitor_unificado_v2.py
+u0_a287  24787  0.2  1.3 2402168 50888 ?       S<    1970   0:01 python snx_monitor_backend_loader.py
+u0_a287  24790  0.1  0.5 2282408 19964 ?       S<    1970   0:00 python3 -m http.server 8080 --directory /data/data/com.termux/files/home/soda/06-MONITOR/V3/
+u0_a287  27968  0.0  0.1 2279012 5112 pts/0    S<s+  1970   0:00 /data/data/com.termux/files/usr/bin/bash -l
+u0_a287  27986  0.2  0.0 2185996 3244 ?        S<    1970   0:00 /data/data/com.termux/files/usr/bin/runsvdir /data/data/com.termux/files/usr/var/service
+u0_a287  27987  0.0  0.0 2194168 3136 ?        S<    1970   0:00 runsv busybox-httpd
+u0_a287  27988  0.0  0.0 2169592 3180 ?        S<    1970   0:00 runsv sshd
+u0_a287  28000  0.5  0.0 2147064 3148 ?        S<    1970   0:01 runsv orq_v4
+u0_a287  28005  0.0  0.0 2192128 3132 ?        S<    1970   0:00 svlogd -tt /data/data/com.termux/files/usr/var/log/sv/busybox-httpd
+u0_a287  28006  0.0  0.0 2192128 3088 ?        S<    1970   0:00 svlogd -tt /data/data/com.termux/files/usr/var/log/sv/sshd
+u0_a287  28062  0.0  0.1 2207480 5132 ?        S<s   1970   0:00 sshd
+u0_a287  28629  0.0  0.1 2248532 5100 ?        S<    1970   0:00 sleep 300
+u0_a287  32048  0.5  0.2 2189840 8836 ?        S<s   1970   0:00 /data/data/com.termux/files/usr/libexec/sshd-session -R
+u0_a287  32057  0.2  0.1 2189644 5776 ?        S<    1970   0:00 /data/data/com.termux/files/usr/libexec/sshd-session -R
+u0_a287  32058  1.0  0.1 2172520 5196 pts/1    S<s   1970   0:00 /data/data/com.termux/files/usr/bin/bash -l
+u0_a287  32252  0.0  0.0      0     0 ?        Z<    1970   0:00 [runsv] <defunct>
+u0_a287  32254  0.0  0.0      0     0 ?        Z<    1970   0:00 [runsv] <defunct>
+u0_a287  32255  0.0  0.0      0     0 ?        Z<    1970   0:00 [runsv] <defunct>
+u0_a287  32256  0.0  0.0      0     0 ?        Z<    1970   0:00 [runsv] <defunct>
+u0_a287  32257  0.5  0.0      0     0 ?        Z<    1970   0:00 [runsv] <defunct>
+u0_a287  32258  0.5  0.0      0     0 ?        Z<    1970   0:00 [runsv] <defunct>
+u0_a287  32259  0.5  0.0      0     0 ?        Z<    1970   0:00 [runsv] <defunct>
+u0_a287  32260  0.0  0.0      0     0 ?        Z<    1970   0:00 [runsv] <defunct>
+u0_a287  32261  0.0  0.0      0     0 ?        Z<    1970   0:00 [runsv] <defunct>
+u0_a287  32263  0.0  0.0      0     0 ?        Z<    1970   0:00 [runsv] <defunct>
+u0_a287  32264  0.0  0.0      0     0 ?        Z<    1970   0:00 [runsv] <defunct>
+u0_a287  32265  0.5  0.0      0     0 ?        Z<    1970   0:00 [runsv] <defunct>
+u0_a287  32266  0.5  0.0      0     0 ?        Z<    1970   0:00 [runsv] <defunct>
+u0_a287  32267  0.5  0.0      0     0 ?        Z<    1970   0:00 [runsv] <defunct>
+u0_a287  32291  1.0  0.0 2153924 3452 pts/1    R<+   1970   0:00 ps aux
+
+=== SCRIPTS EN EJECUCIÓN ===
+24100 runsv ssh-agent
+24120 svlogd -tt /data/data/com.termux/files/usr/var/log/sv/ssh-agent
+24169 python3 /data/data/com.termux/files/home/soda/02-SISTEMA/API/ORQUESTADOR_V6.py
+24741 /data/data/com.termux/files/usr/bin/bash /data/data/com.termux/files/home/soda/02-SISTEMA/SERVICIOS/snx_termux_blindaje.sh
+24784 bash /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_backend_run.sh
+24785 /data/data/com.termux/files/usr/bin/python3 snx_monitor_unificado_v2.py
+24787 python snx_monitor_backend_loader.py
+24790 python3 -m http.server 8080 --directory /data/data/com.termux/files/home/soda/06-MONITOR/V3/
+27968 /data/data/com.termux/files/usr/bin/bash -l
+27988 runsv sshd
+28006 svlogd -tt /data/data/com.termux/files/usr/var/log/sv/sshd
+28062 sshd
+32048 /data/data/com.termux/files/usr/libexec/sshd-session -R
+32057 /data/data/com.termux/files/usr/libexec/sshd-session -R
+32058 /data/data/com.termux/files/usr/bin/bash -l
+
+=== PUERTOS ESCUCHANDO ===
+
+=== SCRIPTS EJECUTABLES ===
+-rw-------. 1 u0_a287 u0_a287 1499 Mar 18 20:16 /data/data/com.termux/files/home/soda/docs/config-v4.js
+-rwx------. 1 u0_a287 u0_a287 830 Mar 18 20:16 /data/data/com.termux/files/home/soda/docs/snx_monitor_backend.js
+-rw-------. 1 u0_a287 u0_a287 834 Mar 18 20:16 /data/data/com.termux/files/home/soda/docs/ia.js
+-rw-------. 1 u0_a287 u0_a287 617 Mar 18 20:16 /data/data/com.termux/files/home/soda/docs/api.js
+-rw-------. 1 u0_a287 u0_a287 789 Mar 18 20:16 /data/data/com.termux/files/home/soda/docs/extensiones_monitor_v1.js
+-rwx------. 1 u0_a287 u0_a287 691 Mar 18 14:42 /data/data/com.termux/files/home/soda/05-DOCUMENTACION/INFORMES/snx_consolidacion_documental.sh
+-rwx------. 1 u0_a287 u0_a287 4539 Mar 18 15:28 /data/data/com.termux/files/home/soda/snx_auditoria_monitor_v7.sh
+-rwx------. 1 u0_a287 u0_a287 3854 Mar 18 16:06 /data/data/com.termux/files/home/soda/snx_auditor_binario_v2.sh
+-rwx------. 1 u0_a287 u0_a287 4482 Mar 18 16:16 /data/data/com.termux/files/home/soda/snx_auditor_binario_v3.sh
+-rwx------. 1 u0_a287 u0_a287 382 Feb 28 13:54 /data/data/com.termux/files/home/soda/00-GOBIERNO/VAULT/github_save.sh
+-rwx------. 1 u0_a287 u0_a287 218 Mar  3 15:05 /data/data/com.termux/files/home/soda/00-GOBIERNO/VAULT/github_fix.sh
+-rwx------. 1 u0_a287 u0_a287 738 Mar 10 12:49 /data/data/com.termux/files/home/soda/00-GOBIERNO/VAULT/ia_vault_deepseek_registrar.sh
+-rwx------. 1 u0_a287 u0_a287 718 Mar 11 11:35 /data/data/com.termux/files/home/soda/00-GOBIERNO/VAULT/ia_vault_modelo_local.sh
+-rwx------. 1 u0_a287 u0_a287 1151 Mar 11 11:35 /data/data/com.termux/files/home/soda/00-GOBIERNO/VAULT/ia_vault_remota.sh
+-rw-------. 1 u0_a287 u0_a287 8720 Mar 18 22:32 /data/data/com.termux/files/home/soda/00-GOBIERNO/OFICIAL/V1-20260318/monitor-v1-20260318.js
+-rw-------. 1 u0_a287 u0_a287 2547 Mar 18 22:32 /data/data/com.termux/files/home/soda/00-GOBIERNO/OFICIAL/V1-20260318/panel-institucional-v1-20260318.js
+-rw-------. 1 u0_a287 u0_a287 2754 Mar 18 22:32 /data/data/com.termux/files/home/soda/00-GOBIERNO/OFICIAL/V1-20260318/snx-logs-v1-20260318.js
+-rwx------. 1 u0_a287 u0_a287 3763 Mar 18 20:03 /data/data/com.termux/files/home/soda/snx_auditor_total_termux_v1.sh
+-rwx------. 1 u0_a287 u0_a287 2004 Feb 24 15:44 /data/data/com.termux/files/home/soda/02-SISTEMA/CORE/snx_doc_backup.sh
+-rw-------. 1 u0_a287 u0_a287 34 Feb 25 09:33 /data/data/com.termux/files/home/soda/02-SISTEMA/API/snx_bridge.py
+-rwx------. 1 u0_a287 u0_a287 225 Mar 12 21:57 /data/data/com.termux/files/home/soda/02-SISTEMA/API/guardian_api.sh
+-rw-------. 1 u0_a287 u0_a287 1049 Mar 16 20:17 /data/data/com.termux/files/home/soda/02-SISTEMA/API/ORQUESTADOR_V6.py
+-rw-------. 1 u0_a287 u0_a287 822 Mar 13 22:33 /data/data/com.termux/files/home/soda/02-SISTEMA/API/ORQUESTADOR_V6_HTTPS.py
+-rwx------. 1 u0_a287 u0_a287 259 Mar 16 11:14 /data/data/com.termux/files/home/soda/02-SISTEMA/snx_sync_nube.sh
+-rwx------. 1 u0_a287 u0_a287 1049 Mar 16 17:23 /data/data/com.termux/files/home/soda/02-SISTEMA/snx_auditoria_sistema_v6.sh
+-rwx------. 1 u0_a287 u0_a287 3151 Mar  1 23:56 /data/data/com.termux/files/home/soda/02-SISTEMA/snx_daemon.sh
+-rwx------. 1 u0_a287 u0_a287 3211 Mar  2 08:29 /data/data/com.termux/files/home/soda/02-SISTEMA/snx_tunnel.sh
+-rwx------. 1 u0_a287 u0_a287 1207 Mar 16 18:31 /data/data/com.termux/files/home/soda/02-SISTEMA/DAEMONS/snx_controlador_procesos_v6.sh
+-rwx------. 1 u0_a287 u0_a287 2343 Mar  3 12:56 /data/data/com.termux/files/home/soda/02-SISTEMA/DAEMONS/snx_tor_persistent_v1.sh
+-rwx------. 1 u0_a287 u0_a287 377 Feb 24 23:22 /data/data/com.termux/files/home/soda/02-SISTEMA/DAEMONS/snx_daemon.sh
+-rwx------. 1 u0_a287 u0_a287 611 Mar  3 13:21 /data/data/com.termux/files/home/soda/02-SISTEMA/DAEMONS/snx_tor_monitor_persistent_v2.sh
+-rwxr-xr-x. 1 u0_a287 u0_a287 3334 Feb 27 00:04 /data/data/com.termux/files/home/soda/02-SISTEMA/DAEMONS/snx_tunnel_persistent.sh
+-rwx------. 1 u0_a287 u0_a287 724 Mar  9 17:27 /data/data/com.termux/files/home/soda/02-SISTEMA/DAEMONS/daemon_continuidad.sh
+-rwx------. 1 u0_a287 u0_a287 1084 Mar 16 18:55 /data/data/com.termux/files/home/soda/02-SISTEMA/DAEMONS/snx_auditor_controlador_v6.sh
+-rwx------. 1 u0_a287 u0_a287 1017 Mar 16 17:00 /data/data/com.termux/files/home/soda/02-SISTEMA/DAEMONS/snx_watchdog_v6_soberano.sh
+-rwx------. 1 u0_a287 u0_a287 1358 Mar 16 17:05 /data/data/com.termux/files/home/soda/02-SISTEMA/DAEMONS/snx_auditor_presencia_v6.sh
+-rwx------. 1 u0_a287 u0_a287 858 Feb 27 12:48 /data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_tree.sh
+-rwx------. 1 u0_a287 u0_a287 1110 Feb 27 07:31 /data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_reader.sh
+-rwx------. 1 u0_a287 u0_a287 1801 Feb 27 13:35 /data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_correccion_final.sh
+-rw-------. 1 u0_a287 u0_a287 1321 Feb 27 12:36 /data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_open_all_docs.sh
+-rwx------. 1 u0_a287 u0_a287 2958 Feb 27 13:27 /data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_saneamiento_total.sh
+-rwx------. 1 u0_a287 u0_a287 348 Feb 27 12:46 /data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_show_all.sh
+-rwx------. 1 u0_a287 u0_a287 997 Feb 27 12:41 /data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_show_todo.sh
+-rw-------. 1 u0_a287 u0_a287 210 Feb 27 12:40 /data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_split_docs.sh
+-rwx------. 1 u0_a287 u0_a287 5188 Feb 27 15:20 /data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_guardian_central.sh
+-rwx------. 1 u0_a287 u0_a287 1502 Mar  3 15:00 /data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/SNX-PUBLISH-MONITOR.sh
+-rwx------. 1 u0_a287 u0_a287 1198 Mar  5 19:01 /data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_fix_bashrc_v1.sh
+-rwx------. 1 u0_a287 u0_a287 1623 Mar  6 12:36 /data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_reparar_bashrc_v2.sh
+-rwx------. 1 u0_a287 u0_a287 2895 Mar  9 12:43 /data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_ia_central.sh
+-rwx------. 1 u0_a287 u0_a287 1068 Mar  9 17:26 /data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_verificador_coherencia.sh
+-rwx------. 1 u0_a287 u0_a287 698 Mar  9 17:33 /data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_detect_ip_lan.sh
+-rwx------. 1 u0_a287 u0_a287 1181 Mar  9 17:34 /data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_update_estado_central_ip.sh
+-rwx------. 1 u0_a287 u0_a287 1398 Mar 12 13:39 /data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_antiamnesia_minimo.sh
+-rwx------. 1 u0_a287 u0_a287 4980 Mar 12 14:29 /data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_monitor_fix_auditoria.sh
+-rwx------. 1 u0_a287 u0_a287 830 Mar  1 11:33 /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/snx_monitor_backend.js
+-rwx------. 1 u0_a287 u0_a287 7107 Mar  1 23:52 /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/snx_monitor_backend.py
+-rw-------. 1 u0_a287 u0_a287 352 Mar  3 16:31 /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/path_security.py
+-rw-------. 1 u0_a287 u0_a287 378 Mar  3 16:31 /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/audit_logger.py
+-rwx------. 1 u0_a287 u0_a287 8921 Mar  5 10:02 /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_backend.py
+-rwx------. 1 u0_a287 u0_a287 102 Mar 11 13:39 /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_backend_run.sh
+-rw-------. 1 u0_a287 u0_a287 1693 Mar  4 10:08 /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/ia_engine.py
+-rw-------. 1 u0_a287 u0_a287 1802 Mar  4 09:59 /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/integridad_engine.py
+-rw-------. 1 u0_a287 u0_a287 1394 Mar  4 10:18 /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/deploy_engine.py
+-rwx------. 1 u0_a287 u0_a287 8809 Mar  4 23:26 /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_backend_upgrade_v2.sh
+-rwx------. 1 u0_a287 u0_a287 2819 Mar  4 23:44 /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_allowlist_upgrade_v1.sh
+-rwx------. 1 u0_a287 u0_a287 3102 Mar  5 09:01 /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_allowlist_upgrade_v2.sh
+-rwx------. 1 u0_a287 u0_a287 1565 Mar  6 13:38 /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_endpoint_data_v1.py
+-rwx------. 1 u0_a287 u0_a287 10178 Mar  5 10:02 /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_backend_upgrade_v3.sh
+-rwx------. 1 u0_a287 u0_a287 1426 Mar  6 13:14 /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_allowlist_add_central_backend.sh
+-rwx------. 1 u0_a287 u0_a287 937 Mar  6 13:26 /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_allowlist_add_central_backend_v2.sh
+-rwx------. 1 u0_a287 u0_a287 937 Mar  6 13:28 /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_allowlist_add_central_backend_v3.sh
+-rwx------. 1 u0_a287 u0_a287 559 Mar  6 13:38 /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_endpoint_data_run.sh
+-rwx------. 1 u0_a287 u0_a287 531 Mar  6 13:38 /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_publish_v1.sh
+-rwx------. 1 u0_a287 u0_a287 1371 Mar  6 14:08 /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_memoria_endpoint_resumen_v1.py
+-rwx------. 1 u0_a287 u0_a287 1678 Mar  6 14:50 /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_antiamnesia_endpoint_v1.py
+-rwx------. 1 u0_a287 u0_a287 124 Mar  6 14:50 /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_antiamnesia_endpoint_run.sh
+-rw-------. 1 u0_a287 u0_a287 0 Mar 11 13:39 /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/__init__.py
+-rw-------. 1 u0_a287 u0_a287 279 Mar 11 13:39 /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_backend_loader.py
+-rw-------. 1 u0_a287 u0_a287 1922 Mar  4 15:21 /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/monitor_soberano.py
+-rwx------. 1 u0_a287 u0_a287 2168 Mar  4 20:08 /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/snx_backend_monitor.py
+-rw-------. 1 u0_a287 u0_a287 1282 Mar 11 14:03 /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/monitor_bridge_v1.py
+-rw-------. 1 u0_a287 u0_a287 2957 Mar 11 14:47 /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/snx_monitor_unificado.py
+-rw-------. 1 u0_a287 u0_a287 2629 Mar 11 14:49 /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/snx_monitor_unificado_v2.py
+-rw-------. 1 u0_a287 u0_a287 986 Mar 12 13:50 /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/snx_monitor_backend_unificado_v4.py
+-rw-------. 1 u0_a287 u0_a287 1057 Mar 12 13:57 /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/snx_backend_monitor_v2.py
+-rw-------. 1 u0_a287 u0_a287 1815 Mar 12 14:16 /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/snx_monitor_v2_backend_unificado.py
+-rw-------. 1 u0_a287 u0_a287 1730 Mar 12 14:29 /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/snx_monitor_backend_oficial_v2.py
+-rwx------. 1 u0_a287 u0_a287 5099 Feb 26 14:22 /data/data/com.termux/files/home/soda/02-SISTEMA/TUNNEL/snx_tunnel_init.sh
+-rwx------. 1 u0_a287 u0_a287 1426 Feb 26 14:25 /data/data/com.termux/files/home/soda/02-SISTEMA/TUNNEL/snx_tunnel_login.sh
+-rwx------. 1 u0_a287 u0_a287 960 Feb 26 21:15 /data/data/com.termux/files/home/soda/02-SISTEMA/TUNNEL/snx_tunnel_manager.sh
+-rwx------. 1 u0_a287 u0_a287 1293 Mar  2 11:08 /data/data/com.termux/files/home/soda/02-SISTEMA/TUNNEL/snx_tunnel_install.sh
+-rwx------. 1 u0_a287 u0_a287 828 Mar  2 21:11 /data/data/com.termux/files/home/soda/02-SISTEMA/TUNNEL/snx_tunnel_local.sh
+-rwx------. 1 u0_a287 u0_a287 2934 Mar  4 14:42 /data/data/com.termux/files/home/soda/02-SISTEMA/GUARDIAN/snx_guardian_soberano.sh
+-rwx------. 1 u0_a287 u0_a287 1380 Mar 16 17:15 /data/data/com.termux/files/home/soda/02-SISTEMA/SERVICIOS/snx_termux_blindaje.sh
+-rwx------. 1 u0_a287 u0_a287 2211 Mar  4 20:02 /data/data/com.termux/files/home/soda/02-SISTEMA/SERVICIOS/snx_fase1_5_fix_service.sh
+-rwx------. 1 u0_a287 u0_a287 1624 Mar  6 17:58 /data/data/com.termux/files/home/soda/02-SISTEMA/SERVICIOS/snx_fase3_services_boot_v1.sh
+-rw-------. 1 u0_a287 u0_a287 588 Mar  6 22:44 /data/data/com.termux/files/home/soda/02-SISTEMA/SERVICIOS/snx_monitor_sagrado_run_v1.sh
+-rwx------. 1 u0_a287 u0_a287 3487 Mar  6 22:45 /data/data/com.termux/files/home/soda/02-SISTEMA/SERVICIOS/snx_lanzador_maestro_v1.sh
+-rwx------. 1 u0_a287 u0_a287 4792 Mar  6 14:48 /data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA/snx_memoria_central_v1.sh
+-rwx------. 1 u0_a287 u0_a287 6480 Mar  6 14:50 /data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA/snx_memoria_central_v2.sh
+-rwx------. 1 u0_a287 u0_a287 722 Mar  6 14:50 /data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA/snx_antiamnesia_watchdog_v1.sh
+-rwx------. 1 u0_a287 u0_a287 2359 Mar  6 17:58 /data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA/snx_antiamnesia_watchdog_v2.sh
+-rw-------. 1 u0_a287 u0_a287 2041 Mar  6 22:43 /data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA/snx_verificar_archivos_sagrados_v1.sh
+-rw-------. 1 u0_a287 u0_a287 637 Mar  6 22:43 /data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA/snx_antiamnesia_integracion_sagrados_v1.sh
+-rw-------. 1 u0_a287 u0_a287 635 Mar  6 22:44 /data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA/snx_watchdog_sagrados_v1.sh
+-rwx------. 1 u0_a287 u0_a287 1811 Mar  9 12:57 /data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA/snx_integridad.sh
+-rwx------. 1 u0_a287 u0_a287 2504 Mar  6 18:03 /data/data/com.termux/files/home/soda/02-SISTEMA/AUDITORIA/snx_auditoria_monitor_frontend_v1.sh
+-rwx------. 1 u0_a287 u0_a287 1684 Mar  6 18:16 /data/data/com.termux/files/home/soda/02-SISTEMA/AUDITORIA/snx_buscar_monitor_real_v1.sh
+-rwx------. 1 u0_a287 u0_a287 1331 Mar  9 14:37 /data/data/com.termux/files/home/soda/02-SISTEMA/AUDITORIA/snx_auditoria_final.sh
+-rwx------. 1 u0_a287 u0_a287 2646 Mar 11 13:15 /data/data/com.termux/files/home/soda/02-SISTEMA/AUDITORIA/snx_correcion_total_v1.sh
+-rwx------. 1 u0_a287 u0_a287 2338 Mar 11 14:09 /data/data/com.termux/files/home/soda/02-SISTEMA/AUDITORIA/snx_auditoria_stack_monitor_v1.sh
+-rwx------. 1 u0_a287 u0_a287 2525 Mar 11 14:09 /data/data/com.termux/files/home/soda/02-SISTEMA/AUDITORIA/snx_correcion_stack_monitor_v1.sh
+-rwx------. 1 u0_a287 u0_a287 340 Mar 16 12:43 /data/data/com.termux/files/home/soda/02-SISTEMA/AUDITORIA/snx_auditoria_v2_legal.sh
+-rwx------. 1 u0_a287 u0_a287 2214 Mar  9 14:20 /data/data/com.termux/files/home/soda/02-SISTEMA/snx_ia_sistema.sh
+-rwx------. 1 u0_a287 u0_a287 580 Mar  9 14:37 /data/data/com.termux/files/home/soda/02-SISTEMA/OPTIMIZACION/snx_optimizacion.sh
+-rwx------. 1 u0_a287 u0_a287 4536 Mar  9 14:38 /data/data/com.termux/files/home/soda/02-SISTEMA/PRUEBAS/snx_validacion_total.sh
+-rwx------. 1 u0_a287 u0_a287 4436 Mar  9 14:41 /data/data/com.termux/files/home/soda/02-SISTEMA/CERTIFICACION/snx_validacion_certificada.sh
+-rwx------. 1 u0_a287 u0_a287 537 Mar 10 12:56 /data/data/com.termux/files/home/soda/02-SISTEMA/SONDEOS/sondeo_vaults_sistema.sh
+-rwx------. 1 u0_a287 u0_a287 1492 Mar 11 13:17 /data/data/com.termux/files/home/soda/02-SISTEMA/HERRAMIENTAS/snx_fix_ia_vaults_v1.sh
+-rwx------. 1 u0_a287 u0_a287 1230 Mar  7 22:48 /data/data/com.termux/files/home/soda/02-SISTEMA/HERRAMIENTAS/snx_ia_gobierno_legacy.sh
+-rwx------. 1 u0_a287 u0_a287 298 Feb 27 13:52 /data/data/com.termux/files/home/soda/02-SISTEMA/HERRAMIENTAS/snx_fix_final.sh
+-rw-------. 1 u0_a287 u0_a287 203 Feb 27 13:52 /data/data/com.termux/files/home/soda/02-SISTEMA/HERRAMIENTAS/snx_fix_logs.sh
+-rw-------. 1 u0_a287 u0_a287 166 Feb 27 13:52 /data/data/com.termux/files/home/soda/02-SISTEMA/HERRAMIENTAS/snx_remove_legacy.sh
+-rwx------. 1 u0_a287 u0_a287 2665 Feb 27 15:43 /data/data/com.termux/files/home/soda/02-SISTEMA/HERRAMIENTAS/snx_guardian_gobierno.sh
+-rwx------. 1 u0_a287 u0_a287 2054 Mar  9 13:46 /data/data/com.termux/files/home/soda/02-SISTEMA/HERRAMIENTAS/snx_ia_memoria_legacy.sh
+-rwx------. 1 u0_a287 u0_a287 1442 Mar 13 12:44 /data/data/com.termux/files/home/soda/02-SISTEMA/HERRAMIENTAS/snx_reingenieria_mem_legacy.sh
+-rwx------. 1 u0_a287 u0_a287 261 Mar 16 12:39 /data/data/com.termux/files/home/soda/02-SISTEMA/HERRAMIENTAS/snx_auditor_hashes.sh
+-rwx------. 1 u0_a287 u0_a287 7202 Mar  1 23:49 /data/data/com.termux/files/home/soda/02-SISTEMA/HERRAMIENTAS/snx_validador.sh
+-rw-------. 1 u0_a287 u0_a287 2123 Mar  9 14:25 /data/data/com.termux/files/home/soda/02-SISTEMA/HERRAMIENTAS/snx_ia_documentacion.sh
+-rwx------. 1 u0_a287 u0_a287 1996 Mar 13 12:46 /data/data/com.termux/files/home/soda/02-SISTEMA/snx_reingenieria_sis_v1.sh
+-rwx------. 1 u0_a287 u0_a287 155 Mar 15 23:05 /data/data/com.termux/files/home/soda/02-SISTEMA/guardian_proceso.sh
+-rw-------. 1 u0_a287 u0_a287 987 Mar 16 12:38 /data/data/com.termux/files/home/soda/02-SISTEMA/ORQUESTADOR_MAESTRO.py
+-rw-------. 1 u0_a287 u0_a287 834 Mar  4 10:25 /data/data/com.termux/files/home/soda/03-OPERACIONES/WEB/ia.js
+-rw-------. 1 u0_a287 u0_a287 1499 Mar 16 22:18 /data/data/com.termux/files/home/soda/03-OPERACIONES/WEB/config-v4.js
+-rw-------. 1 u0_a287 u0_a287 8720 Mar 13 12:48 /data/data/com.termux/files/home/soda/03-OPERACIONES/WEB/monitor.js
+-rw-------. 1 u0_a287 u0_a287 106 Mar 16 11:48 /data/data/com.termux/files/home/soda/03-OPERACIONES/WEB/config.js
+-rw-------. 1 u0_a287 u0_a287 2547 Mar 13 12:48 /data/data/com.termux/files/home/soda/03-OPERACIONES/WEB/panel-institucional.js
+-rw-------. 1 u0_a287 u0_a287 2754 Mar 13 12:48 /data/data/com.termux/files/home/soda/03-OPERACIONES/WEB/snx-logs.js
+-rw-------. 1 u0_a287 u0_a287 8720 Mar 13 21:52 /data/data/com.termux/files/home/soda/03-OPERACIONES/WEB/monitor-v4.js
+-rw-------. 1 u0_a287 u0_a287 2547 Mar 13 21:52 /data/data/com.termux/files/home/soda/03-OPERACIONES/WEB/panel-institucional-v4.js
+-rw-------. 1 u0_a287 u0_a287 2754 Mar 13 21:52 /data/data/com.termux/files/home/soda/03-OPERACIONES/WEB/snx-logs-v4.js
+-rwx------. 1 u0_a287 u0_a287 837 Mar 16 11:26 /data/data/com.termux/files/home/soda/03-OPERACIONES/MOTORES/motor_ingresos_v1.sh
+-rwx------. 1 u0_a287 u0_a287 243 Mar 16 11:25 /data/data/com.termux/files/home/soda/03-OPERACIONES/snx_leer_oportunidades.sh
+-rwx------. 1 u0_a287 u0_a287 872 Mar 18 16:17 /data/data/com.termux/files/home/soda/snx_restaurar_monitor_github_v1.sh
+-rwx------. 1 u0_a287 u0_a287 4666 Mar 18 20:16 /data/data/com.termux/files/home/soda/snx_unificador_soberano_v1.sh
+-rwx------. 1 u0_a287 u0_a287 1444 Mar 18 20:17 /data/data/com.termux/files/home/soda/snx_migracion_github_v1.sh
+-rwx------. 1 u0_a287 u0_a287 1942 Mar 18 20:33 /data/data/com.termux/files/home/soda/snx_pages_config_v1.sh
+-rwx------. 1 u0_a287 u0_a287 4430 Mar 18 21:33 /data/data/com.termux/files/home/soda/snx_auditoria_docs_v1.sh
+-rw-------. 1 u0_a287 u0_a287 1498 Mar 18 20:16 /data/data/com.termux/files/home/soda/BACKUP_DOCS_20260318/config.js
+-rw-------. 1 u0_a287 u0_a287 295 Mar 18 20:16 /data/data/com.termux/files/home/soda/BACKUP_DOCS_20260318/svelte.config.js
+-rw-------. 1 u0_a287 u0_a287 175 Mar 18 20:16 /data/data/com.termux/files/home/soda/BACKUP_DOCS_20260318/vite.config.js
+-rwx------. 1 u0_a287 u0_a287 1385 Mar  3 14:44 /data/data/com.termux/files/home/soda/04-REGISTROS/CUARENTENA_CABOS_SUELTOS/SNX-GITHUB-SCAN.sh
+-rwx------. 1 u0_a287 u0_a287 1254 Mar  3 14:50 /data/data/com.termux/files/home/soda/04-REGISTROS/CUARENTENA_CABOS_SUELTOS/SNX-GITHUB-TOKEN-CHECK.sh
+-rwx------. 1 u0_a287 u0_a287 2107 Mar 13 00:00 /data/data/com.termux/files/home/soda/04-REGISTROS/snx_ia_registros_V4.sh
+-rwx------. 1 u0_a287 u0_a287 1397 Mar 13 12:51 /data/data/com.termux/files/home/soda/04-REGISTROS/snx_reingenieria_reg_v1.sh
+-rwx------. 1 u0_a287 u0_a287 101 Mar 11 14:03 /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/monitor_bridge_run.sh
+-rwx------. 1 u0_a287 u0_a287 141 Mar  4 15:19 /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/run_monitor.sh
+-rwx------. 1 u0_a287 u0_a287 673 Feb 24 23:44 /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/snx_backend.sh
+-rwx------. 1 u0_a287 u0_a287 1835 Mar  4 23:16 /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/snx_backend_legacy_neutralize.sh
+-rwx------. 1 u0_a287 u0_a287 1206 Mar 11 14:47 /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/snx_create_monitor_v4_oficial.sh
+-rwx------. 1 u0_a287 u0_a287 515 Feb 28 14:45 /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/snx_daemon.sh
+-rwx------. 1 u0_a287 u0_a287 991 Mar 11 14:37 /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/snx_fix_serve_monitor_v1.sh
+-rwx------. 1 u0_a287 u0_a287 4360 Feb 28 14:36 /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/snx_ia_central.sh
+-rwx------. 1 u0_a287 u0_a287 1047 Mar 11 14:39 /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/snx_patch_serve_monitor_final.sh
+-rwx------. 1 u0_a287 u0_a287 1378 Feb 28 14:45 /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/snx_push_state.sh
+-rwx------. 1 u0_a287 u0_a287 760 Mar  4 09:03 /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/SCRIPTS-LEGACY/GLOBAL/snx_monitor_clone_repo.sh
+-rwx------. 1 u0_a287 u0_a287 5124 Mar  4 09:03 /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/SCRIPTS-LEGACY/GLOBAL/snx_monitor_publish_frontend.sh
+-rwx------. 1 u0_a287 u0_a287 722 Mar  4 09:05 /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/SCRIPTS-LEGACY/GLOBAL/snx_detect_repos.sh
+-rwx------. 1 u0_a287 u0_a287 643 Mar  4 09:05 /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/SCRIPTS-LEGACY/GLOBAL/snx_select_repo.sh
+-rwx------. 1 u0_a287 u0_a287 585 Mar  4 09:05 /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/SCRIPTS-LEGACY/GLOBAL/snx_publish_monitor.sh
+-rwx------. 1 u0_a287 u0_a287 0 Mar  4 09:56 /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/SCRIPTS-LEGACY/GLOBAL/snx_ia_diagnostico.sh
+-rwx------. 1 u0_a287 u0_a287 639 Mar  4 09:57 /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/SCRIPTS-LEGACY/GLOBAL/snx_monitor_migrar_a_raiz.sh
+-rwx------. 1 u0_a287 u0_a287 78 Mar  4 09:59 /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/SCRIPTS-LEGACY/GLOBAL/snx_auditoria_integridad.sh
+-rwx------. 1 u0_a287 u0_a287 71 Mar  4 10:18 /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/SCRIPTS-LEGACY/GLOBAL/snx_deploy_estado.sh
+-rwx------. 1 u0_a287 u0_a287 3396 Mar  4 15:39 /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/SCRIPTS-LEGACY/GLOBAL/snx_central.sh
+-rwx------. 1 u0_a287 u0_a287 1867 Mar  6 13:09 /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/SCRIPTS-LEGACY/GLOBAL/snx_central_backend.sh
+-rwx------. 1 u0_a287 u0_a287 3107 Mar  6 13:26 /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/SCRIPTS-LEGACY/GLOBAL/snx_central_backend_v2.sh
+-rwx------. 1 u0_a287 u0_a287 3143 Mar  6 13:28 /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/SCRIPTS-LEGACY/GLOBAL/snx_central_backend_v3.sh
+-rwx------. 1 u0_a287 u0_a287 1939 Mar  6 14:05 /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/SCRIPTS-LEGACY/GLOBAL/snx_memoria_resumen_v1.sh
+-rwx------. 1 u0_a287 u0_a287 1817 Mar  3 12:35 /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/snx_backend_v1.py
+-rw-------. 1 u0_a287 u0_a287 1175 Mar  3 12:40 /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/snx_backend_v1_port5051.py
+-rw-------. 1 u0_a287 u0_a287 617 Mar 13 07:50 /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/WEBAPP/src/api.js
+-rw-------. 1 u0_a287 u0_a287 295 Feb 27 16:01 /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/WEBAPP/svelte.config.js
+-rw-------. 1 u0_a287 u0_a287 175 Feb 27 16:01 /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/WEBAPP/vite.config.js
+-rwx------. 1 u0_a287 u0_a287 1491 Mar 13 12:34 /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/snx_reingenieria_gob_v1.sh
+-rwx------. 1 u0_a287 u0_a287 1227 Mar 15 23:37 /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/snx_orden_total.sh
+-rwx------. 1 u0_a287 u0_a287 278 Mar  9 22:41 /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/daemon_monitor_watchdog.sh
+-rw-------. 1 u0_a287 u0_a287 2545 Mar 11 13:15 /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/monitor.js
+-rwx------. 1 u0_a287 u0_a287 1560 Mar 13 12:48 /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/snx_reingenieria_ope_v1.sh
+-rw-------. 1 u0_a287 u0_a287 1498 Mar 13 09:08 /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/monitor.LEGACY_PROCESADO/config.js
+-rw-------. 1 u0_a287 u0_a287 3383 Mar 13 09:08 /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/monitor.LEGACY_PROCESADO/monitor.js
+-rw-------. 1 u0_a287 u0_a287 2148 Mar 13 09:08 /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/monitor.LEGACY_PROCESADO/snx-logs.js
+-rw-------. 1 u0_a287 u0_a287 1078 Mar 13 09:08 /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/monitor.LEGACY_PROCESADO/monitor-2.js
+-rw-------. 1 u0_a287 u0_a287 1021 Mar 13 09:08 /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/monitor.LEGACY_PROCESADO/snx-logs-2.js
+-rw-------. 1 u0_a287 u0_a287 1944 Mar 13 09:08 /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/monitor.LEGACY_PROCESADO/panel_institucional_v1.js
+-rw-------. 1 u0_a287 u0_a287 789 Mar 13 09:08 /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/monitor.LEGACY_PROCESADO/extensiones_monitor_v1.js
+-rwx------. 1 u0_a287 u0_a287 1320 Mar 13 12:52 /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/snx_reingenieria_doc_v1.sh
+-rw-------. 1 u0_a287 u0_a287 2564 Mar  3 13:19 /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/SNX-FASE3_5-MONITOR-TOR.sh
+-rwx------. 1 u0_a287 u0_a287 348 Mar 16 11:45 /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/iniciar_orquestador_v4.sh
+-rwx------. 1 u0_a287 u0_a287 1516 Mar 16 12:52 /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/snx_termux_blindaje.v_anterior.sh
+-rwx------. 1 u0_a287 u0_a287 5646 Mar  1 23:56 /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/snx_master.py
+-rw-------. 1 u0_a287 u0_a287 14440 Mar 16 11:45 /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/api_v4.py
+-rw-------. 1 u0_a287 u0_a287 1086 Mar 14 06:13 /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/api_waitress.py
+-rwx------. 1 u0_a287 u0_a287 5613 Mar  9 13:36 /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/snx_antiamnesia_soberano_v3.sh
+-rwx------. 1 u0_a287 u0_a287 422 Mar  9 17:36 /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/daemon_antiamnesia.sh
+-rwx------. 1 u0_a287 u0_a287 1553 Mar  9 17:26 /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/snx_rehidratacion_automatica.sh
+-rwx------. 1 u0_a287 u0_a287 4057 Mar 11 12:44 /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/snx_auditoria_total_v1.sh
+-rwx------. 1 u0_a287 u0_a287 12 Mar  7 22:34 /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/snx_system_map.sh
+-rwx------. 1 u0_a287 u0_a287 2466 Mar  2 08:29 /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/snx_prepare_pages.sh
+-rw-------. 1 u0_a287 u0_a287 1499 Mar 13 09:08 /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/monitor-v4.LEGACY_PROCESADO/config-v4.js
+-rw-------. 1 u0_a287 u0_a287 8720 Mar 13 09:08 /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/monitor-v4.LEGACY_PROCESADO/monitor-v4.js
+-rw-------. 1 u0_a287 u0_a287 2754 Mar 13 09:08 /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/monitor-v4.LEGACY_PROCESADO/snx-logs-v4.js
+-rw-------. 1 u0_a287 u0_a287 2547 Mar 13 09:08 /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/monitor-v4.LEGACY_PROCESADO/panel-institucional-v4.js
+-rw-------. 1 u0_a287 u0_a287 2559 Mar  3 12:23 /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/SNX-FASE0-ESTRUCTURA.sh
+-rw-------. 1 u0_a287 u0_a287 7752 Mar  3 12:35 /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/SNX-FASE1-INFRA.sh
+-rw-------. 1 u0_a287 u0_a287 4355 Mar  3 12:55 /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/SNX-FASE2-TOR.sh
+-rw-------. 1 u0_a287 u0_a287 4490 Mar  3 13:00 /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/SNX-FASE3-MONITOR.sh
+-rw-------. 1 u0_a287 u0_a287 775 Mar 13 10:45 /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/LEGADO_PYTHON/ORQUESTADOR_FINAL.py
+-rw-------. 1 u0_a287 u0_a287 923 Mar 13 10:47 /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/LEGADO_PYTHON/ORQUESTADOR_LIVE.py
+-rw-------. 1 u0_a287 u0_a287 987 Mar 13 10:16 /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/LEGADO_PYTHON/ORQUESTADOR_MAESTRO_V4.py
+-rw-------. 1 u0_a287 u0_a287 821 Mar 13 10:39 /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/LEGADO_PYTHON/ORQUESTADOR_V4_FRESCO.py
+-rwx------. 1 u0_a287 u0_a287 2083 Mar  9 14:23 /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/snx_ia_operaciones.sh
+-rw-------. 1 u0_a287 u0_a287 3383 Mar 18 20:16 /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES_JS/MONITOR/monitor.js
+-rw-------. 1 u0_a287 u0_a287 1078 Mar 18 20:16 /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES_JS/MONITOR/monitor-2.js
+-rw-------. 1 u0_a287 u0_a287 8720 Mar 18 20:16 /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES_JS/MONITOR/monitor-v4.js
+-rw-------. 1 u0_a287 u0_a287 2547 Mar 18 20:16 /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES_JS/PANEL/panel-institucional.js
+-rw-------. 1 u0_a287 u0_a287 2547 Mar 18 20:16 /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES_JS/PANEL/panel-institucional-v4.js
+-rw-------. 1 u0_a287 u0_a287 1944 Mar 18 20:16 /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES_JS/PANEL/panel_institucional_v1.js
+-rw-------. 1 u0_a287 u0_a287 2148 Mar 18 20:16 /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES_JS/LOGS/snx-logs.js
+-rw-------. 1 u0_a287 u0_a287 2754 Mar 18 20:16 /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES_JS/LOGS/snx-logs-v4.js
+-rw-------. 1 u0_a287 u0_a287 1021 Mar 18 20:16 /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES_JS/LOGS/snx-logs-2.js
+
+=== HEADERS DE SCRIPTS (primeras 5 líneas) ===
+--- /data/data/com.termux/files/home/soda/05-DOCUMENTACION/INFORMES/snx_consolidacion_documental.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+BASE="$HOME/soda"
+MEM="$BASE/01-MEMORIA/ACTUAL"
+
+--- /data/data/com.termux/files/home/soda/snx_auditoria_monitor_v7.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+# SODA-NEXUS — AUDITORÍA SOBERANA DEL MONITOR V7
+# Rol: Auditor, Notario, Contralor, Veedor y Abogado del Monitor
+set -u  # No usamos -e para no abortar la auditoría ante el primer fallo
+
+--- /data/data/com.termux/files/home/soda/snx_auditor_binario_v2.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+# SODA-NEXUS — AUDITOR BINARIO V2
+# Auditoría total Termux ↔ GitHub sin intervención del Director
+
+--- /data/data/com.termux/files/home/soda/snx_auditor_binario_v3.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+# SODA-NEXUS — AUDITOR BINARIO V3
+# Auditoría total Termux ↔ GitHub sin intervención del Director
+
+--- /data/data/com.termux/files/home/soda/00-GOBIERNO/VAULT/github_save.sh ---
+#!/bin/bash
+echo "Ingrese su token de GitHub:"
+
+--- /data/data/com.termux/files/home/soda/00-GOBIERNO/VAULT/github_fix.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+FILE="$HOME/soda/00-GOBIERNO/VAULT/github.env"
+# Eliminar comillas dobles
+
+--- /data/data/com.termux/files/home/soda/00-GOBIERNO/VAULT/ia_vault_deepseek_registrar.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+VAULT_DIR="$HOME/soda/02-SISTEMA/VAULT"
+VAULT_FILE="$VAULT_DIR/DEEPSEEK_KEY"
+
+--- /data/data/com.termux/files/home/soda/00-GOBIERNO/VAULT/ia_vault_modelo_local.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+VAULT_DIR="$HOME/soda/02-SISTEMA/VAULT"
+VAULT_FILE="$VAULT_DIR/LOCAL_IA_MODEL"
+
+--- /data/data/com.termux/files/home/soda/00-GOBIERNO/VAULT/ia_vault_remota.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+VAULT_DIR="$HOME/soda/02-SISTEMA/VAULT"
+URL_FILE="$VAULT_DIR/REMOTE_IA_URL"
+MODEL_FILE="$VAULT_DIR/REMOTE_IA_MODEL"
+
+--- /data/data/com.termux/files/home/soda/snx_auditor_total_termux_v1.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+# SODA-NEXUS — AUDITORÍA TOTAL DE TERMUX V1
+# Procesos + Archivos + Estructura + Versiones + Duplicados + Huérfanos
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/CORE/snx_doc_backup.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+# ============================================================
+# [OBS 00] TITULO:
+#          Backup documental soberano del Estado SODA‑NEXUS.
+#          PROPOSITO:
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/API/snx_bridge.py ---
+# (archivo completo que ya te di)
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/API/guardian_api.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+    echo "[$(date)] Iniciando Orquestador..."
+    echo "[$(date)] El proceso murió. Reiniciando en 3s..."
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/API/ORQUESTADOR_V6.py ---
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/API/ORQUESTADOR_V6_HTTPS.py ---
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/snx_sync_nube.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+# SNX — SINCRONIZADOR NUBE V1
+git commit -m "SNX: Sincronización Automática - $(date)"
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/snx_auditoria_sistema_v6.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+# SNX — AUDITORÍA SISTEMA V6 # [OBS] Propósito: Validar que el Backend sea ligero y lógico.
+BASE="$HOME/soda"
+MINISTERIO="$BASE/02-SISTEMA"
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/snx_daemon.sh ---
+#!/usr/bin/env bash
+# SNX — DAEMON INSTITUCIONAL 2026  # OBS: Encabezado institucional del daemon.
+BACKEND_SCRIPT="/data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/snx_monitor_backend.py"  # OBS: Ruta backend.
+PYTHON_BIN="python"                                         # OBS: Comando Python.
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/snx_tunnel.sh ---
+#!/usr/bin/env bash
+# SNX — TÚNEL CLOUDFLARE INSTITUCIONAL 2026  # OBS: Controla el túnel global del monitor.
+CLOUDFLARED_BIN="cloudflared"                                      # OBS: Binario de cloudflared en PATH.
+TUNNEL_NAME="snx-monitor"                                          # OBS: Nombre del túnel creado en Cloudflare.
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/DAEMONS/snx_controlador_procesos_v6.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+# SNX — CONTROLADOR DE PROCESOS V6 # [OBS] Auditoría y Veeduría activa.
+# [OBS] Definición de rutas lógicas según la Verdad de Termux.
+LOG_AUDITORIA="$HOME/soda/04-REGISTROS/SYSTEM/auditoria_procesos_v6.log"
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/DAEMONS/snx_tor_persistent_v1.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+# ============================================================
+# snx_tor_persistent_v1.sh
+# Daemon soberano para mantener Tor Hidden Service v1 activo
+# Versión: 1.0 — Todo nuevo, nada se modifica
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/DAEMONS/snx_daemon.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+STATE="$HOME/soda/STATE/state.json"
+LOGS="$HOME/soda/STATE/logs.txt"
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/DAEMONS/snx_tor_monitor_persistent_v2.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+TORRC_MONITOR="$HOME/soda/02-SISTEMA/TOR/torrc_snx_monitor_v2"
+HS_MONITOR_DIR="$HOME/.tor/snx_monitor_service_v2"
+LOG_FILE="$HOME/soda/05-LOGS/TUNNEL/tor_snx_monitor_v2.log"
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/DAEMONS/snx_tunnel_persistent.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+# ============================================================
+# SODA‑NEXUS — snx_tunnel_persistent.sh
+# Daemon soberano para túnel Pinggy 24/7, no interactivo
+# ============================================================
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/DAEMONS/daemon_continuidad.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+# ============================================================
+# SNX — DAEMON DE CONTINUIDAD
+# Verifica servicios clave y registra estado.
+# ============================================================
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/DAEMONS/snx_auditor_controlador_v6.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+# SNX — AUDITOR & CONTROLADOR V6.2 # [OBS] Letra auditada: Blindaje de Prioridad CPU.
+LOG_REPORTE="$HOME/soda/04-REGISTROS/SYSTEM/reporte_controlador_v6.log"
+MINISTERIO_API="$HOME/soda/02-SISTEMA/API"
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/DAEMONS/snx_watchdog_v6_soberano.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+# SNX — WATCHDOG SOBERANO V6  # [OBS] Encabezado institucional: Protege el mando único.
+# [OBS] Nueva ruta de logs en el Ministerio 04 (Registro Soberano).
+LOG="$HOME/soda/04-REGISTROS/SYSTEM/daemon_monitor_watchdog_v6.log"
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/DAEMONS/snx_auditor_presencia_v6.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+# SNX — AUDITOR DE PRESENCIA V6  # [OBS] Propósito: Garantizar que los archivos críticos no desaparezcan.
+# [OBS] Definición de rutas bajo la Regla 8 (Estructura 00-05).
+BASE="$HOME/soda"
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_tree.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+# ============================================================
+# SNX — Árbol completo de carpetas y archivos
+# PROPOSITO:
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_reader.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+STATE="$HOME/soda/00-VAULT/state.json"
+REPORT="$HOME/soda/05-LOGS/SYSTEM/reader_$(date +%Y%m%d_%H%M).log"
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_correccion_final.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+BASE="$HOME/soda"
+echo "=== CORRECCIÓN FINAL SODA-NEXUS ==="
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_open_all_docs.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+# ============================================================
+# SNX — Apertura total de documentos institucionales
+# PROPOSITO:
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_saneamiento_total.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+BASE="$HOME/soda"
+echo "=== SANEAMIENTO TOTAL SODA-NEXUS ==="
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_show_all.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+FILE="$HOME/soda/TODO_EL_SISTEMA.txt"
+if [ ! -f "$FILE" ]; then
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_show_todo.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+# ============================================================
+# SNX — Mostrar TODO_EL_SISTEMA.txt en pantalla
+# PROPOSITO:
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_split_docs.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+FILE="$HOME/soda/TODO_EL_SISTEMA.txt"
+OUTDIR="$HOME/soda/TODO_SPLIT"
+mkdir -p "$OUTDIR"
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_guardian_central.sh ---
+#!/bin/bash
+# [OBS 1.1] Shebang: define que este script se ejecuta con Bash en Termux.
+# [OBS 1.2] Nombre: snx_guardian_central.sh — Versión 0.1 del IA-SCRIPT CENTRAL.
+# [OBS 1.3] Propósito: verificar la estructura soberana de SODA-NEXUS y reportar anomalías básicas.
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/SNX-PUBLISH-MONITOR.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+VAULT="$HOME/soda/00-GOBIERNO/VAULT/github.env"
+MONITOR_DIR="$HOME/soda/03-OPERACIONES/WEB/monitor"
+WORKDIR="$HOME/soda/99-TMP/snx_publish_monitor"
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_fix_bashrc_v1.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+# ============================================================================
+# SNX — FASE 5.7
+# Corrección del entorno Termux: eliminar referencias a snx_check en ~/.bashrc
+# ============================================================================
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_reparar_bashrc_v2.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+# ============================================================================
+# SNX — FASE 5.7.2
+# Reparación total de ~/.bashrc (archivo corrupto por fi suelto)
+# ============================================================================
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_ia_central.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+BASE_SODA="$HOME/soda"
+REG_SYSTEM_DIR="$BASE_SODA/04-REGISTROS/SYSTEM"
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_verificador_coherencia.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+# ============================================================
+# SNX — VERIFICADOR DE COHERENCIA ESTRUCTURAL
+# Ubicación: /soda/02-SISTEMA/GLOBAL/snx_verificador_coherencia.sh
+# Propósito: Comparar estructura esperada vs real.
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_detect_ip_lan.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+# SNX — DETECCIÓN DE IP LAN
+# Guarda la IP LAN actual en: /soda/01-MEMORIA/ACTUAL/ip_lan_actual.txt
+BASE="$HOME/soda"
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_update_estado_central_ip.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+# SNX — ACTUALIZAR ESTADO CENTRAL CON IP LAN Y URL DEL MONITOR
+BASE="$HOME/soda"
+STATE_DIR="$BASE/STATE"
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_antiamnesia_minimo.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+CONTEXT_FILE="$HOME/soda/00-GOBIERNO/ESTADO/snx_contexto_soberano.json"
+LOG_FILE="$HOME/soda/05-REGISTROS/ANTIAMNESIA/snx_antiamnesia.log"
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/GLOBAL/snx_monitor_fix_auditoria.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+# SNX MONITOR FIX + AUDITORIA
+# No borra nada. Solo:
+# - Detecta qué hay en 8080
+# - Registra hallazgos
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/snx_monitor_backend.py ---
+# SNX — BACKEND INSTITUCIONAL DEL MONITOR 2026  # OBS: Encabezado institucional obligatorio.
+from flask import Flask, jsonify  # OBS: Importa Flask para crear API HTTP.
+import os                         # OBS: Permite leer el filesystem real.
+import time                       # OBS: Permite obtener fechas de modificación.
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/path_security.py ---
+ALLOWED_BASE = os.path.expanduser("~/soda")
+BLOCKED = ["00-GOBIERNO/VAULT", ".env", ".token", ".shadow"]
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/audit_logger.py ---
+LOG_DIR = os.path.expanduser("~/soda/05-LOGS/MONITOR/")
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_backend.py ---
+# ============================================================================
+# SNX — BACKEND MONITOR SOBERANO V3
+# Ejecución segura de scripts + auditoría extendida + retorno estructurado.
+# ============================================================================
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_backend_run.sh ---
+#!/usr/bin/env bash
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/ia_engine.py ---
+BASE = os.path.expanduser("~/soda")
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/integridad_engine.py ---
+BASE = os.path.expanduser("~/soda")
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/deploy_engine.py ---
+BASE = os.path.expanduser("~/soda")
+REPO_PATH_FILE = os.path.join(BASE, "02-SISTEMA/BACKEND/MONITOR/REPO_PATH.txt")
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_backend_upgrade_v2.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+# ============================================================================
+# SNX — UPGRADE BACKEND MONITOR V2 (FASE 3)
+# Genera un backend completo v2 y reemplaza el actual con backup.
+# ============================================================================
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_allowlist_upgrade_v1.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+# ============================================================================
+# SNX — ALLOWLIST SOBERANA V1 (FASE 4.5)
+# Genera allowed_scripts.json completo, con backup y validación.
+# ============================================================================
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_allowlist_upgrade_v2.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+# ============================================================================
+# SNX — ALLOWLIST SOBERANA V2 (FASE 4.6)
+# Genera allowed_scripts.json completo, con backup y validación segura en Python.
+# ============================================================================
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_endpoint_data_v1.py ---
+#!/data/data/com.termux/files/usr/bin/python3
+# ============================================================================
+# SNX — FASE 6.1
+# Endpoint independiente para exponer monitor_data.json
+# No modifica el backend original. Servicio paralelo.
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_backend_upgrade_v3.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+# ============================================================================
+# SNX — BACKEND SOBERANO V3 (FASE 5.5)
+# Reemplaza backend v2 con backend v3: ejecución segura + auditoría extendida.
+# ============================================================================
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_allowlist_add_central_backend.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+# ============================================================================
+# SNX — FASE 5.9.1
+# Añadir entrada "central_backend" a allowed_scripts.json sin modificar nada.
+# Se genera un archivo nuevo y luego se reemplaza el original.
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_allowlist_add_central_backend_v2.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+# ============================================================================
+# SNX — FASE 5.9.4
+# Añadir entrada "central_backend_v2" a allowed_scripts.json sin modificar nada.
+# ============================================================================
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_allowlist_add_central_backend_v3.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+# ============================================================================
+# SNX — FASE 5.9.8
+# Añadir entrada "central_backend_v3" a allowed_scripts.json sin modificar nada.
+# ============================================================================
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_endpoint_data_run.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+# ============================================================================
+# SNX — FASE 6.2
+# Lanzar endpoint /monitor/data en puerto 5052
+# ============================================================================
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_publish_v1.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+# ============================================================================
+# SNX — FASE 6.5
+# Publicar Monitor Web V3 en puerto 8080
+# ============================================================================
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_memoria_endpoint_resumen_v1.py ---
+#!/data/data/com.termux/files/usr/bin/python3
+# ============================================================================
+# SNX — FASE C
+# Endpoint para exponer SNX-RESUMEN-ACTUAL.md
+# ============================================================================
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_antiamnesia_endpoint_v1.py ---
+#!/data/data/com.termux/files/usr/bin/python3
+# ============================================================================
+# SNX — ANTIAMNESIA ENDPOINT V1
+# Exponer estado antiamnesia en /antiamnesia/estado (JSON).
+# ============================================================================
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_antiamnesia_endpoint_run.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+python3 "$HOME/soda/02-SISTEMA/BACKEND/MONITOR/snx_antiamnesia_endpoint_v1.py" &
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/__init__.py ---
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/snx_monitor_backend_loader.py ---
+BASE = os.path.expanduser("~/soda/02-SISTEMA/BACKEND/MONITOR")
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/monitor_soberano.py ---
+#!/usr/bin/env python3
+SODA = os.path.expanduser("~/soda")
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/snx_backend_monitor.py ---
+#!/data/data/com.termux/files/usr/bin/python
+# ============================================================================
+# SNX-BACKEND-MONITOR — SODA-NEXUS
+# Backend soberano del Monitor Soberano.
+# No ejecuta scripts. No modifica el sistema.
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/monitor_bridge_v1.py ---
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/snx_monitor_unificado.py ---
+#!/data/data/com.termux/files/usr/bin/python3
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/snx_monitor_unificado_v2.py ---
+#!/data/data/com.termux/files/usr/bin/python3
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/snx_monitor_backend_unificado_v4.py ---
+app = Flask(__name__, static_folder="/data/data/com.termux/files/home/soda/06-MONITOR/V4-OFICIAL", static_url_path="")
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/snx_backend_monitor_v2.py ---
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/snx_monitor_v2_backend_unificado.py ---
+# Ruta del monitor que ya estás usando
+STATIC_ROOT = "/data/data/com.termux/files/home/soda/06-MONITOR/V3"
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/snx_monitor_backend_oficial_v2.py ---
+STATIC_ROOT = "/data/data/com.termux/files/home/soda/06-MONITOR/V3"
+CONTEXT_FILE = "/data/data/com.termux/files/home/soda/00-GOBIERNO/ESTADO/snx_contexto_soberano.json"
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/TUNNEL/snx_tunnel_init.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+# ============================================================
+# SODA‑NEXUS — Módulo de inicialización del túnel Cloudflare
+# Script institucional para crear y configurar el túnel seguro
+# ============================================================
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/TUNNEL/snx_tunnel_login.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+# ============================================================
+# SODA‑NEXUS — Login institucional para Cloudflare Tunnel
+# ============================================================
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/TUNNEL/snx_tunnel_manager.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+VAULT="$HOME/soda/00-VAULT/tunnel.env"
+LOGFILE="$HOME/soda/05-LOGS/TUNNEL/tunnel_$(date +%Y%m%d).log"
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/TUNNEL/snx_tunnel_install.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+# ---------------------------------------------------------
+# SODA‑NEXUS — Instalación del túnel Cloudflare
+# ---------------------------------------------------------
+# Observación:
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/TUNNEL/snx_tunnel_local.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+# ---------------------------------------------------------
+# SODA‑NEXUS — Túnel Soberano LocalTunnel
+# ---------------------------------------------------------
+# Observación:
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/GUARDIAN/snx_guardian_soberano.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+# ============================================================================
+# SNX GUARDIAN SOBERANO V1
+# Sistema de protección, contexto y gobernanza ultra-estricto para SODA-NEXUS
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/SERVICIOS/snx_termux_blindaje.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+# SNX-TERMUX-BLINDAJE-V6 — SODA-NEXUS # [OBS] Propósito: Persistencia y prevención de Signal 9.
+SODA="$HOME/soda"
+# [OBS] Nueva ruta lógica centralizada para logs de sistema.
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/SERVICIOS/snx_fase1_5_fix_service.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+# ============================================================================
+# SNX-F1.5 — Corrección del servicio permanente de blindaje
+# SODA-NEXUS — Fase 1.5
+# No borra nada. No modifica nada existente.
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/SERVICIOS/snx_fase3_services_boot_v1.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+# ============================================================================
+# SNX — FASE 3 SERVICES BOOT V1
+# Arranque maestro: wake-lock + backend + monitor + antiamnesia + watchdog.
+# ============================================================================
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/SERVICIOS/snx_monitor_sagrado_run_v1.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+# ============================================================================
+# SNX — SERVIDOR MONITOR SAGRADO V1
+# Sirve exclusivamente la versión sagrada del Monitor Soberano V1.
+# ============================================================================
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/SERVICIOS/snx_lanzador_maestro_v1.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+# ============================================================================
+# SNX — LANZADOR MAESTRO 24/7 V1
+# Activa wake‑lock y levanta todos los servicios soberanos del sistema.
+# ============================================================================
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA/snx_memoria_central_v1.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+# ============================================================================
+# SNX — MEMORIA CENTRAL V1
+# Motor antiamnesia: resumen, chequeo de invariantes y paquete para IA.
+# ============================================================================
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA/snx_memoria_central_v2.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+# ============================================================================
+# SNX — MEMORIA CENTRAL V2
+# Motor antiamnesia: resumen, chequeo, paquete, estado, salud y log.
+# ============================================================================
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA/snx_antiamnesia_watchdog_v1.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+# ============================================================================
+# SNX — ANTIAMNESIA WATCHDOG V1
+# Ejecutar chequeo periódico y registrar resultado.
+# ============================================================================
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA/snx_antiamnesia_watchdog_v2.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+# ============================================================================
+# SNX — ANTIAMNESIA WATCHDOG V2
+# Verifica servicios clave y los revive si caen.
+# ============================================================================
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA/snx_verificar_archivos_sagrados_v1.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+# ============================================================================
+# SNX — VERIFICADOR DE ARCHIVOS SAGRADOS V1
+# Verifica integridad, existencia y hash de los archivos sagrados.
+# ============================================================================
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA/snx_antiamnesia_integracion_sagrados_v1.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+# ============================================================================
+# SNX — INTEGRACIÓN ANTIAMNESIA + ARCHIVOS SAGRADOS V1
+# Ejecuta el verificador de archivos sagrados como parte del ciclo antiamnesia.
+# ============================================================================
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA/snx_watchdog_sagrados_v1.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+# ============================================================================
+# SNX — WATCHDOG DE ARCHIVOS SAGRADOS V1
+# Verifica integridad cada 30 segundos.
+# ============================================================================
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/ANTIAMNESIA/snx_integridad.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+BASE="$HOME/soda"
+HASH_DIR="$BASE/01-MEMORIA/ACTUAL/HASHES"
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/AUDITORIA/snx_auditoria_monitor_frontend_v1.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+# ============================================================================
+# SNX — AUDITORÍA MONITOR + FRONTEND V1
+# No modifica nada. Solo lista TODO lo relacionado con Monitor y frontend.
+# ============================================================================
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/AUDITORIA/snx_buscar_monitor_real_v1.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+# ============================================================================
+# SNX — BUSCADOR DE MONITOR REAL V1
+# Busca SOLO archivos que contengan elementos reales del Monitor Soberano.
+# ============================================================================
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/AUDITORIA/snx_auditoria_final.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+BASE="$HOME/soda"
+MEM="$BASE/01-MEMORIA/ACTUAL"
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/AUDITORIA/snx_correcion_total_v1.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+BASE="$HOME/soda"
+REG_SYS="$BASE/04-REGISTROS/SYSTEM"
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/AUDITORIA/snx_auditoria_stack_monitor_v1.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+BASE="$HOME/soda"
+REG_SYS="$BASE/04-REGISTROS/SYSTEM"
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/AUDITORIA/snx_correcion_stack_monitor_v1.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+BASE="$HOME/soda"
+REG_SYS="$BASE/04-REGISTROS/SYSTEM"
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/AUDITORIA/snx_auditoria_v2_legal.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+BASE="$HOME/soda"
+echo "=== AUDITORÍA SOBERANA REGLA 8 ==="
+    [ -d "$BASE/0$i" ] && echo "[OK] Ministerio 0$i" || echo "[CRÍTICO] Falta 0$i"
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/snx_ia_sistema.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+MINISTERIO="02-SISTEMA"
+BASE="$HOME/soda/$MINISTERIO"
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/OPTIMIZACION/snx_optimizacion.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+BASE="$HOME/soda"
+OUT="$BASE/05-DOCUMENTACION/INFORMES"
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/PRUEBAS/snx_validacion_total.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+BASE="$HOME/soda"
+MEM="$BASE/01-MEMORIA/ACTUAL"
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/CERTIFICACION/snx_validacion_certificada.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+BASE="$HOME/soda"
+MEM="$BASE/01-MEMORIA/ACTUAL"
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/SONDEOS/sondeo_vaults_sistema.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+BASE="$HOME/soda"
+OUT="$BASE/01-MEMORIA/ACTUAL/sondeo_vaults_sistema.txt"
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/HERRAMIENTAS/snx_fix_ia_vaults_v1.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+BASE="$HOME/soda"
+VAULT="$BASE/02-SISTEMA/VAULT"
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/HERRAMIENTAS/snx_ia_gobierno_legacy.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+MINISTERIO="00-GOBIERNO"
+BASE="$HOME/soda/$MINISTERIO"
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/HERRAMIENTAS/snx_fix_final.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+BASE="$HOME/soda"
+echo "[1/2] Moviendo logs.txt a 04-REGISTROS..."
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/HERRAMIENTAS/snx_fix_logs.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+BASE="$HOME/soda"
+echo "Moviendo logs.txt a 04-REGISTROS..."
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/HERRAMIENTAS/snx_remove_legacy.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+BASE="$HOME/soda"
+echo "Eliminando carpeta LEGACY..."
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/HERRAMIENTAS/snx_guardian_gobierno.sh ---
+#!/bin/bash
+# [OBS 1.1] IA-SCRIPT DERIVADO: Guardián de 00-GOBIERNO.
+# [OBS 1.2] Rol: verificar ESTADO, VAULT y HERRAMIENTAS de 00-GOBIERNO.
+# [OBS 1.3] Alcance: solo lectura y reporte; no corrige nada.
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/HERRAMIENTAS/snx_ia_memoria_legacy.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+MINISTERIO="01-MEMORIA"
+BASE="$HOME/soda/$MINISTERIO"
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/HERRAMIENTAS/snx_reingenieria_mem_legacy.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+# SODA-NEXUS — SCRIPT DE REINGENIERIA MEMORIA V1
+MEM_DIR="$HOME/soda/01-MEMORIA/ACTUAL"
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/HERRAMIENTAS/snx_auditor_hashes.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+# SNX - AUDITOR DE INTEGRIDAD LIGERO
+HASH_DIR="$HOME/soda/01-MEMORIA/ACTUAL/HASHES"
+echo "[$(date)] Iniciando verificación de integridad..."
+find "$HASH_DIR" -type f -name "*.sha" -exec sha256sum -c {} \; 2>/dev/null
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/HERRAMIENTAS/snx_validador.sh ---
+#!/usr/bin/env bash
+# OBS: Shebang: ejecuta este script con bash en Termux.
+# OBS: Verifica que se haya pasado un archivo como argumento.
+if [ $# -lt 1 ]; then
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/HERRAMIENTAS/snx_ia_documentacion.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+MINISTERIO="05-DOCUMENTACION"
+BASE="$HOME/soda/$MINISTERIO"
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/snx_reingenieria_sis_v1.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+# SODA-NEXUS — SCRIPT DE REINGENIERIA SISTEMA V1
+BASE_DIR="$HOME/soda/02-SISTEMA"
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/guardian_proceso.sh ---
+#!/bin/bash
+  echo "[$(date)] Sistema SODA Activo - Protegiendo procesos" >> ~/soda/05-LOGS/guardian.log
+
+--- /data/data/com.termux/files/home/soda/02-SISTEMA/ORQUESTADOR_MAESTRO.py ---
+
+--- /data/data/com.termux/files/home/soda/03-OPERACIONES/MOTORES/motor_ingresos_v1.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+LOG_FILE="/data/data/com.termux/files/home/soda/04-REGISTROS/motor_ingresos_v1.log"
+echo "[$(date)] --- ESCANEO DE ARBITRAJE V1.2 ---" >> "$LOG_FILE"
+# Obtener precio de Binance
+
+--- /data/data/com.termux/files/home/soda/03-OPERACIONES/snx_leer_oportunidades.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+LOG_FILE="/data/data/com.termux/files/home/soda/04-REGISTROS/motor_ingresos_v1.log"
+if [ -f "$LOG_FILE" ]; then
+    tail -n 10 "$LOG_FILE"
+
+--- /data/data/com.termux/files/home/soda/snx_restaurar_monitor_github_v1.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+# SODA-NEXUS — RESTAURACIÓN DEL MONITOR EN GITHUB V1
+
+--- /data/data/com.termux/files/home/soda/snx_unificador_soberano_v1.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+# SODA-NEXUS — UNIFICADOR SOBERANO V1
+# Clasificación + Ordenamiento + Versionamiento + Migración sin borrar nada
+
+--- /data/data/com.termux/files/home/soda/snx_migracion_github_v1.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+# SODA-NEXUS — MIGRACIÓN TOTAL A GITHUB V1
+
+--- /data/data/com.termux/files/home/soda/snx_pages_config_v1.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+# SODA-NEXUS — CONFIGURACIÓN SOBERANA DE GITHUB PAGES V1
+
+--- /data/data/com.termux/files/home/soda/snx_auditoria_docs_v1.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+# SODA-NEXUS — AUDITORÍA PROFUNDA DE /docs V1
+# Nada se borra. Todo se clasifica. Todo se documenta.
+
+--- /data/data/com.termux/files/home/soda/04-REGISTROS/CUARENTENA_CABOS_SUELTOS/SNX-GITHUB-SCAN.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+# Ruta real de la bóveda institucional
+VAULT_FILE="$HOME/soda/00-GOBIERNO/VAULT/github.env"
+
+--- /data/data/com.termux/files/home/soda/04-REGISTROS/CUARENTENA_CABOS_SUELTOS/SNX-GITHUB-TOKEN-CHECK.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+VAULT_FILE="$HOME/soda/00-GOBIERNO/VAULT/github.env"
+if [ ! -f "$VAULT_FILE" ]; then
+
+--- /data/data/com.termux/files/home/soda/04-REGISTROS/snx_ia_registros_V4.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+MINISTERIO="04-REGISTROS"
+BASE="$HOME/soda/$MINISTERIO"
+
+--- /data/data/com.termux/files/home/soda/04-REGISTROS/snx_reingenieria_reg_v1.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+# SODA-NEXUS — SCRIPT DE REINGENIERIA REGISTROS V1
+BASE_DIR="$HOME/soda/04-REGISTROS"
+
+--- /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/monitor_bridge_run.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+
+--- /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/run_monitor.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+
+--- /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/snx_backend.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+STATE="$HOME/soda/STATE/state.json"
+LOGS="$HOME/soda/STATE/logs.txt"
+
+--- /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/snx_backend_legacy_neutralize.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+# ============================================================================
+# SNX — NEUTRALIZACIÓN DEL BACKEND LEGACY
+# Este script desactiva el servicio runit "snx_backend_monitor" sin eliminarlo.
+# ============================================================================
+
+--- /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/snx_create_monitor_v4_oficial.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+MONITOR_SRC="$HOME/soda/03-OPERACIONES/WEB/monitor"
+MONITOR_DST="$HOME/soda/06-MONITOR/V4-OFICIAL"
+
+--- /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/snx_daemon.sh ---
+#!/bin/bash
+BASE="$HOME/soda"
+CENTRAL="$BASE/02-SISTEMA/BACKEND/snx_ia_central.sh"
+PUSH="$BASE/02-SISTEMA/BACKEND/snx_push_state.sh"
+
+--- /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/snx_fix_serve_monitor_v1.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+BACKEND="$HOME/soda/02-SISTEMA/BACKEND/snx_monitor_unificado.py"
+MONITOR_DIR="$HOME/soda/06-MONITOR"
+
+--- /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/snx_ia_central.sh ---
+#!/bin/bash
+# ============================================================
+# IA‑SCRIPT CENTRAL — SODA‑NEXUS v3.0
+# Sistema inmune institucional
+# Protector, verificador, auditor, certificador y restaurador
+
+--- /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/snx_patch_serve_monitor_final.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+BACKEND="$HOME/soda/02-SISTEMA/BACKEND/snx_monitor_unificado.py"
+MONITOR_DIR="$HOME/soda/06-MONITOR"
+
+--- /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/snx_push_state.sh ---
+#!/bin/bash
+BASE="$HOME/soda"
+VAULT="$BASE/00-GOBIERNO/VAULT"
+ESTADO="$BASE/00-GOBIERNO/ESTADO"
+
+--- /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/SCRIPTS-LEGACY/GLOBAL/snx_monitor_clone_repo.sh ---
+#!/usr/bin/env bash
+echo "=== SODA-NEXUS :: CLONAR / ACTUALIZAR REPO DEL MONITOR ==="
+
+--- /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/SCRIPTS-LEGACY/GLOBAL/snx_monitor_publish_frontend.sh ---
+#!/usr/bin/env bash
+echo "=== SODA-NEXUS :: PUBLICAR FRONTEND DEL MONITOR EN /docs/monitor/ ==="
+
+--- /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/SCRIPTS-LEGACY/GLOBAL/snx_detect_repos.sh ---
+#!/usr/bin/env bash
+echo "=== SODA-NEXUS :: DETECCIÓN AUTOMÁTICA DE REPOSITORIOS GIT ==="
+echo ""
+
+--- /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/SCRIPTS-LEGACY/GLOBAL/snx_select_repo.sh ---
+#!/usr/bin/env bash
+echo "=== SODA-NEXUS :: SELECCIÓN AUTOMÁTICA DE REPOSITORIO ==="
+echo ""
+
+--- /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/SCRIPTS-LEGACY/GLOBAL/snx_publish_monitor.sh ---
+#!/usr/bin/env bash
+if [ -z "$REPO" ]; then
+
+--- /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/SCRIPTS-LEGACY/GLOBAL/snx_ia_diagnostico.sh ---
+
+--- /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/SCRIPTS-LEGACY/GLOBAL/snx_monitor_migrar_a_raiz.sh ---
+#!/usr/bin/env bash
+if [ -z "$REPO" ]; then
+
+--- /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/SCRIPTS-LEGACY/GLOBAL/snx_auditoria_integridad.sh ---
+#!/usr/bin/env bash
+
+--- /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/SCRIPTS-LEGACY/GLOBAL/snx_deploy_estado.sh ---
+#!/usr/bin/env bash
+
+--- /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/SCRIPTS-LEGACY/GLOBAL/snx_central.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+# ============================================================================
+# IA-SCRIPT CENTRAL — SODA-NEXUS
+# Autoridad soberana, notarial, auditora y antiamnesia del sistema.
+# Ninguna acción se ejecuta sin aprobación explícita del Director.
+
+--- /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/SCRIPTS-LEGACY/GLOBAL/snx_central_backend.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+# ============================================================================
+# IA-SCRIPT CENTRAL — MODO BACKEND (NO INTERACTIVO)
+# SODA-NEXUS — Uso exclusivo del backend soberano V3.
+# No pide input, no muestra menús, no bloquea.
+
+--- /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/SCRIPTS-LEGACY/GLOBAL/snx_central_backend_v2.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+# ============================================================================
+# SNX — FASE 5.9.3
+# IA-SCRIPT CENTRAL — MODO BACKEND V2 (NO INTERACTIVO, VALIDADO, DETERMINISTA)
+# Uso exclusivo del backend soberano V3.
+
+--- /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/SCRIPTS-LEGACY/GLOBAL/snx_central_backend_v3.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+# ============================================================================
+# SNX — FASE 5.9.7
+# IA-SCRIPT CENTRAL — MODO BACKEND V3 (NO INTERACTIVO, VALIDADO, DETERMINISTA)
+# Uso exclusivo del backend soberano V3.
+
+--- /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/SCRIPTS-LEGACY/GLOBAL/snx_memoria_resumen_v1.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+# ============================================================================
+# SNX — FASE B
+# Generar resumen vivo del sistema para antiamnesia de IA
+# ============================================================================
+
+--- /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/snx_backend_v1.py ---
+#!/data/data/com.termux/files/usr/bin/python
+# ============================================================
+# snx_backend_v1.py — Backend soberano v1 para SODA‑NEXUS
+# Rol: Proveer estado básico, versión y salud al monitor v1
+# Versión: 1.0 — Todo nuevo, nada se modifica
+
+--- /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/snx_backend_v1_port5051.py ---
+#!/data/data/com.termux/files/usr/bin/python
+
+--- /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/snx_reingenieria_gob_v1.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+# SODA-NEXUS — SCRIPT DE REINGENIERIA GOBIERNO V1
+GOB_DIR="$HOME/soda/00-GOBIERNO"
+
+--- /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/snx_orden_total.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+# ============================================================
+# SODA‑NEXUS — SCRIPT DE ORDEN TOTAL V1
+# Propósito: Limpieza, consolidación y cumplimiento de Regla 8.
+# ============================================================
+
+--- /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/daemon_monitor_watchdog.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+LOG="$HOME/soda/01-MEMORIA/ACTUAL/daemon_monitor_watchdog.log"
+
+--- /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/snx_reingenieria_ope_v1.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+# SODA-NEXUS — SCRIPT DE REINGENIERIA OPERACIONES V1
+BASE_DIR="$HOME/soda/03-OPERACIONES"
+
+--- /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/snx_reingenieria_doc_v1.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+# SODA-NEXUS — SCRIPT DE REINGENIERIA DOCUMENTACIÓN V1
+BASE_DIR="$HOME/soda/05-DOCUMENTACION"
+
+--- /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/SNX-FASE3_5-MONITOR-TOR.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+# ============================================================
+# SODA‑NEXUS — FASE 3.5
+# Publicación del Monitor Soberano v2 vía Tor (Hidden Service propio)
+
+--- /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/iniciar_orquestador_v4.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+echo "==============================================="
+echo "   INICIANDO ORQUESTADOR SODA-NEXUS V4"
+echo "==============================================="
+
+--- /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/snx_termux_blindaje.v_anterior.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+# ============================================================================
+# SNX-TERMUX-BLINDAJE — SODA-NEXUS
+# Servicio de blindaje básico de Termux.
+# Mantiene el entorno despierto y registra su actividad.
+
+--- /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/snx_master.py ---
+# SNX — IA-SCRIPT MAESTRO 2026  # OBS: Encabezado institucional del cerebro maestro.
+import os                      # OBS: Acceso al filesystem.
+import json                    # OBS: Manejo de snx_state.json.
+import time                    # OBS: Timestamps para registros.
+
+--- /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/api_v4.py ---
+app = Flask(__name__, static_url_path='', static_folder='static')
+
+--- /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/api_waitress.py ---
+
+--- /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/snx_antiamnesia_soberano_v3.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+BASE="$HOME/soda"
+MEMORIA_ACTUAL="$BASE/01-MEMORIA/ACTUAL"
+
+--- /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/daemon_antiamnesia.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+BASE="$HOME/soda"
+MEMORIA="$BASE/01-MEMORIA/ACTUAL"
+LOG="$MEMORIA/daemon_antiamnesia.log"
+
+--- /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/snx_rehidratacion_automatica.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+# ============================================================
+# SNX — REHIDRATACIÓN AUTOMÁTICA DE CONTEXTO
+# Ubicación: /soda/02-SISTEMA/GLOBAL/snx_rehidratacion_automatica.sh
+# Propósito: Unificar contexto crítico para IA y sistema.
+
+--- /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/snx_auditoria_total_v1.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+BASE="$HOME/soda"
+REG_SYS="$BASE/04-REGISTROS/SYSTEM"
+
+--- /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/snx_system_map.sh ---
+#!/bin/bash
+
+--- /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/snx_prepare_pages.sh ---
+#!/usr/bin/env bash
+# SNX — PREPARAR ESTRUCTURA PARA CLOUDFLARE PAGES  # OBS: Script para organizar monitor web.
+BASE="/data/data/com.termux/files/home/soda"                           # OBS: Ruta soberana.
+WEB_DIR="$BASE/03-OPERACIONES/WEB/monitor"                             # OBS: Carpeta para proyecto Pages.
+
+--- /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/SNX-FASE0-ESTRUCTURA.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+# ============================================================
+# SODA‑NEXUS — FASE 0
+# Script de creación de estructura soberana institucional
+# Versión: 1.1 (blindado, todo nuevo, nada se modifica)
+
+--- /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/SNX-FASE1-INFRA.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+# ============================================================
+# SODA‑NEXUS — FASE 1
+# Infraestructura soberana: backend v1 + monitor v1
+# Versión: 1.0 (todo nuevo, nada se modifica)
+
+--- /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/SNX-FASE2-TOR.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+# ============================================================
+# SODA‑NEXUS — FASE 2
+# Tor Hidden Service soberano apuntando a backend v1 (5051)
+# Versión: 1.0 — Todo nuevo, nada se modifica
+
+--- /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/SNX-FASE3-MONITOR.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+# ============================================================
+# SODA‑NEXUS — FASE 3
+# Monitor Soberano v2 (Modo Tor + Modo Local)
+# Versión: 1.0 — Todo nuevo, nada se modifica
+
+--- /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/LEGADO_PYTHON/ORQUESTADOR_FINAL.py ---
+
+--- /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/LEGADO_PYTHON/ORQUESTADOR_LIVE.py ---
+
+--- /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/LEGADO_PYTHON/ORQUESTADOR_MAESTRO_V4.py ---
+
+--- /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/LEGADO_PYTHON/ORQUESTADOR_V4_FRESCO.py ---
+
+--- /data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/snx_ia_operaciones.sh ---
+#!/data/data/com.termux/files/usr/bin/bash
+MINISTERIO="03-OPERACIONES"
+BASE="$HOME/soda/$MINISTERIO"
+
+
+=== ARCHIVOS EN TERMUX NO SUBIDOS A GITHUB ===
+ M 04-REGISTROS/SILO_HISTORICO/monitor.LEGACY_PROCESADO
+ M 04-REGISTROS/SYSTEM/blindaje_v6.log
+ D docs/monitor-2.js
+ D docs/monitor-v4.js
+ D docs/monitor.js
+ D docs/panel-institucional-v4.js
+ D docs/panel-institucional.js
+ D docs/panel_institucional_v1.js
+ D docs/snx-logs-2.js
+ D docs/snx-logs-v4.js
+ D docs/snx-logs.js
+?? 00-GOBIERNO/OFICIAL/
+?? 04-REGISTROS/SILO_HISTORICO/VERSIONES_JS/
+?? AUDITORIA_TOTAL_20260318.txt
+
+=== ÚLTIMO COMMIT ===
+commit 669145f793dbbcd856c420d4f7d7a00b8795caf9
+Author: jeengrasi <jeengrasi@users.noreply.github.com>
+Date:   Wed Mar 18 22:15:57 2026 -0400
+
+    segunda limpieza: docs solo con frontend
+
+=== LOGS DE SIGNAL 9 (SIGKILL) ===
+/data/data/com.termux/files/home/soda/04-REGISTROS/SYSTEM/auditoria_signal9_20260316.log:# INFORME DE FALLO: SIGNAL 9 & SSHD DROP
+/data/data/com.termux/files/home/soda/04-REGISTROS/SYSTEM/auditoria_binaria_v3_20260318_161702.log:16. Prioridad: evitar Signal 9.
+/data/data/com.termux/files/home/soda/04-REGISTROS/SYSTEM/auditoria_binaria_v3_20260318_162005.log:16. Prioridad: evitar Signal 9.
+/data/data/com.termux/files/home/soda/04-REGISTROS/SYSTEM/auditoria_total_termux_20260318_200348.log:16. Prioridad: evitar Signal 9.
+/data/data/com.termux/files/home/soda/04-REGISTROS/SYSTEM/unificador_soberano_20260318_201630.log:16. Prioridad: evitar Signal 9.
+/data/data/com.termux/files/home/soda/04-REGISTROS/SYSTEM/migracion_github_20260318_201735.log:16. Prioridad: evitar Signal 9.
+/data/data/com.termux/files/home/soda/04-REGISTROS/SYSTEM/auditoria_binaria_v3_20260318_201741.log:16. Prioridad: evitar Signal 9.
+/data/data/com.termux/files/home/soda/04-REGISTROS/SYSTEM/auditoria_docs_20260318_213310.log:16. Prioridad: evitar Signal 9.
+/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/fix_index_final_V4.log:Incidente: GET / retorna 404 y Termux recibe Signal 9.
