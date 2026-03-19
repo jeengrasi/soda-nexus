@@ -4,7 +4,7 @@
    ============================================================ */
 
 /* OBS: Define la URL del backend Flask accesible globalmente. */
-const SNX_BACKEND_URL_V4 = "https://23518f14e28764.lhr.life";
+const SNX_BACKEND_URL_V4 = "http://localhost:5000";
 
 /* OBS: Expone la URL al monitor para todas las solicitudes AJAX. */
 window.SNX_BACKEND_URL_V4 = SNX_BACKEND_URL_V4;
