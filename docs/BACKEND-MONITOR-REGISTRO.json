@@ -1,0 +1,22 @@
+{
+  "backend_monitor_oficial": {
+    "archivo": "snx_monitor_unificado_v2.py",
+    "ruta": "/data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/snx_monitor_unificado_v2.py",
+    "puerto": 5050,
+    "descripcion": "Backend unificado oficial que sirve el Monitor V4-OFICIAL y expone las APIs del monitor."
+  },
+  "backends_historial": [
+    {
+      "archivo": "snx_monitor_unificado.py",
+      "ruta": "/data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/snx_monitor_unificado.py",
+      "tipo": "historial",
+      "nota": "Versión anterior con rutas duplicadas, preservada como evidencia histórica."
+    },
+    {
+      "archivo": "monitor_bridge_v1.py",
+      "ruta": "/data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/monitor_bridge_v1.py",
+      "tipo": "historial",
+      "nota": "Bridge original entre backend y monitor."
+    }
+  ]
+}

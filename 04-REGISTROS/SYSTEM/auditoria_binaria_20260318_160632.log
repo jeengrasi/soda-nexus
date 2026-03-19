@@ -1,0 +1,50 @@
+=== AUDITORÍA BINARIA SODA-NEXUS V2 ===
+Fecha: Wed Mar 18 16:06:32 EDT 2026
+
+============================================================
+🔍 [1] Detectando repositorio Git en Termux...
+✔ Repositorio Git detectado en /data/data/com.termux/files/home/soda
+✔ URL remota detectada: https://github.com/jeengrasi/soda-nexus.git
+✔ Rama activa: master
+
+============================================================
+🔍 [2] Verificando integridad del repositorio (git fsck)...
+✔ Integridad verificada (ver detalles en el log)
+
+============================================================
+🔍 [3] Estado local (git status)...
+ M 04-REGISTROS/SILO_HISTORICO/monitor.LEGACY_PROCESADO
+ M 04-REGISTROS/SYSTEM/blindaje_v6.log
+?? 04-REGISTROS/SYSTEM/auditoria_binaria_20260318_160632.log
+?? 04-REGISTROS/SYSTEM/auditoria_monitor_20260318_152824.log
+?? snx_auditor_binario_v2.sh
+?? snx_auditoria_monitor_v7.sh
+
+============================================================
+🔍 [4] Buscando monitor en Termux...
+/data/data/com.termux/files/home/soda/docs/index.html
+/data/data/com.termux/files/home/soda/03-OPERACIONES/WEB/index.html
+/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/WEBAPP/index.html
+/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/index.html
+/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/monitor.LEGACY_PROCESADO/index.html
+/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/monitor.LEGACY_PROCESADO/index-2.html
+/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/monitor.LEGACY_PROCESADO/index-3.html
+/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/monitor-v4.LEGACY_PROCESADO/index-v4.html
+/data/data/com.termux/files/home/soda/04-REGISTROS/monitor_data.json
+
+============================================================
+🔍 [5] Consultando GitHub (estructura remota)...
+✔ RAW_BASE: https://raw.githubusercontent.com/jeengrasi/soda-nexus.git/main
+❌ index.html remoto NO encontrado
+❌ monitor_data.json remoto NO encontrado
+
+============================================================
+🔍 [6] Comparación de archivos clave...
+
+============================================================
+📋 RESUMEN FINAL DE AUDITORÍA
+✔ Repositorio detectado: https://github.com/jeengrasi/soda-nexus.git
+✔ Rama activa: master
+✔ Integridad verificada
+✔ Comparación Termux ↔ GitHub completada
+📄 Reporte completo: /data/data/com.termux/files/home/soda/04-REGISTROS/SYSTEM/auditoria_binaria_20260318_160632.log

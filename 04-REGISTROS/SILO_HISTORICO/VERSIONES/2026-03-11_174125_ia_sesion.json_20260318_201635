@@ -1,0 +1,7 @@
+{
+  "timestamp": "2026-03-11_174125",
+  "instruccion": "Hola IA, prueba de estado.",
+  "contexto": {},
+  "motor_elegido": "local",
+  "respuesta": "No se pudo usar ni IA local ni IA remota.\nDetalle: [Fallo IA local: Error al contactar IA local: HTTPConnectionPool(host='127.0.0.1', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError(\"HTTPConnection(host='127.0.0.1', port=11434): Failed to establish a new connection: [Errno 111] Connection refused\"))]\n[Fallo IA remota: Respuesta inesperada de IA remota. HTTP 402]"
+}

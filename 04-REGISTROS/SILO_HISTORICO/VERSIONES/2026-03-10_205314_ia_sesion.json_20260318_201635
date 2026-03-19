@@ -1,0 +1,8 @@
+{
+  "timestamp": "2026-03-10_205314",
+  "instruccion": "Prueba de IA desde backend V3",
+  "contexto": {
+    "origen": "termux"
+  },
+  "respuesta": "Respuesta vacía o inesperada de la IA. Código HTTP: 402"
+}

@@ -1,0 +1,12 @@
+{
+  "ministerio": "03-OPERACIONES",
+  "timestamp": "2026-03-09T14:53:45",
+  "operaciones_tree": "11 entradas",
+  "engranaje": {"relaciones":["02-SISTEMA","04-REGISTROS"]},
+  "sync": {"sync":"2026-03-09T14:53:45"},
+  "archivos": {
+    "operaciones_tree": "ok",
+    "engranaje": "ok",
+    "sync": "ok"
+  }
+}

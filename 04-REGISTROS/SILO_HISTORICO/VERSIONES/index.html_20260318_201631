@@ -1,0 +1,72 @@
+<!-- ============================================================
+     SODA‑NEXUS — Monitor Web Institucional (V1)
+     Visualización completa del sistema SODA‑NEXUS.
+     ============================================================ -->
+
+<!DOCTYPE html>
+<html lang="es">
+<head><meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"><meta http-equiv="Pragma" content="no-cache"><meta http-equiv="Expires" content="0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monitor Soberano V1 — SODA‑NEXUS</title>
+
+    <script src="./config.js"></script>
+    <script src="./monitor.js"></script>
+
+    <style>
+        body { font-family: Arial, sans-serif; background: #0d1117; color: #e6edf3; padding: 20px; }
+        h1 { color: #58a6ff; margin-bottom: 5px; }
+        h2 { color: #8b949e; font-size: 14px; margin-top: 0; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 12px; margin-top: 20px; }
+        .btn-ministerio { padding: 14px; border-radius: 8px; border: 1px solid #30363d; background: #161b22; text-align: center; cursor: default; font-weight: bold; }
+        .btn-ok { border-color: #238636; box-shadow: 0 0 0 1px rgba(35,134,54,0.4); }
+        .btn-error { border-color: #f85149; box-shadow: 0 0 0 1px rgba(248,81,73,0.4); }
+        .btn-warn { border-color: #d29922; box-shadow: 0 0 0 1px rgba(210,153,34,0.4); }
+        .badge { display: block; margin-top: 6px; font-size: 12px; color: #8b949e; }
+        .card { background: #161b22; padding: 16px; border-radius: 8px; margin-top: 24px; border: 1px solid #30363d; }
+        .label { font-weight: bold; color: #79c0ff; margin-bottom: 8px; }
+        .desviacion-error { color: #f85149; font-size: 13px; margin-bottom: 4px; }
+        .status-global { font-weight: bold; margin-top: 4px; }
+    </style>
+</head>
+
+<body>
+    <h1>Monitor Soberano V1</h1>
+    <h2>Visualización completa del sistema SODA‑NEXUS</h2>
+
+    <div class="card">
+        <div class="label">Estado del backend:</div>
+        <div id="snx-status" class="status-global">Cargando...</div>
+    </div>
+
+    <div class="card">
+        <div class="label">Ministerios</div>
+        <div class="grid" id="snx-ministerios"></div>
+    </div>
+
+    <div class="card">
+        <div class="label">Desviaciones</div>
+        <div id="snx-desviaciones">
+            <div style="font-size: 13px; color: #8b949e;">Sin datos aún...</div>
+        </div>
+    </div>
+</body>
+
+<!-- ============================================================
+     PIE DE PÁGINA INSTITUCIONAL — SODA‑NEXUS
+     Este archivo pertenece al sistema soberano SODA‑NEXUS.
+     REGLAS INSTITUCIONALES:
+     1. Las instrucciones deben darse SIEMPRE en orden y completas.
+     2. No se deben modificar líneas sin aprobación institucional.
+     3. Si un script existe en el sistema, debe solicitarse, leerse
+        y modificarse únicamente sobre su contenido real.
+     4. No mover, eliminar o sobrescribir archivos sin inspección
+        previa del filesystem para evitar pérdida de memoria.
+     5. Cada script o documento debe incluir encabezado, observaciones
+        por línea y este pie de página institucional.
+     6. Mantener coherencia con la estructura soberana del Estado.
+     7. Garantizar anti‑amnesia y auditabilidad total.
+     8. Realizar la mayoría de tareas en un solo chat para preservar
+        el contexto operativo y la memoria institucional.
+     ============================================================ -->
+</html>

@@ -1,0 +1,247 @@
+=== SNX — UNIFICADOR SOBERANO V1 ===
+Fecha: Wed Mar 18 20:16:31 EDT 2026
+
+============================================================
+🔍 [1] Deteniendo procesos duplicados y zombis...
+✔ Procesos duplicados detenidos
+
+============================================================
+🔍 [2] Clasificando monitores...
+'/data/data/com.termux/files/home/soda/docs/index.html' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/index.html_20260318_201631'
+'/data/data/com.termux/files/home/soda/03-OPERACIONES/WEB/index.html' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/index.html_20260318_201631'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/WEBAPP/index.html' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/index.html_20260318_201631'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/index.html' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/index.html_20260318_201631'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/monitor.LEGACY_PROCESADO/index.html' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/index.html_20260318_201631'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/monitor.LEGACY_PROCESADO/index-2.html' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/index-2.html_20260318_201631'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/monitor.LEGACY_PROCESADO/index-3.html' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/index-3.html_20260318_201631'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/monitor-v4.LEGACY_PROCESADO/index-v4.html' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/index-v4.html_20260318_201631'
+✔ Monitores versionados en histórico
+
+============================================================
+🔍 [3] Seleccionando monitor oficial...
+✔ Monitor oficial: /data/data/com.termux/files/home/soda/docs/index.html
+
+============================================================
+🔍 [4] Clasificando JS, JSON, CSS...
+'/data/data/com.termux/files/home/soda/docs/config-v4.js' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/config-v4.js_20260318_201631'
+'/data/data/com.termux/files/home/soda/docs/snx_monitor_backend.js' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/snx_monitor_backend.js_20260318_201631'
+'/data/data/com.termux/files/home/soda/docs/ia.js' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/ia.js_20260318_201631'
+'/data/data/com.termux/files/home/soda/docs/monitor.js' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/monitor.js_20260318_201632'
+'/data/data/com.termux/files/home/soda/docs/config.js' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/config.js_20260318_201632'
+'/data/data/com.termux/files/home/soda/docs/panel-institucional.js' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/panel-institucional.js_20260318_201632'
+'/data/data/com.termux/files/home/soda/docs/snx-logs.js' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/snx-logs.js_20260318_201632'
+'/data/data/com.termux/files/home/soda/docs/monitor-v4.js' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/monitor-v4.js_20260318_201632'
+'/data/data/com.termux/files/home/soda/docs/panel-institucional-v4.js' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/panel-institucional-v4.js_20260318_201632'
+'/data/data/com.termux/files/home/soda/docs/snx-logs-v4.js' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/snx-logs-v4.js_20260318_201632'
+'/data/data/com.termux/files/home/soda/docs/api.js' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/api.js_20260318_201632'
+'/data/data/com.termux/files/home/soda/docs/svelte.config.js' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/svelte.config.js_20260318_201632'
+'/data/data/com.termux/files/home/soda/docs/vite.config.js' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/vite.config.js_20260318_201632'
+'/data/data/com.termux/files/home/soda/docs/monitor-2.js' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/monitor-2.js_20260318_201632'
+'/data/data/com.termux/files/home/soda/docs/snx-logs-2.js' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/snx-logs-2.js_20260318_201632'
+'/data/data/com.termux/files/home/soda/docs/panel_institucional_v1.js' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/panel_institucional_v1.js_20260318_201632'
+'/data/data/com.termux/files/home/soda/docs/extensiones_monitor_v1.js' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/extensiones_monitor_v1.js_20260318_201632'
+'/data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/snx_monitor_backend.js' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/snx_monitor_backend.js_20260318_201632'
+'/data/data/com.termux/files/home/soda/03-OPERACIONES/WEB/ia.js' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/ia.js_20260318_201632'
+'/data/data/com.termux/files/home/soda/03-OPERACIONES/WEB/config-v4.js' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/config-v4.js_20260318_201632'
+'/data/data/com.termux/files/home/soda/03-OPERACIONES/WEB/monitor.js' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/monitor.js_20260318_201632'
+'/data/data/com.termux/files/home/soda/03-OPERACIONES/WEB/config.js' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/config.js_20260318_201633'
+'/data/data/com.termux/files/home/soda/03-OPERACIONES/WEB/panel-institucional.js' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/panel-institucional.js_20260318_201633'
+'/data/data/com.termux/files/home/soda/03-OPERACIONES/WEB/snx-logs.js' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/snx-logs.js_20260318_201633'
+'/data/data/com.termux/files/home/soda/03-OPERACIONES/WEB/monitor-v4.js' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/monitor-v4.js_20260318_201633'
+'/data/data/com.termux/files/home/soda/03-OPERACIONES/WEB/panel-institucional-v4.js' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/panel-institucional-v4.js_20260318_201633'
+'/data/data/com.termux/files/home/soda/03-OPERACIONES/WEB/snx-logs-v4.js' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/snx-logs-v4.js_20260318_201633'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/WEBAPP/src/api.js' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/api.js_20260318_201633'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/WEBAPP/svelte.config.js' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/svelte.config.js_20260318_201633'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/WEBAPP/vite.config.js' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/vite.config.js_20260318_201633'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/monitor.js' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/monitor.js_20260318_201633'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/monitor.LEGACY_PROCESADO/config.js' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/config.js_20260318_201633'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/monitor.LEGACY_PROCESADO/monitor.js' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/monitor.js_20260318_201633'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/monitor.LEGACY_PROCESADO/snx-logs.js' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/snx-logs.js_20260318_201633'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/monitor.LEGACY_PROCESADO/monitor-2.js' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/monitor-2.js_20260318_201633'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/monitor.LEGACY_PROCESADO/snx-logs-2.js' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/snx-logs-2.js_20260318_201633'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/monitor.LEGACY_PROCESADO/panel_institucional_v1.js' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/panel_institucional_v1.js_20260318_201633'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/monitor.LEGACY_PROCESADO/extensiones_monitor_v1.js' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/extensiones_monitor_v1.js_20260318_201633'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/monitor-v4.LEGACY_PROCESADO/config-v4.js' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/config-v4.js_20260318_201633'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/monitor-v4.LEGACY_PROCESADO/monitor-v4.js' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/monitor-v4.js_20260318_201633'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/monitor-v4.LEGACY_PROCESADO/snx-logs-v4.js' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/snx-logs-v4.js_20260318_201633'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/monitor-v4.LEGACY_PROCESADO/panel-institucional-v4.js' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/panel-institucional-v4.js_20260318_201634'
+'/data/data/com.termux/files/home/soda/01-MEMORIA/ACTUAL/MAPA_SOBERANO.json' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/MAPA_SOBERANO.json_20260318_201634'
+'/data/data/com.termux/files/home/soda/docs/monitor_data.json' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/monitor_data.json_20260318_201634'
+'/data/data/com.termux/files/home/soda/00-GOBIERNO/ESTADO/snx_state.json' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/snx_state.json_20260318_201634'
+'/data/data/com.termux/files/home/soda/00-GOBIERNO/ESTADO/snx_contexto_soberano.json' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/snx_contexto_soberano.json_20260318_201634'
+'/data/data/com.termux/files/home/soda/00-GOBIERNO/ESTADO/estado_central_V4.json' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/estado_central_V4.json_20260318_201634'
+'/data/data/com.termux/files/home/soda/00-GOBIERNO/ESTADO/MONITOR-OFICIAL_V4.json' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/MONITOR-OFICIAL_V4.json_20260318_201634'
+'/data/data/com.termux/files/home/soda/00-GOBIERNO/ESTADO/monitor_estado_V4.json' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/monitor_estado_V4.json_20260318_201634'
+'/data/data/com.termux/files/home/soda/00-GOBIERNO/ESTADO/MANIFIESTO_SOBERANO_V4.json' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/MANIFIESTO_SOBERANO_V4.json_20260318_201634'
+'/data/data/com.termux/files/home/soda/00-GOBIERNO/VAULT/CURRENT_MOTOR.json' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/CURRENT_MOTOR.json_20260318_201634'
+'/data/data/com.termux/files/home/soda/02-SISTEMA/API/static/status.json' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/status.json_20260318_201634'
+'/data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/allowed_scripts.json' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/allowed_scripts.json_20260318_201634'
+'/data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/allowed_scripts_v1.json' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/allowed_scripts_v1.json_20260318_201634'
+'/data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/BACKEND-MONITOR-REGISTRO.json' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/BACKEND-MONITOR-REGISTRO.json_20260318_201634'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/GUARDIAN/hashes_baseline.json' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/hashes_baseline.json_20260318_201634'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/GUARDIAN/diff_2026-03-04_20-54-00.json' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/diff_2026-03-04_20-54-00.json_20260318_201634'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/GUARDIAN/diff_2026-03-04_20-56-06.json' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/diff_2026-03-04_20-56-06.json_20260318_201634'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/ia_sesiones/2026-03-10_004954_ia_sesion.json' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/2026-03-10_004954_ia_sesion.json_20260318_201634'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/ia_sesiones/2026-03-10_205314_ia_sesion.json' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/2026-03-10_205314_ia_sesion.json_20260318_201635'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/ia_sesiones/2026-03-11_131510_ia_sesion.json' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/2026-03-11_131510_ia_sesion.json_20260318_201635'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/ia_sesiones/2026-03-11_131524_ia_sesion.json' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/2026-03-11_131524_ia_sesion.json_20260318_201635'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/ia_sesiones/2026-03-11_153556_ia_sesion.json' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/2026-03-11_153556_ia_sesion.json_20260318_201635'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/ia_sesiones/2026-03-11_174125_ia_sesion.json' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/2026-03-11_174125_ia_sesion.json_20260318_201635'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/monitor_data.json' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/monitor_data.json_20260318_201635'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/WEBAPP/.vscode/extensions.json' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/extensions.json_20260318_201635'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/WEBAPP/jsconfig.json' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/jsconfig.json_20260318_201635'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/WEBAPP/package.json' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/package.json_20260318_201635'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/WEBAPP/package-lock.json' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/package-lock.json_20260318_201635'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/estado_version.json' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/estado_version.json_20260318_201635'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/snx_state_20260309-133638.json' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/snx_state_20260309-133638.json_20260318_201635'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/snx_state_20260309-143034.json' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/snx_state_20260309-143034.json_20260318_201635'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/snx_state_20260309-143136.json' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/snx_state_20260309-143136.json_20260318_201635'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/snx_state_20260309-143239.json' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/snx_state_20260309-143239.json_20260318_201635'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/snx_state_20260309-143341.json' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/snx_state_20260309-143341.json_20260318_201635'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/snx_state_20260309-143444.json' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/snx_state_20260309-143444.json_20260318_201635'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/snx_state_20260309-143546.json' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/snx_state_20260309-143546.json_20260318_201636'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/snx_state_20260309-143649.json' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/snx_state_20260309-143649.json_20260318_201636'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/snx_state_20260309-143851.json' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/snx_state_20260309-143851.json_20260318_201636'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/snx_state_20260309-144136.json' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/snx_state_20260309-144136.json_20260318_201636'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/snx_state_20260309-145315.json' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/snx_state_20260309-145315.json_20260318_201636'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/snx_state_20260309-145349.json' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/snx_state_20260309-145349.json_20260318_201636'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/snx_state_20260313-125351.json' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/snx_state_20260313-125351.json_20260318_201636'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/snx_state_20260313-125453.json' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/snx_state_20260313-125453.json_20260318_201636'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/snx_state_20260313-125556.json' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/snx_state_20260313-125556.json_20260318_201636'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/estado_00-GOBIERNO.json' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/estado_00-GOBIERNO.json_20260318_201636'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/estado_01-MEMORIA.json' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/estado_01-MEMORIA.json_20260318_201636'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/estado_02-SISTEMA.json' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/estado_02-SISTEMA.json_20260318_201636'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/estado_03-OPERACIONES.json' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/estado_03-OPERACIONES.json_20260318_201636'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/estado_04-REGISTROS.json' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/estado_04-REGISTROS.json_20260318_201636'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/estado_05-DOCUMENTACION.json' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/estado_05-DOCUMENTACION.json_20260318_201637'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/paquete_contexto_ia.json' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/paquete_contexto_ia.json_20260318_201637'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/sync_04-REGISTROS.json' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/sync_04-REGISTROS.json_20260318_201637'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/monitor_data_snapshot.json' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/monitor_data_snapshot.json_20260318_201637'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/estado_06-MONITOR.json' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/estado_06-MONITOR.json_20260318_201637'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/ENGRANAJE-MAESTRO-V4.json' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/ENGRANAJE-MAESTRO-V4.json_20260318_201637'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/engranaje_04-REGISTROS.json' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/engranaje_04-REGISTROS.json_20260318_201637'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/engranaje_05-DOCUMENTACION.json' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/engranaje_05-DOCUMENTACION.json_20260318_201637'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/sync_05-DOCUMENTACION.json' -> '/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/VERSIONES/sync_05-DOCUMENTACION.json_20260318_201637'
+✔ Archivos versionados
+
+============================================================
+🔍 [5] Unificando backend...
+✔ Backend oficial: /data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/snx_monitor_backend.py
+
+============================================================
+🔍 [6] Preparando /docs para GitHub...
+'/data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/snx_monitor_backend.js' -> '/data/data/com.termux/files/home/soda/docs/snx_monitor_backend.js'
+'/data/data/com.termux/files/home/soda/03-OPERACIONES/WEB/ia.js' -> '/data/data/com.termux/files/home/soda/docs/ia.js'
+'/data/data/com.termux/files/home/soda/03-OPERACIONES/WEB/config-v4.js' -> '/data/data/com.termux/files/home/soda/docs/config-v4.js'
+'/data/data/com.termux/files/home/soda/03-OPERACIONES/WEB/monitor.js' -> '/data/data/com.termux/files/home/soda/docs/monitor.js'
+'/data/data/com.termux/files/home/soda/03-OPERACIONES/WEB/config.js' -> '/data/data/com.termux/files/home/soda/docs/config.js'
+'/data/data/com.termux/files/home/soda/03-OPERACIONES/WEB/panel-institucional.js' -> '/data/data/com.termux/files/home/soda/docs/panel-institucional.js'
+'/data/data/com.termux/files/home/soda/03-OPERACIONES/WEB/snx-logs.js' -> '/data/data/com.termux/files/home/soda/docs/snx-logs.js'
+'/data/data/com.termux/files/home/soda/03-OPERACIONES/WEB/monitor-v4.js' -> '/data/data/com.termux/files/home/soda/docs/monitor-v4.js'
+'/data/data/com.termux/files/home/soda/03-OPERACIONES/WEB/panel-institucional-v4.js' -> '/data/data/com.termux/files/home/soda/docs/panel-institucional-v4.js'
+'/data/data/com.termux/files/home/soda/03-OPERACIONES/WEB/snx-logs-v4.js' -> '/data/data/com.termux/files/home/soda/docs/snx-logs-v4.js'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/WEBAPP/src/api.js' -> '/data/data/com.termux/files/home/soda/docs/api.js'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/WEBAPP/svelte.config.js' -> '/data/data/com.termux/files/home/soda/docs/svelte.config.js'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/WEBAPP/vite.config.js' -> '/data/data/com.termux/files/home/soda/docs/vite.config.js'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/monitor.js' -> '/data/data/com.termux/files/home/soda/docs/monitor.js'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/monitor.LEGACY_PROCESADO/config.js' -> '/data/data/com.termux/files/home/soda/docs/config.js'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/monitor.LEGACY_PROCESADO/monitor.js' -> '/data/data/com.termux/files/home/soda/docs/monitor.js'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/monitor.LEGACY_PROCESADO/snx-logs.js' -> '/data/data/com.termux/files/home/soda/docs/snx-logs.js'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/monitor.LEGACY_PROCESADO/monitor-2.js' -> '/data/data/com.termux/files/home/soda/docs/monitor-2.js'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/monitor.LEGACY_PROCESADO/snx-logs-2.js' -> '/data/data/com.termux/files/home/soda/docs/snx-logs-2.js'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/monitor.LEGACY_PROCESADO/panel_institucional_v1.js' -> '/data/data/com.termux/files/home/soda/docs/panel_institucional_v1.js'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/monitor.LEGACY_PROCESADO/extensiones_monitor_v1.js' -> '/data/data/com.termux/files/home/soda/docs/extensiones_monitor_v1.js'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/monitor-v4.LEGACY_PROCESADO/config-v4.js' -> '/data/data/com.termux/files/home/soda/docs/config-v4.js'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/monitor-v4.LEGACY_PROCESADO/monitor-v4.js' -> '/data/data/com.termux/files/home/soda/docs/monitor-v4.js'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/monitor-v4.LEGACY_PROCESADO/snx-logs-v4.js' -> '/data/data/com.termux/files/home/soda/docs/snx-logs-v4.js'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/monitor-v4.LEGACY_PROCESADO/panel-institucional-v4.js' -> '/data/data/com.termux/files/home/soda/docs/panel-institucional-v4.js'
+'/data/data/com.termux/files/home/soda/01-MEMORIA/ACTUAL/MAPA_SOBERANO.json' -> '/data/data/com.termux/files/home/soda/docs/MAPA_SOBERANO.json'
+'/data/data/com.termux/files/home/soda/00-GOBIERNO/ESTADO/snx_state.json' -> '/data/data/com.termux/files/home/soda/docs/snx_state.json'
+'/data/data/com.termux/files/home/soda/00-GOBIERNO/ESTADO/snx_contexto_soberano.json' -> '/data/data/com.termux/files/home/soda/docs/snx_contexto_soberano.json'
+'/data/data/com.termux/files/home/soda/00-GOBIERNO/ESTADO/estado_central_V4.json' -> '/data/data/com.termux/files/home/soda/docs/estado_central_V4.json'
+'/data/data/com.termux/files/home/soda/00-GOBIERNO/ESTADO/MONITOR-OFICIAL_V4.json' -> '/data/data/com.termux/files/home/soda/docs/MONITOR-OFICIAL_V4.json'
+'/data/data/com.termux/files/home/soda/00-GOBIERNO/ESTADO/monitor_estado_V4.json' -> '/data/data/com.termux/files/home/soda/docs/monitor_estado_V4.json'
+'/data/data/com.termux/files/home/soda/00-GOBIERNO/ESTADO/MANIFIESTO_SOBERANO_V4.json' -> '/data/data/com.termux/files/home/soda/docs/MANIFIESTO_SOBERANO_V4.json'
+'/data/data/com.termux/files/home/soda/00-GOBIERNO/VAULT/CURRENT_MOTOR.json' -> '/data/data/com.termux/files/home/soda/docs/CURRENT_MOTOR.json'
+'/data/data/com.termux/files/home/soda/02-SISTEMA/API/static/status.json' -> '/data/data/com.termux/files/home/soda/docs/status.json'
+'/data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/allowed_scripts.json' -> '/data/data/com.termux/files/home/soda/docs/allowed_scripts.json'
+'/data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/MONITOR/allowed_scripts_v1.json' -> '/data/data/com.termux/files/home/soda/docs/allowed_scripts_v1.json'
+'/data/data/com.termux/files/home/soda/02-SISTEMA/BACKEND/BACKEND-MONITOR-REGISTRO.json' -> '/data/data/com.termux/files/home/soda/docs/BACKEND-MONITOR-REGISTRO.json'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/GUARDIAN/hashes_baseline.json' -> '/data/data/com.termux/files/home/soda/docs/hashes_baseline.json'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/GUARDIAN/diff_2026-03-04_20-54-00.json' -> '/data/data/com.termux/files/home/soda/docs/diff_2026-03-04_20-54-00.json'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/GUARDIAN/diff_2026-03-04_20-56-06.json' -> '/data/data/com.termux/files/home/soda/docs/diff_2026-03-04_20-56-06.json'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/ia_sesiones/2026-03-10_004954_ia_sesion.json' -> '/data/data/com.termux/files/home/soda/docs/2026-03-10_004954_ia_sesion.json'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/ia_sesiones/2026-03-10_205314_ia_sesion.json' -> '/data/data/com.termux/files/home/soda/docs/2026-03-10_205314_ia_sesion.json'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/ia_sesiones/2026-03-11_131510_ia_sesion.json' -> '/data/data/com.termux/files/home/soda/docs/2026-03-11_131510_ia_sesion.json'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/ia_sesiones/2026-03-11_131524_ia_sesion.json' -> '/data/data/com.termux/files/home/soda/docs/2026-03-11_131524_ia_sesion.json'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/ia_sesiones/2026-03-11_153556_ia_sesion.json' -> '/data/data/com.termux/files/home/soda/docs/2026-03-11_153556_ia_sesion.json'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/ia_sesiones/2026-03-11_174125_ia_sesion.json' -> '/data/data/com.termux/files/home/soda/docs/2026-03-11_174125_ia_sesion.json'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/monitor_data.json' -> '/data/data/com.termux/files/home/soda/docs/monitor_data.json'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/WEBAPP/.vscode/extensions.json' -> '/data/data/com.termux/files/home/soda/docs/extensions.json'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/WEBAPP/jsconfig.json' -> '/data/data/com.termux/files/home/soda/docs/jsconfig.json'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/WEBAPP/package.json' -> '/data/data/com.termux/files/home/soda/docs/package.json'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/WEBAPP/package-lock.json' -> '/data/data/com.termux/files/home/soda/docs/package-lock.json'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/estado_version.json' -> '/data/data/com.termux/files/home/soda/docs/estado_version.json'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/snx_state_20260309-133638.json' -> '/data/data/com.termux/files/home/soda/docs/snx_state_20260309-133638.json'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/snx_state_20260309-143034.json' -> '/data/data/com.termux/files/home/soda/docs/snx_state_20260309-143034.json'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/snx_state_20260309-143136.json' -> '/data/data/com.termux/files/home/soda/docs/snx_state_20260309-143136.json'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/snx_state_20260309-143239.json' -> '/data/data/com.termux/files/home/soda/docs/snx_state_20260309-143239.json'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/snx_state_20260309-143341.json' -> '/data/data/com.termux/files/home/soda/docs/snx_state_20260309-143341.json'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/snx_state_20260309-143444.json' -> '/data/data/com.termux/files/home/soda/docs/snx_state_20260309-143444.json'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/snx_state_20260309-143546.json' -> '/data/data/com.termux/files/home/soda/docs/snx_state_20260309-143546.json'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/snx_state_20260309-143649.json' -> '/data/data/com.termux/files/home/soda/docs/snx_state_20260309-143649.json'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/snx_state_20260309-143851.json' -> '/data/data/com.termux/files/home/soda/docs/snx_state_20260309-143851.json'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/snx_state_20260309-144136.json' -> '/data/data/com.termux/files/home/soda/docs/snx_state_20260309-144136.json'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/snx_state_20260309-145315.json' -> '/data/data/com.termux/files/home/soda/docs/snx_state_20260309-145315.json'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/snx_state_20260309-145349.json' -> '/data/data/com.termux/files/home/soda/docs/snx_state_20260309-145349.json'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/snx_state_20260313-125351.json' -> '/data/data/com.termux/files/home/soda/docs/snx_state_20260313-125351.json'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/snx_state_20260313-125453.json' -> '/data/data/com.termux/files/home/soda/docs/snx_state_20260313-125453.json'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/snx_state_20260313-125556.json' -> '/data/data/com.termux/files/home/soda/docs/snx_state_20260313-125556.json'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/estado_00-GOBIERNO.json' -> '/data/data/com.termux/files/home/soda/docs/estado_00-GOBIERNO.json'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/estado_01-MEMORIA.json' -> '/data/data/com.termux/files/home/soda/docs/estado_01-MEMORIA.json'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/estado_02-SISTEMA.json' -> '/data/data/com.termux/files/home/soda/docs/estado_02-SISTEMA.json'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/estado_03-OPERACIONES.json' -> '/data/data/com.termux/files/home/soda/docs/estado_03-OPERACIONES.json'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/estado_04-REGISTROS.json' -> '/data/data/com.termux/files/home/soda/docs/estado_04-REGISTROS.json'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/estado_05-DOCUMENTACION.json' -> '/data/data/com.termux/files/home/soda/docs/estado_05-DOCUMENTACION.json'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/paquete_contexto_ia.json' -> '/data/data/com.termux/files/home/soda/docs/paquete_contexto_ia.json'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/sync_04-REGISTROS.json' -> '/data/data/com.termux/files/home/soda/docs/sync_04-REGISTROS.json'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/monitor_data_snapshot.json' -> '/data/data/com.termux/files/home/soda/docs/monitor_data_snapshot.json'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/estado_06-MONITOR.json' -> '/data/data/com.termux/files/home/soda/docs/estado_06-MONITOR.json'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/ENGRANAJE-MAESTRO-V4.json' -> '/data/data/com.termux/files/home/soda/docs/ENGRANAJE-MAESTRO-V4.json'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/engranaje_04-REGISTROS.json' -> '/data/data/com.termux/files/home/soda/docs/engranaje_04-REGISTROS.json'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/engranaje_05-DOCUMENTACION.json' -> '/data/data/com.termux/files/home/soda/docs/engranaje_05-DOCUMENTACION.json'
+'/data/data/com.termux/files/home/soda/04-REGISTROS/SILO_HISTORICO/sync_05-DOCUMENTACION.json' -> '/data/data/com.termux/files/home/soda/docs/sync_05-DOCUMENTACION.json'
+✔ /docs preparado para GitHub Pages
+
+============================================================
+📋 RESUMEN FINAL
+✔ Monitores versionados
+✔ Backend unificado
+✔ Archivos clasificados
+✔ /docs preparado
+✔ Procesos limpiados
+📄 Log completo: /data/data/com.termux/files/home/soda/04-REGISTROS/SYSTEM/unificador_soberano_20260318_201630.log
+
+============================================================
+=== PIE DE PÁGINA SOBERANO ===
+1. Nada se borra, todo es útil.
+2. Termux es la memoria y la verdad.
+3. Validar scripts antes de modificar.
+4. Sistema ligero pero potente.
+5. Todo auditado y certificado.
+6. Consultar Termux antes de actuar.
+7. Todo es real.
+8. Varias tareas por chat.
+9. Identidad: jeengrasi/soda-nexus.
+10. Escudo GitHub activo.
+11. GitHub cerebro, Termux puente.
+12. ADN en Vault, resto en nube.
+13. Investigación obligatoria.
+14. Director decide; IA ejecuta.
+15. Reporte Antes/Después.
+16. Prioridad: evitar Signal 9.
+17. Nada se asume; todo se verifica.
+18. IA evita antiamnesia.
+19. GitHub es la Fuente de Verdad.
+20. Scripts los modifica la IA.
+21. No se pregunta; se trabaja.

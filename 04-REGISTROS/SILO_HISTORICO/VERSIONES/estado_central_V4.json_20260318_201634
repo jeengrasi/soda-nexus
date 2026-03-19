@@ -1,0 +1,14 @@
+{
+  "version": "V1",
+  "ip_lan": "192.168.12.183",
+  "backend": {
+    "backend_url": "http://192.168.12.183:5050"
+  },
+  "monitor": {
+    "monitor_url": "http://192.168.12.183:8080"
+  },
+  "proposito_documento": "/soda/00-GOBIERNO/META/PROPOSITO-SOBERANO-V1.md",
+  "antiamnesia": {
+    "ley": "/soda/00-GOBIERNO/SNX-ANTIAMNESIA-V1.md"
+  }
+}

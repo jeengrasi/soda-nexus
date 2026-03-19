@@ -1,0 +1,10 @@
+{
+  "version": "V1",
+  "descripcion": "Paquete unificado de contexto para la IA dedicada (DeepSeek).",
+  "proposito_documento": "/soda/00-GOBIERNO/META/PROPOSITO-SOBERANO-V1.md",
+  "ruta_soberana_documento": "/soda/00-GOBIERNO/META/RUTA-SOBERANA-PROPOSITO-V1.md",
+  "estado_central": "/soda/STATE/estado_central.json",
+  "config_monitor": "/soda/06-MONITOR/V3/config_monitor.json",
+  "contexto_unificado_ia": "/soda/01-MEMORIA/ACTUAL/contexto_unificado_IA.json",
+  "antiamnesia_documento": "/soda/00-GOBIERNO/SNX-ANTIAMNESIA-V1.md"
+}
