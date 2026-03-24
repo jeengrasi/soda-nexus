@@ -1,16 +1,16 @@
 {
-    "timestamp": "2026-03-20_12:30:37",
-    "backend": "ACTIVO",
+    "timestamp": "2026-03-24_14:12:22",
+    "backend": "INACTIVO",
     "version": "1.0",
     "ministerios": {
-        "00-GOBIERNO": 59,
-        "01-MEMORIA": 21,
-        "02-SISTEMA": 27,
+        "00-GOBIERNO": 60,
+        "01-MEMORIA": 25,
+        "02-SISTEMA": 29,
         "03-OPERACIONES": 2,
-        "04-REGISTROS": 1022,
+        "04-REGISTROS": 1024,
         "05-DOCUMENTACION": 39,
         "06-MONITOR": 0,
-        "docs": 11
+        "docs": 15
     },
     "scripts_unificados": [
         "snx_antiamnesia_unificado.sh",
@@ -23,5 +23,5 @@
         "snx_tunnel_unificado.sh",
         "snx_vault_unificado.sh"
     ],
-    "ultima_actualizacion": "2026-03-20_12:30:37"
+    "ultima_actualizacion": "2026-03-24_14:12:22"
 }
