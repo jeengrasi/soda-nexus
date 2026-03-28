@@ -1,13 +1,13 @@
 {
-    "timestamp": "2026-03-28_13:58:01",
+    "timestamp": "2026-03-28_14:30:24",
     "backend": "ACTIVO",
     "version": "1.0",
     "ministerios": {
         "00-GOBIERNO": 60,
         "01-MEMORIA": 27,
-        "02-SISTEMA": 31,
+        "02-SISTEMA": 32,
         "03-OPERACIONES": 2,
-        "04-REGISTROS": 1033,
+        "04-REGISTROS": 1034,
         "05-DOCUMENTACION": 39,
         "06-MONITOR": 0,
         "docs": 18
@@ -23,5 +23,5 @@
         "snx_tunnel_unificado.sh",
         "snx_vault_unificado.sh"
     ],
-    "ultima_actualizacion": "2026-03-28_13:58:01"
+    "ultima_actualizacion": "2026-03-28_14:30:24"
 }
