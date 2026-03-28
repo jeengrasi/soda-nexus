@@ -156,3 +156,30 @@ if __name__ == "__main__":                                    # OBS: Punto de en
 # - Cada línea debe explicar su propósito con [OBS].
 # - Ningún script debe contener lógica oculta o ambigua.
 # --------------------------------------------------------------
+
+# ============================================================
+# ENDPOINT PARA LOGS REALES
+# ============================================================
+
+@app.route('/logs')
+def get_logs():
+    """Devuelve los últimos logs del sistema desde 04-REGISTROS/SYSTEM/"""
+    import glob
+    log_dir = f"{BASE}/04-REGISTROS/SYSTEM"
+    logs = []
+    
+    # Buscar archivos de log recientes
+    log_files = glob.glob(f"{log_dir}/*.log")
+    log_files.sort(key=lambda x: os.path.getmtime(x), reverse=True)
+    
+    for log_file in log_files[:5]:  # Últimos 5 archivos
+        try:
+            with open(log_file, 'r') as f:
+                lines = f.readlines()[-5:]  # Últimas 5 líneas de cada archivo
+                for line in lines:
+                    if line.strip():
+                        logs.append(line.strip())
+        except:
+            pass
+    
+    return jsonify({"logs": logs[-20:]})  # Últimas 20 líneas en total

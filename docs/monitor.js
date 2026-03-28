@@ -1,40 +1,40 @@
 /* ============================================================
-   SODA‑NEXUS — Monitor Soberano V2 (Definitivo)
-   Versión completa: Estado global, ministerios, logs, estructura
+   SODA‑NEXUS — Monitor Soberano V2.1
+   Versión con logs reales desde el backend
    ============================================================ */
 
-// OBS: URL del backend (se configura desde config-v4.js)
 const API = window.SNX_BACKEND_URL_V4;
 
-// OBS: Función para cargar datos desde el JSON estático (fallback)
-async function cargarDatosEstaticos() {
-    try {
-        const response = await fetch('monitor_data.json');
-        return await response.json();
-    } catch (error) {
-        console.error('Error cargando monitor_data.json:', error);
-        return null;
-    }
-}
-
-// OBS: Función para cargar datos desde el backend en vivo
+// Cargar datos desde backend en vivo
 async function cargarDatosVivo() {
     try {
         const response = await fetch(`${API}/status`);
         return await response.json();
     } catch (error) {
-        console.error('Error cargando datos del backend:', error);
+        console.error('Error cargando datos:', error);
         return null;
     }
 }
 
-// OBS: Renderizar Estado Global
+// Cargar logs reales desde backend
+async function cargarLogsReales() {
+    try {
+        const response = await fetch(`${API}/logs`);
+        const data = await response.json();
+        return data.logs || [];
+    } catch (error) {
+        console.error('Error cargando logs:', error);
+        return [];
+    }
+}
+
+// Renderizar Estado Global
 function renderEstadoGlobal(data) {
     const container = document.getElementById("snx-estado-global");
     if (!container) return;
     
-    const backendStatus = data.backend ? "✅ ACTIVO" : "❌ INACTIVO";
-    const timestamp = data.timestamp || "—";
+    const backendStatus = data?.backend ? "✅ ACTIVO" : "❌ INACTIVO";
+    const timestamp = data?.timestamp || "—";
     
     container.innerHTML = `
         <div class="estado-item">🖥️ Backend Flask: ${backendStatus}</div>
@@ -45,12 +45,12 @@ function renderEstadoGlobal(data) {
     `;
 }
 
-// OBS: Renderizar Tabla de Ministerios (completa)
+// Renderizar Tabla de Ministerios
 function renderMinisterios(data) {
     const container = document.getElementById("snx-ministerios");
     if (!container) return;
     
-    const ministerios = data.ministerios || {};
+    const ministerios = data?.ministerios || {};
     const orden = [
         "00-GOBIERNO", "01-MEMORIA", "02-SISTEMA", "03-OPERACIONES",
         "04-REGISTROS", "05-DOCUMENTACION", "06-MONITOR", "docs"
@@ -71,40 +71,34 @@ function renderMinisterios(data) {
         if (m === "06-MONITOR" && count === 0) estado = "⚠️ VACÍO";
         if (count === 0 && m !== "06-MONITOR") estado = "⚠️ VACÍO";
         
-        html += `<tr>
-            <td>${m}</td>
-            <td>${count}</td>
-            <td>${estado}</td>
-            <td>${data.timestamp || "—"}</td>
-        </tr>`;
+        html += `\
+            <tr><td>${m}</td><td>${count}</td><td>${estado}</td><td>${data?.timestamp || "—"}</td>\
+        `;
     });
     
-    html += `</tbody></table>`;
+    html += `</tbody>`;
     container.innerHTML = html;
 }
 
-// OBS: Renderizar Logs
-function renderLogs() {
+// Renderizar Logs Reales
+function renderLogsReales(logs) {
     const container = document.getElementById("snx-logs");
     if (!container) return;
     
-    const logs = [
-        "[12:28:59] ✅ monitor_data.json generado",
-        "[12:28:58] ✅ Backend responde /status",
-        "[12:28:57] 🌐 Túnel activo",
-        "[12:28:56] 🧠 IA local iniciada",
-        "[12:28:55] 🖥️ Servicio snx-backend iniciado"
-    ];
+    if (!logs || logs.length === 0) {
+        container.innerHTML = '<div class="log-line">No hay logs disponibles</div>';
+        return;
+    }
     
-    container.innerHTML = logs.map(log => `<div class="log-line">${log}</div>`).join('');
+    container.innerHTML = logs.slice(0, 20).map(log => `<div class="log-line">${log}</div>`).join('');
 }
 
-// OBS: Renderizar Estructura del Sistema
+// Renderizar Estructura (estática)
 function renderEstructura() {
     const container = document.getElementById("snx-estructura");
     if (!container) return;
     
-    const estructura = `
+    container.innerHTML = `
         <pre class="estructura-tree">
 📂 soda/
 ├── 📂 00-GOBIERNO/
@@ -133,24 +127,23 @@ function renderEstructura() {
 └── 📂 docs/ (frontend público)
         </pre>
     `;
-    container.innerHTML = estructura;
 }
 
-// OBS: Inicializar todo al cargar
+// Inicializar todo
 window.addEventListener('DOMContentLoaded', async () => {
-    // Intentar cargar datos en vivo primero
-    let data = await cargarDatosVivo();
-    if (!data) {
-        data = await cargarDatosEstaticos();
-    }
-    
-    if (data) {
-        renderEstadoGlobal(data);
-        renderMinisterios(data);
+    // Cargar datos de estado
+    const estado = await cargarDatosVivo();
+    if (estado) {
+        renderEstadoGlobal(estado);
+        renderMinisterios(estado);
     } else {
         document.getElementById("snx-ministerios").innerHTML = '<div class="error">Error cargando datos</div>';
     }
     
-    renderLogs();
+    // Cargar logs reales
+    const logs = await cargarLogsReales();
+    renderLogsReales(logs);
+    
+    // Cargar estructura
     renderEstructura();
 });
