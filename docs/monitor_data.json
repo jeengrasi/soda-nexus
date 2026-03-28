@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-03-28_14:30:26",
+    "timestamp": "2026-03-28_14:33:52",
     "backend": "ACTIVO",
     "version": "1.0",
     "ministerios": {
@@ -7,10 +7,10 @@
         "01-MEMORIA": 27,
         "02-SISTEMA": 32,
         "03-OPERACIONES": 2,
-        "04-REGISTROS": 1036,
+        "04-REGISTROS": 1037,
         "05-DOCUMENTACION": 39,
         "06-MONITOR": 0,
-        "docs": 18
+        "docs": 19
     },
     "scripts_unificados": [
         "snx_antiamnesia_unificado.sh",
@@ -23,5 +23,5 @@
         "snx_tunnel_unificado.sh",
         "snx_vault_unificado.sh"
     ],
-    "ultima_actualizacion": "2026-03-28_14:30:26"
+    "ultima_actualizacion": "2026-03-28_14:33:52"
 }
