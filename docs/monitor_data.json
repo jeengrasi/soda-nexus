@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-03-28_12:28:59",
+    "timestamp": "2026-03-28_12:29:02",
     "backend": "ACTIVO",
     "version": "1.0",
     "ministerios": {
@@ -7,7 +7,7 @@
         "01-MEMORIA": 27,
         "02-SISTEMA": 30,
         "03-OPERACIONES": 2,
-        "04-REGISTROS": 1028,
+        "04-REGISTROS": 1030,
         "05-DOCUMENTACION": 39,
         "06-MONITOR": 0,
         "docs": 15
@@ -23,5 +23,5 @@
         "snx_tunnel_unificado.sh",
         "snx_vault_unificado.sh"
     ],
-    "ultima_actualizacion": "2026-03-28_12:28:59"
+    "ultima_actualizacion": "2026-03-28_12:29:02"
 }
