@@ -1,196 +1,154 @@
-<!-- ============================================================
-     SODA-NEXUS — Monitor Soberano V1 OFICIAL
-     Versión unificada y estable. Creada el 2026-03-18.
-     Basada en la fusión de versiones previas (V1, V2, V3, V4).
-     ============================================================ -->
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Monitor Soberano — SODA-NEXUS</title>
-    
-    <!-- Configuración (única) -->
     <script src="./config-v4.js"></script>
-    
-    <!-- Módulos oficiales V1 (unificados) -->
     <script src="./monitor.js" defer></script>
-    <script src="./snx-logs.js" defer></script>
-    <script src="./panel-institucional.js" defer></script>
-
     <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
         body {
-            font-family: Arial, sans-serif;
-            background: #0d1117;
+            font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+            background: #0a0c10;
             color: #e6edf3;
-            padding: 20px;
+            padding: 24px;
         }
-        h1 {
-            color: #58a6ff;
-            margin-bottom: 4px;
-            font-size: 24px;
-        }
-        h2 {
-            color: #8b949e;
-            font-size: 13px;
-            margin-top: 0;
-            margin-bottom: 16px;
-        }
-        .layout {
+        .container { max-width: 1400px; margin: 0 auto; }
+        h1 { color: #58a6ff; font-size: 1.8rem; margin-bottom: 8px; }
+        .sub { color: #8b949e; margin-bottom: 24px; font-size: 0.9rem; }
+        
+        /* Grid layout */
+        .dashboard {
             display: grid;
-            grid-template-columns: 2fr 1.5fr;
-            gap: 16px;
-        }
-        .column {
-            display: flex;
-            flex-direction: column;
-            gap: 16px;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
         }
         .card {
             background: #161b22;
-            padding: 14px 16px;
-            border-radius: 8px;
             border: 1px solid #30363d;
+            border-radius: 12px;
+            padding: 20px;
+            transition: all 0.2s;
         }
+        .card-full { grid-column: span 2; }
         .card-header {
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 16px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid #30363d;
             display: flex;
-            justify-content: space-between;
-            align-items: baseline;
-            margin-bottom: 8px;
+            align-items: center;
+            gap: 8px;
         }
-        .label {
-            font-weight: bold;
-            color: #79c0ff;
+        
+        /* Estado global */
+        .estado-item {
+            padding: 8px 0;
+            border-bottom: 1px solid #21262d;
+            font-family: monospace;
+            font-size: 0.9rem;
         }
-        .sub {
-            font-size: 11px;
+        
+        /* Tabla ministerios */
+        .ministerios-tabla {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.85rem;
+        }
+        .ministerios-tabla th,
+        .ministerios-tabla td {
+            text-align: left;
+            padding: 8px;
+            border-bottom: 1px solid #21262d;
+        }
+        .ministerios-tabla th {
+            color: #8b949e;
+            font-weight: 500;
+        }
+        
+        /* Logs */
+        .logs-container {
+            background: #0d1117;
+            border-radius: 8px;
+            padding: 12px;
+            font-family: monospace;
+            font-size: 0.8rem;
+            max-height: 200px;
+            overflow-y: auto;
+        }
+        .log-line {
+            padding: 4px 0;
+            border-bottom: 1px solid #1a1f2a;
             color: #8b949e;
         }
-        .status-pill {
-            display: inline-block;
-            padding: 2px 8px;
-            border-radius: 999px;
-            font-size: 11px;
-            font-weight: bold;
-        }
-        .status-ok { background: rgba(35,134,54,0.2); color: #3fb950; }
-        .status-warn { background: rgba(210,153,34,0.2); color: #e3b341; }
-        .status-error { background: rgba(248,81,73,0.2); color: #f85149; }
-        .status-unknown { background: rgba(110,118,129,0.2); color: #8b949e; }
-
-        .grid-ministerios {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
-            gap: 10px;
-        }
-        .btn-ministerio {
-            padding: 10px;
+        
+        /* Estructura */
+        .estructura-tree {
+            background: #0d1117;
             border-radius: 8px;
-            border: 1px solid #30363d;
-            background: #0d1117;
-            text-align: left;
-            font-size: 12px;
+            padding: 12px;
+            font-family: monospace;
+            font-size: 0.7rem;
+            overflow-x: auto;
+            color: #8b949e;
+            line-height: 1.4;
         }
-        .btn-ok { border-color: #238636; }
-        .btn-warn { border-color: #d29922; }
-        .btn-error { border-color: #f85149; }
-
-        .logs, .estructura, .estado-json {
-            font-family: "SF Mono", monospace;
-            font-size: 11px;
-            max-height: 220px;
-            overflow-y: auto;
-            background: #0d1117;
-            padding: 8px;
-            border-radius: 6px;
-            border: 1px solid #30363d;
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .dashboard { grid-template-columns: 1fr; }
+            .card-full { grid-column: span 1; }
+            body { padding: 16px; }
         }
-        .log-info { color: #8b949e; }
-        .log-warn { color: #e3b341; }
-        .log-error { color: #f85149; }
-
-        .toolbar {
-            margin-bottom: 12px;
-        }
-        .toolbar button {
-            background: #21262d;
-            color: #e6edf3;
-            border: 1px solid #30363d;
-            border-radius: 6px;
-            padding: 6px 10px;
-            font-size: 11px;
-            cursor: pointer;
-            margin-right: 6px;
-        }
-        .toolbar button:hover {
-            background: #30363d;
-        }
+        
+        .error { color: #f85149; }
+        .badge { font-size: 0.7rem; padding: 2px 6px; border-radius: 20px; background: #21262d; }
     </style>
 </head>
-
 <body>
-    <h1>Monitor Soberano</h1>
-    <h2>Versión oficial V1 · 2026-03-18</h2>
-
-    <div class="toolbar" id="snx-toolbar"></div>
-
-    <div class="layout">
-        <!-- Columna izquierda -->
-        <div class="column">
-            <div class="card">
-                <div class="card-header">
-                    <span class="label">Estado global</span>
-                    <div id="snx-status-pill" class="status-pill status-unknown">SIN DATOS</div>
-                </div>
-                <div id="snx-meta-central">CENTRAL: —</div>
-                <div id="snx-meta-antiamnesia">ANTIAMNESIA: —</div>
-                <div id="snx-meta-validacion">VALIDACIÓN: —</div>
-            </div>
-
-            <div class="card">
-                <div class="card-header">
-                    <span class="label">Ministerios</span>
-                </div>
-                <div class="grid-ministerios" id="snx-ministerios"></div>
-            </div>
-
-            <div class="card">
-                <div class="card-header">
-                    <span class="label">Desviaciones</span>
-                </div>
-                <div id="snx-desviaciones"></div>
-            </div>
+<div class="container">
+    <h1>🧠 SODA-NEXUS · Monitor Soberano</h1>
+    <div class="sub">Versión oficial V2 · Plataforma central del Estado</div>
+    
+    <div class="dashboard">
+        <!-- Estado Global -->
+        <div class="card">
+            <div class="card-header">📊 ESTADO GLOBAL</div>
+            <div id="snx-estado-global">Cargando...</div>
         </div>
-
-        <!-- Columna derecha -->
-        <div class="column">
-            <div class="card">
-                <div class="card-header">
-                    <span class="label">Logs</span>
-                </div>
-                <div class="logs" id="snx-logs">Cargando logs…</div>
-            </div>
-
-            <div class="card">
-                <div class="card-header">
-                    <span class="label">Estructura</span>
-                </div>
-                <div class="estructura" id="snx-estructura">Cargando estructura…</div>
-            </div>
-
-            <div class="card">
-                <div class="card-header">
-                    <span class="label">Estado global</span>
-                </div>
-                <div class="estado-json" id="snx-estado-global">Cargando…</div>
-            </div>
+        
+        <!-- Ministerios -->
+        <div class="card">
+            <div class="card-header">🏛️ MINISTERIOS</div>
+            <div id="snx-ministerios">Cargando...</div>
+        </div>
+        
+        <!-- Logs -->
+        <div class="card">
+            <div class="card-header">📜 LOGS DEL SISTEMA</div>
+            <div class="logs-container" id="snx-logs">Cargando logs...</div>
+        </div>
+        
+        <!-- Estructura -->
+        <div class="card">
+            <div class="card-header">📁 ESTRUCTURA DEL SISTEMA</div>
+            <div id="snx-estructura">Cargando estructura...</div>
+        </div>
+        
+        <!-- Panel de Control (placeholder) -->
+        <div class="card">
+            <div class="card-header">🎛️ PANEL DE CONTROL</div>
+            <div>Próximamente: ejecución de scripts y chat con IA</div>
+        </div>
+        
+        <!-- Memoria Institucional (placeholder) -->
+        <div class="card">
+            <div class="card-header">🧠 MEMORIA INSTITUCIONAL</div>
+            <div>Próximamente: bitácora de sesiones IA</div>
         </div>
     </div>
+</div>
 </body>
-
-<!-- ============================================================
-     PIE INSTITUCIONAL — SODA-NEXUS
-     Versión oficial V1. Nada se borra, todo se transforma.
-     ============================================================ -->
 </html>
